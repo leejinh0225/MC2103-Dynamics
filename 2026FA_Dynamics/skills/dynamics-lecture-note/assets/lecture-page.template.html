@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{LECTURE_NUMBER}} · {{LECTURE_TITLE}} | MC2103</title>
+    <meta name="description" content="{{ONE_SENTENCE_DESCRIPTION}}" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="wordmark" href="index.html">MC2103 Dynamics</a>
+        <span class="header-meta">{{LECTURE_NUMBER}} · {{LECTURE_TITLE}}</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow">{{WEEK}} · {{LECTURE_NUMBER}}</p>
+        <h1>{{LECTURE_TITLE}}.</h1>
+        <p class="hero__lead">{{LECTURE_PROMISE}}</p>
+        <div class="meta-row">
+          <span class="meta-chip">날짜 {{DATE_OR_날짜_미기재}}</span>
+          <span class="meta-chip">원본 슬라이드 {{PAGE_COUNT}}장</span>
+          <span class="meta-chip">{{VIDEO_SET}}</span>
+          <span class="meta-chip">수업 대체 + 시험 대비</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-shell">
+      <main id="main" class="content">
+        <section class="editorial-section" id="goals">
+          <p class="section-kicker">Learning goals</p>
+          <h2 class="section-title">이 렉처가 끝나면 설명할 수 있어야 합니다.</h2>
+          <div class="grid-2">
+            <!-- 3–6개의 완전한 학습 목표 카드. 중요한 용어는 English(한국어) 반복 표기. -->
+            {{LEARNING_GOAL_CARDS}}
+          </div>
+        </section>
+
+        <section class="editorial-section section-divider" id="overview">
+          <p class="section-kicker">Lecture overview</p>
+          <h2 class="section-title">{{CORE_RELATIONSHIP_HEADLINE}}</h2>
+          <p class="section-lead">{{CORE_RELATIONSHIP_EXPLANATION}}</p>
+        </section>
+
+        <!-- PDF의 모든 페이지에 대해 아래 section을 정확히 한 번씩 복제한다. -->
+        <section class="source-section" id="slide-{{NN}}" aria-labelledby="slide-{{NN}}-title">
+          <p class="section-kicker">Source slide {{NN}} · {{SLIDE_ROLE}}</p>
+          <h2 class="section-title" id="slide-{{NN}}-title">{{SLIDE_HEADING}}</h2>
+          <figure class="source-slide">
+            <div class="source-slide__frame">
+              <img
+                src="assets/slides/{{LECTURE_SLUG}}/slide-{{NN}}.jpg"
+                alt="{{DESCRIPTIVE_ALT_TEXT}}"
+                width="1920"
+                height="1080"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <span>원본 PDF {{CURRENT_PAGE}}/{{PAGE_COUNT}}</span>
+              <span>{{TRANSCRIPT_TIME_OR_SLIDE_ROLE}}</span>
+            </figcaption>
+          </figure>
+          <div class="note-stack">
+            <!-- 개념 슬라이드: callout/card/exam-card 사용. 링크·구분·참고문헌: quiet-card만 사용 가능. -->
+            {{SLIDE_EXPLANATION_BLOCKS}}
+          </div>
+        </section>
+
+        <section class="editorial-section" id="exam-english">
+          <p class="section-kicker">Exam English</p>
+          <h2 class="section-title">정의형·비교형 문제에 쓰는 영어 문장</h2>
+          {{EXAM_QUESTION_AND_MODEL_ANSWER_BLOCKS}}
+        </section>
+
+        <section class="editorial-section" id="glossary">
+          <p class="section-kicker">Core glossary</p>
+          <h2 class="section-title">{{LECTURE_NUMBER}} 핵심 용어집</h2>
+          {{BILINGUAL_GLOSSARY_TABLE}}
+        </section>
+
+        <section class="editorial-section" id="self-check">
+          <p class="section-kicker">Self check</p>
+          <h2 class="section-title">답을 가리고 말로 설명해 보십시오.</h2>
+          {{SELF_CHECK_BLOCKS}}
+        </section>
+
+        <section class="editorial-section" id="asr-log">
+          <p class="section-kicker">Transcript audit</p>
+          <h2 class="section-title">자동생성 스크립트 교정 기록</h2>
+          {{ASR_CORRECTION_TABLE}}
+        </section>
+
+        <section class="editorial-section" id="sources">
+          <p class="section-kicker">Sources</p>
+          <h2 class="section-title">사용한 강의 자료</h2>
+          {{SOURCE_LIST_AND_PROVENANCE_NOTE}}
+        </section>
+      </main>
+
+      <nav class="toc" aria-label="{{LECTURE_NUMBER}} 목차">
+        <p class="toc__label">On this lecture</p>
+        <ol>{{TABLE_OF_CONTENTS_LINKS}}</ol>
+      </nav>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <span class="wordmark">MC2103 Dynamics</span>
+        <span>{{LECTURE_NUMBER}} · {{LECTURE_TITLE}} · {{DATE_OR_날짜_미기재}}</span>
+      </div>
+    </footer>
+    <script src="assets/js/site.js" defer></script>
+  </body>
+</html>

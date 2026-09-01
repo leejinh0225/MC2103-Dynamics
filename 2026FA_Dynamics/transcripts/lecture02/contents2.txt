@@ -1,0 +1,49 @@
+YouTube transcript
+Video ID: i6XabI4ffzc
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:19] of several particles undergoing rectilinear motion each of these particles may affect each other
+[0:27] since particles are moving along the same line we can determine if the if they are moving toward each other or moving away from each other
+[0:36] the notion can be captured by relative motion the definition of relative motion is
+[0:45] very simple you can take the difference between the positions of each particle
+[0:52] then we can differentiate the relative position equation to get the relative velocity equation
+[1:00] the same can apply for the acceleration just by taking another differential issue
+[1:08] one famous example of motion of several particles is poorly example as you can see here
+[1:17] we have two pulleys here one is attached to the ceiling and the other one is
+[1:24] free to move up and down and there is one cable
+[1:30] running through these two pulleys and this cable is actually affecting the
+[1:38] movement of mass a and must be then how do we characterize the
+[1:47] kinematics of this system let's start with a simple fact the length of the cable is fixed
+[1:54] so if we can describe the length of the cable with some variable then maybe that's the starting point
+[2:03] so if we just assign a variable x a to denote the distance between the ceiling here and Miss A
+[2:13] and if we assign XB to denote the distance from the ceiling and mass B
+[2:21] then we can express the the length of the cable so then how do we do that so let's look at here
+[2:30] so this distance here and then there isn't some some offset here right
+[2:38] and if you consider that this offset here and the perimeter
+[2:47] of the pulley then we can also consider the distance from here to here
+[2:55] then we also have some offset here and another perimeter and then
+[3:02] this distance and if you are putting this all together then we can see that
+[3:10] x a plus 2xb must be constant so that describes
+[3:19] the equations of the position of the pulley system the same idea applies to this more
+[3:27] complicated systems now we have four police and one cable running
+[3:34] through this police and we have three masses
+[3:42] similarly we can assign variables x a XP and XC
+[3:50] and once we have expression for the cable length then we can easily find that 2xa plus 2xb plus XC
+[4:00] has to be constant and here we can consider the number of degrees of freedom since we have three
+[4:08] variables so we have three variables and we have one constraint
+[4:20] which is the cable length and so we have two degrees of freedom once we have the relationship between
+[4:29] the position of all masses then you can find the relationships of velocity and acceleration by taking
+[4:37] differentiations before wrapping up this lecture I want to mention one more thing
+[4:46] in many engineering applications position velocity and acceleration are not readily expressed in terms of nice
+[4:54] equations rather we usually have pile of numbers as you can see here these are all the numbers
+[5:02] collected by sensors and actually this graph is collected from the head impact during boxing game
+[5:13] once you have the graph then we can take the slope of the position time curve
+[5:20] to get the velocity and you can also get the slope of the position velocity time curve
+[5:28] to get the acceleration similarly you may take the area under
+[5:34] the velocity and time graph to get the displacement
+[5:44] and you can also take the area under the acceleration and time to get the velocity
+[5:53] [Music]

@@ -1,0 +1,62 @@
+YouTube transcript
+Video ID: nzDNfG9iYXw
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] okay so let's start today's lecture which is Introduction to Dynamics so in this lecture we'll study Dynamics
+[0:26] in General Dynamics is a study of moving objects that is movement of object
+[0:36] and also the causes of the movement will be covered as you can see in the figure below we have racing cars we have
+[0:45] building that's actually slightly slanted and also there is a firefighter with the water hose so all of these
+[0:53] materials are actually part of the Dynamics then what is Dynamics actually so Dynamics is one of the most important
+[1:01] subjects in the physics that studies the movement of object under the influence of some type of forces
+[1:10] if you have played the pools for example here if you hit the ball then the ball will hit the other balls it will
+[1:17] transfer the four season and you ex you know what what happens right and if you apply forces to the
+[1:25] um can then you see this type of deformation all the water flows through the conduits
+[1:33] here and and we know the interactive there are some interactive forces
+[1:42] mechanics is a study of how objects deform under the influence of forces
+[1:50] specifically R mentioned two type of mechanics one is solid mechanics and the other is fluid mechanics
+[1:58] solid mechanics examines how solid material they form when the forces are applied
+[2:08] this is a good example of solid mechanics if you apply forces to the can you see that the can can deform
+[2:15] what about the fluid mechanics fluid mechanics investigates how fluids move and change its shape under forces here
+[2:23] fluid means water or air so as you can see in here there are many pipes right if the water goes through the pipes then
+[2:32] the movement of the water actually uh generates some forces and it affects the structure
+[2:40] here so therefore the sodium mechanics and food mechanics can also be part of the
+[2:49] Dynamics even though Dynamics include studies of
+[2:56] any moving objects under forces however solely mechanics and affiliate mechanics will be excluded from this
+[3:03] course and we have some reasons for that first slowly mechanics it actually handles the deformation of the solid
+[3:12] material but it's actually very small and the effect of deformation on the movement is very minimal
+[3:20] what about fluid mechanics flowing mechanics deforms significantly
+[3:27] when the forces are applied to it however there are also significant relative movement and the interactive
+[3:34] forces between the particles so the relative motion
+[3:41] itself and it's related interactive forces are quite complicated and different approaches are used
+[3:49] compared to the rigid by Dynamics so in this course which is the
+[3:56] entry-level Dynamics course we will limit the scope of the materials to the particles
+[4:02] and rigid bodies widget parties are ideal materials that do not deform at all
+[4:11] also the particles are assumed to have masses only but it doesn't have any volume at all
+[4:20] this assumption will make the problem much easier for undergrad students to grasp the important concepts of the
+[4:27] Dynamics there are some principles used in the Dynamics so let me just introduce some
+[4:36] of them the the most important concept is Newton's law of motion which is known as the second law
+[4:45] we will also study Newton's law of Action Reaction which is also known as a third
+[4:53] low we'll also use Coulomb's friction low when there exists contact between two
+[5:02] objects we will also study Hook's law of deformation this means that if there is
+[5:10] a deformation that can generate the forces the good example is spring and so we will use that in in this course a lot
+[5:18] there are some other many forces in in principles that can be applied for example damping physical stamping or
+[5:26] electromagnetic electromagnetism or phlegs piezoelectricity or seedback effects but
+[5:35] these effects are actually uh somehow excluded from this course because it's quite complicated and and there are
+[5:43] still many things to do with the previous four principles
+[5:52] what about the mathematics tool used in in Dynamics so we will mainly use vectors
+[6:00] integration differentiations both in scalar and vector
+[6:12] let me just introduce some of the key topics used in in Dynamics so we will
+[6:19] study first kinematics and also kinetics kinematics is how objects move
+[6:26] it describes the movement of the objects so the keywords we can see is position velocity acceleration angular velocity
+[6:36] or angular accelerations what about the kinetics kinetics is about the the causes of
+[6:45] movement so we'll study forces and Torx
+[6:55] there are also some other important terminologies that I want you to know so the first one is energy
+[7:02] here we can study some important energies for example potential energies and and the kinetic Energies
+[7:10] some other Vector valued quantities like momentum and angular momentums are very important in this course as well
+[7:18] what about the geometry related terminologies we have moment of inertia reference frame coordinate systems
+[7:27] Central masses or something like that rifle
+[7:32] [Music]

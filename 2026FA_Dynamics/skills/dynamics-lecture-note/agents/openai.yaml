@@ -1,0 +1,1 @@
+interface:\n  display_name: "Dynamics Lecture Note"\n  short_description: "Build consistent Korean lecture-replacement notes."\n  default_prompt: "Create the next MC2103 lecture note from its PDF slides and English transcripts using the established source-first HTML system."

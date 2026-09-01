@@ -1,0 +1,84 @@
+YouTube transcript
+Video ID: Pocl0GKnmSA
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:18] let's look into the problem one here is a ball it was toast with 10 ml per second
+[0:25] vertically above 20 meters and the problem wants us to find
+[0:35] velocity and elevation above the ground at time t the highest elevation reached by ball
+[0:43] and its corresponding time the time when the ball hits the ground
+[0:49] and it's corresponding velocity and here are the strategies for this
+[0:58] problem the first one is acceleration is constant
+[1:06] which is the gravitational acceleration G the second one the velocity becomes zero at the maximum
+[1:13] elevation when the ball hits the ground the highest the height becomes zero
+[1:22] since we have the constant acceleration which is gravitational acceleration G which is
+[1:31] 9.81 we can we can take integral one time and we'll get velocity and
+[1:39] do another integral and to get the position to find the highest elevation we can
+[1:46] find the time when the velocity becomes zero so by equating this equation we can find
+[1:55] the time once the time is found simply plug the time in the position equation here
+[2:03] then you get the maximum height to find the velocity when the pole hits
+[2:11] the ground so for the time when the height becomes zero but you have to be careful because there are two possible
+[2:19] time one is negative time the other one is positive time obviously it has to be positive
+[2:28] then anything else will follow once you've found the time of hitting the ground then you can simply plug that
+[2:37] time into the equation the position or equation of velocity you can and you can
+[2:43] find the velocity which is this it is quite natural to figure out that
+[2:51] the velocity changes linearly and the position changes quadratically when the acceleration is constant like in this
+[2:58] example now let's let's look at problem two it is more interesting in this problem we are given
+[3:07] acceleration in terms of velocity due to viscous stamping the problem wants us to find this
+[3:15] as the cylinder is given our initial velocity V naught the Piston moves and oil is forced through of orifice in the
+[3:25] piston and causing the piston and cylinder to decelerate at the rate of proportional to their velocity
+[3:33] and so we want to find velocity position and the Velocity in terms of position
+[3:42] since acceleration is expressed in terms of velocity we can consider either of the following Expressions the first one
+[3:49] is acceleration is velocity times DV over
+[3:56] DX the second expression is this a equals DV over DT
+[4:04] since we want to find the Velocity in terms of time we can take the second expression so take this
+[4:14] and this one is minus KV from the problem
+[4:20] then simply look at this part V
+[4:30] over V equals minus K DT you can simply take the integral on both
+[4:37] sides then you'll get disreserved to find X of t you can simply take the
+[4:46] integral of DV from the previous side one more then you'll get this result
+[4:53] now this one requires velocity position relation then we have to use the first expression
+[5:00] we saw before so acceleration equals V times DV over DX
+[5:10] that's given in here and we know that acceleration is minus KV so put all the expression that's
+[5:18] expressed in terms of velocity to the left hand side and the other one to the other side then we'll get
+[5:26] this expression and finally we have this result here's one comment
+[5:35] and you could have solved the problem part C by eliminating t from the answers obtained from part A
+[5:43] and B however sometimes this process of eliminating the parameter T is
+[5:50] cumbersome and may not be that easy depending on the problem however you can choose whatever method that works the
+[5:59] best for you and here is the process that I just mentioned before
+[6:06] here is another similar problem that you can see the acceleration is expressed in terms of velocity
+[6:13] so please do it yourself here is a strategy how to solve this problem let's do the problem number three
+[6:22] this is a pulley problem so we have three pulleys here here and here and we have two
+[6:31] masses a and B we are given that the color a this one
+[6:39] is moving downward with the constant acceleration such that when a passes l
+[6:46] this point the velocity becomes 300 millimeter per second
+[6:54] then find the position velocity and acceleration of mass B
+[7:01] here are one possible strategies first you can define origin at the upper
+[7:08] horizontal surface and to find the distance downward second that we know that the color a has
+[7:17] uniform acceleration rectilinear motion third polity has uniform rectilinear motion in
+[7:26] other words if we look at the problem this description it says that it's pulled down at 75 millimeter per second
+[7:34] so that's a uniform velocity problem fourth block P motion is dependent upon
+[7:44] the movement of the color a and the pulley d then we can write the equation uh
+[7:51] in terms of the cable length constraint finally we can differentiate that equation to get the velocity and
+[7:59] acceleration relationship let's define x a variable
+[8:06] whereas the distance between the ceiling and color a
+[8:13] since color a has uniform acceleration and we know some information about it so we can find the acceleration
+[8:22] so for example we know the velocity and position information in other words at L here
+[8:30] the displacement is 200 millimeter and the velocity is 300
+[8:38] millimeter per second downward and using this relationship
+[8:48] we can get this expression and once we have this expression then plugging in all the information are
+[8:56] available here we get the time from the problem description we know that the pulley D is moving downward
+[9:05] with the constant velocity and we already know the movement time from the previous page
+[9:13] so we can get this expression quite easily and we get this value
+[9:21] and finally using the effect that the cable length is the same before and after the movement we can set up the
+[9:29] following equation then plug in all the information from the previous page we'll get this
+[9:38] expression since we have this equation from the cable lengths constraint we can
+[9:46] differentiate one time and twice to get acceleration and velocity
+[9:54] here's one comment the absolute position information is not that important in this problem rather changes in the
+[10:02] position are important again defining appropriate variables is the key to solve this problem
+[10:11] here we have similar problem so try it yourself and here are the key strategies to solve
+[10:20] this problem
+[10:22] [Music]

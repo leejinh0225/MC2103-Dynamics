@@ -1,0 +1,22 @@
+YouTube transcript
+Video ID: vozNCs_ZBcw
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] throughout the course we will study the following contents overall we have two parts the first part
+[0:24] is dynamics of particles from weeks two to eight the second part is the Dynamics of rigid
+[0:32] bodies from the rest of the course specifically we'll study kinematics or particles in weeks 2 and 3
+[0:40] . in weeks 4 and 5 we will study kinetics of particles using Newton's law of motion
+[0:47] in weeks 6 and 7 will set the energy method and momentum method which is different but equivalent
+[0:56] description of Newton's law of motion in week 8 we'll examine multiple particles as a system
+[1:05] from week 9 we'll study rigid body Dynamics specifically week 9 through 11 we will study kinematics of rigid bodies
+[1:14] in 3D space this part is the most important and difficult part in this course
+[1:22] weeks 12 to 15 will study kinetics using Newton's law of motion energy method and momentum
+[1:30] method both in 2D and 3D spaces in the last week which is 16 we'll do an
+[1:38] in-depth example of gyroscopic motion using what we have learned so far
+[1:45] next week we'll examine kinematics of moving particles on a straight line This is called rectilinear motion
+[1:53] again welcome to the world of Dynamics see you next time
+[1:58] [Music]

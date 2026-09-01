@@ -1,0 +1,101 @@
+YouTube transcript
+Video ID: Lh8tQnI6A9o
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] okay let's talk about kinematics of particles specifically we'll study rectilinear motion
+[0:24] you may now understand what reactivating your emotion is but you will figure it out soon first of all as we have seen in the
+[0:33] previous videos objects move when they move we can see the trajectory for example the space shuttle here
+[0:42] is orbiting around the earth with circular trajectory like this you may also see that the trajectories
+[0:50] of the jumping snow rollers like here or the acrobatic fighter
+[0:58] then what is kinematics so kinematics is a study of trajectories of moving objects then we can consider
+[1:07] some quantities like this displacement velocity and accelerations
+[1:14] however kinematics does not consider the cause of motion including Four Season torque
+[1:21] Dynamics also includes kinetics kinetics is different from kinematics so kinetics is a study about the relations existing
+[1:31] between the forces acting on the body the mass of the body and the motion of the body in other words we will study how forces
+[1:40] apply to the body affect the position velocity and acceleration
+[1:47] Dynamics can describe movement of complex three-dimensional objects however for simplification
+[1:55] let's talk about the movement of particles only particle is a small object however in
+[2:02] this course we'll assume that a particle does not have any volume it only has a mass
+[2:09] simply you can consider a particle the same as a point then there are two possible particle
+[2:17] kinematics one is rectilinear motion the other is curvy linear motion rectilinear motion includes the position
+[2:26] velocity and acceleration of particles as it move along a straight line
+[2:36] curvy linear emotion it also describes the position velocity and acceleration of particles but it moves along a curved
+[2:44] line in two or three-dimensional positions you can actually see the example of the curvilinear motion in
+[2:51] here to describe the position of particle on the rectilinear motion we can consider a
+[3:00] number line here so once you have a number line then we can Define An Origin here
+[3:08] then we can assign a coordinate system and so that we can assign the coordinate like X then we can describe the position of
+[3:16] particle once the coordinate is defined we can describe the position of the particle quite easily
+[3:24] so for example the position of particle can be expressed like this x equals 6 times t squared
+[3:32] minus t cubed where T is time then the graph look like this
+[3:41] once we know the position of a particle then we can Define velocity and acceleration
+[3:49] by taking the differentiation of the position for example we can differentiate X
+[3:59] with respect to time to get the velocity and here is an example if you are given
+[4:07] the position in this way then the velocity is as simple as this one
+[4:16] similarly you can differentiate the velocity with respect to time and you will get the acceleration
+[4:25] an instantaneous acceleration may be positive if the velocity increases and actually instantaneous acceleration is
+[4:34] negative if the velocity decreases and here's an example of acceleration and we can get it by differentiating
+[4:44] velocity with respect to time or by differentiating position twice with respect to time and here is
+[4:51] the acceleration since we have expressed the position velocity and acceleration in terms of
+[4:59] time we can easily compute them at a specific time for example what are position velocity and acceleration at
+[5:09] time equals 2 seconds we can check it out here so we can plug
+[5:17] T equals 2 in these equations and you can get them quite easily
+[5:24] the same thing applies when the time equals four seconds so try this one by yourself
+[5:33] now we can tweak the problem a little bit instead of expressing that acceleration in terms of time the
+[5:40] acceleration can also be expressed in terms of position and velocity
+[5:47] then can we actually describe the acceleration in terms of position and velocity that's the
+[5:55] question and if so what are the examples so one is spring
+[6:03] so spring Force spring usually look like this
+[6:11] and so if we apply Force then we can expect
+[6:18] displacement so in this case spring force can be expressed in terms of
+[6:27] the position so from here we can see that the
+[6:34] acceleration is proportional to displacement so spring is a good example of
+[6:43] The Entity having acceleration in terms of position what about the uh the acceleration in
+[6:51] terms of velocity a good example is drag drag is actually the fourth resistance force caused by
+[6:59] fluids or air resistance usually the force is proportional to the
+[7:06] velocity squared so in that case acceleration is also
+[7:13] proportional to Velocity squared so here are the summary of three cases
+[7:20] where the acceleration is expressed in terms of time position and velocity so let's look at
+[7:28] the first case where the acceleration is expressed in terms of time here we have a very simple expression
+[7:36] which is actually the very simple definition of acceleration which is the differentiation of velocity with respect to time
+[7:44] and once you have that expression then you can get this
+[7:52] then taking the left side and taking the integral of left side with respect to
+[8:00] Velocity from initial condition to the current state and then the taking the
+[8:07] integral of the right hand side over the time with zero initial time and the current time
+[8:16] you can get the equation now let's look at the second case where the acceleration is expressed in terms
+[8:23] of position this one is a little bit different so we need one more step so the first one is
+[8:30] this one so let's look at this part so velocity is differentiation of position
+[8:39] with respect to time then from here you get this expression and we also have this expression right
+[8:47] that's very simple and what you have to do is you just plug this one in two here
+[8:55] then we will get this expression then what you have to do is you simply integrate this equation
+[9:02] both side so let's do that so we take the integral of the left hand side with respect to
+[9:09] velocity from the initial velocity to current velocity and you can take the integral
+[9:17] of the right hand side with respect to displacement from initial displacement initial
+[9:24] position to initial the current position then you get an equation
+[9:32] and here is the third case where the acceleration is expressed in terms of velocity so in this case we can consider two
+[9:39] cases the first one is when we want the expression in terms of time the second one is when we want the expression in
+[9:48] terms of position so let's look at the first case so this is the basic definition of acceleration so in this case we can
+[9:57] consider this equation so then the only thing you have to do is
+[10:05] you just take the integral or both side so left hand side is integral
+[10:12] over velocity so we have initial velocity and the current velocity and the integration over of the right
+[10:20] hand side over time is initial time and the current time so by solving this problem
+[10:27] you will get the equation in terms of time what about the second one the second one here
+[10:35] we can actually start from this expression okay
+[10:42] then from from this equation we have DX here
+[10:49] and the right hand side we have the expression with the velocity then what we have to do is
+[10:56] remove all the terms expressed in terms of velocity to the left hand side and the other one to the right hand side so
+[11:04] we have V DV over a v
+[11:11] and the right hand side is simply DX then you can take the integral of the left hand side over velocity
+[11:20] from initial velocity to the current velocity and take the integral of the
+[11:27] right hand side over this the position from initial position to the current position
+[11:34] there are several special cases one is when the acceleration is zero here we see the Harrier air fighter
+[11:44] you can move vertically simply speaking it generates the vertical thrust and cancel the gravity
+[11:53] so in this case there is no vertical acceleration when a particle is under zero
+[12:00] acceleration velocity becomes constant and the position becomes linear
+[12:08] what about the case when the acceleration is non-zero but constant
+[12:15] using simple mathematics we'll easily figure out that the velocity is linear
+[12:22] and the position is quadratic
+[12:26] [Music]

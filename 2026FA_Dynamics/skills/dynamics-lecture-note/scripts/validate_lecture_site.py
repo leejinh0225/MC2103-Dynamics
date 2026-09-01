@@ -1,0 +1,102 @@
+from __future__ import annotations
+
+import re
+import sys
+from html.parser import HTMLParser
+from pathlib import Path
+
+from PIL import Image
+
+
+class PageParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.ids: list[str] = []
+        self.hrefs: list[str] = []
+        self.srcs: list[str] = []
+        self.images_without_alt = 0
+        self.source_sections = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = dict(attrs)
+        if values.get("id"):
+            self.ids.append(values["id"] or "")
+        if values.get("href"):
+            self.hrefs.append(values["href"] or "")
+        if values.get("src"):
+            self.srcs.append(values["src"] or "")
+        if tag == "img" and not (values.get("alt") or "").strip():
+            self.images_without_alt += 1
+        if tag == "section" and "source-section" in (values.get("class") or "").split():
+            self.source_sections += 1
+
+
+def fail(errors: list[str]) -> None:
+    print(f"LECTURE_SITE_VALIDATION_FAILED ({len(errors)})")
+    for error in errors:
+        print(f"- {error}")
+    raise SystemExit(1)
+
+
+def main() -> None:
+    if len(sys.argv) != 4:
+        print("usage: validate_lecture_site.py <site-dir> <lecture-html> <expected-pages>")
+        raise SystemExit(2)
+
+    site_dir = Path(sys.argv[1]).resolve()
+    page_path = site_dir / sys.argv[2]
+    expected = int(sys.argv[3])
+    errors: list[str] = []
+
+    if not page_path.is_file():
+        fail([f"missing HTML: {page_path}"])
+
+    html = page_path.read_text(encoding="utf-8")
+    parser = PageParser()
+    parser.feed(html)
+
+    duplicates = sorted({value for value in parser.ids if parser.ids.count(value) > 1})
+    if duplicates:
+        errors.append(f"duplicate ids: {', '.join(duplicates)}")
+    if parser.images_without_alt:
+        errors.append(f"images without alt: {parser.images_without_alt}")
+    if parser.source_sections != expected:
+        errors.append(f"expected {expected} source sections, found {parser.source_sections}")
+    if re.search(r"\{\{[A-Z0-9_가-힣]+\}\}", html):
+        errors.append("unresolved template placeholder")
+    if re.search(r"에델|노이슈반트|마스터|메이드|츠ン데레", html, re.IGNORECASE):
+        errors.append("private persona text found")
+
+    for href in parser.hrefs:
+        if href.startswith("#"):
+            if href[1:] not in parser.ids:
+                errors.append(f"missing anchor target: {href}")
+            continue
+        if re.match(r"^(?:https?:|mailto:|tel:)", href):
+            continue
+        target = (page_path.parent / href.split("?", 1)[0].split("#", 1)[0]).resolve()
+        if href and not target.exists():
+            errors.append(f"missing local href: {href}")
+
+    slide_srcs = [src for src in parser.srcs if re.search(r"/slide-\d{2}\.jpg$", src)]
+    if len(slide_srcs) != expected:
+        errors.append(f"expected {expected} slide images, found {len(slide_srcs)}")
+    for index, src in enumerate(slide_srcs, start=1):
+        expected_name = f"slide-{index:02d}.jpg"
+        if not src.endswith(expected_name):
+            errors.append(f"slide order mismatch at {index}: {src}")
+        image_path = (page_path.parent / src).resolve()
+        if not image_path.is_file():
+            errors.append(f"missing slide image: {src}")
+            continue
+        with Image.open(image_path) as image:
+            if image.size != (1920, 1080):
+                errors.append(f"wrong slide dimensions {src}: {image.size}")
+
+    if errors:
+        fail(errors)
+    print(f"LECTURE_SITE_VALIDATION_OK page={page_path.name} source_sections={expected} slides={expected}")
+
+
+if __name__ == "__main__":
+    main()
