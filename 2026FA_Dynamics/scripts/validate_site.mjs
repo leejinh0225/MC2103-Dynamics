@@ -91,6 +91,26 @@ if (lecture01.includes("개념 순서와 실제 일정의 차이")) {
   errors.push("lecture01.html: ambiguous roadmap heading remains");
 }
 
+const lecture02 = readFileSync(join(root, "lecture02.html"), "utf8");
+const lecture02Hero = lecture02.match(/<section class="hero">([\s\S]*?)<\/section>/)?.[1] ?? "";
+const requiredLecture02HeroLinks = [
+  ["https://www.youtube.com/watch?v=Lh8tQnI6A9o", "Contents 1 영상 열기"],
+  ["https://www.youtube.com/watch?v=i6XabI4ffzc", "Contents 2 영상 열기"],
+  ["https://www.youtube.com/watch?v=Pocl0GKnmSA", "Problem Solving 영상 열기"],
+  ["index.html", "강의 목록"],
+];
+for (const [href, label] of requiredLecture02HeroLinks) {
+  if (!lecture02Hero.includes(`href="${href}"`) || !lecture02Hero.includes(label)) {
+    errors.push(`lecture02.html: missing hero action ${label}`);
+  }
+}
+if (lecture02Hero.includes("OHqvWeXi_JY") || lecture02Hero.includes("NIFDAI5sgA0")) {
+  errors.push("lecture02.html: Overview or Summary video must not appear in hero actions");
+}
+if (attrValues(lecture02Hero, "href").length !== 4) {
+  errors.push("lecture02.html: hero must contain exactly three main-video actions and the lecture index action");
+}
+
 if (errors.length) {
   console.error(`SITE_VALIDATION_FAILED (${errors.length})`);
   for (const error of errors) console.error(`- ${error}`);
