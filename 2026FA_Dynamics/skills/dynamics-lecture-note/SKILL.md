@@ -9,7 +9,7 @@ Create a source-grounded study note that can replace attending the English lectu
 
 ## Required context
 
-Before authoring, read [references/authoring-guide.md](references/authoring-guide.md) completely. Use [assets/lecture01-reference.html](assets/lecture01-reference.html) as the completed structural and content-quality reference, and [assets/lecture-page.template.html](assets/lecture-page.template.html) as the starting skeleton.
+Before authoring, read [references/authoring-guide.md](references/authoring-guide.md) completely. Use [assets/lecture01-reference.html](assets/lecture01-reference.html) as the compact introductory reference and [assets/lecture02-reference.html](assets/lecture02-reference.html) as the long-form derivation and problem-solving reference. Use [assets/lecture-page.template.html](assets/lecture-page.template.html) as the starting skeleton.
 
 Read [references/crimson-design-source.md](references/crimson-design-source.md) only when changing the shared visual system. The authoring guide already contains the web-specific adaptation; do not reintroduce fixed PowerPoint coordinates or forced page density.
 

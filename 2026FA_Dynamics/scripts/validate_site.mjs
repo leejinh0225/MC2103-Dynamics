@@ -2,7 +2,11 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "../site");
-const pages = ["index.html", "lecture01.html"];
+const lectures = [
+  { page: "lecture01.html", slug: "lecture01", expectedSlides: 18 },
+  { page: "lecture02.html", slug: "lecture02", expectedSlides: 63 },
+];
+const pages = ["index.html", ...lectures.map(({ page }) => page)];
 const errors = [];
 
 const attrValues = (html, attr) =>
@@ -43,20 +47,48 @@ for (const page of pages) {
   if (/(학습 목표|자가\s*점검|Learning goals?|Self check)/i.test(html)) errors.push(`${page}: excluded study-planning section found`);
 }
 
-const lecture = readFileSync(join(root, "lecture01.html"), "utf8");
-if (!lecture.includes('id="concept-summary"')) errors.push("lecture01.html: missing standalone concept summary");
-if (!lecture.includes("Summary 영상: 앞으로 배울 내용")) errors.push("lecture01.html: Summary video is not clearly labeled as future-course content");
-if (lecture.includes("개념 순서와 실제 일정의 차이")) errors.push("lecture01.html: ambiguous roadmap heading remains");
-const sourceSections = [...lecture.matchAll(/class=["'][^"']*source-section[^"']*["']/g)].length;
-if (sourceSections !== 18) errors.push(`lecture01.html: expected 18 source sections, found ${sourceSections}`);
+const index = readFileSync(join(root, "index.html"), "utf8");
+for (const { page } of lectures) {
+  if (!index.includes(`href="${page}"`)) errors.push(`index.html: missing link to ${page}`);
+}
 
-const slideDir = join(root, "assets/slides/lecture01");
-const slideFiles = readdirSync(slideDir).filter((name) => /^slide-\d{2}\.jpg$/.test(name)).sort();
-if (slideFiles.length !== 18) errors.push(`lecture01 slides: expected 18 images, found ${slideFiles.length}`);
-for (let i = 1; i <= 18; i += 1) {
-  const expected = `slide-${String(i).padStart(2, "0")}.jpg`;
-  if (!slideFiles.includes(expected)) errors.push(`lecture01 slides: missing ${expected}`);
-  if (!lecture.includes(`id="slide-${String(i).padStart(2, "0")}"`)) errors.push(`lecture01.html: missing slide section ${i}`);
+let totalSourceSections = 0;
+let totalSlideFiles = 0;
+
+for (const { page, slug, expectedSlides } of lectures) {
+  const lecture = readFileSync(join(root, page), "utf8");
+  if (!lecture.includes('id="concept-summary"')) errors.push(`${page}: missing standalone concept summary`);
+
+  const sourceSections = [...lecture.matchAll(/class=["'][^"']*source-section[^"']*["']/g)].length;
+  totalSourceSections += sourceSections;
+  if (sourceSections !== expectedSlides) {
+    errors.push(`${page}: expected ${expectedSlides} source sections, found ${sourceSections}`);
+  }
+
+  const slideDir = join(root, `assets/slides/${slug}`);
+  if (!existsSync(slideDir)) {
+    errors.push(`${slug} slides: missing directory`);
+    continue;
+  }
+  const slideFiles = readdirSync(slideDir).filter((name) => /^slide-\d{2}\.jpg$/.test(name)).sort();
+  totalSlideFiles += slideFiles.length;
+  if (slideFiles.length !== expectedSlides) {
+    errors.push(`${slug} slides: expected ${expectedSlides} images, found ${slideFiles.length}`);
+  }
+  for (let i = 1; i <= expectedSlides; i += 1) {
+    const number = String(i).padStart(2, "0");
+    const expected = `slide-${number}.jpg`;
+    if (!slideFiles.includes(expected)) errors.push(`${slug} slides: missing ${expected}`);
+    if (!lecture.includes(`id="slide-${number}"`)) errors.push(`${page}: missing slide section ${i}`);
+  }
+}
+
+const lecture01 = readFileSync(join(root, "lecture01.html"), "utf8");
+if (!lecture01.includes("Summary 영상: 앞으로 배울 내용")) {
+  errors.push("lecture01.html: Summary video is not clearly labeled as future-course content");
+}
+if (lecture01.includes("개념 순서와 실제 일정의 차이")) {
+  errors.push("lecture01.html: ambiguous roadmap heading remains");
 }
 
 if (errors.length) {
@@ -65,4 +97,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`SITE_VALIDATION_OK pages=${pages.length} source_sections=${sourceSections} slides=${slideFiles.length}`);
+console.log(`SITE_VALIDATION_OK pages=${pages.length} source_sections=${totalSourceSections} slides=${totalSlideFiles}`);

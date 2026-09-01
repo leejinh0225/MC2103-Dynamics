@@ -14,7 +14,7 @@
 ## 현재 완성 범위
 
 - Lecture 1: `Introduction to Dynamics` 한국어 학습 노트
-- Lecture 2: 영어 자동생성 스크립트 보관 완료, 학습 노트 작성 대기
+- Lecture 2: `Kinematics of Particles I: Rectilinear Motion` 한국어 학습 노트
 
 ## 공개 사이트
 

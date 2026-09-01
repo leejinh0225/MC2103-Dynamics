@@ -5,7 +5,8 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 ## 페이지
 
 - `index.html`: 강의 목록
-- `lecture01.html`: Lecture 1 완성 샘플
+- `lecture01.html`: Lecture 1 학습 노트
+- `lecture02.html`: Lecture 2 학습 노트
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
 
 ## 공통 자산
@@ -20,4 +21,4 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 
 ## 새 렉처 추가
 
-상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`의 실제 완성본과 템플릿을 함께 참고합니다. 템플릿의 placeholder(자리표시자)를 실제 근거 기반 내용으로 교체하고, 원본 PDF 페이지 수와 `.source-section` 수가 같은지 검증합니다.
+상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`, `lecture02.html`의 실제 완성본과 템플릿을 함께 참고합니다. 템플릿의 placeholder(자리표시자)를 실제 근거 기반 내용으로 교체하고, 원본 PDF 페이지 수와 `.source-section` 수가 같은지 검증합니다.
