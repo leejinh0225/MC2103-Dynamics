@@ -110,6 +110,20 @@ if (lecture02Hero.includes("OHqvWeXi_JY") || lecture02Hero.includes("NIFDAI5sgA0
 if (attrValues(lecture02Hero, "href").length !== 4) {
   errors.push("lecture02.html: hero must contain exactly three main-video actions and the lecture index action");
 }
+const lecture02HeroAnchors = [...lecture02Hero.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a\s*>/g)].map((match) => ({
+  classes: attrValues(match[1], "class")[0]?.split(/\s+/) ?? [],
+  href: attrValues(match[1], "href")[0] ?? "",
+  label: match[2].replace(/<[^>]+>/g, "").trim(),
+}));
+for (const action of lecture02HeroAnchors.filter(({ href }) => href.startsWith("https://www.youtube.com/"))) {
+  if (!action.classes.includes("button--primary")) {
+    errors.push(`lecture02.html: main-video action must use crimson primary styling: ${action.label}`);
+  }
+}
+const lectureIndexAction = lecture02HeroAnchors.find(({ href }) => href === "index.html");
+if (!lectureIndexAction || lectureIndexAction.classes.includes("button--primary")) {
+  errors.push("lecture02.html: lecture index action must keep neutral button styling");
+}
 
 if (errors.length) {
   console.error(`SITE_VALIDATION_FAILED (${errors.length})`);
