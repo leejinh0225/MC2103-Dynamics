@@ -66,6 +66,10 @@ def main() -> None:
         errors.append("unresolved template placeholder")
     if re.search(r"에델|노이슈반트|마스터|메이드|츠ン데레", html, re.IGNORECASE):
         errors.append("private persona text found")
+    if re.search(r"학습 목표|자가\s*점검|Learning goals?|Self check", html, re.IGNORECASE):
+        errors.append("excluded study-planning section found")
+    if "concept-summary" not in parser.ids:
+        errors.append("missing standalone concept summary")
 
     for href in parser.hrefs:
         if href.startswith("#"):

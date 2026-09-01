@@ -27,7 +27,8 @@ Read [references/crimson-design-source.md](references/crimson-design-source.md) 
 - Put important nouns, state descriptions, problem verbs, and adjectives in repeated `English(한국어 번역)` form throughout the note, not only in the glossary or first occurrence.
 - Explain relationships, assumptions, why each concept matters, and how the concept appears in exam wording. A translated bullet list alone is insufficient.
 - Mark material not present in the lecture as `시험용 보강` or `편집자 보강`.
-- Include learning goals, overview/concept map, slide-by-slide sections, exam English model answers, glossary, self-checks, ASR correction log, and sources.
+- Include an overview/concept map, a standalone concept summary, slide-by-slide sections, exam English model answers, glossary, ASR correction log, and sources. The standalone summary must be sufficient to understand the lecture's main definitions, relationships, assumptions, and problem-solving flow without reducing the detailed slide explanations.
+- Classify each Summary video by its actual transcript content. If it genuinely recaps the current lecture's concepts, use it as supporting evidence for the standalone concept summary after reconciling it with the slides. If it is a future-course roadmap, schedule, or administrative note, keep it in a separately labeled section and do not present it as the lecture's concept summary.
 - Use a neutral public tone. Never include assistant persona, user identity, private jokes, or internal tool/process commentary.
 - Preserve relative links so the note works under a GitHub Pages repository subpath.
 

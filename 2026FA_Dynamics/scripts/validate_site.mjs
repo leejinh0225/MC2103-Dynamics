@@ -40,9 +40,13 @@ for (const page of pages) {
   if (/<img\b(?![^>]*\balt=)[^>]*>/i.test(html)) errors.push(`${page}: image without alt`);
   if (/\{\{[A-Z0-9_가-힣]+\}\}/.test(html)) errors.push(`${page}: unresolved placeholder`);
   if (/(에델|노이슈반트|마스터|메이드|츠ン데레)/i.test(html)) errors.push(`${page}: private persona text found`);
+  if (/(학습 목표|자가\s*점검|Learning goals?|Self check)/i.test(html)) errors.push(`${page}: excluded study-planning section found`);
 }
 
 const lecture = readFileSync(join(root, "lecture01.html"), "utf8");
+if (!lecture.includes('id="concept-summary"')) errors.push("lecture01.html: missing standalone concept summary");
+if (!lecture.includes("Summary 영상: 앞으로 배울 내용")) errors.push("lecture01.html: Summary video is not clearly labeled as future-course content");
+if (lecture.includes("개념 순서와 실제 일정의 차이")) errors.push("lecture01.html: ambiguous roadmap heading remains");
 const sourceSections = [...lecture.matchAll(/class=["'][^"']*source-section[^"']*["']/g)].length;
 if (sourceSections !== 18) errors.push(`lecture01.html: expected 18 source sections, found ${sourceSections}`);
 

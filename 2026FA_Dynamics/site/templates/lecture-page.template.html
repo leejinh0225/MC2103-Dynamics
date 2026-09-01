@@ -34,19 +34,22 @@
 
     <div class="page-shell">
       <main id="main" class="content">
-        <section class="editorial-section" id="goals">
-          <p class="section-kicker">Learning goals</p>
-          <h2 class="section-title">이 렉처가 끝나면 설명할 수 있어야 합니다.</h2>
-          <div class="grid-2">
-            <!-- 3–6개의 완전한 학습 목표 카드. 중요한 용어는 English(한국어) 반복 표기. -->
-            {{LEARNING_GOAL_CARDS}}
-          </div>
-        </section>
-
         <section class="editorial-section section-divider" id="overview">
           <p class="section-kicker">Lecture overview</p>
           <h2 class="section-title">{{CORE_RELATIONSHIP_HEADLINE}}</h2>
           <p class="section-lead">{{CORE_RELATIONSHIP_EXPLANATION}}</p>
+        </section>
+
+        <section class="editorial-section" id="concept-summary">
+          <p class="section-kicker">Content summary</p>
+          <h2 class="section-title">{{LECTURE_NUMBER}} 핵심 개념 요약</h2>
+          <p class="section-lead">
+            이 부분만 읽어도 렉처의 핵심 정의, 개념 관계, 가정과 풀이 흐름을 이해할 수 있도록 작성합니다.
+          </p>
+          <div class="note-stack">
+            <!-- 슬라이드와 실제 개념 설명 스크립트를 종합한 독립형 요약. 슬라이드별 상세 설명은 별도로 유지한다. -->
+            {{STANDALONE_CONCEPT_SUMMARY}}
+          </div>
         </section>
 
         <!-- PDF의 모든 페이지에 대해 아래 section을 정확히 한 번씩 복제한다. -->
@@ -74,6 +77,9 @@
           </div>
         </section>
 
+        <!-- Summary 영상이 현재 렉처의 개념 복습이 아닐 때만 사용한다. 로드맵·일정·행정 안내를 핵심 개념 요약에 섞지 않는다. -->
+        {{DISTINCT_SUMMARY_VIDEO_SECTION_IF_NEEDED}}
+
         <section class="editorial-section" id="exam-english">
           <p class="section-kicker">Exam English</p>
           <h2 class="section-title">정의형·비교형 문제에 쓰는 영어 문장</h2>
@@ -84,12 +90,6 @@
           <p class="section-kicker">Core glossary</p>
           <h2 class="section-title">{{LECTURE_NUMBER}} 핵심 용어집</h2>
           {{BILINGUAL_GLOSSARY_TABLE}}
-        </section>
-
-        <section class="editorial-section" id="self-check">
-          <p class="section-kicker">Self check</p>
-          <h2 class="section-title">답을 가리고 말로 설명해 보십시오.</h2>
-          {{SELF_CHECK_BLOCKS}}
         </section>
 
         <section class="editorial-section" id="asr-log">
