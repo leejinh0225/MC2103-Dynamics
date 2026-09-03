@@ -14,7 +14,10 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="wordmark" href="index.html">MC2103 Dynamics</a>
-        <span class="header-meta">{{LECTURE_NUMBER}} · {{LECTURE_TITLE}}</span>
+        <div class="header-actions">
+          <a class="header-link" href="downloads.html">PDF 다운로드</a>
+          <span class="header-meta">{{LECTURE_NUMBER}} · {{LECTURE_TITLE}}</span>
+        </div>
       </div>
     </header>
 
@@ -32,6 +35,7 @@
         <div class="button-row">
           <!-- 모든 Contents와 Problem Solving 영상은 동일하게 class="button button--primary"를 사용한다. Overview·Summary는 넣지 않는다. -->
           {{ALL_CONTENTS_AND_PROBLEM_SOLVING_BUTTONS}}
+          <a class="button" href="{{ORIGINAL_PDF_URL}}" download="{{LECTURE_NOTE_FILENAME}}" type="application/pdf">원본 PDF 다운로드</a>
           <a class="button" href="index.html">강의 목록</a>
         </div>
       </div>

@@ -5,6 +5,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 ## 페이지
 
 - `index.html`: 강의 목록
+- `downloads.html`: Lecture 01–16 원본 강의노트 PDF 다운로드
 - `lecture01.html`: Lecture 1 학습 노트
 - `lecture02.html`: Lecture 2 학습 노트
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
@@ -14,6 +15,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 - `assets/css/styles.css`: Crimson 디자인 시스템을 HTML 장문 읽기에 맞게 변환한 공통 스타일
 - `assets/js/site.js`: 스크롤 진행률과 현재 목차 표시
 - `assets/slides/lectureXX/`: 1920×1080 원본 슬라이드 렌더링 이미지
+- `../lecture_notes/lectureXX_note.pdf`: 공개 저장소에 보존된 원본 강의노트 PDF이며, 사이트에서는 GitHub raw URL로 직접 연결
 
 ## 로컬 확인
 
@@ -21,4 +23,4 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 
 ## 새 렉처 추가
 
-상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`, `lecture02.html`의 실제 완성본과 템플릿을 함께 참고합니다. 템플릿의 placeholder(자리표시자)를 실제 근거 기반 내용으로 교체하고, 원본 PDF 페이지 수와 `.source-section` 수가 같은지 검증합니다.
+상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`, `lecture02.html`의 실제 완성본과 템플릿을 함께 참고합니다. 템플릿의 placeholder(자리표시자)를 실제 근거 기반 내용으로 교체하고, 원본 PDF 페이지 수와 `.source-section` 수가 같은지 검증합니다. 새 렉처를 완성할 때는 공개 저장소의 해당 원본 PDF raw URL을 `downloads.html`의 렉처 카드와 렉처 페이지에 연결하고, 파일명과 직접 다운로드 링크도 함께 확인합니다.

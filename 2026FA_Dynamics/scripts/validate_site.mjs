@@ -6,7 +6,12 @@ const lectures = [
   { page: "lecture01.html", slug: "lecture01", expectedSlides: 18 },
   { page: "lecture02.html", slug: "lecture02", expectedSlides: 63 },
 ];
-const pages = ["index.html", ...lectures.map(({ page }) => page)];
+const noteFiles = Array.from({ length: 16 }, (_, index) =>
+  `lecture${String(index + 1).padStart(2, "0")}_note.pdf`,
+);
+const noteDownloadBase =
+  "https://github.com/leejinh0225/MC2103-Dynamics/raw/refs/heads/main/2026FA_Dynamics/lecture_notes/";
+const pages = ["index.html", "downloads.html", ...lectures.map(({ page }) => page)];
 const errors = [];
 
 const attrValues = (html, attr) =>
@@ -45,11 +50,46 @@ for (const page of pages) {
   if (/\{\{[A-Z0-9_가-힣]+\}\}/.test(html)) errors.push(`${page}: unresolved placeholder`);
   if (/(에델|노이슈반트|마스터|메이드|츠ン데레)/i.test(html)) errors.push(`${page}: private persona text found`);
   if (/(학습 목표|자가\s*점검|Learning goals?|Self check)/i.test(html)) errors.push(`${page}: excluded study-planning section found`);
+  if (/private-materials/i.test(html)) errors.push(`${page}: private material path found`);
 }
 
 const index = readFileSync(join(root, "index.html"), "utf8");
+if (!index.includes('href="downloads.html"')) errors.push("index.html: missing downloads page link");
 for (const { page } of lectures) {
   if (!index.includes(`href="${page}"`)) errors.push(`index.html: missing link to ${page}`);
+}
+
+const downloads = readFileSync(join(root, "downloads.html"), "utf8");
+const downloadNoteHrefs = attrValues(downloads, "href").filter((href) =>
+  href.startsWith(noteDownloadBase) && /lecture\d{2}_note\.pdf$/.test(href),
+);
+if (downloadNoteHrefs.length !== noteFiles.length) {
+  errors.push(`downloads.html: expected ${noteFiles.length} PDF links, found ${downloadNoteHrefs.length}`);
+}
+for (const noteFile of noteFiles) {
+  const sourceNotePath = resolve(root, "../lecture_notes", noteFile);
+  if (!existsSync(sourceNotePath)) errors.push(`downloads.html: missing source PDF file ${noteFile}`);
+  const noteUrl = `${noteDownloadBase}${noteFile}`;
+  const escapedUrl = noteUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const escapedFile = noteFile.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const downloadAnchor = new RegExp(
+    `<a\\b(?=[^>]*href=["']${escapedUrl}["'])(?=[^>]*download=["']${escapedFile}["'])[^>]*>`,
+  );
+  if (!downloadAnchor.test(downloads)) {
+    errors.push(`downloads.html: missing downloadable link for ${noteFile}`);
+  }
+}
+const lecture12Position = downloads.indexOf("lecture12_note.pdf");
+const lecture16Position = downloads.indexOf("lecture16_note.pdf");
+const lecture13Position = downloads.indexOf("lecture13_note.pdf");
+if (!(lecture12Position < lecture16Position && lecture16Position < lecture13Position)) {
+  errors.push("downloads.html: Lecture 16 must appear below Lecture 12 and before Lecture 13");
+}
+if (!downloads.includes("Week 12 추가 강의 · 날짜 미기재")) {
+  errors.push("downloads.html: Lecture 16 must be labeled as an undated Week 12 extra lecture");
+}
+if (!downloads.includes("Week 08 · 날짜 미기재") || !downloads.includes("Midterm — No class")) {
+  errors.push("downloads.html: undated Week 8 midterm notice is missing");
 }
 
 let totalSourceSections = 0;
@@ -90,6 +130,11 @@ if (!lecture01.includes("Summary 영상: 앞으로 배울 내용")) {
 if (lecture01.includes("개념 순서와 실제 일정의 차이")) {
   errors.push("lecture01.html: ambiguous roadmap heading remains");
 }
+const lecture01Hero = lecture01.match(/<section class="hero">([\s\S]*?)<\/section>/)?.[1] ?? "";
+if (!lecture01Hero.includes(`href="${noteDownloadBase}lecture01_note.pdf"`) ||
+    !lecture01Hero.includes('download="lecture01_note.pdf"')) {
+  errors.push("lecture01.html: original PDF download action is missing");
+}
 
 const lecture02 = readFileSync(join(root, "lecture02.html"), "utf8");
 const lecture02Hero = lecture02.match(/<section class="hero">([\s\S]*?)<\/section>/)?.[1] ?? "";
@@ -97,6 +142,7 @@ const requiredLecture02HeroLinks = [
   ["https://www.youtube.com/watch?v=Lh8tQnI6A9o", "Contents 1 영상 열기"],
   ["https://www.youtube.com/watch?v=i6XabI4ffzc", "Contents 2 영상 열기"],
   ["https://www.youtube.com/watch?v=Pocl0GKnmSA", "Problem Solving 영상 열기"],
+  [`${noteDownloadBase}lecture02_note.pdf`, "원본 PDF 다운로드"],
   ["index.html", "강의 목록"],
 ];
 for (const [href, label] of requiredLecture02HeroLinks) {
@@ -107,8 +153,8 @@ for (const [href, label] of requiredLecture02HeroLinks) {
 if (lecture02Hero.includes("OHqvWeXi_JY") || lecture02Hero.includes("NIFDAI5sgA0")) {
   errors.push("lecture02.html: Overview or Summary video must not appear in hero actions");
 }
-if (attrValues(lecture02Hero, "href").length !== 4) {
-  errors.push("lecture02.html: hero must contain exactly three main-video actions and the lecture index action");
+if (attrValues(lecture02Hero, "href").length !== 5) {
+  errors.push("lecture02.html: hero must contain three main-video actions, one PDF action, and the lecture index action");
 }
 const lecture02HeroAnchors = [...lecture02Hero.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a\s*>/g)].map((match) => ({
   classes: attrValues(match[1], "class")[0]?.split(/\s+/) ?? [],
@@ -123,6 +169,10 @@ for (const action of lecture02HeroAnchors.filter(({ href }) => href.startsWith("
 const lectureIndexAction = lecture02HeroAnchors.find(({ href }) => href === "index.html");
 if (!lectureIndexAction || lectureIndexAction.classes.includes("button--primary")) {
   errors.push("lecture02.html: lecture index action must keep neutral button styling");
+}
+const lecturePdfAction = lecture02HeroAnchors.find(({ href }) => href === `${noteDownloadBase}lecture02_note.pdf`);
+if (!lecturePdfAction || lecturePdfAction.classes.includes("button--primary")) {
+  errors.push("lecture02.html: original PDF action must keep neutral button styling");
 }
 
 if (errors.length) {
