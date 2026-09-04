@@ -23,4 +23,4 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 
 ## 새 렉처 추가
 
-상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`, `lecture02.html`의 실제 완성본과 템플릿을 함께 참고합니다. 템플릿의 placeholder(자리표시자)를 실제 근거 기반 내용으로 교체하고, 원본 PDF 페이지 수와 `.source-section` 수가 같은지 검증합니다. 새 렉처를 완성할 때는 공개 저장소의 해당 원본 PDF raw URL을 `downloads.html`의 렉처 카드와 렉처 페이지에 연결하고, 파일명과 직접 다운로드 링크도 함께 확인합니다.
+상위의 `NOTE_AUTHORING_GUIDE.md`를 먼저 읽고 `lecture01.html`을 유일한 형식 기준으로 사용합니다. 반드시 `templates/lecture-page.template.html`을 복제한 뒤 placeholder(자리표시자)와 반복 블록만 실제 근거 기반 내용으로 교체합니다. `lecture02.html`은 긴 유도·문제풀이의 내용 깊이만 참고하며 별도 형식으로 취급하지 않습니다. 원본 PDF 페이지 수와 `.source-section` 수, Lecture 1 기반 고정 섹션 계약을 검사기로 확인합니다. 새 렉처를 완성할 때는 공개 저장소의 해당 원본 PDF raw URL을 `downloads.html`의 렉처 카드와 렉처 페이지에 연결하고, 파일명과 직접 다운로드 링크도 함께 확인합니다.

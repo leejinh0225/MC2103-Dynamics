@@ -17,6 +17,107 @@ const errors = [];
 const attrValues = (html, attr) =>
   [...html.matchAll(new RegExp(`${attr}=["']([^"']+)["']`, "g"))].map((match) => match[1]);
 
+const sectionTagById = (html, id) =>
+  [...html.matchAll(/<section\b[^>]*>/g)]
+    .map((match) => match[0])
+    .find((tag) => attrValues(tag, "id")[0] === id) ?? "";
+
+const sectionBodyById = (html, id) => {
+  const escapedId = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return html.match(new RegExp(`<section\\b[^>]*id=["']${escapedId}["'][^>]*>([\\s\\S]*?)<\\/section>`))?.[1] ?? "";
+};
+
+const classesOf = (tag) => new Set((attrValues(tag, "class")[0] ?? "").split(/\s+/).filter(Boolean));
+
+const layoutClasses = new Map([
+  ["overview", ["editorial-section", "section-divider"]],
+  ["concept-map", ["editorial-section"]],
+  ["concept-summary", ["editorial-section"]],
+  ["exam-english", ["editorial-section"]],
+  ["glossary", ["editorial-section"]],
+  ["asr-log", ["editorial-section"]],
+  ["sources", ["editorial-section"]],
+]);
+
+const layoutKickers = new Map([
+  ["overview", "Lecture overview"],
+  ["concept-map", "Concept map"],
+  ["concept-summary", "Content summary"],
+  ["exam-english", "Exam English"],
+  ["glossary", "Core glossary"],
+  ["asr-log", "Transcript audit"],
+  ["sources", "Sources"],
+]);
+
+const hasExactClasses = (tag, expected) => {
+  const actual = classesOf(tag);
+  return expected.every((name) => actual.has(name)) && actual.size === expected.length;
+};
+
+const validateLectureLayout = (lecture, page, expectedSlides) => {
+  const requiredSections = ["overview", "concept-map", "concept-summary", "exam-english", "glossary", "asr-log", "sources"];
+  const sectionPositions = new Map();
+  for (const id of requiredSections) {
+    const position = lecture.indexOf(`id="${id}"`);
+    sectionPositions.set(id, position);
+    if (position < 0) errors.push(`${page}: missing fixed layout section #${id}`);
+  }
+
+  const fixedOrder = requiredSections.map((id) => sectionPositions.get(id));
+  if (fixedOrder.every((position) => position >= 0) &&
+      fixedOrder.some((position, index) => index > 0 && position <= fixedOrder[index - 1])) {
+    errors.push(`${page}: fixed layout sections are out of Lecture 1 order`);
+  }
+
+  const firstSlidePosition = lecture.indexOf('id="slide-01"');
+  const lastSlidePosition = lecture.indexOf(`id="slide-${String(expectedSlides).padStart(2, "0")}"`);
+  if (!(sectionPositions.get("concept-summary") < firstSlidePosition &&
+        firstSlidePosition <= lastSlidePosition &&
+        lastSlidePosition < sectionPositions.get("exam-english"))) {
+    errors.push(`${page}: source-slide sequence is outside the fixed summary-to-exam slot`);
+  }
+
+  for (const [id, expected] of layoutClasses) {
+    const tag = sectionTagById(lecture, id);
+    if (!hasExactClasses(tag, expected)) {
+      errors.push(`${page}: #${id} must use exactly class="${expected.join(" ")}"`);
+    }
+    if (tag && attrValues(tag, "aria-labelledby").length !== 1) {
+      errors.push(`${page}: #${id} must use aria-labelledby like Lecture 1`);
+    }
+    const expectedKicker = layoutKickers.get(id);
+    if (expectedKicker && !sectionBodyById(lecture, id).includes(`<p class="section-kicker">${expectedKicker}</p>`)) {
+      errors.push(`${page}: #${id} must keep Lecture 1 kicker "${expectedKicker}"`);
+    }
+  }
+
+  const overviewBody = sectionBodyById(lecture, "overview");
+  if (/class=["'][^"']*\bevidence\b/.test(overviewBody)) {
+    errors.push(`${page}: overview must not contain timestamp or evidence chips`);
+  }
+
+  const examBody = sectionBodyById(lecture, "exam-english");
+  const examCards = [...examBody.matchAll(/class=["'][^"']*\bexam-card\b[^"']*["']/g)].length;
+  const answers = [...examBody.matchAll(/class=["'][^"']*\banswer\b[^"']*["']/g)].length;
+  const answerLabels = [...examBody.matchAll(/class=["'][^"']*\banswer__label\b[^"']*["']/g)].length;
+  if (!/class=["'][^"']*\bnote-stack\b/.test(examBody) || examCards === 0 || answers !== examCards || answerLabels !== examCards) {
+    errors.push(`${page}: exam section must keep note-stack > exam-card > answer + answer__label structure`);
+  }
+
+  for (const tag of lecture.match(/<section\b[^>]*>/g) ?? []) {
+    const classes = classesOf(tag);
+    if (!classes.has("section-divider")) continue;
+    const id = attrValues(tag, "id")[0] ?? "(missing id)";
+    if (id !== "overview" && id !== "course-roadmap") {
+      errors.push(`${page}: #${id} uses section-divider outside the Lecture 1 contract`);
+    }
+  }
+
+  if (lecture.includes('id="audit-log"') || lecture.includes('href="#audit-log"')) {
+    errors.push(`${page}: noncanonical audit-log id found; use asr-log`);
+  }
+};
+
 for (const page of pages) {
   const pagePath = join(root, page);
   if (!existsSync(pagePath)) {
@@ -97,7 +198,7 @@ let totalSlideFiles = 0;
 
 for (const { page, slug, expectedSlides } of lectures) {
   const lecture = readFileSync(join(root, page), "utf8");
-  if (!lecture.includes('id="concept-summary"')) errors.push(`${page}: missing standalone concept summary`);
+  validateLectureLayout(lecture, page, expectedSlides);
 
   const sourceSections = [...lecture.matchAll(/class=["'][^"']*source-section[^"']*["']/g)].length;
   totalSourceSections += sourceSections;
@@ -121,6 +222,24 @@ for (const { page, slug, expectedSlides } of lectures) {
     if (!slideFiles.includes(expected)) errors.push(`${slug} slides: missing ${expected}`);
     if (!lecture.includes(`id="slide-${number}"`)) errors.push(`${page}: missing slide section ${i}`);
   }
+}
+
+const lectureTemplate = readFileSync(join(root, "templates/lecture-page.template.html"), "utf8");
+let previousTemplatePosition = -1;
+for (const [id, expected] of layoutClasses) {
+  const tag = sectionTagById(lectureTemplate, id);
+  if (!tag) errors.push(`lecture template: missing fixed section #${id}`);
+  if (tag && !hasExactClasses(tag, expected)) {
+    errors.push(`lecture template: #${id} must use exactly class="${expected.join(" ")}"`);
+  }
+  const position = lectureTemplate.indexOf(`id="${id}"`);
+  if (position >= 0 && position <= previousTemplatePosition) {
+    errors.push(`lecture template: #${id} is out of Lecture 1 order`);
+  }
+  if (position >= 0) previousTemplatePosition = position;
+}
+if (!sectionBodyById(lectureTemplate, "exam-english").includes("answer__label")) {
+  errors.push("lecture template: missing canonical exam answer card structure");
 }
 
 const lecture01 = readFileSync(join(root, "lecture01.html"), "utf8");

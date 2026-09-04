@@ -1,8 +1,10 @@
 # MC2103 Dynamics 렉처 정리 노트 집필 규격
 
-버전: 1.0
+버전: 1.1
 
-기준 샘플: `site/lecture01.html`(입문형), `site/lecture02.html`(장문·유도·문제풀이형)
+형식 기준: `site/lecture01.html`과 `site/templates/lecture-page.template.html`
+
+내용 깊이 참고: `site/lecture02.html`(장문·유도·문제풀이형). Lecture 2는 내용 전개의 참고일 뿐 DOM 구조·색상·여백을 결정하는 형식 기준이 아니다.
 
 목적: 영어 강의 수강이 어려운 학습자가 강의를 듣지 않아도 개념을 이해하고 영어 시험을 준비할 수 있는 독립형 학습 자료 제작
 
@@ -44,7 +46,19 @@
 7. 핵심 용어집: `English(한국어 번역)` + 한 문장 정의
 8. 출처와 스크립트 교정 기록
 
-### 3.1 상단 영상 버튼 규칙
+### 3.1 고정 레이아웃 계약
+
+- 새 렉처는 빈 HTML에서 만들지 않는다. 반드시 `site/templates/lecture-page.template.html`을 복제한 뒤 placeholder(자리표시자)와 반복 블록만 교체한다.
+- Lecture 1을 유일한 visual/structural baseline(시각·구조 기준)으로 삼는다. 이후 렉처는 강의 분량과 개념 수가 달라도 상위 섹션의 순서, `id`, `class`, 제목 계층, 카드 중첩 구조를 임의로 바꾸지 않는다.
+- 고정 순서는 `overview → concept-map → concept-summary → 모든 source-section → 선택적 Summary 별도 섹션 → exam-english → glossary → asr-log → sources`다.
+- `overview`만 기본 `section-divider`를 사용한다. Lecture 1처럼 실제 Summary 영상이 별도 로드맵인 경우의 표지 섹션만 예외적으로 `section-divider`를 사용할 수 있다.
+- `overview`에는 timestamp(타임스탬프)·근거 chip(칩)을 넣지 않는다. 근거는 핵심 개념 요약, 슬라이드별 설명, 교정 기록 또는 출처에 둔다.
+- `exam-english`는 항상 `class="editorial-section"`이고 그 안에 `note-stack → exam-card → answer` 구조를 사용한다. 여기에 `section-divider`를 붙이면 밝은 카드 위 글자가 흰색으로 상속되므로 금지한다.
+- 개념 수에 따라 `concept-map` 내부에서 `course-map`, `grid-2`, `grid-3` 중 기존 공통 컴포넌트를 선택하는 것은 허용한다. 이는 내용에 따른 제한된 변형이며 상위 구조 변경이 아니다.
+- 스크립트 교정과 원본 슬라이드 내부 오류를 함께 기록하더라도 섹션 식별자는 `asr-log`, kicker(작은 제목)는 `Transcript audit`로 유지한다.
+- 레이아웃을 바꿀 필요가 생기면 특정 렉처만 수정하지 않는다. 먼저 Lecture 1과 템플릿에 공통 변경을 적용하고 전체 렉처 자동 검사를 통과시킨다.
+
+### 3.2 상단 영상 버튼 규칙
 
 - hero(상단 표지)의 바로가기에는 실제 본강의인 모든 `Contents` 영상과 `Problem Solving` 영상만 순서대로 넣는다.
 - `Contents 1`, `Contents 2`처럼 본강의가 여러 편이면 일부만 대표로 두지 않고 전부 표시한다.
@@ -52,7 +66,7 @@
 - `Overview`와 `Summary` 영상은 상단 바로가기에서 제외하고, 본문 근거와 하단 출처 목록에서만 제공한다.
 - 영상 버튼 뒤에는 해당 렉처의 중립색 `원본 PDF 다운로드` 버튼과 `강의 목록` 버튼을 순서대로 둔다.
 
-### 3.2 원본 PDF 다운로드 규칙
+### 3.3 원본 PDF 다운로드 규칙
 
 - 공개 사이트의 `downloads.html`에는 Lecture 01–16 원본 PDF를 모두 렉처별 카드로 제공한다.
 - 각 카드에는 강의 인덱스에 근거한 week(주차), date(날짜), title(제목), page count(페이지 수), file size(파일 크기)를 표시한다.
@@ -131,7 +145,7 @@
 
 ## 8. 디자인 규격
 
-`design_reference/crimson2.md`에서 웹 문서에 적합한 규칙만 채택한다.
+`design_reference/crimson2.md`에서 웹 문서에 적합한 규칙만 채택한다. 이 문서는 색상·타이포그래피·간격 token(토큰)의 보조 근거일 뿐 렉처 페이지의 구조 템플릿이 아니다. 충돌하면 Lecture 1의 실제 HTML 구조와 공통 CSS를 우선한다.
 
 ### 유지
 
@@ -170,8 +184,8 @@
 7. 모든 슬라이드 섹션을 순서대로 작성하고, 요약 때문에 상세 설명을 축소하지 않는다.
 8. Summary 영상을 실제 내용에 따라 개념 복습 또는 별도 로드맵·안내 섹션으로 분류한다.
 9. 시험 영어, 용어집, ASR 교정 기록과 출처를 추가한다.
-10. `site/lecture01.html`과 `site/lecture02.html` 중 내용 유형에 가까운 완성본의 DOM 구조와 공통 CSS 클래스를 재사용한다.
-11. 이전 완성 렉처와 비교해 용어 번역, 블록 순서, 이미지 크기, 색상, 모바일 폭을 검증한다.
+10. `site/templates/lecture-page.template.html`을 복제하고 Lecture 1의 DOM 구조를 유지한 채 내용만 채운다. Lecture 2는 긴 유도·문제풀이의 내용 밀도만 참고한다.
+11. 저장소 검사기로 Lecture 1 기반 고정 레이아웃 계약, 용어 번역, 블록 순서, 이미지 크기, 색상, 모바일 폭을 검증한다.
 
 ## 11. 완성 판정 체크리스트
 
@@ -188,5 +202,7 @@
 - [ ] 강의 자료 밖의 보강은 명시돼 있다.
 - [ ] 모바일과 데스크톱 모두 가로 스크롤이 없다.
 - [ ] 끊어진 내부 링크, 중복 ID, 누락된 이미지가 없다.
+- [ ] Lecture 1 기반 고정 섹션 순서와 `id`·`class` 계약을 지켰다.
+- [ ] `overview`에 타임스탬프 칩이 없고, `exam-english`에 `section-divider`가 없다.
 - [ ] 해당 렉처의 원본 PDF 다운로드 링크와 파일이 모두 존재하며 파일명이 일치한다.
 - [ ] 공개 문서에 사적 설정이나 개인정보가 없다.

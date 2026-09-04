@@ -9,9 +9,9 @@ Create a source-grounded study note that can replace attending the English lectu
 
 ## Required context
 
-Before authoring, read [references/authoring-guide.md](references/authoring-guide.md) completely. Use [assets/lecture01-reference.html](assets/lecture01-reference.html) as the compact introductory reference and [assets/lecture02-reference.html](assets/lecture02-reference.html) as the long-form derivation and problem-solving reference. Use [assets/lecture-page.template.html](assets/lecture-page.template.html) as the starting skeleton.
+Before authoring, read [references/authoring-guide.md](references/authoring-guide.md) completely. Use [assets/lecture01-reference.html](assets/lecture01-reference.html) as the only structural and visual reference. Use [assets/lecture02-reference.html](assets/lecture02-reference.html) only to calibrate content depth for long derivations and problem solving; it is not a second layout reference. Always copy [assets/lecture-page.template.html](assets/lecture-page.template.html) as the starting file and replace its placeholders rather than composing a page from scratch.
 
-Read [references/crimson-design-source.md](references/crimson-design-source.md) only when changing the shared visual system. The authoring guide already contains the web-specific adaptation; do not reintroduce fixed PowerPoint coordinates or forced page density.
+Read [references/crimson-design-source.md](references/crimson-design-source.md) only when changing shared color, typography, or spacing tokens. It cannot override the Lecture 1 layout contract. The authoring guide already contains the web-specific adaptation; do not reintroduce fixed PowerPoint coordinates or forced page density.
 
 ## Source handling
 
@@ -34,7 +34,7 @@ Read [references/crimson-design-source.md](references/crimson-design-source.md) 
 
 ## Visual consistency
 
-Reuse [assets/styles.css](assets/styles.css) and [assets/site.js](assets/site.js) rather than restyling each lecture. The source-slide frame must remain identical across sections and preserve `16:9`. Update the shared CSS only when the change improves all lectures and does not regress Lecture 1.
+Reuse [assets/styles.css](assets/styles.css) and [assets/site.js](assets/site.js) rather than restyling each lecture. Preserve the template's top-level section order, IDs, classes, heading hierarchy, and card nesting exactly. `overview` uses the divider treatment without evidence chips; `exam-english` uses the neutral editorial section with `note-stack > exam-card > answer`; the audit section keeps `id="asr-log"`. The source-slide frame must remain identical across sections and preserve `16:9`. Update the shared CSS only when the change is first applied to Lecture 1 and improves every lecture.
 
 ## Validation
 
