@@ -5,6 +5,7 @@ const root = resolve(import.meta.dirname, "../site");
 const lectures = [
   { page: "lecture01.html", slug: "lecture01", expectedSlides: 18 },
   { page: "lecture02.html", slug: "lecture02", expectedSlides: 63 },
+  { page: "lecture03.html", slug: "lecture03", expectedSlides: 65 },
 ];
 const noteFiles = Array.from({ length: 16 }, (_, index) =>
   `lecture${String(index + 1).padStart(2, "0")}_note.pdf`,

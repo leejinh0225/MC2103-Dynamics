@@ -8,6 +8,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 - `downloads.html`: Lecture 01–16 원본 강의노트 PDF 다운로드
 - `lecture01.html`: Lecture 1 학습 노트
 - `lecture02.html`: Lecture 2 학습 노트
+- `lecture03.html`: Week 02 · Lecture 3 곡선운동 학습 노트 (65장, 영어 영상 5개 대조)
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
 
 ## 공통 자산

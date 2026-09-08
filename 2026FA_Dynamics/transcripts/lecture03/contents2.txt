@@ -1,0 +1,245 @@
+YouTube transcript
+Video ID: I0SNe-8ShAo
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] if we have an idea or path of vehicle or
+[0:20] object it is often convenient to analyze
+[0:24] the motion using tangential and normal
+[0:26] components and sometimes we call the
+[0:28] path coordinate or trajectory coordinate
+[0:32] systems
+[0:36] so let's study the trajectory coordinate
+[0:38] system
+[0:40] this coordinate system is useful when
+[0:42] there is a given path or trajectory like
+[0:45] so here
+[0:48] just like when we we are driving a car
+[0:51] we use
+[0:53] ET
+[0:57] to indicate the tangential Direction
+[1:01] the tangential direction is tangent to
+[1:03] the path so we can see that this
+[1:05] direction is tangent to this path at
+[1:09] this point
+[1:11] the velocity Vector of a path of
+[1:14] particle is in this direction
+[1:17] normal direction is perpendicular to ET
+[1:20] Direction
+[1:25] and it points towards inside the curve
+[1:27] and we use
+[1:29] en to indicate the normal Direction
+[1:35] please note that the velocity is always
+[1:37] along the tangential Direction however
+[1:40] acceleration
+[1:42] can have components in both directions
+[1:53] then how do we compute the acceleration
+[1:55] in both directions
+[1:56] note that acceleration vector can be
+[1:59] computed from the change of velocity
+[2:01] vectors
+[2:06] since the velocity Vector is aligned
+[2:08] with with the e t Direction here
+[2:14] let's first study the change of e t
+[2:17] vector
+[2:18] from the figure below
+[2:21] we can see that Delta e t
+[2:25] is defined as shown
+[2:28] using simple trigonometry the length of
+[2:31] the Delta e t
+[2:33] this one
+[2:35] is the same as 2 times sine of Delta
+[2:39] Theta over 2.
+[2:43] also it is important to notice that
+[2:45] Delta e t direction is along with the e
+[2:49] n Direction
+[2:54] so this direction is along with
+[2:58] the N Direction
+[3:02] finally we can conclude that the en
+[3:06] is d e t
+[3:10] over D Theta
+[3:17] now let's go back to Velocity and
+[3:20] acceleration since V Vector is v e t
+[3:35] acceleration can be computed as follows
+[3:45] and this process is shown in here
+[3:50] so you need to use differentiation
+[3:53] specifically we'll use product rule and
+[3:56] chain rule
+[3:59] since we are differentiating these two
+[4:02] products
+[4:06] we have V Dot
+[4:09] ET hat and also we have V
+[4:13] t e t head over DT
+[4:23] and what about this part this is
+[4:25] something new and this part is
+[4:29] shown in detail
+[4:37] this one is already studied in the
+[4:40] previous page that en is the same as
+[4:43] Delta e t over Delta Theta
+[4:49] here
+[4:50] row times D Theta is the same as DS
+[4:57] also DS over DT is the same as velocity
+[5:02] or the linear the speed in that line
+[5:07] so by substituting all the the
+[5:10] informations in here
+[5:12] we can finally have
+[5:14] this acceleration relationship
+[5:18] or we can simply put this in this
+[5:20] expression so we have by just replacing
+[5:23] this one with a t
+[5:25] acceleration in tangential Direction
+[5:27] with
+[5:29] ET hat plus acceleration in normal
+[5:32] Direction
+[5:34] in e n Direction
+[5:38] then what's the meaning of each
+[5:40] component of acceleration
+[5:43] the tangential component affects the
+[5:45] change of
+[5:46] speed
+[5:48] the normal component reflects the change
+[5:51] of Direction
+[5:55] also tangential component may be either
+[5:58] positive or negative whereas the normal
+[6:01] component is always points toward the
+[6:03] center of pet
+[6:06] also note that tangential and normal
+[6:09] directions do not necessarily lie on on
+[6:12] a single plane
+[6:14] it can be a curve in 3D space
+[6:22] for your information
+[6:24] there always is a plane perpendicular to
+[6:27] both ET
+[6:30] in EN
+[6:33] So This Plane
+[6:36] is called oscillating plane
+[6:44] since we always have three axes
+[6:46] we can Define the third Direction which
+[6:49] is perpendicular to both en and e t
+[6:52] this direction is called binomial
+[6:55] Direction
+[6:57] EB
+[7:02] interestingly acceleration has no
+[7:05] component along the binomial binomial
+[7:08] reaction
+[7:17] another useful coordinate system is to
+[7:20] consider radial and transverse
+[7:22] components
+[7:25] as you can see here
+[7:28] this is this is elliptical machine
+[7:30] that you can see in the dream
+[7:33] so this elliptical machine can rotate
+[7:36] and also extends from the center Pivot
+[7:38] Point
+[7:40] this motion can be analyzed using the
+[7:42] radial and transverse components
+[7:45] and also you can see a fire truck
+[7:48] and there's a letter here
+[7:52] and so this letter can rotate
+[7:55] and also it can extend
+[7:59] the motion of the end of the ladder can
+[8:01] be analyzed using radial and transverse
+[8:04] components
+[8:06] this is the same as polar coordinate
+[8:09] system
+[8:10] radio component indicates the distance
+[8:13] from the origin
+[8:15] to the object
+[8:20] the transverse component indicates the
+[8:22] direction where the angle increases
+[8:31] note that the position is expressed as
+[8:35] R Vector which is R times in ER
+[8:38] Direction
+[8:40] you can compute the velocity by
+[8:42] differentiating all
+[8:44] one time
+[8:49] since ER changes its direction over time
+[8:55] ER changes its direction
+[8:58] over time
+[9:01] so er dot is not zero
+[9:05] similar to path coordinate system ER dot
+[9:08] is the same as data dot times e Theta
+[9:13] once we have velocity expressed in terms
+[9:16] of ER and E Theta then we can
+[9:18] differentiate the velocity Vector to get
+[9:21] acceleration
+[9:23] let's look at in more details
+[9:27] here is how we compute velocity vector
+[9:31] please remember that R Vector position
+[9:34] Vector was R times e r hat
+[9:39] so to get the velocity Vector you can
+[9:41] simply differentiate it with respect to
+[9:43] time and plug this one in here
+[9:46] and since we have a product of two
+[9:49] components so we have to apply product
+[9:52] rule
+[9:56] so first you differentiate r
+[10:00] and multiply ER
+[10:02] and multiply R and
+[10:06] differentiate ER with respect to time
+[10:13] so this part is simple
+[10:15] but then what about this one
+[10:18] so in the previous slides we studied
+[10:21] that
+[10:22] it is the same as this expression
+[10:26] so note that the direction of Delta ER
+[10:30] is perpendicular to ER and actually this
+[10:33] is the same as e Theta Direction
+[10:38] in summarizing it
+[10:40] this part
+[10:42] becomes all that and so we are we have
+[10:44] all that ER
+[10:47] and this one is the same as Theta Dot
+[10:49] and so we have all times Theta dot in E
+[10:53] Theta Direction
+[10:56] here we have some important relationship
+[10:58] between the unit factors
+[11:01] as we have studied before
+[11:04] using simple trigonometric relationship
+[11:08] this expression was the same as e Theta
+[11:12] if you look at the ER Direction
+[11:15] Delta ER is perpendicular to ER and so e
+[11:19] this the direction itself is is Theta
+[11:22] and using the trigonometric relationship
+[11:28] the size of this
+[11:30] became one so that's why we have e Theta
+[11:34] and
+[11:37] the same idea happens for Delta e Theta
+[11:42] the direction of Delta e Theta is
+[11:45] perpendicular to e Theta in this
+[11:48] Direction that's why the direction
+[11:49] itself is minus is er
+[11:56] and also using the same simple
+[11:58] trigonometric relationship the magnitude
+[12:01] of this one is cell case one so that's
+[12:03] why we have minus ER hat
+[12:07] so if we have these two relationships
+[12:10] then now we can get a
+[12:13] differentiation with respect to time not
+[12:16] just data and so
+[12:19] moving on so we have d e r over DT
+[12:25] by using chain rule here so apply
+[12:31] chain rule
+[12:34] this expression is exactly the same as
+[12:37] this and we already studied this one
+[12:40] from from here
+[12:43] what about this part this one is simply
+[12:47] the same as data type
+[12:50] which is angular velocity
+[12:53] what about d e Theta over DT
+[12:58] we can still use the chain Rule and we
+[13:01] have this expression
+[13:03] and this part was already computed
+[13:06] from here
+[13:08] then the only thing left is D Theta over
+[13:11] DT
+[13:12] which is again
+[13:16] Theta Dot
+[13:19] so using chain rules and differentiating
+[13:21] product rules
+[13:23] we have the following equations
+[13:28] to get the accelerations
+[13:30] [Music]
