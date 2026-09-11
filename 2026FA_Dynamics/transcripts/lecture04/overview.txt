@@ -1,0 +1,31 @@
+YouTube transcript
+Video ID: P3v32piVDzs
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] this week we will study kinetics of
+[0:20] particles
+[0:21] by particle I mean very small object
+[0:25] with mass but without volume
+[0:30] any cars moving on a Winding Road can be
+[0:33] modeled as a particle if we ignore
+[0:35] rotational motions such as rolling
+[0:38] pitching or yelling
+[0:41] not like kinematics where we consider
+[0:44] position velocity and acceleration
+[0:47] in kinetics we will consider the causes
+[0:51] of motion such as forces and torques
+[0:55] for example
+[0:57] thrust
+[0:58] friction Force border torque
+[1:01] gravitational force spring Force
+[1:05] fiscal stamping can cause the motion of
+[1:08] particles
+[1:10] most importantly
+[1:12] we will link these causes with the
+[1:15] kinematics by the celebrated Newton's
+[1:18] law of motion
+[1:20] [Music]

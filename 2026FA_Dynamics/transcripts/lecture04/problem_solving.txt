@@ -1,0 +1,705 @@
+YouTube transcript
+Video ID: GwPQhYgqnKo
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] let's do some practice
+[0:20] so as you can see here we have a block
+[0:23] sitting on the ground and we can apply
+[0:27] some forces in this Direction with the
+[0:29] angle of 30 degrees
+[0:32] and so the problem is to find the
+[0:35] magnitude of the force P which is
+[0:37] required to give the block an
+[0:40] acceleration of 2.5 meters per second
+[0:42] squared to the right
+[0:45] and we also have the friction so the
+[0:47] equation of friction kinet especially
+[0:50] the kinetic friction between the block
+[0:51] and plane is Mu K is 0.25
+[1:00] and here is a strategy to solve this
+[1:03] problem here we will use rectangular
+[1:05] coordinate system
+[1:09] so we can reserve the equations of
+[1:11] motion for the block into two
+[1:13] rectangular components
+[1:17] and the unknowns consist of the applied
+[1:19] forces p and also the normal reaction
+[1:23] force n from the plane
+[1:26] so that means there are two equations
+[1:29] to be solved for these two unknowns
+[1:38] so let's first consider all forces in
+[1:40] the horizontal Direction
+[1:42] so that means we will look at uh
+[1:46] summation of all forces in X Direction
+[1:49] and that should be the same as M A due
+[1:52] to Newton's law of motion
+[1:55] so let's look at this free by diagram so
+[1:58] we have a free body which is a block
+[2:01] here and consider all the forces we have
+[2:04] normal force we have friction we also
+[2:07] have the weight of the body itself and
+[2:09] the applied force p
+[2:12] along in that direction
+[2:15] also note that we have
+[2:19] the coordinate system okay
+[2:24] so in the horizontal direction we have
+[2:27] first components due to the friction and
+[2:30] also the force component due to p
+[2:33] specifically P times cosine 30 is the
+[2:36] horizontal component and friction is
+[2:39] actually minus value so we have the
+[2:42] friction coefficient which is 0.25 and
+[2:45] we have to multiply
+[2:47] the normal force there then it has to be
+[2:51] the same as M A which is Miss times
+[2:54] acceleration and mass is given as 80 and
+[2:57] acceleration is desired to be 2.5 meter
+[3:00] per second squared
+[3:07] now let's consider all forces in the
+[3:10] vertical Direction
+[3:11] so vertical direction is in y direction
+[3:16] okay
+[3:17] and since in vertical Direction there is
+[3:20] no movement because the the body is
+[3:23] sitting on the the ground
+[3:25] so that means acceleration is zero so
+[3:28] that's why we have zero on the right
+[3:30] hand side
+[3:31] so let's look at all the force
+[3:33] components in the vertical Direction the
+[3:35] first one
+[3:36] is the normal force which is n
+[3:40] the second one is weight which is minus
+[3:44] 785 Newton
+[3:47] and finally the
+[3:50] vertical component from P which is minus
+[3:54] P times sine 30 degrees
+[3:57] and that has to equate to zero because
+[4:00] we have no movement in vertical
+[4:03] Direction
+[4:05] and putting these two equations together
+[4:08] now we can find p and N because we have
+[4:12] two unknowns and two equations
+[4:14] and so as a result we found that NRP has
+[4:18] to be 535 Newton
+[4:22] okay so here's a summary so when we
+[4:25] begin pushing an object you have you
+[4:28] first have to overcome the static
+[4:31] friction
+[4:32] because uh static friction Force which
+[4:35] is uh represented as this way
+[4:38] before the object will move
+[4:42] also note that the downward component
+[4:45] of the force p
+[4:47] it increases the normal force which is
+[4:50] very obvious right
+[4:51] which in turn increases the frequent
+[4:53] friction Force F that that you must
+[4:56] overcome
+[4:59] right so we're done with the problem one
+[5:01] and so let's move on to sample problem
+[5:04] two
+[5:06] now we have two blocks
+[5:09] and we also have a pulley
+[5:14] so the horizontal plane and the pulleys
+[5:17] are frictionless
+[5:19] so we don't have any friction
+[5:21] and the pulley is assumed to be
+[5:23] negligible
+[5:24] of negligible Mass
+[5:27] so there is no inertia for this pulley
+[5:30] then we want to determine the
+[5:32] acceleration of each block A and B
+[5:35] and the tension in the chord
+[5:41] then how do we solve this problem
+[5:45] so write out all the kinematic
+[5:48] relationships for the dependent motions
+[5:50] and acceleration of the blocks
+[5:54] I said dependent motion because the
+[5:57] blocks A and B are connected by your
+[5:58] cable
+[6:00] and the right equations of motion for
+[6:03] the blocks and pulleys
+[6:05] and finally combine the kinetic
+[6:07] relationships with the equations of
+[6:09] motion to solve the acceleration and the
+[6:12] core tensions
+[6:16] so let's look at the kinetic
+[6:18] relationships first
+[6:21] so to do that we have to Define variable
+[6:24] for example
+[6:25] here we have the origin hole so that
+[6:28] means we can
+[6:30] a draw line here then we can assign a
+[6:34] variable
+[6:36] x a which defines the distance between
+[6:39] the origin and the position a
+[6:43] we can also do the same thing for Block
+[6:45] B we can maybe Define the the distance
+[6:48] from here
+[6:50] 2 here is
+[6:53] um YB because I call it y because this
+[6:57] is the vertical Direction
+[7:00] then what we have is you know the fact
+[7:04] that the cable length
+[7:05] the length of this cable
+[7:08] is fixed okay so then let's elaborate on
+[7:11] the cable length so cable
+[7:17] length has to be somehow
+[7:21] it has to be related to this distance
+[7:24] and
+[7:26] this distance and this distance right
+[7:29] then then the first one is
+[7:32] how do we find this distance this
+[7:35] distance itself is already fixed I mean
+[7:40] this distance itself is length L if we
+[7:43] assume that so length L is there and
+[7:46] what about what about the distance from
+[7:48] here to here so that's actually
+[7:51] contributing to the cable length right
+[7:53] so then it has to be L minus x a
+[7:58] what about this part and this part
+[8:01] it's actually simply we have two parts
+[8:04] of YB right so we have two of y b and
+[8:08] that has to be
+[8:10] constant cable length in other words
+[8:16] we have minus x a
+[8:19] plus two y b equals another constant
+[8:24] because L itself is also constant
+[8:28] okay
+[8:30] or simply we can just move minus part to
+[8:34] the other side and so we have 2 YB
+[8:37] equals x a plus
+[8:41] constant
+[8:43] and if you carefully choose your
+[8:46] variable
+[8:47] x a and Y B then we can actually make
+[8:50] this constant
+[8:52] constant to be zero
+[8:54] that's a problem setup
+[8:56] so that's why in this part we have this
+[9:00] relationship okay and then if you just
+[9:04] differentiating it twice
+[9:08] then we have the acceleration relations
+[9:12] okay now let's draw the Free by diagram
+[9:14] for a
+[9:17] so what forces do we have
+[9:20] so we have the normal force and we also
+[9:23] have the weight of the body itself
+[9:26] also we have the tension from the cable
+[9:29] well luckily we don't have any friction
+[9:31] force between the ground and the body a
+[9:36] okay so that's the free body diagram and
+[9:38] also we see the kinetic diagram here
+[9:46] now draw three by diagram for B
+[9:50] B is even simpler because it's actually
+[9:53] hung by the cable so we have body B here
+[9:58] and we have a cable tension
+[10:02] and then the body weight itself
+[10:05] and so that's the freeway diagram
+[10:08] the kinetic diagram is showing here
+[10:14] so all you have to do is to use the
+[10:16] simply add all the forces in the
+[10:19] vertical Direction
+[10:20] in here and then equate that with
+[10:26] rest times acceleration that's all we
+[10:28] have to do
+[10:34] another slide uh point that you have to
+[10:37] consider is that so
+[10:40] T2 is actually applied directly to this
+[10:43] body B but if you look at this pulley
+[10:47] system itself we actually have two
+[10:51] cable two parts of the cable running
+[10:53] through so that means
+[10:56] each of the the cable has actually
+[10:59] tension of T1 and T1 so that means
+[11:03] By ignoring the inertia of of the pulley
+[11:09] T1 plus T1 has to be the same as T2
+[11:15] so that's why we have this relationship
+[11:18] now let's combine all the kinematic
+[11:21] relationships with the equations of
+[11:23] motion
+[11:29] putting all equations together we
+[11:31] finally have these results
+[11:35] so we're done with the problem note that
+[11:38] the value obtained 42 is not equal to
+[11:42] the weight of the block that's because
+[11:43] the the weight is actually accelerating
+[11:46] somehow
+[11:47] so the inertial force is added to this
+[11:50] tension T2
+[11:53] and rather than choosing B and the
+[11:56] pulleys as a separate system you can
+[11:58] also you could have chosen the system to
+[12:02] uh to be B and the pulley as well that's
+[12:05] also possible
+[12:06] so in that case
+[12:08] T2 would have been an internal Force
+[12:12] now we have a bit more interesting
+[12:14] problem
+[12:15] so we have two more blocks one is B and
+[12:20] one is a
+[12:22] but no other components at all we don't
+[12:25] have any cables or we don't have any
+[12:26] other uh thing the problem says we don't
+[12:31] have any friction there
+[12:33] then just imagine what would happen if
+[12:35] we just let this block go
+[12:37] okay then obviously if this block will
+[12:41] slide down and also at the same time
+[12:43] this block may move to the right
+[12:45] slightly due to the interaction right
+[12:51] okay so the problem uh wants us to find
+[12:54] the acceleration of the wedge which is a
+[12:57] and also the acceleration of the block
+[13:00] relative to the wedge so it has to be
+[13:03] the relative acceleration
+[13:08] then how do we solve this problem here
+[13:10] are some strategies
+[13:12] the block is constrained
+[13:16] to slide down the wedge therefore the
+[13:19] motion
+[13:20] are dependent okay
+[13:22] then we can express the acceleration of
+[13:25] the block as acceleration of the wedge
+[13:27] and also the acceleration of the block
+[13:29] which is relative to the wedge this is
+[13:32] very important concept
+[13:35] and write out all the equations of
+[13:37] motion for the rich and and blocks you
+[13:40] have to use the block diagrams uh sorry
+[13:42] you have to use the Free by diagram okay
+[13:45] tensor for the accelerations that's all
+[13:48] you have to do
+[13:52] so let's do it step by step
+[13:57] so the block is constrained to slide
+[14:00] down the wedge so this is the block okay
+[14:04] the block is sliding down so that means
+[14:07] when the block is here this one has to
+[14:10] slide down in that direction so that's
+[14:12] why we have to introduce
+[14:15] this acceleration which is actually the
+[14:17] relative acceleration
+[14:20] and at the same time
+[14:23] the wedge itself is
+[14:27] constrained to move along the horizontal
+[14:30] surface so that means your after
+[14:32] acceleration has to be horizontal
+[14:36] then we can write and uh
+[14:40] acceleration equation
+[14:42] in this way
+[14:44] so acceleration of B is actually the
+[14:47] acceleration of a
+[14:50] and the relative acceleration
+[14:57] now let's free I'll draw the Free by
+[15:00] diagram for both masses
+[15:03] for a or for which
+[15:06] let's identify all the possible forces
+[15:08] so the first one is the normal force
+[15:12] from the ground
+[15:13] and the body weight itself and also
+[15:16] the normal force due to the Block B here
+[15:21] so these are all the forces because we
+[15:24] don't have any friction
+[15:25] then the kinetic diagram is this we have
+[15:29] only the horizontal acceleration
+[15:33] what about black B
+[15:36] so we have now two Force components
+[15:39] which is N1 which is the normal force
+[15:42] due to the interaction between the wedge
+[15:45] and the block and the weight of the
+[15:47] block itself
+[15:49] what about the acceleration and so in
+[15:52] the kinetic diagram we have acceleration
+[15:55] of this
+[15:57] and acceleration of the relative
+[16:00] acceleration
+[16:02] that's all we have
+[16:04] then
+[16:06] this geometric relationships can be
+[16:08] written in the equation
+[16:11] algebraically and that's showing here
+[16:17] we just write the equations for all
+[16:19] white extractions now we do the same
+[16:22] thing for uh
+[16:24] y directions as well
+[16:27] so as you can see we have the summation
+[16:29] of all forces in y direction
+[16:33] and if you do that and we have this and
+[16:36] we have
+[16:38] this equation
+[16:45] so putting all the forces together and
+[16:47] all the equations together sorry so we
+[16:50] have this and so now we can compute it
+[16:53] and so we can finally have the
+[16:56] accelerations expressed like in this way
+[17:00] and also the relative acceleration is
+[17:03] computed
+[17:11] okay here's some some caveat so many
+[17:14] students are tempted to draw
+[17:16] acceleration of the Block B
+[17:20] down the incline in the kinetic diagram
+[17:22] but that's not
+[17:24] the case
+[17:26] it is important to recognize that this
+[17:28] is the direction of the relative
+[17:30] acceleration but remember that there is
+[17:32] another acceleration which is the
+[17:35] acceleration of the wedge itself okay
+[17:41] rather than the kinetic diagram you used
+[17:44] for the Block B you could have simply
+[17:47] put on known accelerations in the X and
+[17:50] Y directions and then you use the
+[17:53] relative motion equation to obtain more
+[17:56] more scalar equations
+[17:59] that's also possible
+[18:06] now let's look at this problem this is
+[18:09] very similar problem to the first one
+[18:14] but instead of just solving it by a step
+[18:17] by step here let me just give you an
+[18:20] idea and then you guys can do it by
+[18:22] yourself
+[18:23] so we have
+[18:25] block a and Block B
+[18:28] the only difference between this one and
+[18:31] the first one is we actually have one
+[18:33] more cable
+[18:35] here going through
+[18:40] so that's the the only difference okay
+[18:42] so we neglect the mass of the pulley and
+[18:46] the friction
+[18:47] then finally we want to find
+[18:49] acceleration of each block and also the
+[18:52] tension so exactly the same problem
+[18:55] let me just give you the strategies to
+[18:57] solve this problem so first write the
+[19:00] kinematic equations and for the
+[19:03] dependent motion and also the
+[19:05] acceleration of the blocks then draw the
+[19:09] freeway diagram in the kinetic diagram
+[19:10] for each block and write all the
+[19:13] equations of motion for for the blocks
+[19:16] and pulley
+[19:17] finally you combine the kinematics
+[19:19] equation and the equations of motion to
+[19:22] solve the accelerations and the tension
+[19:24] the core core tension
+[19:27] that's all you need to do
+[19:31] now let's do sample problem number four
+[19:34] so we have incline
+[19:36] and we have a car as you can see the car
+[19:40] is running into the screen okay
+[19:46] and you guys may imagine what's
+[19:49] happening in here the car is running in
+[19:52] this direction and due to uh
+[19:57] the acceleration induced in that
+[19:59] direction there should be some
+[20:01] inclination or we can we call it as a
+[20:04] bank okay
+[20:06] so the problem wants us to determine the
+[20:09] radius speed of Highway curve of the
+[20:12] radius of rho equals 120 meter Banks
+[20:16] through an angle of theta equals 18
+[20:18] degrees so this is the bank angle
+[20:22] so then what is the weighted speed the
+[20:24] weighted speed of a banked height
+[20:27] highways curve is the speed at which the
+[20:30] car should travel if no lateral friction
+[20:33] forces to be exerted on its wheel
+[20:38] so if the car is not moving so that
+[20:41] means if the car is velocity or speed is
+[20:44] zero then there should be some high
+[20:47] friction uh in that direction so that
+[20:49] the friction is supporting the car and
+[20:52] prevent the car uh sliding in that
+[20:55] direction
+[20:56] but if the car is moving so fast then
+[21:00] the acceleration in that direction is so
+[21:03] high that the car may fly away in that
+[21:06] direction so that shouldn't happen right
+[21:10] so then what is the appropriate speed
+[21:12] such that there is no friction Force at
+[21:15] all in that direction so that's the
+[21:17] question
+[21:21] so here's the strategy
+[21:24] the car travels in a horizontal circular
+[21:27] path with the normal component of
+[21:30] acceleration which is directed towards
+[21:32] the center of the path
+[21:34] the force acting on the car is actually
+[21:38] the weight and the normal reaction force
+[21:40] from the surface
+[21:43] so then you have to resolve the
+[21:44] equations of motion for the car into
+[21:47] vertical and the normal component
+[21:51] then finally you can solve for the
+[21:53] vehicle speed
+[21:56] so let's look at that so we have to do
+[21:59] the freeway diagram
+[22:02] so we have now isolated the car here
+[22:06] and
+[22:08] this is the reaction force
+[22:11] and also we have the weight
+[22:14] okay
+[22:17] since we didn't want to have the
+[22:21] friction Force induced so so that means
+[22:23] what is the the appropriate amount of
+[22:26] speed that's the question right
+[22:30] then what about
+[22:31] the acceleration
+[22:33] so we have to consider the acceleration
+[22:36] that's uh pointing toward inside of the
+[22:40] curve so if you look at this whole
+[22:42] system if we look at from the top so the
+[22:46] system may look like this
+[22:48] so you have a circular path and then the
+[22:51] car is actually running in that
+[22:54] direction
+[22:55] so that's the situation then obviously
+[22:58] there is a an acceleration a n okay
+[23:08] so then uh
+[23:10] so let's look at the components first
+[23:13] components are both in the vertical and
+[23:15] horizontal Direction
+[23:17] well I I told you the horizontal but
+[23:19] actually it's actually a normal
+[23:21] component okay
+[23:23] so there is no vertical
+[23:25] acceleration at all because the car is
+[23:28] maintaining its height uh here so that
+[23:32] means there's no acceleration so that's
+[23:35] why we have zero on the right hand side
+[23:39] what about the the first components in
+[23:42] in vertical Direction
+[23:44] so we have the weight and also we have
+[23:46] the reaction force and we have to
+[23:48] multiply the cosine Theta to have the
+[23:53] force decomposed in that vertical
+[23:55] Direction so we now have this constraint
+[24:05] what about the forces in the norm uh in
+[24:07] the normal Direction
+[24:11] in normal direction we should have some
+[24:13] acceleration otherwise the car will not
+[24:16] cannot make circular motion
+[24:19] so let's look at all the force
+[24:21] components in the normal normal
+[24:24] Direction the only Force component in
+[24:26] the normal direction is from R we have
+[24:29] this direction this component only right
+[24:33] so that's R sine Theta
+[24:35] uh and then the M times acceleration is
+[24:40] this one
+[24:42] and we all know that acceleration normal
+[24:44] component acceleration is
+[24:47] this V squared over radius
+[24:50] so we now have this equation
+[24:59] that's all for the vehicle speed
+[25:01] we know that the angle is given this
+[25:05] angle is 18 degrees right and we know
+[25:08] gravitational acceleration and also the
+[25:10] radius of the curvature so now we can
+[25:13] compute V squared
+[25:16] and from there we can find uh the speed
+[25:20] of the car
+[25:22] so the the car has to run at this speed
+[25:25] which is 18.50 second meter per second
+[25:28] which is equivalent to
+[25:30] 70.4 kilometer per hour
+[25:39] so here's one point we have to think
+[25:41] about so for a highway curve this seems
+[25:44] like a reasonable speed for avoiding a
+[25:46] spin out
+[25:48] maybe if you have if your driving coil
+[25:51] you you are agree with this idea
+[25:54] if the roadway were banked
+[25:57] at a larger angle
+[26:00] with the rate speed be larger or smaller
+[26:03] than this calculated one what do you
+[26:05] think
+[26:07] tensor is quite obvious you have it has
+[26:09] to be larger right
+[26:13] and for this problem the tangential
+[26:16] direction is into the page
+[26:19] since you are not asked about the forces
+[26:22] and accelerations in that direction you
+[26:24] you did not
+[26:27] or or you didn't you did not need to
+[26:32] analyze the motion in that tangential
+[26:34] Direction
+[26:35] but again
+[26:37] this does not mean that there is no
+[26:39] forces in between general direction you
+[26:41] just don't need to do it okay
+[26:44] okay here's the last problem
+[26:47] as you can see we have very similar
+[26:49] problems as before
+[26:51] which is good so we have an arm
+[26:55] we also have a collar here
+[26:58] now there's some difference here so this
+[27:01] color uh this arm is moving with some
+[27:05] some constraint so for example this is
+[27:08] actually moving with the constant rate
+[27:10] Theta dot naught
+[27:13] okay so knowing that b is released at a
+[27:17] distance R naught so that means this is
+[27:20] released
+[27:21] at initial position or not
+[27:25] from o
+[27:28] then Express as a function of r the
+[27:32] component VR which is the velocity of b
+[27:35] along a or O A Direction so the velocity
+[27:39] of B in that direction is called VR and
+[27:43] also the magnitude of the horizontal
+[27:45] force exerted on B
+[27:47] by the r o a
+[27:52] so then how do we solve this problem
+[27:55] quite similar to the previous one so
+[27:58] first you have to write out all the
+[28:00] radio and the transverse equations of
+[28:03] motion
+[28:04] to do that you have to draw the Free by
+[28:06] diagrams and in kinetic diagrams
+[28:09] integrate the radial equation to find
+[28:11] the expression for the radial velocity
+[28:13] that's actually requested from the
+[28:16] problem usually usually we don't do this
+[28:18] step but since the problem asked you to
+[28:22] find VR in the as a function of r so
+[28:26] that's
+[28:28] that's why we have to do so we to solve
+[28:31] this problem
+[28:32] and finally substitute known information
+[28:35] into the transverse equation to find the
+[28:39] expression for the force on the Block
+[28:42] okay so let's do that
+[28:45] um
+[28:46] obviously we have to do the block
+[28:48] diagram a free by diagram okay so write
+[28:52] the radial and transverse equations of
+[28:54] motion so
+[28:56] again we have the axis defined in this
+[29:01] direction we have ER and a Theta
+[29:05] Direction
+[29:07] okay
+[29:08] so then in R Direction radio Direction
+[29:11] what are the first components we don't
+[29:13] have any Force components but right
+[29:15] because we don't have any accelerator we
+[29:17] don't have any friction there so left
+[29:19] hand side has to be zero so that's why
+[29:21] we have zero here but we have
+[29:23] acceleration Trump there right so
+[29:26] best times acceleration
+[29:29] AR
+[29:31] what about uh
+[29:33] Theta direction or transverse Direction
+[29:36] we have Force
+[29:39] F okay that's actually coming from the
+[29:42] the on so f equals m times
+[29:46] a Theta this a Theta is
+[29:50] um we already know where it came from
+[29:52] right
+[29:55] now
+[29:58] we have to solve the second part as I
+[30:00] said in here
+[30:03] um here this one okay
+[30:07] so integrate the radial equation to find
+[30:09] the expression for the radial velocity
+[30:11] so
+[30:12] let's do that so I'll double that let's
+[30:15] do R double that okay R double that is
+[30:17] the same as VR dot okay because VR
+[30:22] if you recall
+[30:25] if the color is
+[30:27] moving in that direction so we Define
+[30:29] this as VR but this is also the same as
+[30:33] all that right
+[30:35] so we all talk VR dot is the same as
+[30:38] I'll double that
+[30:40] then you have to differentiate VR one
+[30:43] time
+[30:45] then we are
+[30:48] Dr and Dr DT and here this is the chain
+[30:52] rule
+[30:55] okay
+[30:58] then now we have this expression having
+[31:01] this expression is important because the
+[31:04] problem is actually requiring us to find
+[31:07] this R there so let's do that
+[31:11] um VR
+[31:13] Dr and this one is nothing but r dot or
+[31:17] or VR
+[31:19] or sometimes so let me just write out so
+[31:22] we have VR
+[31:24] d r over
+[31:26] DVR over d r so since we have this
+[31:30] expression
+[31:34] and now we can move on to the next line
+[31:36] here
+[31:43] so
+[31:45] VR times DVR
+[31:49] this one
+[31:51] and then you have Dr component here and
+[31:56] finally you have this
+[31:58] this component
+[32:03] so we have this part
+[32:06] and we are given the information that
+[32:09] the velocity is constant
+[32:12] which is
+[32:14] Theta naught dot so that's why we have
+[32:18] this expression
+[32:19] then what you have to do is you simply
+[32:21] integrate
+[32:23] this equation from 0 to your desired
+[32:27] velocity
+[32:29] so that's why you have this equation
+[32:31] this expression and on the right hand
+[32:34] side you are integrating uh this one
+[32:37] from initial position to your final
+[32:40] position
+[32:41] and if you solve for this equation then
+[32:44] finally you have
+[32:46] this expression
+[32:48] so now we have expression for velocity
+[32:51] of R in terms of position r
+[32:59] the last one now you have to substitute
+[33:03] the known information into the
+[33:05] transverse equation to find the
+[33:08] expression for Force okay so then so
+[33:10] what do we have to do
+[33:14] so let's look at this part if you recall
+[33:17] let me just write that uh
+[33:20] so f equals m minus
+[33:26] are Theta double dot plus 2 all that
+[33:31] Theta Dot
+[33:33] okay and since we have constant uh rate
+[33:37] change this one has to be zero
+[33:41] okay
+[33:42] what about this one
+[33:43] all that is actually the same as VR okay
+[33:47] and we have computed VR from here so
+[33:50] just plug that
+[33:52] in here and finally the result is this
+[33:57] one so in that way we can find the force
+[34:00] component
+[34:02] okay so introducing the radial and
+[34:05] transverse components of force and
+[34:07] acceleration involves using components
+[34:11] of velocity as well as the component uh
+[34:13] the computation
+[34:15] but this is still much simpler and more
+[34:19] direct than trying other coordinate
+[34:22] systems for example the rectangular
+[34:24] coordinating systems that makes a
+[34:26] problem a lot more harder so even though
+[34:29] the radio acceleration acceleration is
+[34:31] zero the collar accelerates relative to
+[34:35] the rod with the acceleration of R
+[34:38] double that
+[34:40] [Music]
+[34:45] foreign
+[34:47] [Music]

@@ -1,0 +1,116 @@
+YouTube transcript
+Video ID: uB88GSmUx0Y
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] okay let's do this problem so last week
+[0:20] if you recall we studied the kinematics
+[0:23] of this system using polar coordinate
+[0:25] system
+[0:26] so let me just explain briefly again
+[0:28] what this system is about so we have on
+[0:33] and this arm can freely rotate in that
+[0:36] direction and there is a collar or a
+[0:39] slider and so if we move this on then
+[0:42] due to any uh causes this color can move
+[0:47] in that direction
+[0:49] and there may exist some friction
+[0:52] between the collar and the horn
+[0:56] okay so let's do the Free by diagram so
+[1:00] here are a list of steps for drawing
+[1:03] free by diagram uh specifically we're
+[1:06] interested in
+[1:07] this color Okay so let's do that
+[1:12] so as I said we'll look at the color B
+[1:16] so the first one is you isolate the body
+[1:19] of your own interest so in this case
+[1:21] this is color so we have that in here in
+[1:25] this figure
+[1:26] and second
+[1:27] draw appropriate axis so in this case
+[1:30] I'm gonna add
+[1:34] this coordinate system which is actually
+[1:36] the polar coordinate system so we have
+[1:38] ER Direction and E Theta Direction
+[1:42] which is attached to this
+[1:45] this color
+[1:47] and three draw all related forces so for
+[1:51] example we have normal force due to the
+[1:54] interaction of between this color and
+[1:58] the arm
+[1:59] we also have the weight of the color
+[2:02] itself
+[2:03] and we also have the friction
+[2:06] due to the contact between this color
+[2:08] and the arm
+[2:12] so these are all the related forces
+[2:16] and we can add angles
+[2:20] so in this case
+[2:23] the Theta is defined in here
+[2:26] and finally we can have the kinetic
+[2:28] diagram so
+[2:30] have the same free body here and then
+[2:33] along the direction of the axis here E R
+[2:37] and E Theta direction we can simply add
+[2:39] M times acceleration in the attraction
+[2:43] and also M times acceleration in the
+[2:47] other direction
+[2:52] also similarly we can do the same thing
+[2:56] for the path coordinate systems
+[2:59] we know that we have tangential
+[3:01] component and normal component
+[3:07] drawing free by diagram is the same all
+[3:09] you need to consider is it's it is the
+[3:12] kinetic diagram
+[3:14] since you know the acceleration in the
+[3:16] path coordinate system put them in your
+[3:19] kinetic diagram
+[3:20] so for example
+[3:24] we have vehicles
+[3:26] Vector is V times e t hat
+[3:31] and also by differentiating it one time
+[3:33] we have acceleration which is
+[3:37] V Dot
+[3:39] ET hat Plus
+[3:42] rho
+[3:45] V squared
+[3:47] and e n hat so these are the
+[3:51] the acceleration components
+[4:00] also note that there are no unique
+[4:02] coordinate systems for each problem for
+[4:05] example both polar coordinate system and
+[4:08] path coordinate system can be used for
+[4:10] robotic arms or the centrifuges as you
+[4:13] can see here
+[4:15] you need to choose appropriate
+[4:17] coordinate systems that makes the
+[4:20] analysis simpler
+[4:22] in polar coordinate system the kinetic
+[4:25] diagram includes mass times acceleration
+[4:28] where the acceleration is expressed as
+[4:31] follows so remember
+[4:34] the position Vector R is R times e r
+[4:37] Direction and different uh
+[4:40] differentiated one time to get velocity
+[4:42] and so we have r dot ER head plus r
+[4:47] Theta dot in
+[4:50] U Theta hat which is actually so this
+[4:53] part is actually the result of
+[4:55] differentiating this
+[4:58] why
+[4:59] and similarly differentiating velocity
+[5:02] one more and we have all double that
+[5:06] minus r Theta dot squared in ER
+[5:10] Direction plus r Theta double that plus
+[5:15] to r dot data dot in E Theta
+[5:19] traction
+[5:22] so we have this acceleration and so this
+[5:26] is
+[5:27] I can denote this one as acceleration in
+[5:31] r so AR component and acceleration in in
+[5:36] each other direction so this is a Theta
+[5:40] component
+[5:41] [Music]
