@@ -1,0 +1,14 @@
+YouTube transcript
+Video ID: e6CYZ3fRRn8
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] last week we studied kinetics of particles and Newton's law of motion and can we apply this idea to the
+[0:26] satellite planets or stars in space and the answer is yes we can do that
+[0:33] to analyze these motions we will study angular momentum of particles especially when the particle is under
+[0:41] the influence of central forces the angular momentum of the particle is conserved with this idea we can predict the motion
+[0:50] of satellite orbiting around the Earth we can also compute the minimum velocity to escape the orbit of the Earth
+[0:59] [Music]

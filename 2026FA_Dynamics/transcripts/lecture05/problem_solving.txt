@@ -1,0 +1,57 @@
+YouTube transcript
+Video ID: r786FbIQots
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] now let's do some practice with the sample problems so problem number one
+[0:25] so our satellite is launched here so now the satellite is located at position a
+[0:34] and the direction is along this direction the initial velocity is 30
+[0:43] 000 kilometer per hour and the altitude is 400 kilometer
+[0:51] from the surface of the Earth then determine the velocity of the satellite as it reaches its maximum
+[1:00] altitude of 4 000 kilometer which is uh here and also we are given the information of
+[1:09] the radius of the Earth which is 6380 a 70 kilometer
+[1:17] then how do we solve this problem so here are some strategies since the satellite is moving under the
+[1:25] central Force we know that the angular momentum is constant then we can equate the angular momentum
+[1:32] at A and B and you can solve for the velocity at P so this is very simple problem
+[1:39] since we know that the angular momentum is constant so we have this expression by the way
+[1:46] this expression is the scalar form we can also have the angular momentum in Vector form which is
+[1:55] R cross m m v so at Point a and point B the angular
+[2:04] momentum has to be the same so at Point a and point B so sine value itself is whole one so we
+[2:13] don't have to worry about that so then we have R A times MB a equals all V times m v b
+[2:21] so to find the velocity VB we can simply have this expression and all of these information is given so
+[2:31] we can simply compute that so this is the speed at point B so as you can see
+[2:38] uh though if the radius increases then we have to have uh reduced speed
+[2:45] so note that in order to increase the velocity then a spacecraft often applies thrusters to push it closer to the Earth
+[2:55] and this Central Force means that the spacecraft's angular momentum remains constant and its radial distance R
+[3:04] decreases and its velocity V increases so that's quite interesting one because
+[3:10] to increase the velocity we intentionally put the satellite closer
+[3:16] to the Earth then due to this gravity uh the speed will increase a lot more
+[3:26] so this is actually a technique to increase the speed of the satellite so that we can travel farther
+[3:34] and faster in the space now let's look at the sample problem
+[3:41] number two this is also similar but slightly different so we have the
+[3:48] satellite which is launched at at this point in along this direction and we are
+[3:54] given the initial velocity which is 36 1900 kilometer per hour
+[4:02] and the altitude is 500 kilometer then now we have to determine the maximum altitude
+[4:09] it has to be a long distraction reached by the satellite and also the periodic time of the satellite
+[4:19] then what's the strategy to solve this problem we have from the previous Pages we
+[4:25] studied that we have this equation okay
+[4:32] then what we have to do is we can find C at the initial condition which is when Theta becomes zero
+[4:42] then we can determine the maximum altitude just by replacing Theta to be 180 degrees
+[4:51] with the altitudes at the parity and and apology known
+[5:00] the period of time can be evaluated
+[5:13] so to trajectory of the satellite is described by this equation so let's simply calculate that so at initial
+[5:22] condition when theta equals zero plug all the information uh here and here we know that we know
+[5:30] those information and these are the constant and so we just computed the integration constant
+[5:38] and here are the detailed information uh for that calculation did it
+[5:46] then it's very simple you can simply plug theta equals 180 then you will get the all value which is
+[5:54] 66 and 700 kilometer and with the altitudes at the Parisi and
+[6:04] apology known so that means we have this side and this side information then the periodic time
+[6:12] can be evaluated in this way so now we have the time in here which is
+[6:21] 19 hours and 31 minutes Okay so the satellite takes less than one day to
+[6:31] travel over 60 000 kilometer from the Earth and back in this problem you start you
+[6:40] started with the equations uh that we mentioned but it's also important to remember that this formula was the
+[6:48] solution to a differential equation that was derived using Newton's second one
+[6:55] [Music]

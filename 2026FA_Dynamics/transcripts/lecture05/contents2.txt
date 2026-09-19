@@ -1,0 +1,125 @@
+YouTube transcript
+Video ID: XNCbWvN9bg4
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] now let's talk about Newton's law of gravitation gravitational force is exerted by Sun
+[0:25] on a planet or by the Earth on satellite is an important example of gravitational force
+[0:35] consider we have two particles one is this particle and the other one is a
+[0:42] smaller particle so we can assign big mass m and small mass m
+[0:48] then in this case these two masses are attracting each other
+[0:55] we can Define the distance is r
+[1:02] and we have forces then this force is defined in this way
+[1:10] and G is the constant of gravitation and it's actually known as this value
+[1:23] and if we apply that to the Earth then since we have
+[1:31] the horse itself and then we have a small mess here then you can
+[1:39] drive we can use the the gravitational force here and then this one is also the same as mg
+[1:48] which is our usual way of defining the weight then if I simply equate equating these two equations
+[1:55] this two expression we can simplify that the gravitational acceleration is
+[2:03] 9.81 let's talk about the trajectory of a
+[2:13] particle under a central Force so for particle moving under the central
+[2:23] Force directed towards the accelerations uh towards the center force center we have to think about the polar coordinate
+[2:32] systems and also the accelerations of the Polar protein systems one is this one which is the radial
+[2:40] acceleration this is the transverse acceleration
+[2:49] since the force is Central only so that means we have only minus F which is uh
+[2:57] towards the center so that's why we have minus sign here but we don't have any forces in the
+[3:04] transverse Direction because the central forces the only Force existing so that's why we have zero in
+[3:11] here an interesting thing is that since mass is not zero then this part
+[3:21] has to be zero in other words by just looking at this expression carefully
+[3:28] this is same as this expression so R square times Theta
+[3:35] dot equals H and this H has to be constant if that's the case you simply differentiate this part I mean this
+[3:43] whole thing and using simply differentiate it and you get the same expression as in here
+[3:54] so that's why we have this expression and also just by playing with this uh
+[4:02] expression carefully we can get the radial equation here
+[4:11] now we can substitute this radial equation of motion and we can get this interesting result and again since we
+[4:21] have this all double dot in here so you can just plug that in here and do some arrangement and finally we have this expression
+[4:29] so if f is known a function of r or U because they are actually the equivalent because we have this relationship then
+[4:38] the particle trajectory may be found just simply by integrating this
+[4:45] with the constants of inter integration which is determined from the initial condition I'll explain what the constants of the integration in the
+[4:54] following page Okay so
+[5:02] let's look at the specific example of earth and its satellite so we have the alt here and we may have a satellite
+[5:11] here then using the same equation that we saw in the previous page so we have that
+[5:20] so we have this part and what is the force in here that has to be the gravitational force
+[5:27] so by using the equation for the gravitational force here or if you replace r with one over u in
+[5:37] here then you have this expression simply plug that in here then finally we have
+[5:44] this equation and interestingly the right hand side it has to be constant because by just plugging everything in
+[5:52] here we have only the constant term left okay because G is constant m is Earth's
+[6:01] math math so that's actually constant and we assume that our H is constant well actually it's not assumption
+[6:09] because but it's known because we only have the central Force so that's why
+[6:15] um this expression is constant then there are many things we can play with this
+[6:22] so what is the solution for that equation the solution uh is actually the the conic section conic section mean if
+[6:32] you have a cone like this and depending on how you cut this cone
+[6:41] you will have the so your solution will look like either parabola
+[6:49] or parabolic or hyperbolic or ellipse elliptic
+[7:02] so depending on some of the parameter parameters in the equation Your solution will be either of
+[7:09] uh so one of these three so the solution looked like this one and
+[7:16] so this is the parameter that determines uh the type of the trajectory
+[7:26] and the Epsilon is defined as this here G and M are constant H is constant
+[7:33] and also C is constant but it can be determined um at the initial initial flight
+[7:41] and we call this Epsilon as its eccentricity
+[7:48] also the origin which is actually located at the center is just one focus of the conic section
+[7:57] you usually have two two uh Focus or two full size so one is here then maybe the
+[8:03] other one is here so as I said
+[8:10] um because the solution itself is a conic section so the trajectory may be ellipse Parabola or hyperbola depending
+[8:19] on this eccentricity value so let's look at what condition we have
+[8:27] so if you look at this figure so so if Epsilon is greater than one
+[8:35] then it's hyperbola so that means if you are starting from here with some initial condition uh the satellite will
+[8:43] move along this line and it will never come back to the Earth if Epsilon is less than 1
+[8:52] then if you start from here with some initial velocity initial speed
+[8:59] then due to the gravitational force and the gravitational force is so strong that it pulls
+[9:06] um the the satellite inside and so it will just make a elliptical movement
+[9:13] like that if Epsilon is exactly one then
+[9:22] the behavior will be somewhere in between this ellipse and Parabola and so actually that sorry ellipse and
+[9:30] hyperbola and so we call that Parable line here but again even the parabola parabolic
+[9:39] trajectory uh means that the satellite won't come back to the Earth
+[9:47] we don't have any uh one more condition here but when Epsilon becomes zero so in that case uh the trajectory will be
+[9:55] perfect circle like this so as I said in here when Epsilon is
+[10:03] greater than one it has to be a hyperbola so and also when Epsilon is greater than
+[10:11] one it also means that the integration the integration constant is actually greater than
+[10:18] this constant when Epsilon is one we have parabolic
+[10:24] trajectory when Epsilon is less than one we have elliptic trajectory or ellipse
+[10:37] and also as I said when Epsilon I told you that Epsilon is equal to zero but uh here when the Epsilon is less than or
+[10:46] equal to zero then actually we have the circular path then what is the integration constant in
+[10:55] here uh we well this is all determined at the initial flight here so for example
+[11:03] um somewhere in the uh Florida maybe we use um rocket to uh to move the satellite up
+[11:12] in the air in the space then we can actually provide some initial velocity with the initial height
+[11:20] this initial height and initial velocity will completely determine this
+[11:27] integration constant and the simple simple calculation
+[11:36] actually gave can give us this information
+[11:45] then what about um the escape velocity for example so as I said before if you are given the
+[11:54] initial um initial height and then initial velocity depending on the constant the
+[12:03] integration constant it can make circular paths elliptical path or parabolic path
+[12:10] or hyperbolic path okay then so that also means that if we
+[12:16] have some high enough velocity it can result in hypo hyperbolic
+[12:25] parabolic or elliptic or a circular path so if it's either parabolic or hyperbolic that means uh the initial
+[12:34] velocity actually escapes the gravitational force and then
+[12:40] it will never come back so that velocity is called escape velocity
+[12:47] and that is easily computed uh with the condition here where Epsilon is one or
+[12:53] greater than one then by using a simple calculation from the previous equation we can get the initial velocity to be
+[13:01] this so this is the critical value will escape value escape velocity value and so if the
+[13:08] velocity is greater than this value then the satellite Escape or the Earth's gravitation and it
+[13:17] can it will never come back to the Arts and this information is quite useful
+[13:23] when when we do the space travel
+[13:32] and the same same idea can apply so what is the velocity such that we can have the circular path
+[13:40] so in that case we can assign Epsilon to be zero so then we can get this value
+[13:47] an interesting thing is that here uh so we have this one so we have a coefficient of two
+[13:55] so two g n
+[14:02] over R zero so you can find some velocity in between
+[14:09] these two then we can somehow make there's the elliptical path
+[14:21] okay now recall that the particle moving under the central force and we can we could Define the area of velocity okay
+[14:30] and we are actually a study that the area of velocity is constant then we have this okay
+[14:44] then now we can consider the periodic time or the time required for a satellite to complete uh one Evolution
+[14:52] right one one revolution where around the orbit that is actually the same as the area
+[15:00] within the orbit and divided by the area of velocity so this is how we get that time
+[15:09] and these motions are not limited to the earth and its satellite but also can be applied to the planets and sun
+[15:19] and just for your information uh Kepler found that each planet describes uh on on ellipse
+[15:29] with the sun located at one of its focus or foci so the radius Vector drawn from the Sun
+[15:37] to the planet sweeps the the equal distance the equal area in equal time
+[15:45] lastly the squares of the the periodic times of the the uh uh
+[15:52] uh planet is actually proportional to the cubes of the semi major axis of their orbits
+[16:00] so these are very accurate observation even when Newton's law was not discovered Kepler just found this by
+[16:09] simple observation of the sky via telescope
+[16:14] [Music]

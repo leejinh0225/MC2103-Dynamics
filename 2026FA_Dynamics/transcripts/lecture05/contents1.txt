@@ -1,0 +1,71 @@
+YouTube transcript
+Video ID: LO3tJFnPtGc
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:19] Newton's law motion we continued this with applications under the influence of central forces
+[0:28] satellite orbits are analyzed using conservation of angular momentum
+[0:37] recall the polar coordinate system since f equals m a we have the following Expressions where the acceleration in
+[0:46] the polar coordinate system are expressed as follows this result may also be derived from the
+[0:56] conservation of angular momentum remember this is the definition of angular momentum so simply differentiate
+[1:04] it one time over time okay then this part
+[1:10] will simply become this expression and pull this r outside
+[1:19] and divide it by and divide both equation both sides by R then we can cancel this
+[1:27] like so and finally we have this expression
+[1:34] I told you that if the the angular momentum is conserved so that means this may be
+[1:42] this has to be constant and since we differentiate this part then this has to be
+[1:51] zero so this part has to be zero when the
+[1:58] angular momentum is conserved or constant this is actually the exact or exactly
+[2:05] the same derivation let's look at the angular momentum of a
+[2:15] particle so if you have a particle and if you have an origin Point O here
+[2:26] let's say the distance is r and mess M and velocity
+[2:33] is V then M times V is called linear momentum
+[2:41] so this is linear momentum
+[2:48] and if you pre-multiply R Vector with the cross product
+[2:55] this whole thing is called angular momentum
+[3:06] usually we use h to denote angular momentum and we use l
+[3:13] to denote linear momentum
+[3:25] and one information you can get is that angular momentum is perpendicular to the
+[3:31] plane which is containing R vector and MV vector or V vectors
+[3:40] and that's because we have we can express angular momentum as r
+[3:46] cross product with MB
+[3:56] now let's differentiate the angular momentum
+[4:08] so if you differentiate it then we can see that R Vector is uh
+[4:15] time varying also V Vector is time varying so then by using product rule we can have
+[4:22] this plus this an interesting thing is that all that is
+[4:29] the same as V and since V and V are aligned each other so that means the cross product of two same vectors are
+[4:38] zero and finally we have y cross m a remember M A is by the difference from
+[4:48] the Newton's law it has to be F so that's why we have R cross sum of all
+[4:55] the forces and then we can just Define this one as moment
+[5:09] therefore the sum of the Romans about o of the forces acting on the particle
+[5:18] and so it follows from the Newton's second law that the sum of the moment about o of the force is acting on the particle is equal
+[5:27] to the rate of the change of the angular momentum of the particle about o so this is very important and useful
+[5:36] information we're going to use this information later when we are dealing with a system of systems of particles
+[5:42] and also with the rigid bodies and as a special case when a force is
+[5:50] directing towards o as you can see is jerking course o and pass through this
+[5:58] 0.0 the particle is said to be under a center Force
+[6:12] since the momentum uh sorry the movement arm is zero okay because this
+[6:20] the line of the force passes through o the momentum itself is zero
+[6:29] the sum of moment is zero then the angular momentum is also constant
+[6:35] so that's why we have this and so we have that
+[6:44] since the angular momentum is H is r cross
+[6:51] MV H is perpendicular to R H is perpendicular to R and also H is
+[7:01] perpendicular to MV then
+[7:08] the magnitude of angular momentum can be computed uh in this way now let's talk about the conservation of
+[7:17] angular momentum the radius Vector op here o p
+[7:25] and we have the central Force F there this Factor op sweeps infinitesimal
+[7:33] small area I can say that this is the infinitesimal
+[7:40] small area then the small area d a can be defined in this way this uh is very
+[7:47] easily computed from the geometric knowledge if you don't get that point then you can
+[7:56] simply consider the triangle here and maybe you can ignore this part
+[8:03] so then d a is the same as half r squared times D Theta
+[8:12] we can also normalize TA by the time here by dividing the whole thing by uh
+[8:21] DT then what we have is this part will become Theta dot which is angular velocity and
+[8:30] so we call this one as area velocity
+[8:41] also recall that for a body moving under a Central Central Force we know that the angular
+[8:49] momentum is constant this also means that its area of
+[9:00] velocity is also constant all right
+[9:04] [Music]
