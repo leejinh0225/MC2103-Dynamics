@@ -11,6 +11,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 - `lecture03.html`: Week 02 · Lecture 3 곡선운동 학습 노트 (65장, 영어 영상 5개 대조)
 - `lecture04.html`: Week 03 · Lecture 4 입자의 운동역학 학습 노트 (72장, 영어 영상 5개 대조)
 - `lecture05.html`: Week 04 · Lecture 5 중심력 운동 학습 노트 (50장, 영어 영상 5개 대조)
+- `lecture06.html`: Week 05 · Lecture 6 일과 에너지 원리 학습 노트 (111장, 영어 영상 5개 대조)
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
 
 ## 공통 자산

@@ -1,0 +1,268 @@
+YouTube transcript
+Video ID: 0gohr-4TtS0
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] as you can see in the figure the potential energy of the roller coaster is converted into kinetic energy
+[0:26] as it descends the track in the figure we see that on impact tests are done by using
+[0:35] momentum method previously problems dealing with the
+[0:47] motion of particles were solved through the fundamental equations of motion which is f equals m a
+[1:00] in this chapter we'll examine two additional method
+[1:07] of analysis that is equivalent to f equals Ma the first one is the method of work and
+[1:15] energy principle this method directly relates Force Mass
+[1:22] velocity and displacement the second one is method of impulse and
+[1:32] momentum this method directly relates Force Mass velocity and time
+[1:43] in summary if we need relationship between forces and accelerations
+[1:51] we need Newtons of Newton's law of motion if we need relationship between velocities and displacement
+[2:02] we need to use work and energy principle if we need a relationship between the
+[2:09] velocities and time we need to use inputs and momentum
+[2:16] principle let's examine work and energy principle what is work
+[2:27] assume that a force f is applied to a particle a
+[2:36] as a result if the particle moves by a by the amount of Dr
+[2:43] in this direction then we can define a work so if you look at d u here
+[2:52] we have to do the dot product of the force vector and the position Vector especially the
+[3:00] Dr vector and since since this is the dot product we have to get the cosine Alpha
+[3:10] multiplied to this product the last expression here
+[3:21] indicates that the total work is the sum of work in all directions
+[3:29] so this one indicates the work in X Direction
+[3:38] and the same happens for this one and this one so this is 4y and this is for Z Direction
+[3:58] it is quite easy to understand that the work is a scalar quantity
+[4:04] since work is not a vector it has only magnitude but not the direction
+[4:14] the dimension of work are length times Force
+[4:21] so we usually use the unit joule which is 1 Newton times one meter
+[4:30] if a force f is applied to mess a here
+[4:39] and it induces finite displacement then work can be easily computed with integration
+[4:48] so we have Force Vector F and Dot product it with Dr which is finite
+[4:55] displacement and we integrate it from A1 to A2 so we have A1 position here and A2
+[5:03] here so and this is the path and since we have that product here
+[5:12] so this dot product can be converted into the scalar value with the cosine value
+[5:19] introduced so if you look at cosine Alpha it means that this Force f is
+[5:26] projected onto this surface so this one is actually the projected value of force and if you look at
+[5:35] this one so we can denote this projected Force as f t
+[5:43] which is the force in tangential
+[5:53] Direction and if you look at FT and
+[6:00] DS the product can be expressed in this way
+[6:15] and if you know the displacement then the force can be projected onto the path
+[6:21] which can be called ft then the work done by f is the area
+[6:34] here under the Curve during the displacement from S1
+[6:41] to S2 now consider a conceptual problem a
+[6:51] particle a is apply the force F in this direction
+[6:57] as shown and due to force f the particle moved from position A1 to
+[7:05] A2 along this line then what is the work done by f
+[7:16] so we have four options here so we have to choose one and to do that we have to take the
+[7:23] integral of f Dot DX
+[7:33] and so this means this dot product means that we have to project F onto
+[7:42] this path so we have to have F times
+[7:51] cosine Alpha along the path from A1
+[7:59] to A2 so this one has to be the same as Delta X because Delta X is the total
+[8:09] displacement so the answer has to be B
+[8:18] and so we can check that in here from from this page
+[8:26] now what is the work done by the gravity so we have a mess here at position a
+[8:35] and W is the weight of the uh the mass
+[8:43] here initially a particle a was at A1 position
+[8:50] and the first W is always applied while the particle move to A2 along this path
+[8:59] the work can be considered as the total work in all Direction since we have Force only in y direction
+[9:07] which is the weight we can also consider the displacement only in y direction
+[9:17] so the work is minus W because work itself is downward so that's why we have minus w
+[9:26] and then the displacement from y1 to Y2
+[9:34] so that has to be Y 2 minus y1 note that the direction of forces
+[9:40] opposite to the movement Direction now let's consider a simple conceptual problem
+[9:48] when is the work done by the weight positive so I as I said before if
+[9:55] the mess is moving up from here to here the direction is always
+[10:04] in the opposite direction compared to the weight then we can consider that if the weight
+[10:13] is always going down then we can also move from up to down in that direction
+[10:21] so again positive work means that the force and movements are directing towards the same direction
+[10:31] so work is positive when and the weight is downward then the direction movement
+[10:40] Direction chain is also downward
+[10:50] then from ABC this is the only case
+[10:56] so the answer has to be B so we can check that from this page
+[11:04] what about the work done by a spring we know that the displacement of spring exerts of force
+[11:12] maybe we have experienced that if we have a spring here and we can pull it then we can feel the resistance force
+[11:21] furthermore the magnitude of the force exerted by a spring is proportional to deflection
+[11:28] so the force spring force is proportional to deflection so when I when uh when the
+[11:38] force is proportional to something then we usually introduce a parameter which is called the slope then we can
+[11:46] have the equal sign there if we stretch the spring to the right as
+[11:54] you see in here or here the fourth increase is to the left
+[12:03] so this is the displacement the force is always
+[12:15] directing to that direction so this is the Force Direction
+[12:26] therefore the displacement and force are always in the opposite direction meaning
+[12:32] that the work is negative here
+[12:40] we can express the work in mathematical notation so d u is minus F and DX
+[12:50] so this minus means that the force the work is always negative
+[12:58] and we can replace f with KX here then by taking integral
+[13:06] of this whole thing from the starting point X1 to X2
+[13:13] the result is this and as I said the magnitude of the force
+[13:20] exerted by a spring is proportional to deflection and so this is the result and this
+[13:28] result is indicated in this figure so this value here is the area
+[13:39] under this curve but it's also important to note that
+[13:46] this value itself is negative so this is negative
+[13:54] and that's because X1 is here and X2 is here so X1 is less than X2
+[14:04] so work done by a spring can also be positive when X2 is less than X1
+[14:15] this is when the spring is returning to its undeformed position
+[14:24] then if you look at this figure the area may look the same
+[14:31] but now we have to switch the variable
+[14:39] so that now X2 is less than X1 so in that case the work is positive
+[14:54] in summary the work of force exerted by a spring is equal to the negative of the area under the curve of
+[15:03] f flatted against X and this formula is nothing but
+[15:11] the area here and this is the formula for
+[15:19] trippy zoidal or trapezoid with the minus sign in here
+[15:30] again when pulling the spring the displacement is always in the opposite direction of force
+[15:42] consider this conceptual problem as the block moves from A1
+[15:50] sorry a0 to A1 is the work positive or negative
+[15:59] the displacement from a0 to A1 is to the right right
+[16:06] and the force is always to the left in that case since the direction
+[16:13] is different we can say that the force is negative so the answer has to be B
+[16:24] and we can check that in here now we have a slight change here as the
+[16:35] block moves from a 2 to a0 so A2 is here
+[16:42] and a0 is here then is the word positive or negative
+[16:50] so in this case the direction of the movement is to the left and also
+[16:59] the spring Force itself is also to the left and both directions are in the same direction so in that case
+[17:07] we must have the positive work and so the answer is a
+[17:16] and we can we can check that in here now we can also consider the work done
+[17:23] by gravitational force so as you can see here there is a heavy mass m and a small mess
+[17:31] M maybe you can consider this one as the Earth and this one can be for example a
+[17:40] satellite and this small m is moving along some
+[17:49] kind of path shown in here there is only one Central force due to
+[18:00] gravitational force then what is the work done by the gravitational force gravitational force attracts objects
+[18:09] making them closer therefore if we try to increase the
+[18:16] displacement the force Direction and the displacement direction are os in the opposite direction
+[18:24] so from the figure if I try to move this object away in that direction then
+[18:33] frustration is always inside but this movement direction is outside and so in that case
+[18:41] the work is negative so the work from position one two equation two
+[18:49] is computed in that way and that's shown in here
+[18:57] okay let me just explain the the equation here so we have d u which is a infinitesimal least small
+[19:06] or work and we can Define it as in here and we have minus sign because the force
+[19:13] is always inside and Dr is increasing outside so that means the work is always negative so that's why we have minus
+[19:22] sign there and we can replace f with the gravitational force equation
+[19:30] then the only thing left is you simply take the integral on both sides
+[19:36] and the location is from one to two so in that case as a result this
+[19:43] integration will simply become this here's another problem so consider this
+[19:52] conceptual problem does the normal force do work as a block slice from B
+[20:01] 2A so let me just give you some time to understand what this problem means
+[20:10] the problem said normal force so where is that normal force the normal force is
+[20:19] at the contact right so we have known Force tracting always in that direction in this direction
+[20:29] but what is the direction of movement the direction of movement is always
+[20:36] in this direction then we can clearly check that the angle
+[20:44] between these two Vector is always 90 degrees so
+[20:52] the work done by normal force is
+[21:02] normal force dot product and the displacement I'd say Dr
+[21:11] but since these two are perpendicular to each other that means
+[21:18] that that product is always zero so there is no work
+[21:28] then the answer has to be B and we can we can check that in this page
+[21:42] what about this problem this problem looks very similar to the previous problem that we just saw but now the change is this one the
+[21:50] weight does the weight do work is the black slides from B to a
+[22:00] so let's look at the weight and the direction of the weight so weight is always directing
+[22:08] to this direction what about the movement of the block the movement of the block is always
+[22:18] directing to the left down left here actually this one then what is the dot product of these
+[22:27] two vectors one easy way understanding the direction or the sign of of that that product is
+[22:36] whether the angle here is less than 90 degrees so in that case we can say that
+[22:45] the direction of movement and the weight direction is uh somehow they're in the same direction
+[22:54] so if you are taking the dot product for example so this is the weight and this is the direction of movement
+[23:02] then the weight that product it with Dr is
+[23:10] well actually we don't know the exact value but we know that this is positive
+[23:19] and so the answer is yes and you can check that in this page
+[23:29] again the same problem and it's asking whether the work is positive or negative and as I told you it's
+[23:38] positive right because the weight and the displacement they are actually facing toward the same
+[23:46] direction so it has to be positive so that's the answer you can check that in this slide
+[23:56] but there are also forces that do not contribute to work and here
+[24:03] are some of the list so for example the reaction force at the frictionless pin
+[24:08] which is supporting the rotating body or the reaction force at the
+[24:15] frictionless surface when body in contact moves along the surface
+[24:23] the reaction forces at the roller moving along its track
+[24:30] or the weight of the body when its center of gravity moves horizontally so these are the examples where the
+[24:39] forces does not do any work so far We examined work done by several
+[24:47] types of forces now let's look at how work done by a force affect the speed of particles
+[24:57] so we have a mass m in here and the force f is applied in this
+[25:05] direction and also due to this Force f the mass m is moving
+[25:13] from a to from A1 to A2 along this path
+[25:22] then what does the Newton's law of motion say about this so let's study only the tangential
+[25:31] component of forces and acceleration because only the tangential forces contribute to the work why is it so
+[25:40] because if we just decompose the force into tangential Direction and the normal
+[25:49] Direction this normal direction is always perpendicular to the movement Direction so then
+[25:56] the dot product of f n and the movement reaction is always zero
+[26:03] so that's why it's better to just look at the tangential Force ft
+[26:14] so ft here is M times 80 which is still f equals m a so this is simple f equals
+[26:23] m a Newton's low motion but then what is 80 the acceleration in tangential
+[26:30] Direction if you recall velocity was velocity in in scalar value and e t
+[26:41] Direction so this was the velocity expression for path
+[26:49] coordinate system then if you're just taking
+[26:58] differentiation one time with respect to time then we have
+[27:04] acceleration that's V Dot ET hat Plus
+[27:13] V and we have to take the dot part the differentiation of
+[27:21] ET hat but this one is the same as data Dot and
+[27:29] e n and so this one will end up with Row V squared
+[27:39] the end head so this one is ET acceleration in tangential Direction
+[27:47] and this one is a n which is acceleration in normal Direction and what we need is acceleration in
+[27:56] tangential Direction so that's why we have this expression and
+[28:05] this one is what so this is the chain rule
+[28:13] and we can easily check that this is another expression for velocity
+[28:20] then by just putting this together we have this expression
+[28:28] then what we have to do is use just simply take the integral from our initial position to our
+[28:38] terminal position or if this is with respect to DS then it has to be from S1 to S2
+[28:47] and also if this is about the velocity then the velocity at A1 and the velocity
+[28:54] at A2 so that's what we have this one itself is already there
+[29:03] what about this expression this is very simple
+[29:09] uh mathematics problem and so we have this wizard
+[29:16] then what this is saying about is since this is the work I mean this is the work and what we have
+[29:25] is on the right hand side we have this minus this we don't know what that
+[29:32] is at this moment but if we simply Define this expression as
+[29:39] kinetic energy then now we can call it that
+[29:45] this work is kinetic energy to and minus
+[29:52] kinetic energy one so we can conclude that the work of the
+[30:00] force f is equal to the change in kinetic energy of the particle
+[30:06] so this is the principle of work and energy again
+[30:14] work is changes of the kinetic energy
+[30:22] change of kinetic energy
+[30:34] therefore the unit both work and the unit of kinetic energy has to be the same
+[30:45] now let's consider some of the applications of work and energy principle and one is the pendulum
+[30:52] problem here the the problem says Bob Bob Means
+[31:00] this part this heavy part okay
+[31:08] we can consider a force p in that direction and also
+[31:16] there is another Force which is the weight of the Bob itself
+[31:27] we know that this Force p is always perpendicular to the movement
+[31:34] of the pendulum okay so the force p is normal to the path and it does not
+[31:42] to any work however the weight w does the work because
+[31:52] the direction of work is here and the direction of movement is this direction and so we have
+[32:01] angle less than 90 degrees so actually it's the weight is doing positive work
+[32:13] also remember that work done is the same as change of the kinetic energy
+[32:22] it's work done is the same as change of the kinetic energy or T2 minus T1 so from here
+[32:31] we get this equation and what we know from the problem is that initially
+[32:40] the pendulum was at rest so there is no velocity or no speed initially so that means
+[32:47] remember T1 was defined as f m v 1
+[32:53] squared and since V1 is zero T1 has to be zero so that's why we have
+[33:00] zero in here and T2 is expressed in here and this is
+[33:13] actually equivalent to f m v 2 squared
+[33:24] and the work done by the gravity or the work done by the weight is this
+[33:33] I have to say this is the work done by
+[33:40] the rate and why is that so so we have to wait here and where it is always directing that
+[33:49] direction in y direction and then why is the total displacement the total displacement in y direction is just
+[33:58] this height which is L so that's why we have W Times l
+[34:05] okay then by combining these two equations and by solving this this equation we have w v 2 equals square
+[34:13] root of 2 times 3L here are some important points
+[34:24] we could compute the velocity of pendulum without determining the expression for acceleration and integrating
+[34:33] all quantities are scalars and can be added directly
+[34:41] also the forces which do not work or eliminate are eliminated from the problem
+[34:54] however the work and energy principle cannot be applied to directly determine the acceleration
+[35:00] of the pendulum up here also calculating the tension in the
+[35:08] chord requires supplementing the method of working energy with the application of Newton's law of motion
+[35:17] for example how can we find the tension in the Rope to do so we need to introduce Newton's
+[35:25] law of motion so here we have Newton's law of motion and if you look at
+[35:33] the pop here and if you consider the freeway diagram we have to wait and also we have the
+[35:42] cable tension in that direction so along y direction or vertical
+[35:48] direction we have tension minus w and that has to be
+[35:56] that has to be mass times acceleration in normal Direction which is
+[36:03] that direction and again the normal Direction acceleration is
+[36:11] row times velocity squared so in this case rho is radius of curvature so has
+[36:17] to be length of the cable and the velocity is V2 squared so that's why we
+[36:25] have this expression here and if we just simply solve it and we
+[36:32] know in the previous page that V2 is square root of 2 times GL and just plug that in here
+[36:40] and we finally have the tension in the Rope has to be three times its body weight
+[36:50] and here is the question if you designed the Rope to hold twice the weight of the bulb what would
+[36:58] happen so that means the Rope will break so that means you have to prepare the
+[37:06] Rope such that it's actually stronger and hold more than three times of the weight of the Bob
+[37:14] so this is somehow how we can design the system so that the whole system is stable and
+[37:22] safe
+[37:24] [Music]

@@ -1,0 +1,267 @@
+YouTube transcript
+Video ID: -flNXvW8oTU
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] now let's do practice problems so we have two blocks block a and Block
+[0:25] B and it's connected by your cable and so if the system is released from
+[0:33] rest you know that means initially the velocity was Zero determine the velocity of block a
+[0:41] after it has moved two meters and also we have assumption that there is a
+[0:48] friction so the friction coefficient between block a and the plane is Mu k e
+[0:54] is 0.25 and the pulley is weightless and frictionless
+[1:02] and here's a strategy so apply the principle of work and energy
+[1:08] separately to each block A and B and when the two relations are combined
+[1:16] then work of the cables forces cancel and we can solve for the velocity
+[1:24] so let's apply the principle of work and energy separately to blocks A and B so let's do that for a first
+[1:32] this is block a so what we have to do is identify all the first components so this is the
+[1:39] normal force from the ground this is the friction and this is the force due to the cable cable pulling or cable tension
+[1:48] and this is the weight itself so body weight is this much and we have the friction and
+[1:57] so friction has to be coefficient friction coefficient multiplied by the normal force and so we have this
+[2:04] expression and we have this value and now this is the work
+[2:11] and energy principle so from the current uh kinetic energy
+[2:19] and if we add the work then we have the next kinetic energy
+[2:25] initially the kinetic energy is zero because the velocity here is zero what about the work
+[2:36] and since we have several forces and we want a
+[2:44] the Black 2 to move two meters so we know the distance then what are the first components we
+[2:51] have FC and we have fa so FC times two which is positive direction
+[2:59] so it has to be positive work and we have friction and friction is always negative so we have minus
+[3:06] and the work done by the friction and as a result we have the kinetic energy
+[3:16] like this and we can solve for this and we can find the velocity now let's do it for
+[3:25] Block B there are only two forces one is the weight of itself and the cable tension
+[3:34] so the body weight itself is this much and by using work and energy principle
+[3:40] so initially the kinetic energy was Zero because the initial velocity was Zero and what about the work
+[3:48] since we are moving 2 meter and so that means we just multiply the
+[3:56] all the first components with the distance which is two and so that's why we have this and at the end
+[4:03] we have we have some velocity or speed and so that is the kinetic energy so in this way we can find
+[4:12] the velocity as well and also the cable tension
+[4:19] recall in the previous equation here we also have cable tension in the velocity and cable tension and velocity so we
+[4:28] have two unknowns and two equations so so we can solve for
+[4:37] this variable FC and and here is the process of computing
+[4:45] this value and you can easily find the velocity so this problem can also be solved by
+[4:53] applying the principle of work and energy to the combined system of plus maybe this is also an interesting question and
+[5:02] so we can try this problem here and when using the principle of work and energy
+[5:10] it is it usually saves time to to use your to choose your system to be
+[5:17] everything that moves so as I said we can take an alternative solution so that means we are looking
+[5:24] the whole system as as one system so we have two blocks and we can consider them
+[5:31] as as a one big system so initially
+[5:37] T1 is zero because there is no velocity and what about the work
+[5:45] we know that we the whole thing is moving two meter like this then just simply consider all the forces and just
+[5:53] multiply those forces with two meter then what is T2 the kinetic energy at
+[6:03] position 2 of the system since we have two masses so we have this one and this one you can
+[6:10] simply add them then remember working energy principle
+[6:19] working energy principle says T1 Plus the total work is T2 we know that this
+[6:29] is zero and the total work is this and
+[6:36] the kinetic energy is this so now we can solve for velocity and that's this one
+[6:46] let's look at problem number two as you can see we have a spring here and we have a mass
+[6:55] with the 60 kilogram Mass and this is sliding on a horizontal
+[7:02] surface the spring constant is k equals 20K Newton
+[7:10] meter per meter and it's hold by the cable here such that it's initially compressed
+[7:17] 120 millimeter that the package has initial velocity of 2.5 meter per second here
+[7:27] and the maximum deflection of the spring is 40 millimeter so in other words this package is actually moving along or
+[7:36] sliding along this right and then this one touches the spring and the spring deflects a little
+[7:44] bit so it deflects about 40 millimeter
+[7:54] like this due to this package then determine the coefficient of
+[8:04] friction between the package and surface and also determine the velocity of the
+[8:11] package as it passes again through the position shown so in other words there is a friction here
+[8:22] and so that due to this friction this package is actually slowing down
+[8:31] when it is actually touching this this surface and then it will
+[8:38] deflect 40 millimeter and once due to this deflection and the spring will push back this package again
+[8:46] then if this package is passing this point again
+[8:53] then what is the speed of the the package that's the question and here is a strategy
+[9:02] apply the principle of work and energy or working energy principle between the initial position and the
+[9:10] point at which the spring is fully compressed and the velocity is here then the only unknown in this
+[9:17] relationship is the friction coefficient and also apply the principle of work and
+[9:24] energy to further rebound of the package than the only unknown in this
+[9:31] relationship is the velocity at the final position so let's do the first part
+[9:38] so apply the principle of work and energy between the initial position here and the terminal position when when the
+[9:47] spring is fully compressed you can see the select cable here then
+[9:55] let's use the working energy principle so we have T1 Plus work
+[10:03] equals T2 so what is T1 so it has to be this
+[10:11] half M times V squared and we are given the initial speed which is 2.5 and so we
+[10:19] can easily find the kinetic energy at at location one what about the kinetic energy at
+[10:26] location two the plug is completely stopped at at this position
+[10:34] and also the spring is completely pressed compressed so this one a T2 has to be zero so this is zero
+[10:43] then what about the work so let's identify all Force components
+[10:50] so the only Force components that's applied in the horizontal direction is friction
+[10:58] so the friction is mu times
+[11:05] normal force here the normal force is the weight so that's why we have this value and remember that the friction is always
+[11:13] doing negative work and so we have minus sign there and we already know the weight of the
+[11:21] package and so the total work is expressed in this way remember we have unknown variable mu K
+[11:29] here then what we know is this one
+[11:35] plus this one has to be the same uh has to be zero so that's
+[11:42] that's how we solve this problem so this
+[11:50] and so we can easily get the required coefficient friction but here uh let me just uh
+[11:59] do one more work I forgot to mention so here what I just mentioned is this is purely due to
+[12:08] friction work due to
+[12:15] only friction but actually there is one more
+[12:23] potential energy that is actually due to the spring so we have to consider that too
+[12:30] so what is the potential of the potential energy the work done by the spring
+[12:37] e is elastic and so this is actually this is this means the spring
+[12:46] so what we have to do is we have to consider the force so this is basically the spring Force
+[12:58] we know that initially the spring force was the spring was compressed um about 120 millimeter
+[13:08] then we can easily compute the spring Force which is the spring constant times
+[13:15] 0.120 120 millimeter or 0.120 meter and so the
+[13:22] answer is uh 2400 Newton that's the minimum force
+[13:29] what about the maximum Force when the spring is fully compressed so initial uh compression plus
+[13:37] additional compression that's actually 0.16 meter we still have the same spring
+[13:45] constant and so finally we have maximum Force
+[13:52] and if you look at this diagram we simply need to find the area under this curve and so
+[14:01] you can use trapezoidal Rule and so add this in this multiply this one and divide it by two
+[14:08] and so that's why we have the work done by the spring
+[14:19] and finally we can add the total work is just the sum of
+[14:26] work done by friction and work done by Spring and so that's why we have this value
+[14:34] and by using working in an energy principle we have the final equation in and so
+[14:42] that's why we have mu k equals 0.2 so we are just done with the first half
+[14:49] of this problem what about the second half so we know that this spring is
+[14:56] compressed with the maximum deflection and then now this spring will push back this package
+[15:05] to the left so we have um now our stage is from two to three so
+[15:12] that means our kinetic energy at 2 plus the work from two to three equals
+[15:20] kinetic energy at three so initially there is no speed and so this one has to visual
+[15:28] what is the work so there are two types of work one is work done by friction because this
+[15:35] package will move this fraction anyway and there is there should be a friction so we have to consider that and what
+[15:44] about the spring the spring actually will will restore its original position
+[15:51] like this so we have to consider that too and the expression itself is actually
+[15:59] the same as before the only thing with the only difference is Mu K we already found muca in the previous page so then
+[16:07] the work done is this bad this much then finally we have expression for the
+[16:15] kinetic energy at at Point position 3 which is this one so
+[16:22] this is our answer the final velocity at position 3 was
+[16:28] 1.103 meters per second so so to solve this problem you need it to
+[16:37] break this problem into two segments so from the first segment you're able to determine the coefficient of friction
+[16:45] then you could use a principle of working and energy to determine the velocity of the package at any other
+[16:52] location also note that the system does not lose
+[16:59] any energy due to the spring it returns all of the energy back to the package
+[17:07] you need to design something that could observe the kinetic energy of the package in order to bring it to
+[17:15] the rest okay let's look at the problem number
+[17:26] three we have a car and we have a path
+[17:33] the car's mess is a thousand kilogram and it starts from the rest here and
+[17:40] positions one and it moves without friction down the track is shown and so we need to determine the force
+[17:48] exerted by the track on on the car at point two so here if the car is here what is the maximum Force
+[17:58] the car is experiencing due to the due to the ground and B the minimum safe value of the
+[18:06] radius of curvature at 0.3 so the point three is here so if the the speed of the car is too
+[18:14] fast then at this point the car will fly out and so it's actually a very dangerous situation
+[18:23] then what is the minimum safe value or the radius of curvature
+[18:33] if the radius of curvature is large enough then we can reduce the speed at 0.3
+[18:41] and here are the strategy first apply the principlement of work and energy to determine the velocity of 0.2
+[18:50] and also apply the Newton's low motion or second low to find the normal force
+[18:56] by the track at point two and also we apply the principle of work and energy to determine the velocity at
+[19:05] 0.3 and finally apply Newton's second law to find the minimum radius curvature at
+[19:13] 0.3 such that the positive Norm force is exerted by the track
+[19:20] so normal force has to be positive in that case or the minimum value you can get is zero
+[19:28] so let's use work and energy principle T1 Plus work from one to two equals T2
+[19:37] we know that T1 is zero because initially the velocity was zero and at two we have expression for kinetic
+[19:46] energy like so and also what is the uh the total work there's no friction and it the coil just
+[19:55] drops from here here then we can easily compute the work by mg times height
+[20:05] so this is what we have and so so this is work and energy principle working energy principle and
+[20:13] these two value has to be the same and as a result we have V2 value here
+[20:22] now apply Newton's Second Law or a low motion to find normal force by the track at point two
+[20:29] remember here the track is exerting Force to the car so we need we have to find
+[20:38] that we have the weight of the car and we also have the normal force
+[20:45] and the acceleration is always pointing towards inside the curvature
+[20:53] so let's sum all the forces minus W plus n has to be the same as M times a n and
+[21:01] we know that this acceleration is normal component and so V Square over rho so
+[21:08] that's what we have so then normal force has to be this much
+[21:17] now apply the principle of work and energy to determine the velocity at 0.3
+[21:24] again as I said before if the velocity is too fast or speed is too fast at 0.3 the car will fly
+[21:31] which is not desirable right so let's look at this working energy principle and we already know the results
+[21:40] and our initial value initial velocity is zero what about the velocity at point
+[21:46] three so that's what we have to find and by from the working energy principle
+[21:53] we have this value and as a result the velocity is this much
+[22:01] we can also apply the principle work and energy to determine the velocity of 0.3 or as before
+[22:10] remember the normal acceleration is this and so we have rho which is radius of
+[22:18] curvature so we want to find this value
+[22:31] and we know the velocity of V3 from the previous page and so everything else is ready and so we can simply compute Row
+[22:39] three which is the radius so this is an example where you need both Newton's Second Law low motion and also
+[22:48] the principle of work and energy and work and energy is used to determine the speed of car and
+[22:57] uh Newton's second law is used to to determine the normal force the normal force of
+[23:06] 5w is actually equivalent to a fighter pilot pulling 5G and should only be experienced for a
+[23:16] very short time and for safety we'd also want to make sure that the radius of curvature was
+[23:23] quite a bit larger than 15 meter because if radius coefficient is less
+[23:30] than 15 meter then our the normal force will be much greater than uh
+[23:37] five times of the weight so for safety and for other better uh reasons we have
+[23:44] to increase the radius of curvature and here are some group problem uh I'm not going to solve this problem
+[23:52] completely but let me just give you some ideas about how to solve this problem so we have our packages
+[23:59] and the packages are drawn down at incline at a with the velocity of one meter per
+[24:06] second the package is slight along the surface ABC like so and uh to a conveyor belt
+[24:15] conveyor belt is here which moves with the velocity of 2 meter per second and knowing that mu K the coefficient
+[24:24] friction get here is 0.25 we have to determine the distance the if the package or to arrive
+[24:33] at C we think with a velocity of 2 meters per second so we have to find this distance
+[24:42] so what are the strategies so here are the guidelines first of all you have to draw the Free by diagram of the
+[24:50] box and um it's quite helpful to do that and second determine the work
+[24:58] done between the point A and C as a function of d that's good and find the
+[25:05] kinetic energy and at the point A and C uh then finally using the working energy principle relationship we can solve for
+[25:14] d here's problem number four we have a bar vertical bar and we have a color here
+[25:22] this color can freely move in the vertical Direction there is no friction
+[25:29] and there is a spring attached to it uh the the distance between this point
+[25:36] and this point is 200 millimeter and the problem says that the
+[25:43] undeflected length of the spring is 100 millimeter so that means this spring is
+[25:49] OLED already stretched by 100 millimeter and the spring constant is 200 Newton
+[25:56] per meter and if the color is released from rest at position one here
+[26:05] is released and velocity at this point is zero determine its velocity after it
+[26:12] has moved 150 millimeter down here and so what is V2
+[26:20] then how do we solve this problem apply the principle of conservation of
+[26:28] mechanical energy between positions one and two
+[26:36] let's take in the gravitational potential energies at 1 and 2 are evaluated from the given information
+[26:45] and we all know that the initial kinetic energy is zero then we can solve for the kinetic energy and the velocity at 0.2
+[26:54] so let's apply the principle of conservation of mechanical energy so initially at position one
+[27:03] the spring is already stretched out so we can simply compute the spring or
+[27:09] potential energy in this way and so we have the number here what about uh
+[27:19] the total potential energy so it has to be simply uh sum of
+[27:26] spring or potential energy and the gravitational potential energy and if we assume this position is the datum then
+[27:34] the height itself is considered to be zero and so we don't have any potential energy due to the gravity and so we have
+[27:42] this much as potential energy and also the velocity itself is here initially so that means the kinetic
+[27:50] energy is zero as well at position 2 now there are many things to to compute
+[27:58] since the spring is stretched more like so then we can just compute the
+[28:04] kinetic potential energy for spring and that's this much now
+[28:12] the color has moved down now we can compute the potential energy due to due to the gravity and since it's actually
+[28:20] moving down we have minus value then the total potential energy is sum
+[28:27] of these two and so we have minus value is as shown in here
+[28:33] then what is the kinetic energy at 0.2 so we now have expression for velocity
+[28:41] V2 here so this is the uh the equation for conservation of mechanical energy and so
+[28:49] we can easily find a V2 in this way so if
+[28:57] you have not included the spring in your system you would have needed to treat it as an external Force therefore
+[29:06] you would have needed to determine the work similarly if there was friction
+[29:15] acting on the collar you would have to need to use a more General work and energy principle to
+[29:24] solve this problem it turns out that the work done by the friction is not very easy to calculate
+[29:31] because the normal force depends on the spring Force and we have problem number five here
+[29:39] and as you can see there is a satellite launched at this point and the direction is this direction
+[29:49] and the velocity is 36 and 900 kilometer per hour and the
+[29:56] altitude is from the surface 500 kilometer so we want to find the maximum altitude
+[30:05] reached by the satellite for example if since angle here is 90 so the maximum is
+[30:12] happening at this point where the angle is also 90.
+[30:19] also determine the maximum allowable error in the direction of launching if the satellite is to come closer and come
+[30:27] no closer to 200 kilometer to the surface of the horse
+[30:34] and so here's the strategy for motion under the conservative Central Force the principle of conservation of energy and also the
+[30:44] conservation of angular momentum may be applied simultaneously and apply the principles this prints two
+[30:52] principles to the point of minimum and maximum altitude to determine the maximum altitude
+[30:59] and also apply the principles to the orbit insertion point and also the point of minimum altitude
+[31:07] to determine the maximum allow allowable orbit insertion angle error
+[31:15] so here is the conservation of mechanical energy so we have this expression and
+[31:23] kinetic energy is this one and the potential energy is this one and so we can solve for this
+[31:31] what about the angular momentum conservation we can simply use this expression so
+[31:39] um since we don't know V1 and so we have expression for V1 using the known information
+[31:48] now combining these two information here and also uh using some known information
+[31:56] about uh the barrier of the perimeter here
+[32:03] we can compute that uh the r R1 is this and by just considering uh earth radius
+[32:12] the maximum altitude is this much now apply the principles
+[32:21] to the orbit insertion point and also the point of minimum altitude to determine maximum allowable orbit
+[32:29] insertion angle air so let's look at the conservation of mechanical energy again so we have this
+[32:36] expression as before and now we can consider the minimum uh height or minimum altitude and also the speed
+[32:46] here we have Speed Max because at the minimum altitude we will have the maximum speed
+[32:53] and also from the conservation of angular momentum we have this relationship
+[33:03] where this angle is some arbitrary angle so that's why we have sine function there
+[33:11] and now we can have expression for uh maximum velocity in terms of
+[33:17] initial velocity and minimum height and also the angle here
+[33:24] then by combining these informations we can have sine of v0 and that's actually
+[33:31] this much and so
+[33:33] [Music]
+[33:34] um by taking the arc sine of this value we can have that the angle is 90 degrees
+[33:41] plus minus 15 of 11.5 and so the allowable error is plus minus 11.5 degree
+[33:50] and this space probes and other long distance vehicles are designed with small Rockets to allow for
+[33:59] mid-course Corrections the satellites launched from the space station usually do not need this kind of
+[34:07] fine tuning
+[34:08] [Music]
+[34:12] foreign
+[34:13] [Music]

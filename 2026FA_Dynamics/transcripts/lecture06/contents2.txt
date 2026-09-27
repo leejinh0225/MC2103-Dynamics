@@ -1,0 +1,191 @@
+YouTube transcript
+Video ID: K3mFnZandvc
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] so far we have studied work and kinetic energy
+[0:24] it is also useful to examine potential energy before getting into it let's briefly study power and efficiency
+[0:34] the unit for power is zero per second and that's actually the same as what
+[0:45] and for your information one HP is roughly about 750 watt and
+[0:52] what is HP so this is horsepower
+[0:58] and the horsepower is usually used to indicate how good an engine is
+[1:08] okay now let's talk about efficiency what is deficiency it's about how much do you get when you
+[1:17] input something so therefore the efficiency or sometimes we call it Ada so we say
+[1:26] eta in quick letter is the output work divided by the input work
+[1:35] and this is also equivalent to the power output power divided by input
+[1:43] power now let's examine potential energy
+[1:50] please look at the following image here the potential energy stored at the top
+[1:57] of here at the top of the path is transferred to the kinetic energy
+[2:06] down here vegetable or meet the ground right here
+[2:17] if the work of force only depends on the difference in position we can express this work as potential
+[2:24] energy so let me just emphasize that in here if the work of force only depends on the
+[2:33] differences in position then we can express this work as potential energy
+[2:42] can can the work done by the following here being expressed as potential energy
+[2:52] it's an easy way of understanding this statement is that when you move a particle from one place
+[3:00] for example so you're particular particle is that
+[3:08] here and so you move the particle around and then you just put it back
+[3:15] to the original place and if the work is zero
+[3:23] then yes it can be used as a potential energy so for weight
+[3:30] the answer is yes what about the friction the work done by friction depends on the
+[3:40] absolute I mean depends on the
+[3:50] absolute value of
+[3:59] the displacement or differences
+[4:07] in position so I added absolute value so that means whenever
+[4:14] you move like up to this point the potential energy increased and also you move from
+[4:22] here to here we expected the potential energy decreases but since I said that
+[4:31] the friction depends on the absolute value so that means even for this case potential energy increases so they don't
+[4:39] cancel so in that case the friction cannot be used as a potential energy
+[4:48] so the answer is no what about normal force
+[4:55] as we saw before the normal force doesn't contribute to work and so no
+[5:03] what about the spring Force spring force is very straightforward because we know that the Supreme Force
+[5:09] itself is a linear function of this displacement so the answer is yes so for weight it's
+[5:17] yes for friction no normal force no and spring Force yes
+[5:24] and the answer can be checked in this page therefore there are a few conservative forces
+[5:33] well actually I didn't Define one what conservative force is yet I'll explain it later
+[5:40] but let me just let us just accept that terminology conservative Force
+[5:54] so the fourth that Force includes weight gravitational force and spring Force so
+[6:01] let me just I'll give you the examples rate
+[6:10] gravitational force and spring
+[6:21] Force so let's first examine a force of gravity or in other words
+[6:29] weight so weight yeah
+[6:37] the work is independent of path so in that case what we can do is just consider this
+[6:44] work from two one is what so we have to wait in here
+[6:51] and 2 is here and one is here so it goes in that direction so in that case
+[6:59] what we do what we know is the work is positive right and so we know that the work is weight times
+[7:07] uh the height which is Y2 minus y1 so this is positive right
+[7:16] or in other words let me just distribute this one over this so we have w y 2 minus w y 1.
+[7:28] what about the work from one to two so that means now did the uh the object
+[7:35] is moving up in that direction and the direction is opposite right because the weight is directing
+[7:43] downwards but the movement is upward and so the work is negative and to express
+[7:49] that what we usually do is we have a small value work
+[7:55] W Times y1 minus W Times Y2
+[8:03] so then what if you just simply look at the structure of this expression so we have the work
+[8:12] from 1 to 2 and also we have something uh some some value in in terms of one
+[8:20] and also some value in terms of two so then what we will do is we just simply say
+[8:27] that the potential energy due to gravity one minus potential
+[8:36] energy due to gravity 2. then we can simply Define this one to
+[8:44] be this and this one is simply defined
+[8:52] to build this in other words the potential energy due to gravity is simply weight times the height or
+[9:02] sometimes in high school physics maybe you have studied that it's mg H just for your information
+[9:11] note that the choice of datum here the choice of data from which the elevation Y is measured
+[9:19] is arbitrary so for example we have the ground here then it's very natural to measure the height from the ground to
+[9:27] the point so we can Define this y one as the height between the distance between these two
+[9:34] in that case this is called datum or bottom line but sometimes maybe it's better to put
+[9:43] the datum here so this is another datum
+[9:50] so in that case the height for A1 is still it's y1
+[9:58] but at this point the value itself is zero now consider the gravitational force
+[10:06] in the previous page We examined weight or force of gravity this is also part of gravitational force
+[10:16] however force of gravity assumes that the weight is constant
+[10:26] however in the application of spatial space Vehicles face shuttle
+[10:33] the force of gravity or the weight changes over the height or the distance
+[10:40] from the center of Earth to to the spatial please recall that work done by
+[10:49] gravitational force is given as follows so let me just elaborate on this problem so remember
+[10:58] d u is minus F times d r
+[11:05] and here we have minus sign because when the force is directing towards inside
+[11:14] and the movement is increasing outside so that's why the work is always negative
+[11:22] and just by replacing f with the gravitational force foreign
+[11:32] then what we have to do is we simply take the integral of both sides from
+[11:40] question one two and R1 R2 then as your result we have
+[11:50] this expression and now just look at the structure of this expression so we have the work
+[11:59] from one to two then we have some value
+[12:06] related to one and some value related to two so in that case we can just reorder it and so move something that's related
+[12:14] to one to the front R1 and then
+[12:24] move the other one to the other side and since we have minus sign here
+[12:32] because we already have minus here then we have to have minus here too then to match the sign here which is plus then we have to have another minus
+[12:41] there like so so in that case we can simply Define this one to be
+[12:50] potential energy due to gravitational force at one
+[12:57] and this is potential energy due to gravitational force and two
+[13:06] so that's why we can Define the potential energy due to gravitational force in this way
+[13:14] well then what about this one this one is written as the weight on surface of
+[13:20] the Earth remember the weight is nothing but
+[13:27] gravitational constant G times m M and since at the surface we have large
+[13:35] R so r squared and you simply just plug this weight in here then you get the same expression
+[13:45] now let's consider a spring Force again we'll do the same process so just do this one d u
+[13:53] is so if you look at the force here it's always directing towards the center
+[13:59] whereas your displacement DX or Dr or I just say DX is always increasing towards
+[14:07] outside right then we know that the work is always negative so we have minus sign there and
+[14:15] F times DX and we know that f equals K times x that's the spring Force
+[14:24] and DX so then we have to integrate take the integer to integrate both sides from
+[14:32] initial to final and X1 X2
+[14:39] and this integral is exactly same as this
+[14:46] then we can do the same procedure if you simply look at the structure of this equation we have some value related to
+[14:55] X1 in here and we have some value related to x2 in here and then this is
+[15:03] the potential energy due to Spring Force so I'll say this is potential energy due to Spring Force all right one and this
+[15:13] is potential energy due to Spring Force at two so then vs the potential energy due to Spring
+[15:21] force is simply defined as half times k x squared
+[15:27] and that's shown in here and graphically this means that
+[15:34] we have uh X1 displacement and X2 displacement then we can simply compute
+[15:41] the area here that's actually the spring uh the potential energy
+[15:49] due to the spring Force and also it's important to note that
+[15:56] these expressions are valid only if the deflection here the deflection of the spring is
+[16:03] measured from its undeformed position as I mentioned before if the work of
+[16:10] force is independent of path followed by its point of application such that
+[16:20] here u12 is expressed as V
+[16:26] at point one minus V at 0.2 then such
+[16:32] forces are called conservative forces
+[16:42] for any conservative forces applied on the closed path the closed line integral or sometimes
+[16:50] control integral is always zero remember when we Define work we did this
+[17:01] F Dot Dr and we have now in all direction we can compute the
+[17:10] work in X Direction DX and work in y direction
+[17:16] and work in Z Direction when also when we Define the work form
+[17:24] to 2 that's potential energy at X1 y1
+[17:33] Z1 minus potential energy X1 X2 Y2 and Z2
+[17:42] then similarly what we can do is we can Define d u
+[17:49] to be the potential energy at the current Point minus potential energy
+[17:56] the next point so I can say this is next point
+[18:08] then from here we can move to the next line which is minus D times
+[18:16] potential energy what is d the difference and so this result is actually coming from Taylor series
+[18:31] approximation and remember this one
+[18:38] is as you can see we have this expression but this one is what this one can be considered as
+[18:53] dot product with DX t y and DZ
+[19:03] so then what we have is only this part so this part
+[19:10] also we have minus sign here so this part it's just
+[19:17] then remember so we are if you look at this part we always have force of in front and we have the uh the
+[19:26] displacement small displacement so we have the dot product between these two and so we have the same structure here so that's why
+[19:35] this is considered as the force and and by definition of the gradient
+[19:43] this this is actually the gradient or sometimes we use this notation
+[19:52] and if there are only conservative forces then we have the following so from work and energy principle
+[20:01] you want you to work from one to two is the changes of the kinetic energy so we have T2 minus T1
+[20:10] and also from the definition of work with the conservative forces
+[20:17] we have potential energy one minus potential energy 2. and we
+[20:24] know that these two are the same so V1 minus V2 equals T2 minus T1
+[20:32] so in other words V1 and then we can move to the other side and plus T1
+[20:38] equals V2 plus T2 so we have this Wizard and interestingly
+[20:47] so this value is some value at location one and this is some value in at location two
+[20:56] so these locations are arbitrary so they are always constant or the same
+[21:05] and so we can just denote this and we can assign some meaning to this value
+[21:12] and so this is called mechanical
+[21:22] energy so when a particle moves under the action of conservative forces the total
+[21:30] mechanical energy is constant the friction force or they're not
+[21:37] conservative and due to friction the total mechanical energy of the system decreases
+[21:48] and usually the mechanical energy is dissipated by friction into the thermal energy
+[21:56] but in this sense the total energy including both mechanical and the thermal energy so I just say
+[22:05] this is including mechanical energy
+[22:15] Plus thermal energy
+[22:24] is constant so to solve this problem what we have to do is we can simply
+[22:32] play with this equation so the conservation of energy mechanical energy
+[22:38] so we have V1 T1 equals the same as P2 T2
+[22:47] so initially the velocity was zero so this is that means the kinetic energy is zero so we have zero there
+[22:55] what about the potential energy potential energy the wait times height so in that case
+[23:01] the weight is W in height is l what about V2 V2 is the potential energy
+[23:10] at the bottom and we know that this is zero then the only thing left is the kinetic
+[23:19] energy at the bottom which can be defined as sorry so this one can be defined as half
+[23:26] m v 2 squared when a particle moves under a conservative Force we have two important
+[23:35] conservation law the first one is conservation of angular momentum
+[23:43] here so the angular momentum if you recall is usually used RH and R cross MV so
+[23:54] it's actually conserved so that means we may have some initial value
+[24:04] and this is still the same as any other any arbitrary R and or V value there
+[24:11] and so this is actually the scalar expression of this Vector notation
+[24:19] and the second conservation law is conservation of mechanical energy
+[24:26] so here we have this expression so mechanical energy at location zero and mechanical energy at arbitrary
+[24:35] location then we can write out this expression and this expression and
+[24:43] actually this is constant and if we know R then the equations can
+[24:55] be used uh and and we can solve it for V and for angle Phi
+[25:03] at the minimum or maximum Phi is 90 degrees as you can see here so this is the angle
+[25:14] so when angle is 90 so that means it's actually at this location and also at this location
+[25:23] so this is minimum and this is maximum so then you can find our minimum our
+[25:31] maximum in V minimum and V maximum all right
+[25:37] [Music]

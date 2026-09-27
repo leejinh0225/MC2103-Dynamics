@@ -8,6 +8,7 @@ const lectures = [
   { page: "lecture03.html", slug: "lecture03", expectedSlides: 65 },
   { page: "lecture04.html", slug: "lecture04", expectedSlides: 72 },
   { page: "lecture05.html", slug: "lecture05", expectedSlides: 50 },
+  { page: "lecture06.html", slug: "lecture06", expectedSlides: 111 },
 ];
 const noteFiles = Array.from({ length: 16 }, (_, index) =>
   `lecture${String(index + 1).padStart(2, "0")}_note.pdf`,
@@ -214,7 +215,7 @@ for (const { page, slug, expectedSlides } of lectures) {
     errors.push(`${slug} slides: missing directory`);
     continue;
   }
-  const slideFiles = readdirSync(slideDir).filter((name) => /^slide-\d{2}\.jpg$/.test(name)).sort();
+  const slideFiles = readdirSync(slideDir).filter((name) => /^slide-\d{2,}\.jpg$/.test(name)).sort();
   totalSlideFiles += slideFiles.length;
   if (slideFiles.length !== expectedSlides) {
     errors.push(`${slug} slides: expected ${expectedSlides} images, found ${slideFiles.length}`);

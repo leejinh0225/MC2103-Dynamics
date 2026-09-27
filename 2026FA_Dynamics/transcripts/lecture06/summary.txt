@@ -1,0 +1,18 @@
+YouTube transcript
+Video ID: EQmTc_5-4hQ
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] this week we studied work and energy principle what can energy principle is an energy method that can describe the motion of
+[0:26] particles to get velocity and position information work and energy principle states that
+[0:33] work done to the system changes the kinetic energy of the system a few special forces called conservative
+[0:42] forces can Define work by potential energy which depends only on the position
+[0:49] when all forces are conservative mechanical energy is always conserved however work and energy principle cannot
+[0:57] compute forces which requires to combine Newton's law of motion together next week we will examine impulse and
+[1:07] momentum principle with in-person momentum principle we can understand how two particles behave
+[1:14] after Collision we'll also study conservation of momentum which is very useful to analyze
+[1:22] the Collision of particles see you next time
+[1:26] [Music]
