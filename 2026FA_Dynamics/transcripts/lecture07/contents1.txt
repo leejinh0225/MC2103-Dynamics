@@ -1,0 +1,98 @@
+YouTube transcript
+Video ID: VY_wTpAjoI8
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] if you look at the rocket launching
+[0:20] the thrust of Rocket acts over a
+[0:23] specific time period to give rocket
+[0:25] linear momentum
+[0:32] the impulse apply to the rail car by the
+[0:35] wall bring its momentum to zero
+[0:41] crash tests are often performed to help
+[0:44] improve safety in different vehicles
+[0:52] impulse is defined as the integral
+[0:56] of force over time of impact
+[0:59] therefore
+[1:00] the dimension of inputs is force times
+[1:04] time
+[1:06] and also the unit of impulse is
+[1:09] Newton times second
+[1:13] now let's examine in details how to
+[1:16] drive the impulse equation from Newton's
+[1:19] law of motion
+[1:21] f is D DT
+[1:25] times
+[1:27] MV
+[1:31] here
+[1:33] D DT can come to that side
+[1:38] and so now we have F DT equals D of MV
+[1:43] and so what we have to do is we just
+[1:45] take the integral from initial time to
+[1:48] the end of time
+[1:50] which is the inputs or impact time then
+[1:53] we have
+[1:56] this equation
+[1:58] and here we Define this integral on the
+[2:01] right hand side as the inverse which is
+[2:04] the inputs of the force f
+[2:06] so basically it's the integral of the
+[2:08] force and over time from T1 to T2
+[2:14] and if you just rearrange this equation
+[2:18] then we see that mv1 plus inputs from 1
+[2:22] to 2 is mv2
+[2:25] in other words the input creates the
+[2:28] changes in momentum
+[2:31] and here's a statement of inputs and
+[2:33] momentum principle
+[2:36] the final momentum of the particle can
+[2:40] be obtained
+[2:42] by adding factorially its initial
+[2:45] momentum and inputs of the force during
+[2:48] the time of interval
+[2:55] when we introduce the term impulse we
+[2:58] didn't mean that the force should be
+[3:00] high or the time time interval is short
+[3:03] however
+[3:05] there are some cases when the force is
+[3:07] very short
+[3:08] and
+[3:10] and the first is very high and for the
+[3:12] short period of time
+[3:17] for example a bed hitting a baseball is
+[3:21] the case like this
+[3:24] and in that case we call the force to be
+[3:28] impressive Force
+[3:33] when impressive Force acts on a particle
+[3:36] all non-impsive forces can be ignored
+[3:40] for that short period of time
+[3:45] therefore in this case
+[3:47] the inputs in momentum principle can be
+[3:50] applied only to the impulsive Force
+[3:53] so if you look at this equation
+[3:57] this part contains only the impulsive
+[3:59] force and all other non-inclusive Force
+[4:02] are dropped
+[4:08] it does not include
+[4:13] none
+[4:14] you know let's see
+[4:18] forces
+[4:22] when
+[4:25] press save
+[4:27] Force exist
+[4:35] the examples of impulsive force and the
+[4:37] non-impulsive forces are given here
+[4:40] when a baseball
+[4:42] is struck by a hat cat by pet
+[4:48] the contact occurs over a short time
+[4:52] but the force is large enough to change
+[4:54] the sense of ball motion
+[4:59] non-impressive forces are the force
+[5:03] for which
+[5:06] F times delta T is small and therefore
+[5:09] may be neglected an example of this is
+[5:13] the weight of the basement
+[5:15] [Music]

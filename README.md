@@ -15,6 +15,11 @@
 
 - Lecture 1: `Introduction to Dynamics` 한국어 학습 노트
 - Lecture 2: `Kinematics of Particles I: Rectilinear Motion` 한국어 학습 노트
+- Lecture 3: `Kinematics of Particles II: Curvilinear Motion` 한국어 학습 노트
+- Lecture 4: `Kinetics of Particles` 한국어 학습 노트
+- Lecture 5: `Motion under Central Force` 한국어 학습 노트
+- Lecture 6: `Work and Energy Principle` 한국어 학습 노트
+- Lecture 7: `Impulse and Momentum Principle` 한국어 학습 노트 — 6주차, 원본 74장·영어 자막 5편 대조
 
 ## 공개 사이트
 

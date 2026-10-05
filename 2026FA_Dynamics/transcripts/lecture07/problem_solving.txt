@@ -1,0 +1,677 @@
+YouTube transcript
+Video ID: PdgyxxL0DeA
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:19] problems let's look at the problem
+[0:21] number one
+[0:26] so as you can see here we have a car or
+[0:29] automobile here and there is a slope
+[0:32] with the angle of 5 degree
+[0:37] so the automobile weighing 1800 kilogram
+[0:41] is driven down
+[0:43] a five degree incline at a speed of 100
+[0:47] kilometer per hour
+[0:49] then it breaks
+[0:52] the car and it causes constant total
+[0:56] breaking force of 7000 Newtons
+[1:01] then we need to determine the time
+[1:03] required for the automobile to start
+[1:07] completely
+[1:13] then how do we solve this problem
+[1:15] there are many ways to solve this
+[1:17] problem
+[1:19] but here we will use inputs and momentum
+[1:22] principle
+[1:23] so apply the principle of inputs in
+[1:26] momentum
+[1:28] the in-person is equal to the product of
+[1:31] the constant forces and the time
+[1:34] interval
+[1:38] so let's apply the impulsive momentum
+[1:40] principle the principle is this so we
+[1:43] have initial
+[1:45] momentum and we have the impulse
+[1:49] then
+[1:51] we have the terminal momentum
+[1:55] taking components parallel to the
+[1:57] incline in other words
+[1:59] we are looking at
+[2:01] forces and inputs along this direction
+[2:06] so initial velocity is V1 so we have
+[2:11] initial momentum
+[2:15] we also have weight
+[2:23] and since we have inclination incline so
+[2:26] we have to consider that part so that's
+[2:29] why we have this part
+[2:32] and we assume that
+[2:35] enforce is the weight is constant so in
+[2:38] that case we simply multiply the force
+[2:41] with the time
+[2:42] that's inputs
+[2:45] we also have breaking force f
+[2:48] so we need to multiply the force with
+[2:51] the time
+[2:54] then what is the terminal momentum
+[2:57] the car has to completely stop so that
+[3:00] means
+[3:02] mv2
+[3:04] has to be zero
+[3:07] then by plugging all information in this
+[3:10] equation
+[3:12] we can compute the time which is 9.16
+[3:16] second
+[3:18] to solve this problem you could use
+[3:21] Newton's second low to solve this one
+[3:24] and first you determine the car's
+[3:27] deceleration and separate variables and
+[3:31] then integrate
+[3:33] a equals DV over DT
+[3:36] to relate the velocity deceleration and
+[3:40] time
+[3:47] however
+[3:48] you cannot use the conservation of
+[3:50] energy to solve this problem because the
+[3:53] principle does not involve time
+[4:00] yeah
+[4:02] let's look at the second problem
+[4:06] we have a baseball and a bed
+[4:09] so
+[4:10] a 120 gram baseball is pitched with a
+[4:15] velocity of 24 meter per second so it's
+[4:18] flying in this direction horizontally
+[4:21] after the ball is hit by the bat right
+[4:25] here
+[4:28] the ball has a velocity of 36 meters per
+[4:31] second
+[4:32] in this direction
+[4:38] if the bat and ball are in contact for
+[4:42] this much time
+[4:43] 0.015 seconds
+[4:45] then determine the average impulsive
+[4:48] Force
+[4:49] exerted on the ball
+[4:53] during the impact
+[4:58] then how do we solve this problem
+[5:02] apply the principle of in-person
+[5:04] momentum
+[5:06] in terms of the horizontal and vertical
+[5:08] component so we'll have two equations
+[5:13] so let's apply the important momentum
+[5:15] principle in terms of horizontal and
+[5:17] vertical components individually
+[5:21] this equation so in X component
+[5:25] or extraction
+[5:26] so first of all we have to identify all
+[5:29] the first components and then you just
+[5:32] simply multiply delta T
+[5:35] to have the impulses and also
+[5:39] identify the initial velocity and the
+[5:42] terminal velocity
+[5:44] so in the horizontal Direction the
+[5:46] initial momentum
+[5:48] is this which is coming from here
+[5:52] and
+[5:54] the inputs in the horizontal direction
+[5:55] is this which is coming from here
+[6:00] and finally
+[6:04] the momentum afterward is this one but
+[6:08] since we're taking the horizontal
+[6:10] component only we have to multiply
+[6:12] cosine 40.
+[6:15] and to compute this we have
+[6:19] this value so f x equals
+[6:23] 412.6 Newton
+[6:26] what about the Y component
+[6:29] so now we have to look at the vertical
+[6:31] Direction
+[6:33] initially
+[6:34] the velocity was horizontal so we don't
+[6:37] have any vertical momentum so this is
+[6:40] zero
+[6:42] what about the inputs we have this
+[6:45] component here so at that here
+[6:49] and the ball is going up with
+[6:52] inclination in that direction then we
+[6:55] can decompose it this in this way and so
+[6:59] the vertical component of the momentum
+[7:02] final momentum is
+[7:03] this one multiplied by sine 40.
+[7:07] and by plugging all information here you
+[7:11] can find
+[7:12] FY
+[7:14] then the magnitude itself is the simple
+[7:18] calculation of square root of
+[7:21] 413 squared plus
+[7:24] 185.1 squared
+[7:27] so in this problem we neglected the
+[7:31] inputs due to weight
+[7:35] then why did it why did we do that
+[7:37] that's because
+[7:39] the weight itself is considered non
+[7:44] impressive
+[7:48] force and is that really so then let's
+[7:51] check that
+[7:52] so the weight of the ball or the mass of
+[7:55] the ball is
+[7:56] 0.12 kilogram and we just multiply
+[8:00] gravitational acceleration G here and
+[8:03] the time period here then the overall
+[8:09] impulse is
+[8:10] this much
+[8:12] 0.01766
+[8:16] what about the bet is it uh is it really
+[8:19] impressive or is it high enough compared
+[8:21] to this number and let's check that
+[8:27] so we have this much force and the time
+[8:30] period is this much and so the inverse
+[8:33] value itself is
+[8:35] 6.78 so if you just compare these two
+[8:40] this is a lot higher so yes our argument
+[8:44] is true this is impressive force and
+[8:47] non-impsive force can be ignored
+[8:52] let's do problem number three
+[8:54] determine the velocity inputs and
+[8:57] friction for this system
+[9:01] so
+[9:03] there's a shoot here
+[9:06] or inclined
+[9:09] and the package with the weight of 10
+[9:12] kilogram is coming from here
+[9:16] and the velocity was 3 meters per second
+[9:21] there is also a cart with a weight of 24
+[9:25] kilogram
+[9:27] the card can freely Move Along
+[9:30] the horizontal Direction
+[9:33] and initially it was at rest so we don't
+[9:36] have any
+[9:38] velocity
+[9:41] then find the final velocity of the card
+[9:46] the input is exerted by the card on the
+[9:49] package
+[9:53] and finally the fraction of the initial
+[9:56] energy lost
+[9:58] in the impact
+[10:04] so how do we solve this problem
+[10:09] well since we have the impact or
+[10:11] Collision related applied then we can
+[10:14] apply the principle of impulse and
+[10:16] momentum to the cart
+[10:19] packaging card system to determine the
+[10:22] for our final velocity
+[10:24] so we just apply the in-person momentum
+[10:27] principle to the whole system first
+[10:32] and then we apply the same principle to
+[10:35] the package only
+[10:37] to determine the inputs exerted on it
+[10:40] from the change
+[10:42] in its momentum
+[10:49] so let's apply the principle of
+[10:52] in-person momentum to the package called
+[10:54] system
+[10:55] to determine the the final velocity
+[10:59] so if you look at here we have plus sign
+[11:01] and we have equal so
+[11:04] from here so this is initial momentum
+[11:09] and so let me just write that
+[11:14] initial
+[11:19] momentum
+[11:21] and the one in the middle is impulse
+[11:29] due to the impact
+[11:31] and finally we have
+[11:34] final momentum
+[11:44] so let's look at the X components or
+[11:47] horizontal components
+[11:50] as you can see the package is
+[11:53] flying with the uh in this Direction
+[11:56] with the angle of 30 degrees
+[11:58] then we can decompose it in this way
+[12:02] okay
+[12:04] so then
+[12:06] initial
+[12:07] momentum is
+[12:10] MV in cosine 30 in 30 direction right in
+[12:15] 30 or degree attraction so we we have to
+[12:18] multiply cosine 30
+[12:21] what about the inputs
+[12:24] as you can see
+[12:26] there is no
+[12:28] friction or no other forces that's
+[12:31] resisting against horizontal movement so
+[12:34] that means we have zero inputs in X
+[12:37] direction or in horizontal Direction
+[12:41] finally
+[12:42] postcard and package became one system
+[12:47] and they moved together in other words
+[12:49] we can say that uh
+[12:52] the coefficient of restitution is zero
+[12:54] or it's perfectly
+[12:59] plastic
+[13:01] or sometimes we say perfectly in elastic
+[13:09] so the velocity of packaging the cart
+[13:13] should be the same and so we have this
+[13:16] momentum expression
+[13:19] and by plugging all need all available
+[13:22] information you can easily find V2 which
+[13:25] is 0.742 meters per second
+[13:29] and this is the terminal velocity or
+[13:32] final velocity
+[13:41] now apply the same principle to the
+[13:44] package alone to determine the inputs
+[13:47] exerted on it from the change in its
+[13:50] momentum
+[13:52] so momentum equation look like this okay
+[13:57] and remember that this is the vector
+[13:59] valued equation
+[14:04] in other words it has X component and Y
+[14:06] component
+[14:08] simultaneously but we will just look at
+[14:10] only the X component first
+[14:14] so again if we compute the momentum
+[14:20] of this one in X component and we have
+[14:22] this
+[14:23] now what about
+[14:26] the impulse index component we now have
+[14:29] this part
+[14:32] okay but this one didn't exist before I
+[14:35] mean why is this so
+[14:36] that's because
+[14:38] this impulse was actually canceled by
+[14:41] the opposite inputs from from the cart
+[14:46] and also the cart is on it's lying on
+[14:49] the ground and it doesn't have any
+[14:51] friction so that's why we don't have any
+[14:53] inputs and impulses in next X Direction
+[14:58] but in this case when we are looking at
+[15:01] the package alone then there should be
+[15:04] impresses in in horizontal Direction
+[15:08] and so this is it
+[15:10] then the terminal momentum is
+[15:14] this one again we don't care about or we
+[15:17] don't consider uh the card we are just
+[15:20] looking at only the package so that's
+[15:22] why we have only this component
+[15:26] and so you can simply plug in in all the
+[15:29] information available then we can get
+[15:32] the impulse value here which is minus
+[15:35] 18.56 Newtons second
+[15:42] what about the Y component
+[15:45] we also need to look at the Y component
+[15:48] or y direction because we have to find
+[15:50] this inverse
+[15:52] do the same thing so
+[15:55] get the vertical component of
+[15:58] the momentum and vertical component of
+[16:01] inputs
+[16:03] and since we don't have any vertical
+[16:05] movement after the Collision
+[16:07] the momentum becomes zero
+[16:10] then by solving this equation with
+[16:12] available information plugged in
+[16:15] we see that the inputs in vertical
+[16:17] direction is 15 newton second
+[16:24] then why since the inputs itself is a
+[16:27] vector valued function or a vector
+[16:30] valued uh
+[16:33] metric then what we can do is we can
+[16:35] just combine them with x axis and and y
+[16:40] axis this value itself is just a
+[16:43] euclidean distance or the magnitude of
+[16:45] this vector
+[16:52] now let's compute the fraction of energy
+[16:55] lost
+[16:57] so what is how much is the energy lost
+[17:00] during the impact
+[17:01] so let's compute
+[17:04] the kinetic energy before and after
+[17:07] so kinetic energy before is
+[17:10] coming from the package only
+[17:12] because the card is not moving
+[17:15] so
+[17:17] half MV squared and we get 45 joule
+[17:22] that's the kinetic energy before and
+[17:25] afterwards after the impact the kinetic
+[17:28] energy is now this
+[17:30] remember that we have perfectly
+[17:33] inelastic or plastic collisions so that
+[17:36] means the velocity becomes the same and
+[17:39] so
+[17:40] this is what we have
+[17:43] the kinetic energy
+[17:45] is about this much
+[17:48] which is quite small compared to the
+[17:50] original
+[17:51] kinetic energy which is 45. then
+[17:56] we are asked to find the fraction of the
+[17:58] energy lost so we can try this
+[18:02] T minus T1 minus T2 divided by the or
+[18:06] the original kinetic energy
+[18:08] then we have 0.786
+[18:12] or 78 percent
+[18:21] so except in purely theoretical case of
+[18:25] perfectly elastic Collision the
+[18:27] mechanical energy is never conserved in
+[18:30] collision between the two objects
+[18:33] even though linear momentum may be
+[18:35] conserved
+[18:42] note that in this problem
+[18:45] momentum was conserved
+[18:48] in the X Direction but not in y
+[18:51] direction
+[18:52] that's because
+[18:53] the vertical inputs on the wheel of the
+[18:56] card
+[18:58] whenever you deal with the impact
+[19:00] you need to use the in-person and
+[19:02] momentum method
+[19:12] now let's look at problem number four
+[19:15] if you look at the image first it looks
+[19:17] very interesting right so we have two
+[19:20] ball here one and the other here
+[19:24] and bold B is suspended with the cable
+[19:28] like so and if we just let go of the
+[19:32] bulb a and if it drops and if it hits
+[19:35] the ball B then what happens
+[19:39] I think it's quite uh natural to to
+[19:42] imagine that the ball B will move along
+[19:45] this direction whereas the pole a will
+[19:47] move along this direction
+[19:50] but let's see if that's the case
+[19:56] so let me just read the problem again so
+[19:58] pole B is hanging from on are in
+[20:03] extensible inextensible means the length
+[20:05] of the cable doesn't change
+[20:07] and on identical ball a is released from
+[20:12] the rest when it is just touching the
+[20:15] cord and acquires a velocity V naught
+[20:18] before striking the ball B so right
+[20:21] before the contact or Collision
+[20:24] the velocity of pole a was V naught or
+[20:27] visual
+[20:29] and assuming perfectly elastic impact so
+[20:33] that means a coefficient of restitution
+[20:36] is one
+[20:39] and also we assume there is no friction
+[20:41] then what is the velocity of each pole
+[20:44] immediately after the impact
+[20:51] and here are the strategies
+[20:54] first determine orientation of impact
+[20:58] line of action so we have to determine
+[21:01] this kind of line
+[21:05] second
+[21:07] momentum component of pole a which is
+[21:10] tangential to the contact plane is
+[21:13] conserved
+[21:18] third
+[21:20] total horizontal momentum of the Turbo
+[21:23] System is conserved
+[21:25] and we'll get to the uh Point each of
+[21:28] them in the following slides
+[21:34] the relative velocities along the line
+[21:37] of action before and after the impact
+[21:39] are related by the coefficient of
+[21:42] restitution
+[21:44] then we can solve for the last two
+[21:46] expressions for the velocity of pole a
+[21:49] along with the line of action and the
+[21:52] velocity of pole B which is horizontal
+[21:59] now
+[22:00] the first thing is determine the
+[22:02] orientation of impact line of action so
+[22:06] you can draw a line
+[22:09] like in this way
+[22:12] so this is just the geometric
+[22:14] relationship you can easily visualize
+[22:17] this situation
+[22:19] and we can see that the angle Theta
+[22:22] which is this one is
+[22:24] determined and it is 30 degrees
+[22:29] then momentum component of pole a
+[22:32] tangential to the contact plane is
+[22:35] conserved
+[22:38] so
+[22:40] this direction is tangential Direction
+[22:44] since there is no any impulses acting
+[22:47] along this direction so
+[22:51] the momentum has to be conserved
+[22:55] so this part is zero
+[22:59] then the momentum before is this in
+[23:03] momentum afterwards is this one
+[23:06] then we can find the relationship
+[23:09] between the initial velocity and the
+[23:12] final velocity of a in tangential
+[23:15] Direction
+[23:17] what about the the horizontal Direction
+[23:20] if we are looking at the whole system
+[23:22] where just a whole system like including
+[23:26] two balls
+[23:27] then horizontal direction is important
+[23:30] because if you look at the system itself
+[23:33] the the ball itself is suspended by a
+[23:37] chord in inexpensable chord right that
+[23:40] means
+[23:41] this chord is
+[23:44] providing some forces in that direction
+[23:46] and that force is used as an Impulse
+[23:50] however there is no force in horizontal
+[23:54] Direction at all
+[23:55] so that means there's no inputs in
+[23:57] horizontal Direction so that's why
+[24:01] the inputs
+[24:03] the momentum in horizontal direction is
+[24:05] conserved before and after the impact
+[24:10] so let's do that if you look at that
+[24:12] the initial momentum is MVA
+[24:18] and MVB
+[24:21] is it exists but this one is zero
+[24:24] because initially uh the pole B wasn't
+[24:27] moved wasn't moving and also we don't
+[24:31] have any inputs in horizontal Direction
+[24:34] so that means this is also zero
+[24:38] then now let's solve for this equation
+[24:43] so move all non-zero components to the
+[24:45] other side or to the right hand side and
+[24:48] in the left hand side we have zero value
+[24:51] okay
+[24:52] so now we have this equation and finally
+[24:55] we have this expression
+[25:02] so we have two unknowns here
+[25:04] VB Prime and VA Prime in normal
+[25:07] Direction
+[25:14] now let's look at the relative
+[25:15] velocities
+[25:17] along the line of action before and
+[25:19] after the impact
+[25:21] and we will use the coefficient of
+[25:23] restitution
+[25:30] and from the definition of question
+[25:32] coefficient of repetition we have the
+[25:36] the relationship between the relative
+[25:37] velocities before and after
+[25:41] and so plug all the needed all the
+[25:43] related information here and so we get
+[25:49] this equation
+[25:51] so we have two equations and two
+[25:53] unknowns in this case well actually we
+[25:56] have more unknowns but but anyway we
+[25:58] already have two equations now
+[26:04] so now solve the last two expressions
+[26:07] for the velocity of pole a along the
+[26:11] line of action and the velocity of pole
+[26:13] B which is horizontal
+[26:16] so now you can find this one and this
+[26:19] one this relationship
+[26:23] so we are done with all of this
+[26:26] um
+[26:28] problem and so we can find the the
+[26:31] numbers
+[26:37] since coefficient restitution is 1 the
+[26:40] impact between A and B is perfectly
+[26:43] elastic therefore rather than using the
+[26:46] coefficient of restitution we can also
+[26:48] use the conservation of energy or as a
+[26:51] final equation that's also possible
+[26:54] now let's look at problem number five
+[26:58] so we have a block here and we have a
+[27:01] spring
+[27:04] so a 30 kilogram block is dropped from
+[27:07] height of 2 meter because it's 2 meter
+[27:10] onto 10 kilogram pen of spring scale
+[27:15] and assuming the the impact to be
+[27:18] perfectly plastic
+[27:19] and determine the maximum deflection of
+[27:22] the pain
+[27:24] the constant of the spring is 20 kilo
+[27:27] Newton per meter
+[27:30] then how do we solve this problem
+[27:33] here's a strategy
+[27:35] so first we apply the principle of
+[27:38] conservation of energy to determine the
+[27:40] velocity of the block at the instant of
+[27:43] impact
+[27:45] so we can find the velocity of the block
+[27:47] right before it touches the pen
+[27:51] using the conservation of energy
+[27:54] and since the impact is perfectly
+[27:56] plastic
+[27:58] the block and Pen move together
+[28:02] at the same velocity after the impact
+[28:06] determine that
+[28:07] velocity
+[28:08] from the requirement there is the total
+[28:11] momentum of The Blocking pin is
+[28:13] conserved
+[28:15] apply the principle of the conservation
+[28:17] of energy to determine the maximum
+[28:20] deflection of the spring
+[28:22] so let's first apply the principle of
+[28:24] conservation of energy
+[28:26] to determine the velocity of the block
+[28:28] at the instant of impact
+[28:33] initially kinetic energy is zero
+[28:36] and at the end the potential energy is
+[28:39] zero then using this conservation of
+[28:42] mechanical energy equation we can simply
+[28:45] find that velocity right before the
+[28:47] impact is
+[28:49] given as this
+[28:56] now determine the velocity after impact
+[28:59] from the requirement that the total
+[29:02] momentum of the black and pen is
+[29:03] conserved
+[29:11] so
+[29:13] we have
+[29:15] this equation and this equation is
+[29:17] assuming that it is actually the the
+[29:20] Collision itself is perfectly plastic
+[29:23] so that's why we have this part and the
+[29:26] velocity is shared all the same
+[29:32] then we can easily get that the velocity
+[29:35] is 4.7 meter per second
+[29:44] now the only thing left is
+[29:46] to find the maximum deflection
+[29:49] so let's look at
+[29:51] the initial spring deflection
+[29:55] due to the pain rate the pain itself has
+[29:58] weight so it will be deflected and
+[30:01] pressed initially
+[30:03] so X3 equals
+[30:05] the weight of the body and the spring
+[30:09] coefficient and so we can see that the
+[30:13] deflection the initial compression is
+[30:15] this much
+[30:17] now apply the principle of conservation
+[30:20] of energy to determine the maximum
+[30:22] deflection of the spring
+[30:25] the kinetic energy
+[30:28] where both the block and pen is moving
+[30:31] together so the kinetic energy can be
+[30:33] computed in this way
+[30:36] what about the potential energy
+[30:38] potential energy can be also can easily
+[30:41] be computed
+[30:42] and if we assume that initially the
+[30:46] height was treated as a datum then
+[30:48] follicle
+[30:51] the potential energy due to the
+[30:53] gravitation is zero
+[30:56] what about the potential energy due to
+[30:58] the spring since it is initially
+[31:00] compressed slightly we have to consider
+[31:03] that so we have this much potential
+[31:06] energy
+[31:07] and finally we have
+[31:12] the kinetic energy after the maximum
+[31:15] deflection so the velocity has to be
+[31:17] zero and so that's why we have
+[31:20] with zero kinetic energy
+[31:24] then by just plugging this information
+[31:26] into
+[31:28] the
+[31:29] conservation of energy equation
+[31:33] we finally have
+[31:35] our height which is 0.25
+[31:39] meter
+[31:41] the spring constant for this scale is
+[31:43] pretty large but the block is fairly
+[31:46] massive and is dropped from the height
+[31:49] of 2 meter
+[31:51] from this perspective
+[31:53] the deflection seems reasonable
+[31:56] we included the spring in the system so
+[31:59] that we could treat it as an energy term
+[32:01] rather than finding the work of the
+[32:04] spring Force
+[32:07] now here we have some uh
+[32:09] group problem well I'm not going to
+[32:11] solve this problem but I'll give you
+[32:13] some some ideas about how to tackle this
+[32:16] problem and you guys can try it by
+[32:18] yourself
+[32:22] so there is a block a which is weighing
+[32:25] 2 kilogram this is pushed up against the
+[32:29] spring compressing it a distance of x
+[32:32] equals
+[32:33] 0.1 meter
+[32:38] the block is then released from rest and
+[32:42] it slides down the 20 degree incline
+[32:44] until it strikes a one kilogram sphere
+[32:48] right here B which is suspended from one
+[32:53] meter in extensible Rock
+[32:57] then how do we solve this problem so
+[32:59] what's the strategy well before getting
+[33:01] into that let's look at more details
+[33:03] about the problem so spring constant is
+[33:05] k equals 800 Newton per meter and the
+[33:10] question of friction uh between
+[33:13] uh Mass a and the ground is 0.2
+[33:18] and the distance a slides from the
+[33:21] unstretched length of the spring D is
+[33:24] 1.5 meter
+[33:27] and the coefficient of restitution is
+[33:29] 0.8
+[33:37] we are given that Alpha angle is 40
+[33:40] degrees so This Is 40 degrees
+[33:43] and if that's the case what is the speed
+[33:45] of B and also what is the tension in the
+[33:49] Rope
+[33:50] so here are the strategies
+[33:53] so this is actually uh this is actually
+[33:55] a multi-step problem so so formulate uh
+[33:59] your own approach
+[34:03] so use work and energy principle to find
+[34:05] the velocity of the block just before
+[34:07] the impact so that's one and use
+[34:10] conservation of momentum to determine
+[34:12] the speed of Ball B right after the
+[34:15] impact that's two and then you again use
+[34:19] the working energy principle to find the
+[34:22] velocity at angle Alpha
+[34:27] then finally to find the tension at the
+[34:30] chord or at the Rope you have to use
+[34:32] Newton's low motion to find the tension
+[34:36] in the Rope
+[34:39] [Music]

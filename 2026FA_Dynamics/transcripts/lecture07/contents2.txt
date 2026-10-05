@@ -1,0 +1,253 @@
+YouTube transcript
+Video ID: jvt8mX2OSfs
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:19] momentum principle let's talk about
+[0:22] applications of it the first one is
+[0:25] impact
+[0:27] here's an example of golf 4 the
+[0:30] coefficient of restitution is used to
+[0:32] characterize the bounciness of different
+[0:35] support equipment
+[0:37] for example for U.S gold for Association
+[0:40] limits
+[0:41] the coefficient restitution of the code
+[0:43] for at 0.83
+[0:55] so what exactly is impact so let's
+[0:58] define it here
+[1:01] impact is a collision between two bodies
+[1:04] which occurs during a small time pin
+[1:07] interval and during which the bodies
+[1:10] exert large forces on each other
+[1:16] we have some terminology here the first
+[1:18] is
+[1:20] lineup impact
+[1:22] as you see in the first image
+[1:25] when the two objects contact
+[1:31] there is a common tangent surface here
+[1:35] then we can draw a line that is normal
+[1:38] to the surface
+[1:43] passing through the contact point
+[1:46] the second is Central impact
+[1:51] when two objects Central Mass lie on the
+[1:55] line of impact
+[1:56] for example this case
+[2:00] it is called Central impact
+[2:02] otherwise they are called eccentric
+[2:05] impact
+[2:09] Overlake impact
+[2:11] here
+[2:13] is an impact for which one or both of
+[2:16] the bodies move along a line other than
+[2:19] the line of impact so in this case
+[2:23] there is a line of impact but if you
+[2:26] look at the velocity vector
+[2:29] is not aligned with the line of impact
+[2:31] in this one too
+[2:33] so in that case this movement is oblique
+[2:36] but also at the same time the Central
+[2:39] Mass is
+[2:40] in the line of impact so that's that's
+[2:43] why we call it central impact
+[2:47] let's talk about direct Central impact
+[2:53] we have two bodies
+[2:56] one here and one here
+[2:58] moving in the same straight line here VA
+[3:03] is faster
+[3:05] than VB that's our assumption
+[3:08] then after some time
+[3:11] this pole a will hit ball b
+[3:17] upon impact
+[3:18] the bodies undergo a period of the
+[3:21] deformation
+[3:22] as you can see here
+[3:28] at the end of which they are in contact
+[3:31] and moving at a common velocity so now
+[3:35] we have the common velocity
+[3:45] then a period of restitution follows
+[3:49] during which the bodies either regain
+[3:52] their original shape
+[3:53] like so
+[3:57] or remain permanently deformed
+[4:03] then what are the final velocities of
+[4:07] those two bodies
+[4:08] note that the total momentum of two
+[4:11] bodies or two body system is preserved
+[4:18] so momentum before is the same as
+[4:21] momentum after
+[4:40] since we have two unknown
+[4:43] variables which is VA Prime and v b
+[4:48] Prime which is the velocity of object a
+[4:51] after impact and DB Prime is the
+[4:54] velocity of object B after impact we
+[4:57] need one more equation so one equation
+[5:00] is this one
+[5:03] and then we need one more equation
+[5:10] then what are the final velocities of
+[5:13] the two bodies
+[5:18] note that the total momentum
+[5:20] of the two body system is preserved
+[5:24] in other words the momentum before
+[5:31] is the same as the momentum
+[5:34] after
+[5:38] since we know two unknowns
+[5:45] so since we have two unknowns which is
+[5:48] VA Prime and VB Prime
+[5:51] which is this
+[5:54] and we have one equation here
+[5:58] then we need to have another equation
+[6:01] where the second relationship between
+[6:03] the final velocities is required
+[6:07] to have the second equation let's take a
+[6:09] look at the deformation and the
+[6:11] restitution period
+[6:13] during the deformation period the object
+[6:16] a receives inputs and it deforms
+[6:21] as a result
+[6:23] linear momentum changes
+[6:26] so I can write that down equate that in
+[6:29] in this equation
+[6:31] similar thing happens
+[6:33] during the restitution period
+[6:38] then we can Define coefficient of
+[6:41] restitution as the ratio between
+[6:43] restitution inputs and deformation
+[6:46] inputs
+[6:52] usually coefficient of restitution is
+[6:56] between 0 and 1.
+[7:00] the same analysis can be done for object
+[7:03] B
+[7:05] since coefficient of restitution is a
+[7:08] shared property between the two objects
+[7:11] we can combine the two equations for
+[7:14] coefficient of restitution to remove
+[7:17] variable U
+[7:22] and finally we have this equation
+[7:29] and this equation relates the initial
+[7:31] velocities here
+[7:38] and how to say relative
+[7:43] velocity
+[7:46] and this is
+[7:48] final
+[7:52] relative
+[7:54] velocity
+[8:02] when coefficient of restitution is zero
+[8:07] then we have
+[8:10] the same velocities afterward and so we
+[8:13] can call it
+[8:15] V Prime
+[8:18] and this is called perfectly plastic
+[8:21] impact
+[8:25] when coefficient of restitution is one
+[8:31] then we have this relationship
+[8:35] it turns out that both objects change
+[8:37] their velocity
+[8:40] that is VA is VB Prime and VB is ba
+[8:45] Prime
+[8:46] this is called perfectly elastic impact
+[8:54] in general
+[8:55] coefficient of restitution is between 0
+[8:59] and 1.
+[9:05] now let's look at the oblique Central
+[9:07] impact
+[9:11] in this case even though Central Mass of
+[9:15] both objects lie in the line of impact
+[9:21] there also exists other velocity
+[9:23] components then the direct Central
+[9:25] impact case
+[9:27] for example
+[9:32] we can decompose velocity
+[9:35] in this way
+[9:38] then this component and this component
+[9:41] these are the velocity that's not
+[9:43] aligned with the line of impact
+[9:48] since each object has two velocity
+[9:51] components there are total four unknowns
+[9:53] therefore we need four equations
+[10:03] luckily tangential component of moment
+[10:06] momentum for each particle is conserved
+[10:10] since there are no tangential impulses
+[10:15] as a result we have two equations saying
+[10:18] that tangential velocities of each
+[10:20] object are maintained
+[10:29] the normal components can be treated as
+[10:32] direct Central impact
+[10:36] in other words the total momentum of the
+[10:39] two particle system is conserved
+[10:47] therefore we have one more equation here
+[10:58] the last equation comes from coefficient
+[11:01] of restitution condition
+[11:04] here I'll explain several steps and
+[11:07] guidelines for solving oblique Central
+[11:09] impact problems
+[11:11] we have a block constrained
+[11:14] to move along horizontal surface
+[11:19] a ball is colliding with the block as
+[11:21] shown
+[11:24] we know the initial velocities for both
+[11:26] objects
+[11:29] when two objects collide
+[11:32] identifying all related forces is
+[11:35] important
+[11:36] for example we will have impulses from
+[11:40] internal forces f
+[11:42] and minus F along n axis which is the
+[11:47] line of impact
+[11:50] and from external force from external
+[11:53] Force f e x t exerted by a horizontal
+[11:56] surface here
+[11:59] and dragged it along the vertical to the
+[12:02] surface
+[12:05] to find the final velocity of wall
+[12:08] we need three equations
+[12:11] first tangential
+[12:13] tangential momentum or ball is conserved
+[12:17] so we have
+[12:21] this equation
+[12:28] the total horizontal momentum will block
+[12:31] and ball is conserved
+[12:34] foreign
+[12:40] and this is because there is no any
+[12:42] other
+[12:43] inputs
+[12:45] affecting the the momentum because there
+[12:48] is no friction in the ground
+[12:50] therefore we have
+[12:53] this equation
+[12:58] coefficient of restitution has to be
+[13:00] used in normal Direction then we have
+[13:03] the following equation
+[13:12] please note that the validity of last
+[13:15] expression does not follow from the
+[13:17] previous relationship for the
+[13:19] coefficient of restitution
+[13:21] a similar but separate derivation is
+[13:24] required
+[13:26] later
+[13:27] in the same in the sample problems we'll
+[13:30] handle similar problems
+[13:35] from the last week and this week we
+[13:39] study three different ways of analyzing
+[13:41] kinetics of particles the first one
+[13:45] is Newton's law of motion the second
+[13:49] work and energy principle
+[13:51] the third impulse and momentum principle
+[13:59] depending on the problems
+[14:01] you need to choose the best method out
+[14:04] of the three methods
+[14:06] or sometimes you can combine some of
+[14:09] them
+[14:12] for example
+[14:15] in the example in the example here
+[14:19] you can first apply the conservation
+[14:22] of energy from the folding pendulum
+[14:26] then when the impact or the Collision
+[14:28] happens
+[14:29] then you can apply the conservation in
+[14:32] of momentum during the impact
+[14:34] the same story goes for these two cases
+[14:38] [Music]
