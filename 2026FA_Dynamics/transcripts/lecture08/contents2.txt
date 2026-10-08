@@ -1,0 +1,432 @@
+YouTube transcript
+Video ID: w52fBxRGP6s
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] now let's talk about motion of the math
+[0:19] center of our system particles
+[0:22] so first we need to Define mess Center
+[0:25] G
+[0:26] of a system of particles
+[0:29] so mess enter G of resistible particle
+[0:32] is defined by the position Vector r
+[0:35] which satisfies this equation here I
+[0:39] used R Bar and then the arrow so in
+[0:44] general this is just one kind of
+[0:47] notation us but sometimes depending on
+[0:49] the textbook they uh may have different
+[0:52] notations for example they can use R
+[0:55] arrow with g
+[0:58] or denoting Center
+[1:03] of gravity
+[1:09] so so in this lecture I can use either
+[1:13] this expression or this expression
+[1:16] depending on
+[1:17] the situation
+[1:19] but here since the textbook is our
+[1:21] textbook is using this notation so I'll
+[1:24] just follow that notation
+[1:25] okay so as you can see the definition of
+[1:29] mess Center
+[1:31] which is R Bar arrow is actually the the
+[1:36] summation of or Mass
+[1:40] Mi times its position Vector RI
+[1:50] we can also differentiate the equation
+[1:52] with respect to time
+[1:54] so remember we had
+[2:05] we had this one and this equation is
+[2:07] always true because this is our
+[2:09] definition of my Center so in that case
+[2:11] we can
+[2:13] differentiate this equation with respect
+[2:15] to time and that is also true so if you
+[2:19] do that then we have
+[2:22] this expression
+[2:24] which is also same as
+[2:28] is this
+[2:30] and then if you differentiate it one
+[2:33] more time with respect to time
+[2:35] then we finally get this expression here
+[2:39] the uh we have to look at this part so
+[2:43] we have a bar in Arrow so a bar is
+[2:46] acceleration
+[2:51] of
+[2:53] mess Center
+[3:00] and then we can denote that as
+[3:02] l dot and that is equal to
+[3:06] summation of all four excellent forces
+[3:08] which is the application of Newton's law
+[3:11] of motion
+[3:14] and please note that the mess Center
+[3:16] moves as if the entire mass and all the
+[3:19] external forces were concentrated at
+[3:22] that point
+[3:24] now considering the centroidal frame of
+[3:27] reference g x Prime y Prime and Z Prime
+[3:31] here which translates with respect to
+[3:34] Newtonian reference frame o x y j in
+[3:38] other words we already have a Newtonian
+[3:41] reference frame so we have x axis y axis
+[3:47] and z-axis they are fixed in in
+[3:51] um
+[3:52] in the reference frame of our interest
+[3:54] and now we can consider uh
+[3:59] the system of particles like this one
+[4:01] right so we have many particles
+[4:04] and then there may be some Center Miss
+[4:06] Center I can say this is Messenger G
+[4:10] so
+[4:11] um so to denote this point G so we
+[4:15] actually use
+[4:17] this point G here and then we assign
+[4:19] another reference frame which is
+[4:22] actually aligned with
+[4:24] now this Newtonian reference frame
+[4:27] but the location is actually the origin
+[4:29] is located at the mass Center so the
+[4:32] direction itself is exactly the same so
+[4:35] this Vector is aligned with this vector
+[4:38] and this Vector is is aligned with this
+[4:41] vector and this Vector is
+[4:44] aligned with this Vector but only the
+[4:47] origin is actually different it's
+[4:50] located at the center of the mass for
+[4:53] the system of particles and then
+[4:56] at that point
+[4:59] we have now we can consider its
+[5:02] particles for example Pi then we can
+[5:05] assign its relative position
+[5:08] um between
+[5:09] the best center and it's particle and
+[5:12] then so we have we can just denote this
+[5:14] uh RI with the prime here we also have
+[5:20] velocity and then we also have mess so
+[5:23] mi and then velocity here VI and then we
+[5:27] also assign Prime here so so this is
+[5:30] actually the indication that this
+[5:34] velocity is actually the relative
+[5:36] velocity
+[5:37] and similarly we can have acceleration
+[5:41] expressed in this way
+[5:42] so acceleration of the particle
+[5:45] or pi
+[5:47] is a i
+[5:49] but then now since we have a mass Center
+[5:52] then we can link that with the message
+[5:55] Center's acceleration and then the
+[5:58] relative acceleration and this is always
+[6:00] true
+[6:05] now let's define the angular momentum of
+[6:07] the system of particles about the mesh
+[6:09] Center
+[6:10] here instead of defining HG
+[6:14] let's define HG Prime
+[6:17] I'll tell you the difference soon but uh
+[6:20] just let's look at what HG Prime is okay
+[6:24] here so to Define HG Prime so we are
+[6:28] actually working with our I Prime and
+[6:32] then also our VI Prime
+[6:35] so as I said
+[6:37] r i Prime is just a relative position
+[6:39] vector and then VI Prime is also
+[6:43] relative position Vector so let me just
+[6:45] write that so these are all relative
+[6:51] vectors
+[6:53] and also
+[6:55] just for your information I'll just
+[6:57] mention it later but uh
+[7:00] for your information
+[7:02] so we can Define HG now this one doesn't
+[7:06] have a prime
+[7:08] this is defined as summation over I
+[7:12] and we have now
+[7:15] RI Prime we are still using the prime
+[7:19] notation because the position has to be
+[7:20] relative with respect to the center of
+[7:22] mass but now what about the velocity the
+[7:25] velocity has to be its own absolute
+[7:27] velocity so we have to have m i and v i
+[7:34] so this is the only difference
+[7:37] this one
+[7:38] and
+[7:40] this one
+[7:41] so this is well actually this is the
+[7:44] usual definition of of the angular
+[7:46] momentum but but here actually I have
+[7:49] some intention to Define HG Prime
+[7:53] and we can we can figure that out in the
+[7:55] following slides
+[7:57] if we consider the time derivative of HG
+[8:00] Prime we can simply get summation of
+[8:03] woman Vector about
+[8:06] messenger G let's go through the
+[8:09] derivative derivation now
+[8:12] so remember so when we Define h
+[8:15] G
+[8:16] Prime
+[8:17] equals summation over I of r i Prime
+[8:24] cos m i and v i Prime
+[8:30] now if we perform the time there with a
+[8:33] differentiation with respect to time
+[8:37] then since we have r i and v i which are
+[8:43] changing over time we have to apply
+[8:46] the product rule so we have
+[8:51] r i Prime dot plus m i
+[8:57] v i prime plus
+[9:00] summation over I
+[9:03] Prime cross
+[9:06] m i v i Prime
+[9:09] Dot and remember this is the same as v i
+[9:14] Prime and since we have 2 VI Prime here
+[9:17] they are aligned and so this
+[9:20] product has become has to become zero
+[9:24] and this one is by definition
+[9:28] relative acceleration of particle I
+[9:33] so I can put Prime there so
+[9:37] this is that expression
+[9:41] now remember if we look at this
+[9:44] expression so as I said
+[9:46] a i is the acceleration of the particle
+[9:51] Pi with respect to the Newtonian
+[9:54] reference frame but if we just consider
+[9:57] two parts one is the acceleration of
+[9:59] Miss Center and also the acceleration of
+[10:03] the particle which is relative to Mass
+[10:05] center then we can we can have this to
+[10:08] sum
+[10:09] summation okay
+[10:11] so now since we have a prime here so a
+[10:16] prime can be expressed as
+[10:19] a i
+[10:21] minus a par
+[10:24] Vector so we can just plug that in here
+[10:28] and we have this one here
+[10:31] now this just simply work on this
+[10:34] equation then since we have two terms
+[10:37] here we can distribute m i over like so
+[10:41] and so we have this part and this part
+[10:45] remember
+[10:47] um
+[10:48] a i is the acceleration of each particle
+[10:52] so this one cannot get outside of the
+[10:55] summation notation but what about a bar
+[10:59] anybody itself is constant because this
+[11:02] one
+[11:03] is
+[11:05] this one is the acceleration of the math
+[11:08] Center
+[11:09] so acceleration
+[11:14] of
+[11:16] Miss Center or sometimes I'll just call
+[11:18] it as com Center of mass
+[11:21] so
+[11:23] a bar vector
+[11:25] is independent
+[11:32] of the index I
+[11:35] so it doesn't change so that's why this
+[11:38] a bar can come outside of
+[11:46] the summation notation okay and then
+[11:48] another important thing is this part
+[11:52] if you look at this part this one is
+[11:55] actually zero that's because uh
+[12:00] that's because this is actually
+[12:01] following the definition of center of
+[12:04] mass
+[12:05] so this one has to be Zero by definition
+[12:09] so then finally we have only this part
+[12:13] and then
+[12:15] what about this one this is
+[12:17] just f i
+[12:20] and this is due to
+[12:22] Newton's
+[12:27] law of motion
+[12:30] for each particle so that's why we have
+[12:33] this one and now we can simply Define
+[12:36] this notation as
+[12:39] mg
+[12:42] because this relative position Vector is
+[12:46] about the math Center so we can just
+[12:48] call it as mg then now we have finally
+[12:51] this expression
+[12:55] so again the moment result movement
+[12:57] resultant about the math Center G of
+[12:59] external force is equal to the rate
+[13:03] change of the angular momentum about G
+[13:05] of the system of particles
+[13:09] foreign
+[13:22] now we'll simply compare HG Prime and HG
+[13:29] and please note that
+[13:31] v i equals B bar plus bi Prime where b i
+[13:38] is
+[13:40] the velocity of the particle
+[13:46] change this one and then B Bar
+[13:49] is the velocity
+[13:57] the velocity of the West Center
+[13:59] and
+[14:02] VI Prime
+[14:06] this one is the relative velocity
+[14:08] let's say this is
+[14:12] relative velocity
+[14:16] of the particle about the mass Center G
+[14:23] the angular momentum about Mass center G
+[14:26] of the particles in their in their
+[14:29] motion relative to the centroidal g x
+[14:33] Prime y Prime G Prime reference frame is
+[14:36] given this here
+[14:40] so again we've already defined this one
+[14:42] before but let me just repeat that
+[14:45] now the angular momentum about mass
+[14:48] energy of particles in their motion
+[14:51] relative to Newtonian reference frame o
+[14:55] x y g can be computed as follows
+[14:59] so we have HG
+[15:03] and it turns out that both HG and HG
+[15:06] Prime are the same
+[15:08] as shown in here let me just go through
+[15:10] the equations here and check if that's
+[15:14] the case
+[15:16] and so what we know is
+[15:19] is this one so v i
+[15:22] which is the the absolute velocity of
+[15:24] the particle I
+[15:26] is
+[15:30] the velocity of the Miss Center
+[15:32] and plus velocity over which particle
+[15:35] which is relative to Mass center
+[15:39] fine and so we can simply plug this one
+[15:43] in here
+[15:45] and we can just distribute Mi over these
+[15:49] two
+[15:50] this and the first term is this and the
+[15:54] second term is this one and again
+[15:57] this is by definition zero because it is
+[16:01] actually the definition of my Center
+[16:04] so this is zero and so we have only the
+[16:06] second term left
+[16:08] and and what is this one
+[16:11] this one is nothing but h g Prime
+[16:15] so we can simply prove that HG and HG
+[16:19] Prime are the same
+[16:22] therefore the angular momentum about
+[16:24] mass energy of particle momenta can be
+[16:28] calculated with respect to either the
+[16:31] Newtonian or centroid reference frame
+[16:34] you can we can choose whatever that
+[16:36] works easier for you
+[16:43] if no external forces are applied
+[16:46] then due to in-person momentum principle
+[16:49] linear momentum and angular momentum
+[16:51] about a 6.0 are conserved and so we have
+[16:57] this and this in other words
+[16:59] new momentum is constant and angular
+[17:02] momentum about the 6.0 is constant
+[17:10] however if there are external forces
+[17:13] linear momentum is not conserved
+[17:17] that's because that technique external
+[17:19] forces are contributing to the input
+[17:21] impulse and so that's why the linear
+[17:25] momentum is not conserved
+[17:26] but there are some cases where the
+[17:28] angular momentum about a 6.0 can be
+[17:33] conserved even
+[17:35] external forces exist that's the the
+[17:38] specific example is the central Force so
+[17:42] if the central external forces are the
+[17:44] central forces then the angular momentum
+[17:46] of about a 6.0 is conserved
+[17:57] the same ideas apply about the
+[18:00] conservation of angular momentum about
+[18:02] the mess Center G
+[18:05] another important topic is the kinetic
+[18:08] energy of a system with particles
+[18:11] simply put it should be the sum
+[18:17] of kinetic energy of all individual
+[18:19] particles
+[18:21] and using the math Center relationship
+[18:23] we have this equation
+[18:27] so from the previous page
+[18:30] we had VI
+[18:33] was V
+[18:35] G
+[18:37] plus v i Prime here please note that I
+[18:41] used VG instead of P bar but they're
+[18:43] actually the same
+[18:45] so we can just simply plug this one into
+[18:48] the kinetic energy equation and so
+[18:51] that's why we have this expression
+[18:54] and if we just compute this dot product
+[18:59] then we have
+[19:02] this dot which is actually here and we
+[19:06] have another one
+[19:08] which is
+[19:10] here and then now we have a
+[19:14] some something the leftover so we that's
+[19:17] actually put in here
+[19:22] so please note that
+[19:30] this expression
+[19:36] is zero that's because because of this
+[19:39] part and to be more specific we have
+[19:50] this one to be zero because because this
+[19:52] is actually the definition of Mass
+[19:54] center and since this is always true and
+[19:58] if you just differentiate it with
+[19:59] respect to time
+[20:01] then we get
+[20:03] this part and that's also zero always
+[20:07] so that's why this middle part has to be
+[20:10] zero and so finally we have
+[20:13] kinetic energy for Mass center and also
+[20:16] the kinetic energy about
+[20:21] due to the relative relative motion of
+[20:24] the particle
+[20:27] so far we have examined in-person
+[20:29] momentum principle and also the kinetic
+[20:31] energy
+[20:33] what about the work and energy principle
+[20:37] so for each individual Point Pi the
+[20:40] following equation
+[20:42] here
+[20:43] can be used where
+[20:48] the work from one to two for each
+[20:51] particle I it represents the work done
+[20:54] by internal forces f i j and also and
+[20:58] also the resultant external Force fi
+[21:00] acting on our particle
+[21:03] VI
+[21:05] to compute work
+[21:07] both internal and external forces need
+[21:09] to be considered
+[21:11] note that even though f i j and fji
+[21:15] here
+[21:17] are equal and opposite
+[21:19] the work due to each of them
+[21:26] they will not cancel
+[21:29] because the displacement
+[21:32] of Pi and PJ are
+[21:35] usually different
+[21:38] however if all forces are conservative
+[21:42] then we still have the energy
+[21:44] conservation so we have
+[21:48] this expression
+[21:50] in-person momentum principle can be more
+[21:53] intuitive since not like the the working
+[21:56] energy principle
+[21:58] equal and opposite forces cancel out
+[22:03] again the moment or particles at time T1
+[22:07] and the inputs of the forces from T1 to
+[22:12] 2 2
+[22:13] a form of system of particle or system
+[22:16] of vectors equivalent to the system of
+[22:18] momenta of particles at time t two so I
+[22:23] said this is equivalent because all
+[22:27] internal forces cancel out and there
+[22:29] they disappear and so we only have the
+[22:31] external forces that's why I call it
+[22:34] equipment and also I said that in person
+[22:38] momentum principle can be very intuitive
+[22:41] and you may have some simple equations
+[22:45] eventually all right
+[22:49] [Music]

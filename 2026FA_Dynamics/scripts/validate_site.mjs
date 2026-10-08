@@ -10,6 +10,7 @@ const lectures = [
   { page: "lecture05.html", slug: "lecture05", expectedSlides: 50 },
   { page: "lecture06.html", slug: "lecture06", expectedSlides: 111 },
   { page: "lecture07.html", slug: "lecture07", expectedSlides: 74 },
+  { page: "lecture08.html", slug: "lecture08", expectedSlides: 70 },
 ];
 const noteFiles = Array.from({ length: 16 }, (_, index) =>
   `lecture${String(index + 1).padStart(2, "0")}_note.pdf`,

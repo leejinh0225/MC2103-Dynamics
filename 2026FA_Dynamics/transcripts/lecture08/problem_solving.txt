@@ -1,0 +1,575 @@
+YouTube transcript
+Video ID: gXdeWNdR2CE
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:18] now let's do some practice
+[0:20] let's look at sample problem number one
+[0:22] so we have
+[0:25] a 10 kilogram projectile
+[0:30] which is a ball that's flying with the
+[0:33] velocity of 30 mil meters per second
+[0:36] and after some time
+[0:40] when it passes at this point it explodes
+[0:45] and then
+[0:47] now it has two parts
+[0:49] one in here and one in here and it has
+[0:53] some fragments
+[0:55] that is actually moving towards this
+[0:57] direction and another the majority is
+[1:00] actually moving this direction
+[1:05] so immediately after the explosion the
+[1:08] fragment travel in the direction of
+[1:10] theta 1 which is
+[1:12] 45 degrees here and Theta B which is 30
+[1:18] degrees so we want to determine the
+[1:21] velocity of each fragment
+[1:24] so let's do that
+[1:26] then how do you solve this problem so
+[1:29] here are some suggested strategies the
+[1:32] first one since there are no external
+[1:35] forces right
+[1:37] because the ball itself is just exploded
+[1:41] so that linear momentum of the system is
+[1:45] conserved
+[1:46] that's very good and so we can write
+[1:49] separate components equations for the
+[1:52] conservation of linear momentum
+[1:55] then we can solve for the equations
+[1:57] simultaneously for the the fragment
+[2:00] velocities
+[2:03] so let's do that one by one
+[2:05] and since since we don't have any
+[2:08] external forces the linear momentum of
+[2:11] the system is conserved
+[2:13] so
+[2:14] just consider what happened right before
+[2:17] the external explosion and right after
+[2:19] this
+[2:21] explosion so ap4 the explosion we have
+[2:24] this in other words we have linear
+[2:27] momentum uh in in this direction to the
+[2:30] right side and then right after the
+[2:33] explosion we have two fragments one in
+[2:37] here one in here the direction is given
+[2:39] here and here so we have two linear
+[2:42] momenta one this direction another
+[2:45] distraction so we can just equate this
+[2:48] one with this one
+[2:51] so write the separate separate component
+[2:54] equations
+[2:55] for the conservation of linear momentum
+[3:01] so let's do that
+[3:03] um
+[3:03] Vector wise so we have one vector
+[3:08] that's
+[3:09] that's this one
+[3:11] and
+[3:14] right left the explosion we have two
+[3:16] vectors this one and this one so that's
+[3:18] why we have this and this
+[3:22] but if we just decompose it into X and Y
+[3:26] directions then we can write out these
+[3:29] equations so X component
+[3:33] um now we have to apply Sines and
+[3:35] cosines right mostly cosines for X
+[3:38] components so we have cosine 45 then
+[3:40] cosine 30 and we have
+[3:44] this one
+[3:46] and for y component
+[3:49] um
+[3:51] there's nothing right because in uh
+[3:53] right before the explosion there is no
+[3:55] vertical movement so that's why you have
+[3:57] zero and as you can see we have sine 45
+[4:01] and sine 30. for y components
+[4:05] and just combining these two equations
+[4:07] right so we have two unknowns which say
+[4:10] are VA and VB
+[4:13] right and then we have two equations
+[4:14] right so then we can solve for there's a
+[4:17] known variable and so
+[4:19] they are
+[4:21] found in this way
+[4:24] so as you might have predicted less
+[4:27] massive fragment winds up with a larger
+[4:30] magnitude of velocity
+[4:32] and it departs the original trajectory
+[4:34] at a larger angle which is very
+[4:37] intuitive right
+[4:39] and as expected
+[4:41] now let's look at the second problem
+[4:45] looks quite simple or very similar to
+[4:48] the previous one
+[4:50] so in a game of pool we have pole a so
+[4:53] this is a
+[4:55] and it has a initial velocity of V
+[4:58] naught
+[4:59] in this Direction with the 30 degrees
+[5:01] with the horizontal
+[5:02] Direction and it strikes with the ball B
+[5:06] here
+[5:08] and also what we see at the same time
+[5:10] because both B and C are in contact each
+[5:14] other
+[5:15] okay
+[5:17] and they are at rest
+[5:19] and aligned in this direction in this
+[5:21] way
+[5:22] so knowing that after Collision the
+[5:25] three balls move in the directions
+[5:27] indicated in this way so right after the
+[5:31] Collision VA moves in this direction
+[5:34] where angle is 7.4 degree
+[5:38] and then VB is moving towards this
+[5:42] direction the angle is 49.3 degree and
+[5:46] then VC is this Direction with the angle
+[5:49] of 45 degrees
+[5:52] and we also know that initial velocity V
+[5:54] naught is 4 meters per second so this is
+[5:58] 4 meters per second and then uh we only
+[6:02] have the Velocity information for VC
+[6:04] which is
+[6:06] 2 meters
+[6:08] per second
+[6:11] then we have to find the magnitude and
+[6:15] the magnitude of the velocity of pole a
+[6:18] and will be VA and VB
+[6:22] so we have two unknowns right but we
+[6:25] know the directions
+[6:26] okay so now we need two two equations
+[6:29] right
+[6:31] so then how do we solve this problem
+[6:33] since there are no external forces this
+[6:36] is very important no external forces and
+[6:39] so the linear momentum of the system is
+[6:41] conserved
+[6:43] and write the separate component
+[6:45] equations for the conservation of linear
+[6:47] momentum in X and Y directions
+[6:50] and so for the equation simultaneously
+[6:53] and you can find the velocities again
+[6:56] two unknowns
+[7:00] and then two equations
+[7:07] so we need two equations to solve for
+[7:09] two unknowns
+[7:13] so let's apply the conservation of
+[7:15] linear momentum
+[7:16] so in extraction
+[7:19] so for example if we go back
+[7:21] so we have we're assuming that the mass
+[7:25] of the poles are the same so then
+[7:29] um
+[7:30] what we need is only the velocity right
+[7:33] so we just need the velocity V naught uh
+[7:37] and then we can just project it to this
+[7:39] horizontal line with the cosine
+[7:45] that's why we have this one
+[7:47] and then right after the impact we have
+[7:49] this well actually why do we have so
+[7:52] many terms here we have only one term on
+[7:55] the left hand side but we have three one
+[7:57] two three that's because
+[8:01] um we have three balls after the
+[8:04] Collision right so
+[8:08] we have this relationship and just by
+[8:11] just Computing these cosines and signs
+[8:14] we have
+[8:15] this equation
+[8:18] so now we have one equation and do the
+[8:20] same thing for y direction and we have
+[8:23] another equation
+[8:24] so we're good so we have two equations
+[8:27] and we have two unknowns and so we can
+[8:30] find VA and VB quite easily
+[8:35] so that's given here
+[8:39] so in a game of pool ball a is moving
+[8:42] with a velocity V naught
+[8:44] and when it strikes Paul B both B and C
+[8:52] Richard at rest then align the shown
+[8:55] then
+[8:58] after the impact what is true about the
+[9:01] overall Center of mass of the system of
+[9:04] three volts
+[9:05] well I already I gave you the answer
+[9:09] but but uh the idea is very simple what
+[9:12] happens before is actually happening
+[9:15] afterwards that's the idea so the
+[9:18] overall system center of gravity or
+[9:19] Central Mass will move in the same
+[9:21] direction as
+[9:23] V naught
+[9:26] let's do
+[9:28] simple problem number three
+[9:31] so we have a bold B here
+[9:34] it has mass
+[9:36] MB
+[9:39] it's suspended from a chord here
+[9:44] the length is l
+[9:46] and it's attached to a cart a
+[9:49] it has mess
+[9:52] m a
+[9:53] and you can roll freely so that means
+[9:55] there is no friction
+[10:05] so the while the cart is at rest
+[10:09] the pole is given the initial velocity
+[10:11] of V naught which is square root of 2gl
+[10:20] then we want to find the velocity of b
+[10:23] as it reaches its maximum elevation so
+[10:26] think about what's happening
+[10:29] so the chord itself is not moving
+[10:31] there is a chord
+[10:33] and the ball is
+[10:36] moving with some initial velocity of
+[10:38] this much then what happens will be
+[10:40] after some time the card will move
+[10:44] well actually the ball will move
+[10:48] to this direction and it is actually
+[10:52] pulling
+[10:54] pulling the card and so the card is
+[10:57] moving to the right and after some other
+[11:00] some time now what happens is
+[11:04] this
+[11:06] and if this is the maximum height
+[11:10] then now
+[11:12] this ball will now
+[11:14] um uh start coming back
+[11:19] so then now we have to find
+[11:23] the maximum velocity
+[11:25] the velocity of b as it reaches the
+[11:27] maximum elevation
+[11:30] well intuitively
+[11:33] since this one if this fault is reaching
+[11:35] the highest the maximum height
+[11:38] then there may be no velocity right and
+[11:42] that's true because there is no relative
+[11:43] motion but since the cart itself is
+[11:46] moving this one should have that cards
+[11:50] or velocity so I think that's the
+[11:52] problem a is asking that that velocity
+[11:56] and what is the maximum of vertical
+[11:58] distance h
+[12:01] so to solve this problem so we have we
+[12:04] can consider two things
+[12:06] so with no external horizontal forces
+[12:09] because we said that there is no
+[12:11] friction in horizontal Direction so it
+[12:13] follows from the in-person momentum
+[12:15] principle that the horizontal component
+[12:18] of the momentum is conserved this is
+[12:20] very powerful and useful to solve this
+[12:23] problem
+[12:24] and this relationship can be solved for
+[12:28] the velocity of B it is maximum
+[12:31] elevation
+[12:35] and the conservation of energy
+[12:40] so conservation of energy principle can
+[12:42] be can also be applied to relate the
+[12:44] initial kinetic energy
+[12:46] with the
+[12:48] maximum potential energy
+[12:51] the maximum of vertical displacement is
+[12:54] determined from this relationship
+[12:57] since no external horizontal forces
+[13:00] exist
+[13:01] follows from the in-person momentum
+[13:03] principle that the horizontal component
+[13:05] of momentum is conserved that's very
+[13:08] convenient and useful and so this
+[13:10] relation can be solved for the velocity
+[13:13] of B at its maximum elevation so in
+[13:17] other words so
+[13:19] um right so we have
+[13:22] linear momentum beforehand the linear
+[13:25] momentum afterwards okay and this
+[13:28] afterwards means at uh
+[13:31] the highest
+[13:35] uh
+[13:36] highest point
+[13:40] and this is initial
+[13:45] uh
+[13:47] and then the lowest
+[13:50] point
+[13:53] and if you are just considering only the
+[13:54] horizontal Direction then this part is
+[13:56] zero right
+[13:59] so then all we have is this part
+[14:03] so we have cart we have all
+[14:07] okay
+[14:08] and so just write uh linear momentums in
+[14:12] X Direction
+[14:13] so a chord mess velocity of cart
+[14:18] which is zero right because initially
+[14:20] this one didn't didn't move and velocity
+[14:25] of the pole uh
+[14:27] initially and we we have 2G hell square
+[14:31] root 2gl
+[14:33] and then uh
+[14:36] so as soon as it reaches the ball which
+[14:38] is the maximum height then that's
+[14:40] actually the the point of Interest so we
+[14:43] have to apply a
+[14:45] we have to find this relationship for
+[14:47] that
+[14:49] so as I said velocity of cart at one is
+[14:53] zero and the velocity of 4 at 1 is V
+[14:58] naught which is square root 2gl
+[15:02] what about the velocity
+[15:06] at its maximum height velocity of the
+[15:08] ball at its maximum height
+[15:10] this one
+[15:13] remember since uh the pole is connected
+[15:17] uh
+[15:19] to cart a through the chord we can
+[15:22] consider this one as a rigid body
+[15:24] relationship and so we can consider uh
+[15:27] the relative motion
+[15:29] so this velocity can be expressed as
+[15:34] the linear velocity the velocity of part
+[15:37] A and the velocity of copy with respect
+[15:41] to the chord A which is the relative
+[15:43] velocity
+[15:49] okay
+[15:51] and when the ball reaches its maximum
+[15:53] height there is no relative motion right
+[15:56] that means
+[15:58] this one has to become zero at that
+[16:00] point
+[16:02] that's why
+[16:05] the velocity of the ball and the
+[16:07] velocity of cart at that point is the
+[16:10] same
+[16:12] so then you can now finally have this
+[16:15] linear momentum conservation equation
+[16:18] and so we have this expression
+[16:22] now we can consider the conservation of
+[16:25] energy
+[16:31] because there are the all the forces uh
+[16:33] related to this problem is conservative
+[16:39] so we can consider the initial kinetic
+[16:42] energy and then also maximum potential
+[16:44] energy so
+[16:45] that's showing here
+[16:48] so in position one the potential energy
+[16:50] is
+[16:52] um here for the card if we just assume
+[16:56] that
+[16:57] this line is data or the lowest point
+[17:01] then the potential energy of the card
+[17:03] with respect to the datum is just MGH
+[17:06] which is L so we have this
+[17:10] what about the kinetic energy go cart
+[17:12] doesn't move so it doesn't have any
+[17:14] kinetic energy but the ball moves with
+[17:16] the initial velocity V naught and so
+[17:18] this is the kinetic energy
+[17:21] all the total kinetic energy for the
+[17:24] system at equation one
+[17:27] at position two uh the potential energy
+[17:30] is now we have two parts one
+[17:32] from the card which is actually the same
+[17:35] as before
+[17:36] which is this and also now we have to
+[17:39] consider that the ball is moving up and
+[17:42] so this is the potential energy due to
+[17:45] the ball
+[17:48] what about the kinetic energy kinetic
+[17:49] energy well now cart is moving and the
+[17:52] ball is moving in the speed are the same
+[17:54] so we can have this expression
+[17:58] now putting together
+[18:00] now we have expression for the height
+[18:04] like so
+[18:07] so if we have the condition of this one
+[18:10] if V naught square is less than 2gl then
+[18:14] from the last equation we have H is less
+[18:18] than one in other words the B stays
+[18:20] below a
+[18:22] which is assumed in the solution
+[18:24] if Mass a is extremely heavier than mess
+[18:29] B
+[18:30] then now the answer reduces to this so
+[18:33] that means the Velocity
+[18:35] in position two doesn't uh is actually
+[18:39] zero it's like
+[18:41] cart is is fixed
+[18:46] so this is like a fixed point
+[18:50] like so
+[18:51] then since this one doesn't have
+[18:56] its velocity then at its maximum height
+[19:00] the
+[19:02] ball
+[19:05] also doesn't have velocity
+[19:07] and the height can be easily determined
+[19:09] in this in this relationship
+[19:12] and then simply b oscillates as a simple
+[19:16] pendulum about a which is very intuitive
+[19:19] and natural
+[19:21] but we can also consider the opposite
+[19:23] situation where mass of the the ball B
+[19:28] itself is much heavier than uh the card
+[19:31] so in that case
+[19:33] since the ball itself is too heavy
+[19:37] then what happens is
+[19:39] as soon as the the ball tries to move to
+[19:42] the right the whole thing will move to
+[19:45] the right
+[19:46] so in that case there is no angle here
+[19:50] and then there are just like a
+[19:52] translating to the right
+[19:54] so in that case the velocity of the pole
+[19:57] and velocity of the cart at the position
+[20:00] two is just the same as initial velocity
+[20:03] and the height is just zero because it
+[20:07] cannot move up
+[20:10] now let's look at the last problem
+[20:11] problem number four
+[20:13] so we have pole a here
+[20:16] and it has the initial velocity of three
+[20:19] meters per second to the right
+[20:21] horizontally
+[20:23] this direction and we also have all B
+[20:27] and C
+[20:29] so as you can see
+[20:31] so as soon as the pole a hits B
+[20:35] this pole goes to this direction and
+[20:38] then due to the Collision a is turning
+[20:42] its direction slightly up in this
+[20:44] direction and
+[20:46] and this
+[20:50] uh movement a actually pulls a hits
+[20:53] pull C and
+[20:55] due to that Collision
+[20:57] a is moving extremely up straightly up
+[21:00] in this direction and borsi is moving to
+[21:04] the right
+[21:06] so we're assuming all collisions are
+[21:09] perfectly elastic
+[21:11] then please determine the velocity is VA
+[21:15] VB and VC
+[21:18] we are given
+[21:21] um
+[21:22] the directions but we don't know
+[21:24] the uh we don't know
+[21:29] the magnitude
+[21:31] well actually we are we know the
+[21:33] direction of VA and VC but actually we
+[21:36] don't know
+[21:38] or yeah actually we don't know the
+[21:41] direction of VB
+[21:43] okay
+[21:45] so that means
+[21:47] um
+[21:48] so we have four unknowns
+[21:53] because we have two unknowns in in VB
+[21:57] that's why I said that we don't know the
+[21:59] direction of VB
+[22:02] okay as I said we have four unknowns so
+[22:05] VA and VB in X Direction BV in y
+[22:09] direction and also VC
+[22:11] so that's and that means we need four
+[22:14] equations
+[22:16] then where do you get those four
+[22:18] equations one uh conservation principle
+[22:21] of linear momentum
+[22:23] in both X and Y directions because there
+[22:26] are no external forces applied all
+[22:29] forces are just internal due to the
+[22:32] collisions
+[22:33] and then we also have angular momentum
+[22:36] and energy
+[22:38] conservation
+[22:39] energy conservation is possible because
+[22:41] we are assuming that all collisions are
+[22:45] perfectly elastic
+[22:50] [Music]
+[22:57] collisions
+[23:00] then write equations conservation
+[23:03] equations in terms of the unknown
+[23:05] velocities and solve them simultaneously
+[23:08] so let's express our velocity so
+[23:11] velocity a is VA in in
+[23:19] J Direction
+[23:21] so let's go back and see what happens so
+[23:24] VA is here so it goes up directly in
+[23:27] that direction
+[23:28] so that's why I said uh the VA direction
+[23:31] is in objection so so we have three
+[23:35] interaction
+[23:36] what about
+[23:37] VB so after the Collision
+[23:40] the ball B is moving to this direction
+[23:43] but actually we don't know the specific
+[23:46] direction we know that it's roughly
+[23:48] moving
+[23:50] um
+[23:51] down to the right in that direction
+[23:55] so now we have this expression what
+[23:58] about VC
+[24:00] VC is moving
+[24:02] straight to the right so we have
+[24:05] only I component or the X component only
+[24:10] now as I said since there are no
+[24:12] external forces all uh momentum linear
+[24:16] momentums or angular momentum are
+[24:17] conserved
+[24:19] Okay so
+[24:22] we have linear momentum equation and
+[24:25] angular momentum
+[24:27] equation
+[24:28] so so in X Direction and Y direction we
+[24:32] have
+[24:33] one equation another equation so we have
+[24:36] two equations now
+[24:39] uh now uh to get the angular momentum
+[24:42] about a fixed point O
+[24:44] the the fixed Point O is this corner
+[24:48] you can choose any other Corner uh that
+[24:51] you think is the best but we can simply
+[24:54] put this point then compute the angular
+[24:57] momentum and uh well the moment itself
+[25:01] we don't have any impulses right because
+[25:03] there's no external forces
+[25:06] and compute the angular momentum after
+[25:10] the collision and so this is that
+[25:14] equation
+[25:17] and finally we have the conservation of
+[25:19] energy
+[25:21] since all collisions are perfectly
+[25:24] elastic we don't have any loss of energy
+[25:27] so
+[25:28] no
+[25:33] energy so so now we can apply
+[25:36] conservation of mechanical energy
+[25:39] and so we have this expression
+[25:42] remember we don't have any potential
+[25:44] energy here because all poles are lying
+[25:46] in the horizontal surface so
+[25:48] the height itself is the same so we
+[25:50] don't have any uh potential energy we
+[25:53] only have kinetic Energies
+[25:58] and so by solving these four equations
+[26:00] simultaneously we can
+[26:03] find the solution
+[26:06] so in a real situation energy will not
+[26:08] be conserved well that's quite obvious
+[26:11] right and you'd need to know the
+[26:15] coefficient of restitution
+[26:17] between the bolts to solve this problem
+[26:21] we also neglected the friction
+[26:24] and the rotation of the balls well
+[26:27] obviously if you have experienced your
+[26:29] playing pools and
+[26:31] depending on how you hit the ball you
+[26:33] will experience
+[26:35] rotation of the poles and we didn't
+[26:38] apply that in our analysis
+[26:42] but sometimes it makes problems simple
+[26:45] but sometimes makes the problem
+[26:47] unrealistic so it's poor assumption
+[26:51] and later we'll study this in details
+[26:56] with the rigid body assumption
+[26:58] [Music]

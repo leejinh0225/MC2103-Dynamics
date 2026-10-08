@@ -1,0 +1,180 @@
+YouTube transcript
+Video ID: g07zOf2lvBo
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] ERS often need to analyze the Dynamics
+[0:20] of systems of particles
+[0:22] this is the basis for many fully Dynamic
+[0:25] applications and will also help
+[0:27] establish the principles used in
+[0:29] analyzing rigid parties
+[0:33] in this chapter we will study the motion
+[0:36] of systems of particles especially we'll
+[0:39] study the effective force of a particle
+[0:42] which is defined as the product of its
+[0:44] mass
+[0:48] and acceleration
+[0:50] later we'll show that the system of
+[0:53] external forces acting on a system of
+[0:55] particles is equivalent
+[0:58] with a system of Mi times a i
+[1:02] for the various particles
+[1:05] we'll study the math center of a system
+[1:07] of particles
+[1:09] then the mess Center will be used to
+[1:11] describe its motion
+[1:14] we'll apply the work and energy
+[1:15] principle and in-person momentum
+[1:17] principle to the system of particles
+[1:20] later this will be applied directly to a
+[1:23] rigid body
+[1:25] assume that there are multiple particles
+[1:28] in this system so we have
+[1:31] particles here and I can denote it as p
+[1:35] i
+[1:35] to indicate the position of ith particle
+[1:39] and we have PJ
+[1:41] which indicates the jth particle and we
+[1:45] also have position Vector all I here and
+[1:48] a pi particle it has external Force
+[1:53] fi
+[1:54] and also since there is some interaction
+[1:57] between the particle
+[1:59] pi and PJ we can assign
+[2:03] the interaction forces
+[2:05] small f i j
+[2:08] foreign
+[2:10] so for each particle Pi the Newton's law
+[2:13] of motion for translation and others law
+[2:16] of motion for rotation can be applied
+[2:20] for each particle we have internal and
+[2:23] external forces that as I just mentioned
+[2:25] so when there is a force that is equal
+[2:27] to the sum of both internal and external
+[2:30] forces the force is called effective
+[2:35] Force
+[2:37] then both are said to be equivalent
+[2:41] now we can sum all forces across all
+[2:44] particles
+[2:45] so as you can see here we have another
+[2:48] summation
+[2:49] symbol here
+[2:55] also note that the first middle term
+[2:57] here
+[3:03] this vanishes or in other words this
+[3:05] becomes zero
+[3:06] because
+[3:09] in here so we have f hi Jay
+[3:14] and then we also have f
+[3:16] j i
+[3:19] and they're equal and opposite so the
+[3:22] sum of these two will become zero
+[3:24] also
+[3:29] in the second equation we also have the
+[3:31] middle term
+[3:32] this one also finishes vanishes to zero
+[3:36] and that's because
+[3:41] so in in here we actually have r i
+[3:45] cross f
+[3:47] i j
+[3:48] and then we have RJ
+[3:52] cos f
+[3:54] j i
+[3:58] now we can do some some trick here so
+[4:02] for example
+[4:04] this equation can be replaced by
+[4:30] so this part is exactly the same as this
+[4:33] part then what we can do is
+[4:36] since we have r i and RI here we can
+[4:42] pull them together
+[4:48] and we have f j i here
+[4:53] and the rest term here is this one
+[5:01] cross f j i
+[5:04] remember that this term is always zero
+[5:07] because they are actually equal in
+[5:09] magnitude and and the opposite in the
+[5:12] direction so this one has to become zero
+[5:15] and also
+[5:17] this Vector is parallel with this vector
+[5:21] that's actually a definition if you look
+[5:23] at
+[5:27] here so if we have particle p i and
+[5:30] particle PJ
+[5:32] and
+[5:37] this direction is actually the same as
+[5:39] this direction and also this direction
+[5:42] and if it does if you just do the cross
+[5:45] product of two vectors which are aligned
+[5:48] then they will become zero
+[5:50] so this term will become zero
+[5:55] therefore
+[5:57] we have these simple equations
+[6:00] in other words all extern all internal
+[6:02] forces are dropped and we have only
+[6:05] external forces left
+[6:08] this is called equipollant but not
+[6:11] equivalent because we dropped some some
+[6:14] term
+[6:15] so they are not exactly the same but
+[6:18] they actually have the equal effect
+[6:27] so as I said it's equivalent but not
+[6:30] equivalent
+[6:33] now let's define linear momentum over
+[6:36] system of particles
+[6:37] it's simply the sum of linear momentum
+[6:40] of all particles
+[6:43] as you can see here
+[6:45] and if you differentiate this with
+[6:47] respect to time and we have this
+[6:50] equation since this equation is always
+[6:52] true you can always differentiate it and
+[6:55] so you get
+[6:56] so
+[6:57] the time derivative of velocity which is
+[7:00] actually the acceleration
+[7:03] therefore we just need to consider the
+[7:06] resultant of the external forces to
+[7:09] equate the rate of change of linear
+[7:11] momentum
+[7:12] as shown here
+[7:19] we can also compute the angular momentum
+[7:22] about a fixed point O
+[7:26] here r i is the position Vector from o
+[7:29] to particle Pi so we if we have
+[7:35] say
+[7:36] a 6.0 and we have
+[7:40] a particle pi
+[7:43] then the position Vector is RI
+[7:51] and angular momentum about or 6.0 of the
+[7:54] system is defined in this way which is
+[7:58] very natural
+[8:00] and we also have the Velocity
+[8:04] about this point particle
+[8:10] also it has mess element MI
+[8:15] and since this equation is always true
+[8:17] we can differentiate it with respect to
+[8:20] time
+[8:21] and we have the following relationship
+[8:24] and if you just look at this expression
+[8:27] we have
+[8:28] r i and also V I both are changing in
+[8:33] time so that means we have to apply the
+[8:36] product rule for differentiation so
+[8:38] that's why we have
+[8:40] or are all I Dot and also
+[8:43] v i Dot and remember
+[8:47] RI dot is actually the same as VI
+[8:52] since we have the same Vector here and
+[8:53] here this cross product will become zero
+[8:59] so therefore we have finally have this
+[9:03] expression
+[9:06] therefore we just need to consider the
+[9:09] moment resultant of external forces to
+[9:12] equate the rate change of angular
+[9:14] momentum as shown here
+[9:17] all right
+[9:19] [Music]

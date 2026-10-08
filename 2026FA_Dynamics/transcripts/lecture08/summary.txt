@@ -1,0 +1,25 @@
+YouTube transcript
+Video ID: 4jGpna7ysWQ
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:09] [Music]
+[0:17] this week we study systems of particles
+[0:20] we learned how to apply Newton's law of
+[0:23] motion along with the notion of center
+[0:25] of mass
+[0:27] kinetic and potential energies were
+[0:30] defined for systems of particles
+[0:33] linear and angular momenta were also
+[0:35] examined for the systems of particles
+[0:39] conservation of energy and conservation
+[0:41] of momentum were carefully derived to
+[0:44] analyze systems of particles
+[0:47] next week we'll examine kinematics of
+[0:50] rigid bodies in 3D space
+[0:53] specifically we'll study reference frame
+[0:56] coordinate systems and orientation
+[1:00] see you next time
+[1:01] [Music]
