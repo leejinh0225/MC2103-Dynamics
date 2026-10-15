@@ -315,7 +315,7 @@
             </figcaption>
           </figure>
           <div class="note-stack"><div class="callout source-review" id="source-check-11" data-review-kind="error"><h3>원본 오류 확인 · 초기 수직속도에 곱하는 변수</h3><p><strong>원본 표기:</strong> 수직 위치식에서 초기속도 뒤에 y가 곱해져 있습니다.</p><div><span class="formula">y = (v<sub>y</sub>)₀t − ½gt²</span></div><p><strong>판단 근거:</strong> 이 페이지는 초기 높이를 0으로 둡니다. 초기속도에는 시간 t를 곱해야 길이가 되고, 미분하면 v<sub>y</sub>=(v<sub>y</sub>)₀−gt가 됩니다.</p></div>
-            <div class="card"><h3>핵심 해설</h3><p>Acceleration(가속도)을 한 번 integrate(적분)하면 velocity(속도), 다시 integrate(적분)하면 position(위치)입니다. 각 단계에서 initial condition(초기조건)을 넣어 적분상수를 결정합니다. Horizontal velocity(수평속도)는 일정하고 vertical velocity(수직속도)는 시간에 따라 선형으로 감소합니다.</p><p>원본 y식의 vᵧ₀y 표기는 vᵧ₀t로 교정해야 합니다. Velocity(속도)에 time(시간)을 곱해야 length(길이)가 되며, 올바른 식을 미분하면 vᵧ = vᵧ₀ − gt로 돌아옵니다. 최고점에서 vᵧ = 0이어도 vₓ가 남아 있으므로 projectile(투사체)이 일반적으로 완전히 멈추지는 않습니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula">vₓ = vₓ₀, &nbsp; vᵧ = vᵧ₀ − gt<br>x = vₓ₀t, &nbsp; y = vᵧ₀t − ½gt², &nbsp; z = 0</span></p></div>
+            <div class="card"><h3>핵심 해설</h3><p>Acceleration(가속도)을 한 번 integrate(적분)하면 velocity(속도), 다시 integrate(적분)하면 position(위치)입니다. 각 단계에서 initial condition(초기조건)을 넣어 적분상수를 결정합니다. Horizontal velocity(수평속도)는 일정하고 vertical velocity(수직속도)는 시간에 따라 선형으로 감소합니다.</p><p>최고점에서 vᵧ = 0이어도 vₓ가 남아 있으므로 projectile(투사체)이 일반적으로 완전히 멈추지는 않습니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula">vₓ = vₓ₀, &nbsp; vᵧ = vᵧ₀ − gt<br>x = vₓ₀t, &nbsp; y = vᵧ₀t − ½gt², &nbsp; z = 0</span></p></div>
           </div>
         </section>
 
@@ -959,7 +959,7 @@
             </figcaption>
           </figure>
           <div class="note-stack"><div class="callout source-review" id="source-check-39" data-review-kind="error"><h3>원본 오류 확인 · B의 위치 화살표</h3><p><strong>원본 표기:</strong> r<sub>B</sub>=20 m 옆의 아래쪽 화살표는 위치 계산과 반대입니다.</p><div><span class="formula">y<sub>B</sub>(5) = 35 − 0.6×5² = +20 m<br>r<sub>B</sub> = +20j m, 북쪽</span></div><p><strong>판단 근거:</strong> B는 남쪽으로 움직이지만 아직 원점보다 북쪽에 있습니다. 속도·가속도가 남쪽이라는 사실과 위치가 북쪽이라는 사실은 동시에 성립하며, 42쪽 벡터식도 +20j를 사용합니다.</p></div>
-            <div class="card"><h3>핵심 해설</h3><p>t = 5 s이면 yᵦ = 35 − 0.6 × 25 = +20 m, vᵧᵦ = −6 m/s입니다. 즉 position(위치)은 north(북쪽), velocity(속도)는 south(남쪽)입니다. Position(위치)의 부호와 velocity(속도)의 부호가 다르다고 모순은 아닙니다.</p><p>원본 하단의 <b>r</b>ᵦ = 20 m 화살표는 downward(아래쪽)로 표시되어 있으나, yᵦ = +20 m와 도형은 upward(위쪽)를 지시합니다. 본문에서는 +20<b>j</b>로 교정합니다. 스크립트의 “3.5 seconds” 역시 문제와 결과의 t = 5 s에 맞춰 해석합니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula"><b>r</b>ᵦ = 20<b>j</b> m<br><b>v</b>ᵦ = −6<b>j</b> m/s<br><b>a</b>ᵦ = −1.2<b>j</b> m/s²</span></p></div>
+            <div class="card"><h3>핵심 해설</h3><p>t = 5 s이면 yᵦ = 35 − 0.6 × 25 = +20 m, vᵧᵦ = −6 m/s입니다. 즉 position(위치)은 north(북쪽), velocity(속도)는 south(남쪽)입니다. Position(위치)의 부호와 velocity(속도)의 부호가 다르다고 모순은 아닙니다.</p><p>스크립트의 “3.5 seconds”는 문제와 결과의 t = 5 s에 맞춰 해석합니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula"><b>r</b>ᵦ = 20<b>j</b> m<br><b>v</b>ᵦ = −6<b>j</b> m/s<br><b>a</b>ᵦ = −1.2<b>j</b> m/s²</span></p></div>
           </div>
         </section>
 
@@ -982,7 +982,7 @@
             </figcaption>
           </figure>
           <div class="note-stack"><div class="callout source-review" id="source-check-40" data-review-kind="error"><h3>원본 오류 확인 · B의 위치 화살표</h3><p><strong>원본 표기:</strong> r<sub>B</sub>=20 m 옆의 아래쪽 화살표는 위치 계산과 반대입니다.</p><div><span class="formula">y<sub>B</sub>(5) = 35 − 0.6×5² = +20 m<br>r<sub>B</sub> = +20j m, 북쪽</span></div><p><strong>판단 근거:</strong> B는 남쪽으로 움직이지만 아직 원점보다 북쪽에 있습니다. 속도·가속도가 남쪽이라는 사실과 위치가 북쪽이라는 사실은 동시에 성립하며, 42쪽 벡터식도 +20j를 사용합니다.</p></div>
-            <div class="card"><h3>핵심 해설</h3><p>A의 position vector(위치벡터)는 east(동쪽), B의 position vector(위치벡터)는 north(북쪽)입니다. 반면 B의 velocity(속도)와 acceleration(가속도)은 south(남쪽)입니다. 원본의 B 위치 화살표 오기는 앞 슬라이드와 동일하게 +y로 교정하여 읽습니다.</p><p>Relative position(상대위치)을 구할 때는 A의 끝점에서 B의 끝점으로 향하는 화살표를 그립니다. Relative velocity(상대속도)도 같은 subtraction(뺄셈)을 하되 position diagram(위치 그림)과 velocity diagram(속도 그림)을 혼합하지 않습니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula"><b>r</b>ᵦ − <b>r</b>ₐ = 20<b>j</b> − 50<b>i</b><br><b>v</b>ᵦ − <b>v</b>ₐ = −6<b>j</b> − 10<b>i</b></span></p></div>
+            <div class="card"><h3>핵심 해설</h3><p>A의 position vector(위치벡터)는 east(동쪽), B의 position vector(위치벡터)는 north(북쪽)입니다. 반면 B의 velocity(속도)와 acceleration(가속도)은 south(남쪽)입니다.</p><p>Relative position(상대위치)을 구할 때는 A의 끝점에서 B의 끝점으로 향하는 화살표를 그립니다. Relative velocity(상대속도)도 같은 subtraction(뺄셈)을 하되 position diagram(위치 그림)과 velocity diagram(속도 그림)을 혼합하지 않습니다.</p></div><div class="card"><h3>식과 기호</h3><p><span class="formula"><b>r</b>ᵦ − <b>r</b>ₐ = 20<b>j</b> − 50<b>i</b><br><b>v</b>ᵦ − <b>v</b>ₐ = −6<b>j</b> − 10<b>i</b></span></p></div>
           </div>
         </section>
 
