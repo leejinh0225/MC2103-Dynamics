@@ -21,6 +21,7 @@
 - Lecture 6: `Work and Energy Principle` 한국어 학습 노트
 - Lecture 7: `Impulse and Momentum Principle` 한국어 학습 노트 — 6주차, 원본 74장·영어 자막 5편 대조
 - Lecture 8: `Systems of Particles` 한국어 학습 노트 — 7주차, 원본 70장·영어 자막 5편 대조
+- Lecture 9: [`Kinematics of Rigid Bodies I` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture09.html) — 9주차, 원본 44장·영어 자막 5편 대조
 
 ## 공개 사이트
 

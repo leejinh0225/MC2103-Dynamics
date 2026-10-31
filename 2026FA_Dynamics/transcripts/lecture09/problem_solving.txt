@@ -1,0 +1,368 @@
+YouTube transcript
+Video ID: FpJjwilEOMM
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] now let's do some practice by solving
+[0:19] simple problem number one
+[0:22] consider the following pendulum
+[0:26] so we have a pendulum with Point P at
+[0:29] here message M length is L and we have
+[0:33] Theta to describe the angle here
+[0:36] so determine the velocity of Point p
+[0:41] observed in or observe that and which is
+[0:45] Newtonian reference frame
+[0:47] and determine the velocity of Point P
+[0:50] observed at a which is body reference
+[0:54] free
+[1:00] reference frame
+[1:02] this is
+[1:04] body reference frame in other words the
+[1:08] pendulum
+[1:15] so here's a strategy
+[1:18] we have to identify the reference frames
+[1:20] first
+[1:21] identifying inertia reference frame is
+[1:23] one of the most important
+[1:24] starting point then you identify the
+[1:27] body reference frame
+[1:29] then once you have the reference frames
+[1:32] defined then assign coordinate system to
+[1:36] each reference frame
+[1:40] then Express the position Vector P using
+[1:44] the coordinate systems and the
+[1:46] corresponding coordinates
+[1:49] then now perform differentiation in
+[1:52] terms of each reference frame
+[1:55] so let's do it one by one
+[1:59] so each reference each body rigid body
+[2:03] has one reference frame so we assign
+[2:06] Newtonian reference frame or inertia
+[2:08] reference frame n
+[2:10] here
+[2:11] so basically this is
+[2:14] basically this is a word reference frame
+[2:17] or Earth
+[2:20] second assign a defined body reference
+[2:24] frame which means the pendulum itself
+[2:27] so we can say I can say a that's
+[2:30] actually attached along with the
+[2:33] pendulum
+[2:39] then each reference frame has at least
+[2:40] one coordinate system
+[2:43] so let's assign coordinate system
+[2:45] so it's a convention to follow
+[2:49] this character in so if we are using n
+[2:53] character then maybe it's convenient to
+[2:55] use a small n one small n two and small
+[2:59] N3 to indicate X Y and Z axis
+[3:03] so here I assigned N1
+[3:07] and 2. and obviously N3 is out of the
+[3:11] the screen which is since it's
+[3:13] perpendicular to both N1 and N2
+[3:17] and also I put o here to indicate that o
+[3:20] is the origin
+[3:23] what about uh the body reference frame
+[3:26] so I put a there then it's better to use
+[3:30] uh the letter A 1 A2 and A3
+[3:36] so since this A123 are attached to the
+[3:40] body of the pendulum
+[3:42] since the pendulum is rotating in this
+[3:44] way then we cannot attach the same ref
+[3:47] accordingly system
+[3:49] aligned with the pendulum in this way so
+[3:52] we have A1
+[3:53] and A2
+[3:56] now let's define the position vector
+[3:58] that can and that is expressed in terms
+[4:01] of the old coordinate system so pushing
+[4:03] Vector AP is here
+[4:07] so in terms of N1 N2 and N3 which is
+[4:12] this one
+[4:13] then how do we determine how do you
+[4:16] describe the position p
+[4:19] since we have L and Theta by using this
+[4:23] information
+[4:25] the x x axis or the x coordinate
+[4:29] is this one
+[4:31] which is sine of L of sine Theta this
+[4:36] one so that's why we have that
+[4:38] and then what about the Y value
+[4:42] this one is
+[4:44] cosine so we have L cosine Theta but in
+[4:47] the negative Direction because N2 is up
+[4:50] upward
+[4:54] we can also describe position Vector p
+[4:57] in terms of A1 A2 and A3
+[5:02] so A1 is here A2 is here
+[5:06] so in that case
+[5:08] it's quite easy because
+[5:11] Point p is directly along this line
+[5:16] remember A2 is here in this direction
+[5:19] then point p is just the opposite
+[5:22] direction here so what you have to do is
+[5:25] you simply put minus l
+[5:28] and in in A2 Direction that's it that's
+[5:32] all you need to do to describe the
+[5:34] position Vector p
+[5:37] and remember that both expressions are
+[5:40] the same because they are all
+[5:42] representing the same point p
+[5:44] but this expression itself is different
+[5:47] right they look different but they're
+[5:49] actually the same
+[5:52] now differentiate p
+[5:55] across
+[5:58] reference frames
+[6:01] then we can find velocity vector
+[6:04] so in terms of reference frame n
+[6:08] let's do the differentiation
+[6:13] remember
+[6:14] velocity uh depression Vector P was
+[6:18] expressed in in this way
+[6:21] fin one
+[6:24] and two so if you just simply
+[6:27] differentiate it with respect to uh time
+[6:30] in reference frame n then this is N1 and
+[6:35] N2 are considered constant they don't
+[6:39] change
+[6:40] so then what you have to do is you just
+[6:42] simply differentiate the coordinate here
+[6:45] and here
+[6:48] so that's why we have only this part
+[6:50] and this part
+[6:53] then the result is this L Theta that
+[6:56] cosine Theta and L Theta that's sine
+[6:59] Theta so that's the velocity
+[7:02] of Point p
+[7:04] in terms of reference frame n
+[7:07] what about
+[7:09] the differentiation of the point p in
+[7:12] terms of reference frame a
+[7:16] if we look at the reference frame uh the
+[7:18] point p
+[7:20] expressed
+[7:26] in this way
+[7:28] and
+[7:31] if you just perform the differentiation
+[7:33] of Point p
+[7:35] in reference frame a
+[7:38] then this one is fixed this one doesn't
+[7:40] change over time but then what about l
+[7:43] L is also a constant so if you just
+[7:46] simply differentiate it then you get
+[7:49] zero
+[7:51] so then now
+[7:54] this result
+[7:56] and this result
+[7:58] these two are different
+[8:00] so please note that both expressions are
+[8:03] different
+[8:05] so the efficient vectors are identical
+[8:07] regardless of the reference frame
+[8:10] whereas the motion vectors the
+[8:13] derivative of the position vectors
+[8:15] differ depending on the reference frames
+[8:19] the differentiation of scalar variable
+[8:22] has nothing to do with the reference
+[8:24] frame
+[8:25] but in three-dimensional space and also
+[8:28] rigid body kinematics
+[8:30] we have to consider reference
+[8:32] differentiation uh in terms of reference
+[8:35] frames so so that's why it's important
+[8:38] to consider reference frame
+[8:41] now consider
+[8:43] problem number two
+[8:46] we have on rotating on
+[8:49] and we have a slider here
+[8:54] so we want to find the velocity of the
+[8:56] slider B this one observed at Newtonian
+[9:01] reference frame a acceleration of slider
+[9:05] B at n also the velocity of slider B
+[9:08] observed at a
+[9:11] and acceleration of the slider B
+[9:15] observed at a
+[9:20] strategy is the same as problem number
+[9:22] one so we have to identify the reference
+[9:25] frames inertia from Frame and Body
+[9:27] reference frame and assign coordinate
+[9:30] systems to each reference frame
+[9:34] and express the position Vector P of the
+[9:37] slider p b
+[9:39] using coordinate systems and the
+[9:42] corresponding coordinates
+[9:43] then we can perform differentiation in
+[9:46] terms of each reference frame
+[9:49] let's first assign the reference frames
+[9:52] Newtonian reference reference frame is
+[9:54] shown in here that's actually a word
+[9:57] reference frame and body reference frame
+[10:00] is called a and so I assigned it to this
+[10:04] body
+[10:08] and also
+[10:09] since we have reference frames defined
+[10:12] then we can assign
+[10:14] coordinate systems
+[10:17] so we have
+[10:19] N1 and N2 N1 and N2 doesn't rotate
+[10:23] because it's fixed
+[10:25] whereas A1
+[10:28] and A2 it actually is attached to the
+[10:31] body of arm so if the arm is rotating
+[10:35] like in this direction then A1 and A2 is
+[10:39] also rotating in that direction
+[10:43] and maybe you guys have some some
+[10:45] questions like why uh A1 A2 A3 axis is
+[10:50] located here not at here
+[10:54] well
+[10:55] I have some intention
+[10:58] the point is it doesn't matter that much
+[11:02] if possible it's it's okay to just put
+[11:05] this origin at here so they are actually
+[11:08] aligned in that direction but if I do
+[11:10] that then it's quite complicated so we
+[11:13] we don't have any space to put the axis
+[11:15] there so that's why I intentionally pull
+[11:18] this one out of there and just put it
+[11:21] here for just for clarity
+[11:23] what matters is attraction okay
+[11:27] now the position Vector can be expressed
+[11:29] in terms of the coordinate systems so in
+[11:31] terms of N1 and 2n3 so we can see that
+[11:36] if we have R Vector here this R is now
+[11:40] changing with respect to time and we
+[11:42] have Theta then R cosine Theta is X and
+[11:46] R sine Theta is y
+[11:49] what about A1 to 3
+[11:53] then the position Vector is simply R in
+[11:56] in A1 Direction that's it
+[12:01] and note that both expressions are
+[12:04] identical they're the same
+[12:07] now let's differentiate the position
+[12:10] Vector p
+[12:14] let's do that with respect to reference
+[12:16] frame n
+[12:18] then we can we are using this vector
+[12:21] okay
+[12:24] and then we have this expression now we
+[12:28] have to use the product rule
+[12:29] and if we go back here we have R cosine
+[12:34] Theta both R and Theta change over time
+[12:38] so that's why we have these two terms
+[12:41] using the product rule and the same
+[12:44] thing happens for y-axis we have
+[12:47] all the sine Theta and R data that
+[12:50] cosine Theta
+[12:52] what about the differentiation of Point
+[12:55] p with respect to reference frame a
+[12:57] to do that what we have to do is
+[13:00] so we have this one so we just simply
+[13:03] differentiate p in a
+[13:06] and remember P was r a one
+[13:12] so that's it right and this A1 Vector
+[13:16] doesn't change over time in reference
+[13:19] frame a so we just need to differentiate
+[13:22] only r
+[13:23] that's why we have r dot A1 head it's
+[13:27] that simple very simple right but
+[13:30] remember that this result and this
+[13:33] Reserve they are not the same so they
+[13:36] are different
+[13:38] what about the acceleration well
+[13:41] acceleration is quite complicated
+[13:43] because as you can see we have a lot
+[13:46] more terms compared to the previous one
+[13:50] and
+[13:53] so you guys can just do it by yourself
+[13:54] for practice
+[13:57] but this one is
+[13:59] very interesting because if so if you
+[14:02] just differentiate it one more time you
+[14:04] just get R double the in A1 Direction
+[14:08] and remember that both are not the same
+[14:10] it's different
+[14:12] and the reason why you see one RW that
+[14:15] in here is this is actually the relative
+[14:19] relative acceleration and also the
+[14:22] previous one this is actually
+[14:25] relative
+[14:27] velocity
+[14:31] Okay so
+[14:33] the velocity and acceleration vectors
+[14:35] are much simpler with body reference
+[14:37] frame this is because the observer in
+[14:39] the body reference frame does not see
+[14:42] the movement of the body itself
+[14:45] and the following is also possible
+[14:49] if we have P expressed in terms of a
+[14:53] then you can also differentiate this one
+[14:56] with respect to n not a if you just
+[15:00] differentiate this one with respect to a
+[15:03] then this is all that simple but if you
+[15:06] just differentiate this Vector with
+[15:08] respect to reference frame n now this
+[15:11] looks a lot more complicated than the
+[15:14] original one and this result is now the
+[15:18] same as
+[15:20] this result and this result
+[15:25] now let's do the problem number three
+[15:28] so we need to show that orientation is
+[15:30] not a vector using the commutativity
+[15:33] properties
+[15:35] so
+[15:36] so to solve this problem we can find a
+[15:39] counter example where the vector
+[15:41] addition does not hold the commutativity
+[15:44] I already explained this one in the
+[15:46] lecture but let's do it by a step by
+[15:49] step
+[15:50] so
+[15:51] um let's check if if the commutativity
+[15:55] holds for position vectors first
+[15:58] okay so let's say position p is a plus B
+[16:04] and B plus a we know that this is true
+[16:07] in vector addition and graphically let's
+[16:10] see if that's the case
+[16:13] so we have 2i and 3j and 3j plus 2i so
+[16:18] 2i means we go
+[16:21] two ticks index Direction and 3j means
+[16:25] we go up three ticks in y direction
+[16:29] and also number two
+[16:31] we go three ticks up in J Direction
+[16:35] and we go two ticks to the right
+[16:39] and we see that the result is the same
+[16:43] what about
+[16:45] the rotation or X or orientation I
+[16:49] already explained this one in the in the
+[16:51] lecture so if we just simply rotate
+[16:54] the bar here with uh in in X Direction
+[16:57] with 90 degrees and then rotate
+[17:01] rotate the rotated version in y
+[17:04] direction by 90 degrees and then we also
+[17:07] do the flip the order so we rotate the
+[17:11] bar in uh
+[17:14] y Direction first with the 90 degrees
+[17:16] and then rotate it in extraction by 90
+[17:20] degrees then the result is different so
+[17:23] this is a counter example and so
+[17:26] um
+[17:27] orientation doesn't hold commutativity
+[17:30] and so orientation is not a vector
+[17:33] so we checked that orientation does not
+[17:36] satisfy commutativity and so it's not a
+[17:39] vector therefore orientation cannot be
+[17:43] differentiated in the way that the
+[17:45] position Vector was differentiated to
+[17:47] get the velocity and acceleration
+[17:50] in the following lecture we'll study how
+[17:52] to compute angular velocity though
+[17:55] and for your information angular
+[17:58] velocity itself is a vector so that
+[18:01] means angular acceleration can be
+[18:03] computed by simply differentiating the
+[18:06] angular velocity all right
+[18:09] [Music]

@@ -1,0 +1,187 @@
+YouTube transcript
+Video ID: JChKRZ1SMhk
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] now let's consider vector
+[0:19] differentiation in time
+[0:21] specifically we'll perform the vector
+[0:24] differentiation in some specific
+[0:26] reference frame
+[0:28] so assume that of vector v v is any kind
+[0:32] of vectors it doesn't have to be
+[0:33] velocity but any vectors and this Vector
+[0:37] is observed in reference frame a
+[0:41] also assume that a coordinate system A1
+[0:45] A2 and A3 is attached to this reference
+[0:48] frame a
+[0:50] then in that case
+[0:52] the vector v can be expressed as follow
+[0:58] since we have
+[1:02] unit vectors A1 and A2 and A3 which
+[1:06] represents X Direction y direction and Z
+[1:09] directions correspondingly
+[1:13] so we have uh the coordinates P1 P2 or
+[1:18] P3 and sometimes
+[1:20] we can just drop the the time it's on
+[1:24] the symbol and so we can simply just put
+[1:27] P1 P2 and P3
+[1:33] now let's talk about vector
+[1:34] differentiation in time
+[1:36] especially
+[1:39] we'll look at the vector differentiation
+[1:41] in some reference frames
+[1:45] in front of server or person in
+[1:47] reference frame a sees that the vector v
+[1:52] changes over time then its rate change
+[1:56] is defined as follows so you can simply
+[1:59] differentiate that vector
+[2:01] with respect to time but remember
+[2:04] I put the superscript the left
+[2:07] superscript here to indicate that this
+[2:10] vector differentiation is performed in
+[2:13] with respect to reference frame a
+[2:16] and the person is in reference frame a
+[2:20] the observation is based on the unit
+[2:23] vectors A1 A2 and A3 and
+[2:32] this
+[2:34] do not
+[2:37] change
+[2:39] over
+[2:40] time at least in reference frame
+[2:45] a
+[2:46] so that's important but
+[2:49] the vectors component X component y
+[2:53] component Z component may change over
+[2:56] time
+[3:01] so it is important to note that vector
+[3:04] differentiation in time depends on what
+[3:07] reference frame The Observer resides in
+[3:11] that is the rate change of vector v
+[3:14] observes from reference frame a
+[3:17] is possibly different from the rate
+[3:20] change of the vector v observed from
+[3:23] reference frame B
+[3:25] you can consider for example a merry-go
+[3:27] around or Carousel example so here is an
+[3:30] example
+[3:32] so
+[3:34] this Merry-Go-Round turn
+[3:38] in this direction
+[3:40] and then let's assume that there are two
+[3:41] persons one person is standing outside
+[3:44] and the other person is standing on the
+[3:48] Merry-Go-Round so when this this
+[3:52] Carousel is rotating this person is also
+[3:54] rotating
+[3:55] but this person doesn't rotate at all
+[4:00] so we have two observers one in
+[4:02] Newtonian inference frame n here
+[4:05] and one in the carousel C
+[4:10] and the two observers see the same point
+[4:13] P here so we have Point P here
+[4:17] then
+[4:19] the two observers see different motion
+[4:22] for example observer in C this person is
+[4:25] actually seeing the motion of P which is
+[4:28] just a vertical movement up and down
+[4:31] what about observer in n
+[4:34] this person will see the movement of
+[4:37] this point in up and down Direction and
+[4:40] also it will
+[4:41] see that the point is moving away from
+[4:44] from him so that means translation and
+[4:47] also rotation at the same time
+[4:50] so
+[4:52] we can see the difference
+[4:55] so as we have noticed the motion of one
+[4:58] position
+[4:59] P may be different depending on where
+[5:02] The Observers are and here I can we can
+[5:07] Define the motion vectors motion vectors
+[5:09] mean
+[5:10] velocity vector and acceleration vector
+[5:15] so usually motion Vector doesn't Depend
+[5:17] On the Origin or the location of the
+[5:19] origin
+[5:22] sometimes we call it free vector
+[5:38] therefore it is important to indicate
+[5:41] the reference frame when the
+[5:43] differentiate when differentiating some
+[5:45] vectors
+[5:46] so we just use the convention of putting
+[5:50] the left superscript
+[5:55] and also uh so in the left superscript
+[5:59] we just put the reference frame
+[6:00] information of the Observer
+[6:03] and the right superscript means we put
+[6:07] some point of interest for example if we
+[6:10] have a Newtonian reference frame
+[6:14] and
+[6:15] we have a reference frame a here
+[6:21] and let's say there is a point p
+[6:25] and the position Vector is r
+[6:30] so in that case what we can do is
+[6:34] position Vector R and then we can put
+[6:37] the superscript uh to the right
+[6:40] to indicate
+[6:42] that this is the position Vector for
+[6:44] Point p
+[6:48] and let's consider some other example
+[6:51] for example uh angular velocity
+[6:55] so this angular velocity
+[6:58] is describing the rotation of some
+[7:01] reference frame so I can put reference
+[7:04] frame n here
+[7:07] and then I can put another reference
+[7:09] frame a here then this means that this
+[7:13] is angular velocity of reference frame a
+[7:15] which is our interest of our interest
+[7:17] with respect to reference frame n
+[7:21] so when I say with respect to that means
+[7:23] it's where the Observer is located
+[7:29] so let's look at the velocity and
+[7:31] acceleration velocity
+[7:33] is actually a differentiation of
+[7:35] position p
+[7:37] with respect to time
+[7:39] but remember as I said
+[7:42] before
+[7:43] when we perform differentiation we have
+[7:46] to indicate which reference frame
+[7:50] uh
+[7:51] the differentiation is performed
+[7:56] so that's very important
+[7:58] and if it uh
+[8:01] this position was differentiated in in
+[8:05] reference frame a that means usually we
+[8:08] can just attach the local reference name
+[8:10] or body reference frame which is A1 A2
+[8:13] and A3
+[8:16] if the differentiation was performed in
+[8:19] reference frame B then it's usual to use
+[8:24] poly reference frame which is P1 B2 and
+[8:27] B3 it doesn't have to be the case though
+[8:30] sometimes you can intentionally put A1
+[8:33] here A2 here and A3 here but the problem
+[8:38] is uh now A B and C is a Time varying
+[8:43] unit factors so in that case when you
+[8:46] perform differentiation
+[8:48] you have to perform differentiation for
+[8:49] A1 A2 and A3 that's very problematic
+[8:55] what about the acceleration acceleration
+[8:57] is also differentiation of velocity
+[9:00] Vector here so here the velocity Vector
+[9:03] was about
+[9:04] the point p and then
+[9:07] this differentiation was performed in
+[9:10] reference frame a then
+[9:13] differentiation of this velocity Vector
+[9:16] can also be done with respect to
+[9:19] reference frame a
+[9:20] then we can indicate the reference frame
+[9:23] a in here
+[9:25] [Music]

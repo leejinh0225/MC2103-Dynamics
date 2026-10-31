@@ -1,0 +1,25 @@
+YouTube transcript
+Video ID: 7eQKoc8KhL4
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] have you ever seen a Foucault Pendulum
+[0:19] In Science Museum when you're a kid
+[0:23] did you learn that fuku pendulum rotates
+[0:27] if you are at the North Pole it rotates
+[0:30] once a day clockwise
+[0:34] did you notice that the phenomena is
+[0:36] natural
+[0:39] that's because you already knew that the
+[0:41] Earth is rotating itself
+[0:45] how can we do that in our Dynamics
+[0:51] did you also know that a missile flying
+[0:54] on the Northern Hemisphere veered to the
+[0:56] right
+[0:58] this is called Coriolis effect
+[1:01] we will study this in this lecture
+[1:04] foreign
+[1:06] [Music]

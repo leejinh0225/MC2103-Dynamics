@@ -1,0 +1,359 @@
+YouTube transcript
+Video ID: c18PFwr6QPA
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:18] we studied kinematics of particles
+[0:22] however the same principle may not be
+[0:25] applied
+[0:26] in the kinematics of the rigid bodies
+[0:29] specifically in three-dimensional space
+[0:32] here we have three examples of
+[0:36] rigid body in three-dimensional space
+[0:38] for example robot
+[0:40] airplane
+[0:42] or satellite
+[0:45] to describe the motion of these systems
+[0:48] fully in three space three-dimensional
+[0:49] space
+[0:51] the knowledge from the kinematics of
+[0:53] particle is not enough
+[0:58] first of all we have to study the
+[1:01] concept of reference frame
+[1:05] reference frame is same as the rigid
+[1:08] body of our interest but it doesn't have
+[1:10] any mass or volume
+[1:15] usually it's represented by some Capital
+[1:18] alphabet like a or D
+[1:23] initial reference frame is a reference
+[1:26] frame where all points have zero
+[1:29] accelerations and sometimes we call this
+[1:33] inertial reference frame as
+[1:36] Newtonian
+[1:38] reference
+[1:43] frame and newtonian's Newtonian
+[1:46] reference frame or inertia reference
+[1:48] frame is where Newton's law works so f
+[1:52] equals
+[1:53] M A Works only in Newtonian reference
+[1:57] frame or inertia reference frame
+[2:00] and here we have an image of
+[2:03] Earth
+[2:05] and we have Focus pendulum
+[2:12] so the reference frame the Earth or the
+[2:15] reference frame for describing the focal
+[2:18] is quite complicated
+[2:21] well it's not actually complicated but
+[2:24] you cannot simply use the Knowledge
+[2:26] Learning or that you learned from the
+[2:28] kinematics of particles to describe the
+[2:31] motion of the flucose
+[2:34] motion
+[2:36] a focus pendulum's motion or the missile
+[2:39] that's running through the north
+[2:41] hemisphere of the Earth
+[2:44] that's not actually describable
+[2:47] so that's why we have to study uh the
+[2:51] three-dimensional
+[2:52] rigid body kinematics
+[2:55] and reference frame is the key concept
+[2:58] to to start that information
+[3:08] and also the acceleration in Newton's
+[3:11] Law
+[3:12] of motion must be observed in the
+[3:14] inertia reference frame
+[3:17] here I want to emphasize that Earth is
+[3:20] not an ideal inertia reference frame
+[3:23] that's because we know that Earth is
+[3:25] rotating uh
+[3:28] itself right so rotation itself involves
+[3:32] acceleration so so that means Earth
+[3:35] cannot be inertial reference frame but
+[3:39] we usually assume that Earth can be
+[3:42] considered as a neutral reference frame
+[3:44] because rotation may be very small and
+[3:48] so the error due to that rotation is
+[3:51] uh relatively negligible
+[4:00] let's first talk about the position
+[4:02] vector
+[4:03] a position Vector is a geometric
+[4:06] quantity that does not require any
+[4:09] specific numbers
+[4:11] for example
+[4:14] if we have
+[4:17] a point in space
+[4:21] well that's the point we don't have to
+[4:24] describe it with any specific number
+[4:25] it's just there
+[4:28] however once the coordinate system is
+[4:31] defined for example here I can assign
+[4:35] i-axis J axis and K axis in if that's
+[4:40] the case now we can assign a specific
+[4:43] number
+[4:44] for
+[4:50] for this
+[4:52] for this point
+[4:54] and this the collection of number is
+[4:57] called coordinate
+[5:01] in 3D space our coordinate system has
+[5:05] three unit vectors that are dextral and
+[5:10] orthogonal dextron means is following
+[5:12] right hand rule
+[5:14] and orthogonal means each of the vectors
+[5:17] are perpendicular to each other
+[5:20] so
+[5:21] here are some examples of dextral and
+[5:24] orthogonal and orthonormal unit factors
+[5:27] here I J K or e t e n EB or ER e Theta
+[5:34] and K or sometimes you can just simply
+[5:37] use A1 A2 and A3 or B1 head B2 head and
+[5:43] B3 head
+[5:51] and also it's also important to know
+[5:53] that
+[5:56] we can assign multiple coordinate
+[5:58] systems
+[5:59] to our reference frame
+[6:02] so that means coordinate system is not
+[6:05] the same as reference frame
+[6:13] and also one position Vector here can
+[6:16] have different coordinates if different
+[6:19] coordinate systems are used for example
+[6:21] if we have
+[6:23] this coordinate system with I and J then
+[6:28] the position Vector P can be represented
+[6:31] with
+[6:32] this number and this number
+[6:37] here maybe I can just use
+[6:39] the value PX
+[6:43] and this is py
+[6:47] and if we are using different coordinate
+[6:51] systems like A1 and A2
+[6:54] like here
+[6:57] then
+[6:59] the point p
+[7:02] have different different coordinates
+[7:04] like this
+[7:06] so in that case maybe I can say this is
+[7:08] P1 and P2
+[7:11] like this
+[7:13] so even though we are dealing with the
+[7:16] same point and depending on how we
+[7:18] Define the coordinate systems the
+[7:20] numbers assigned to this coordinate
+[7:22] systems are very different so the
+[7:25] coordinates are different
+[7:28] and also
+[7:30] so there are multiple ways of expressing
+[7:32] a point for example if you want to use
+[7:36] if you prefer the vector notation then
+[7:39] you can use this kind of expression with
+[7:43] the unit vectors
+[7:45] uh explicitly
+[7:47] used or sometimes you can just Express
+[7:51] the coordinates with the coordinate
+[7:54] Vector in like this then we usually
+[7:56] assume that
+[7:58] the recording the systems are assumed
+[8:02] and we can just put them or just a
+[8:05] subscript or you can ignore it if it's
+[8:07] obvious
+[8:08] and the same thing happens for a
+[8:11] reference uh the coordinate systems A1
+[8:13] A2 and A3
+[8:19] coordinate so in the previous page we
+[8:22] just learned that coordinates
+[8:24] coordinates can represent the position
+[8:25] once coordinate system is defined
+[8:31] in general coordinates are scalar
+[8:34] variables
+[8:35] that determine the configuration of the
+[8:38] system configuration means usually the
+[8:41] shape
+[8:43] or pose or
+[8:46] location
+[8:49] the minimum number of coordinates is
+[8:51] usually called degrees of freedom or do
+[8:55] apps
+[8:58] coordinates with the minimum number
+[9:01] are called generalized coordinates but
+[9:06] it's not necessary
+[9:10] and here's an example
+[9:14] so what scalar variables do we need to
+[9:18] describe
+[9:20] the location of the tip of the pendulum
+[9:22] with the length l so here
+[9:27] so let's say this
+[9:29] position is called P vector
+[9:34] and maybe we have originate here
+[9:38] so then how do we describe
+[9:42] this equation vector
+[9:47] one simple way is if we have I and J and
+[9:51] K coordinate system then we can
+[9:54] assign a coordinate X comma y
+[9:59] like so and usually that's called
+[10:01] rectangular coordinate system
+[10:09] what about this one
+[10:12] here I introduced a variable called
+[10:14] Theta and Theta is the angle and if we
+[10:17] know the angle Theta then since the
+[10:21] length is fixed with L then you can
+[10:25] fully describe the location of
+[10:28] p
+[10:30] so in that case we just need one
+[10:32] variable one variable only
+[10:35] and with this
+[10:37] angle Theta we can just convert it into
+[10:41] the rectangular coordinate systems like
+[10:44] this
+[10:47] so what are the scalar variables and how
+[10:49] many so I told you so we can use X and Y
+[10:52] or
+[10:54] we can use Theta but if we use X and Y
+[10:58] then we need two variables if we knew
+[11:01] use Theta only then we need only one
+[11:04] variable
+[11:06] which one is more efficient or which one
+[11:09] is better
+[11:10] well I cannot say that but in general
+[11:13] smaller number of variables is better
+[11:16] and so we can say that Theta is
+[11:19] generalized coordinate and the degrees
+[11:22] of freedom is one
+[11:24] so even though we have X and Y here to
+[11:27] describe the position of P vector
+[11:30] so X and Y are not independent each
+[11:32] other so that means if we know one
+[11:34] variable
+[11:35] there's some way to find the other
+[11:37] variable with some relationship for
+[11:40] example here the length
+[11:43] of the cable or the length of the the
+[11:46] pendulum is fixed and so from there we
+[11:48] can easily find a y once X is given
+[11:54] and sometimes it's useful to define a
+[11:57] virtual reference frame that does not
+[11:59] align with a rigid body
+[12:03] and introducing a virtual reference
+[12:05] frame may make it easier to analyze the
+[12:08] motion of rigid body
+[12:11] I'll mention this one when when this one
+[12:13] happens
+[12:19] and actually we have an example here so
+[12:22] let me just briefly uh mention that
+[12:26] so
+[12:29] here's an example that shows virtual
+[12:31] reference frame so identify appropriate
+[12:34] reference frames among
+[12:38] n123 b123 and c123 so n is representing
+[12:43] Newtonian reference frame so it doesn't
+[12:45] change over time
+[12:48] and then we have the body reference
+[12:51] frame so maybe this is cone so I call it
+[12:57] as C1
+[13:00] and
+[13:04] C2
+[13:06] and C3 so if the cone rolls in this
+[13:10] direction then
+[13:12] C2 and T3 also rules it moves this
+[13:15] direction like this
+[13:17] but to move to describe the motion of
+[13:20] the cone more efficiently sometimes it's
+[13:23] better to have some other fictitious or
+[13:27] virtual reference frame
+[13:29] such that we can Define B1
+[13:32] B2 and B3 and
+[13:36] P2 and B3 doesn't change
+[13:40] but it's just following only uh this
+[13:44] point
+[13:45] so that the B3 is always directing
+[13:48] towards this direction
+[13:51] so we have we have some benefits if we
+[13:53] have that kind of virtual reference
+[13:55] frame
+[14:00] so here Neutron in different frame is N1
+[14:03] and 2 and 3.
+[14:07] and body reference frame I would call it
+[14:09] C1 C2 and C3
+[14:13] and virtual reference frame is P1 B2
+[14:17] and
+[14:18] basically
+[14:21] we have some properties of vectors
+[14:24] vectors need need to satisfy the
+[14:27] following properties and actually there
+[14:29] are seven or eight axioms and also it
+[14:33] has
+[14:34] addition
+[14:38] operator
+[14:43] and scalar
+[14:48] multiplication
+[14:52] operator
+[14:54] so these two operators need to be
+[14:57] defined
+[14:58] in Vector space
+[15:00] and in addition to that we have to
+[15:03] satisfy seven or eight axioms but the
+[15:07] most important three things are this
+[15:10] commutativity where you can change the
+[15:12] order of the vectors associativity is
+[15:16] you can if you have three vectors then
+[15:18] you can add the first two and add the
+[15:22] last one later or you can add the last
+[15:25] two first and then add the first one in
+[15:28] the last order
+[15:31] District district utility is uh things
+[15:35] like you can multiply some number uh
+[15:39] over the vector addition like this
+[15:43] now here's some important uh
+[15:46] effect
+[15:48] that orientation
+[15:52] orientations are not vectors
+[15:55] and that's because
+[15:58] some of the conditions are not satisfied
+[16:00] that I just mentioned in the previous
+[16:02] page I'll show you what that is so let's
+[16:05] do some of interesting experiment here
+[16:08] so we have two consecutive rotations
+[16:13] the first one is
+[16:15] so initially we have a bar here
+[16:21] and so we will just rotate the bar about
+[16:24] x-axis by 90 degrees
+[16:27] and then rotate the bar
+[16:30] about y-axis by 90 degrees
+[16:34] then end result is this one
+[16:39] now let's switch the order or rotation
+[16:43] first
+[16:45] we rotate the bar
+[16:48] about y-axis by 90 degrees first
+[16:52] then it will just look like this
+[16:55] so this is what we have and then we
+[16:58] rotate this bar about x-axis
+[17:03] by 90 degrees
+[17:05] then the result is this
+[17:09] so we can clearly see that this one and
+[17:13] this one they're not the same
+[17:16] in other words
+[17:19] if we just simply have this expression
+[17:22] so that I is rotation about x axis and J
+[17:26] is rotation over J X Y axis with the
+[17:29] angle of
+[17:30] Theta 1 and Theta 2.
+[17:33] and
+[17:35] so this means
+[17:37] uh the rotation about y-axis first about
+[17:40] uh by the angle of theta 2 and then the
+[17:43] rotation in x axis by angle of theta one
+[17:48] so the order
+[17:50] matters actually in this case because if
+[17:53] we change the switch to order
+[17:55] the result is different
+[17:58] so inequality the equality doesn't hold
+[18:02] and in the previous page I said that
+[18:06] changing the order of the vectors is
+[18:08] called commutativity
+[18:11] but here the commutativity does not hold
+[18:14] in in orientation
+[18:17] so orientation is not a vector
+[18:20] [Music]

@@ -1,0 +1,29 @@
+YouTube transcript
+Video ID: f_lQxmcZCdc
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied kinematics of rigid
+[0:20] bodies in 3D space
+[0:22] especially reference frame was
+[0:25] introduced which is regarded as a rigid
+[0:28] body
+[0:30] we learned that reference frame is
+[0:31] required to perform differentiation of
+[0:34] vectors
+[0:36] orientation is not a vector since it
+[0:39] does not satisfy commutativity
+[0:41] therefore orientation cannot be
+[0:44] differentiated directly to obtain
+[0:46] angular velocity
+[0:49] next week we'll examine orientation of
+[0:52] rigid bodies in 3D space in more details
+[0:56] drag cosine Matrix will be defined to
+[0:59] link across different coordinate systems
+[1:03] Euler angles and rotation Matrix will
+[1:06] also be introduced
+[1:07] see you next time
+[1:09] [Music]
