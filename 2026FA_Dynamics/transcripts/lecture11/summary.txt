@@ -1,0 +1,31 @@
+YouTube transcript
+Video ID: A2OQ13NEQF4
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied kinematics of rigid
+[0:20] bodies in 3D space
+[0:22] especially we studied differentiation of
+[0:25] vectors in different reference frames
+[0:30] we learned that angular velocity could
+[0:33] be defined by adding simple angular
+[0:35] velocities between adjacent reference
+[0:37] frames
+[0:39] we also studied that linear velocities
+[0:42] and accelerations of one point can be
+[0:45] computed based on information of other
+[0:48] points angular velocity and acceleration
+[0:52] these relationships are useful in
+[0:54] Computing kinematics or rigid bodies in
+[0:56] 3D space
+[0:58] next week we'll examine kinetics of
+[1:01] rigid bodies into this space
+[1:04] Newton's law of motion will be studied
+[1:06] for rigid bodies
+[1:08] all those expression will be
+[1:10] investigated to describe the rotational
+[1:13] motion see you next time
+[1:16] [Music]

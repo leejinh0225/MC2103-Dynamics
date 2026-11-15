@@ -1,0 +1,185 @@
+YouTube transcript
+Video ID: bBfKAAQQCPA
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so far we studied how to find angular
+[0:20] velocities using simple angular
+[0:22] velocities and addition theorem of
+[0:25] angular velocities
+[0:28] we also studied how to find angular
+[0:31] accelerations just by simply
+[0:33] differentiating angular velocities
+[0:35] because angular velocities are vectors
+[0:38] now we will study how to find linear
+[0:42] velocities and linear accelerations
+[0:44] using some known information
+[0:48] and the first one is
+[0:51] this two points fixed on a reference
+[0:55] frame so if we have
+[0:57] a reference frame
+[0:59] and then if we know one point's velocity
+[1:03] let's say Point p
+[1:07] then can we know the velocity of Point Q
+[1:13] obviously we know the angular velocity
+[1:16] and
+[1:18] angular acceleration
+[1:21] so do we know can is it possible to
+[1:25] compute angular velocity and angular
+[1:27] acceleration of Q given uh that we know
+[1:31] angle of elasticity and linear velocity
+[1:34] and linear acceleration of Point p
+[1:38] so if you know the linear velocity and
+[1:40] acceleration of Point Q then the linear
+[1:43] velocity and acceleration of Point P can
+[1:45] be computed in the following way
+[1:48] so here let me just draw the figure
+[1:50] again
+[1:51] so we have
+[1:55] Point p
+[1:57] and 0.2 and we also have
+[2:00] angular velocity let's say this
+[2:02] reference frame is a and we have
+[2:04] Newtonian reference frame n
+[2:06] then
+[2:08] a we also have
+[2:11] angular acceleration of
+[2:14] a
+[2:16] in that case
+[2:18] we can also Define a vector position
+[2:20] Vector from p q to p
+[2:24] then the velocity of Point P here is
+[2:30] the same is velocity Point q and then
+[2:33] you just multiply angular velocity
+[2:38] and the operation Vector from Q to p
+[2:43] that way you can compute the linear
+[2:45] velocity Point p
+[2:47] similarly you can get the angle linear
+[2:50] acceleration of Point V so you have to
+[2:52] know the linear acceleration of Point Q
+[2:54] first then
+[2:57] um using the angular velocity and
+[2:59] angular acceleration we can find a
+[3:03] linear acceleration of Point p
+[3:06] here when I represent angular velocities
+[3:10] and angular acceleration I didn't put
+[3:12] the reference frame that this angular
+[3:15] velocity is based on
+[3:16] so in that case usually
+[3:19] That Base reference frame is very
+[3:21] obvious or sometimes it's just a
+[3:24] Newtonian difference so in that case we
+[3:27] can omit the reference frame
+[3:30] usually it's Newtonian
+[3:34] another relation is one point moving on
+[3:38] a reference frame
+[3:39] so we still have a reference frame a
+[3:43] and now we have a point P here
+[3:46] this point p is moving
+[3:50] on this reference frame a
+[3:54] then now what we can do is you can
+[3:56] consider a point
+[3:59] which is which is right next to the
+[4:01] point p and so I can call it Point P
+[4:05] star and this point P star is fixed to
+[4:08] the reference frame a so
+[4:11] this is fixed point it doesn't move
+[4:14] whereas Point P moves
+[4:16] okay in that case can we find uh
+[4:21] the velocity and acceleration of Point P
+[4:24] given
+[4:26] um the relative velocity and relative
+[4:28] acceleration
+[4:31] so if you know the linear velocity and
+[4:33] acceleration of a fixed Point P star
+[4:36] okay
+[4:37] so we have P star here that's fixed
+[4:40] point and then we have another P which
+[4:43] coincides with p p star and but this p p
+[4:46] is moving
+[4:49] then the linear velocity and
+[4:51] acceleration of moving point P can be
+[4:54] computed as follows
+[4:56] so velocity Point P star which is fixed
+[4:59] Point here and now we have to add the
+[5:02] relative velocity which is very
+[5:03] intuitive right relative
+[5:08] velocity
+[5:10] the same thing the same idea applies for
+[5:13] acceleration
+[5:14] so we have acceleration of the fixed
+[5:19] Point here and then now we have relative
+[5:21] acceleration
+[5:29] and we have one more term here this one
+[5:31] is very important
+[5:32] and also this one makes life more
+[5:35] complicated in
+[5:38] difficult this is related to coriolis
+[5:43] turn
+[5:44] and this one
+[5:48] makes the movement or the the movement
+[5:51] of rigid body in 3D space more
+[5:54] complicated
+[5:56] so when
+[5:57] rotation is related and when there is
+[6:01] relative velocity
+[6:03] this one causes very unintuitive
+[6:06] behavior of the rigid body
+[6:10] so here's a summary of the formula that
+[6:12] I just introduced the first one is
+[6:14] vector differentiation so any vector v
+[6:18] can be differentiated in terms of time
+[6:21] with respect to reference to m a
+[6:24] then it can be also related to the
+[6:27] differentiation with respect reference
+[6:28] frame B but but then now you have to add
+[6:32] this much
+[6:33] because reference frame a and reference
+[6:35] between B can be rotating each other and
+[6:38] they have relative orientation in that
+[6:40] case we have to have
+[6:43] that considered so that's why we have
+[6:46] angular velocity
+[6:49] added in here
+[6:52] simple angular velocity can be
+[6:54] determined in this way so if you have
+[6:56] reference frames A and B and then this A
+[7:00] and B are just related by only one
+[7:03] simple X or axis rotation and so there
+[7:07] is only one simple rotation then you can
+[7:09] Define uh that
+[7:12] angular velocity in this way
+[7:18] an addition theorem of angular
+[7:20] velocities if we have multiple reference
+[7:23] frames in between uh so these are all
+[7:26] adjacent to each other
+[7:28] and if we know the relationship between
+[7:31] these two position adjacent reference
+[7:34] frames
+[7:36] in other words we know the angular
+[7:37] velocities between these two
+[7:40] then you can simply add them
+[7:42] to finally comma construct the angular
+[7:46] velocity from A to B
+[7:51] these two are very useful when you are
+[7:53] defining uh angular velocities or very
+[7:57] complicated rigid body in 3D space
+[8:05] and two points fixed on reference frame
+[8:08] one reference frame in that case we can
+[8:10] find linear and
+[8:13] linear velocity and acceleration given a
+[8:17] linear velocity and acceleration of one
+[8:20] other point
+[8:23] another one is
+[8:25] one point moving on a one reference
+[8:28] frame so in that case if we are keep if
+[8:32] we know uh velocity and acceleration of
+[8:35] one fixed point and if we know the
+[8:37] relative velocity and relative
+[8:39] acceleration then we can
+[8:42] find linear velocity and acceleration of
+[8:45] moving point
+[8:48] [Music]

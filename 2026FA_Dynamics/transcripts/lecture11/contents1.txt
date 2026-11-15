@@ -1,0 +1,160 @@
+YouTube transcript
+Video ID: 8EpMGFdmujw
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] last week we studied Direction cosine
+[0:20] Matrix and rotation Matrix
+[0:23] this week we'll study a vector
+[0:25] differentiation formula angular velocity
+[0:29] angular acceleration and linear
+[0:32] velocity and acceleration
+[0:36] we learned that differentiating one
+[0:38] vector in one reference frame may not be
+[0:40] the same as differentiating the vector
+[0:42] in different reference frame
+[0:45] luckily the two results are somehow
+[0:49] related
+[0:51] here we present the formula for this
+[0:53] matter without providing a proof because
+[0:56] the proof itself is a little more
+[0:58] complicated than so we just uh
+[1:03] left now left it improved but if you're
+[1:06] interested then you guys can look at the
+[1:09] references
+[1:12] given two reference frames A and B
+[1:15] and any vector v
+[1:18] can be differentiated with respect with
+[1:20] respect to a time in the following menu
+[1:24] here V is not a velocity Vector it's any
+[1:27] Vector so
+[1:30] differentiating vector v in reference
+[1:34] frame a
+[1:35] is the same as differentiating vector v
+[1:38] in
+[1:40] reference frame B but we now have to
+[1:43] relate it relate these two results by
+[1:46] adding this term additional term
+[1:50] so since two reference frames can rotate
+[1:53] and and they have relative orientation
+[1:56] so that one has to be handled with the
+[2:00] angular velocity a
+[2:03] or a to B
+[2:06] so angular velocity Op with respect to a
+[2:10] is the angular velocity of reference
+[2:13] frame P which is with respect to
+[2:16] reference plane a
+[2:23] obtaining angular velocity of rigid body
+[2:25] in 3D space is not that simple it's not
+[2:29] like a rigid body in 2D space which is
+[2:32] very simple you can just differentiate
+[2:34] the angle
+[2:35] and that's it but in 3D space is not so
+[2:40] for your information uh given two
+[2:42] reference frames in our a and b along
+[2:45] with the coordinate systems A1 to 3 and
+[2:47] b123 the following definition is used to
+[2:51] define
+[2:52] um angular velocities
+[2:55] so as you can see we have
+[2:58] reference frames
+[3:01] uh coordinate systems B1 B2 and B3 and
+[3:05] how it changes over time in terms of
+[3:08] reference frame a
+[3:10] so this kind of definition uh
+[3:14] looks quite complicated and not that
+[3:16] intuitive but derivation itself is can
+[3:19] itself can be done but
+[3:23] it won't be covered in this cover in
+[3:25] this course
+[3:27] so instead of using complicated formula
+[3:31] for defining angular velocity we can
+[3:34] choose simpler and and more intuitive
+[3:38] way to Define angular velocities
+[3:41] the first one is
+[3:43] simple angular velocity
+[3:46] so so angular velocity of reference
+[3:48] frame B
+[3:50] rotating about a single axis K which is
+[3:53] fixed in a reference frame a
+[3:57] can be expressed as this one
+[4:00] well this is very simple and intuitive
+[4:03] right so if we have a reference frame
+[4:06] let's say reference frame a
+[4:10] A1 A2
+[4:13] A3 and there is a fixed
+[4:17] axis k
+[4:19] and about this x is K there may be
+[4:23] um
+[4:24] [Music]
+[4:32] reference frame B I say this is a
+[4:35] transparency
+[4:36] and this reference frame B is rotating
+[4:39] about this K axis which is fixed in a
+[4:43] then you can imagine that
+[4:48] this reference frame p
+[4:51] will
+[4:58] rotate in this manner right so in that
+[5:00] case if the X's K is fixed then we can
+[5:06] define an angular velocity of B with
+[5:09] respect to a uh in this way so we now
+[5:13] have that fixed axis okay and then uh
+[5:20] the angular velocity or angular speed
+[5:22] enthalpy is determined by
+[5:25] Theta dot so here the Theta is the angle
+[5:29] itself
+[5:31] now another important uh
+[5:36] formula that we have to use is this
+[5:39] addition theorem of the angular
+[5:41] velocities
+[5:42] so General rotational movement involve
+[5:45] rotations about multiple axes
+[5:48] and given multiple reference frames for
+[5:52] example a A1 A2
+[5:56] and a n minus 1 a n and finally p
+[6:00] then we have the following formula and
+[6:02] we're not providing the proof
+[6:05] so the angle of velocity of B with
+[6:09] respect to reference frame a
+[6:12] can be constructed in this way so we
+[6:16] have reference frame a
+[6:19] one and then reference frame A2
+[6:22] reference frame a n
+[6:24] and
+[6:26] we know the relative
+[6:28] angular velocity angular velocity
+[6:31] between this adjacent reference frames
+[6:37] if we know this then we can simply add
+[6:39] them
+[6:41] remember
+[6:43] the order they have to be connected like
+[6:47] in this way
+[6:48] so if that's the case
+[6:50] the angular velocity simply can be added
+[6:54] in this way
+[6:56] so this is called addition theorem of
+[6:58] angular velocities
+[7:02] using the addition theorem and simple
+[7:04] angular velocities
+[7:08] complicated angular velocities can be
+[7:11] built up
+[7:13] and please note that addition theorem
+[7:15] does not work
+[7:17] for angular acceleration since the
+[7:20] addition theorem is byproduct of the
+[7:23] vector differentiation formula which
+[7:25] contains the angular velocity inside
+[7:29] so yeah for your information angular
+[7:31] acceleration can be computed by
+[7:34] differentiating the angular velocity
+[7:35] because angular velocity itself
+[7:39] is a vector
+[7:41] remember I told you that the orientation
+[7:44] is not a vector but angular velocity
+[7:47] itself is a vector so once you have
+[7:49] angular velocity then to get the angular
+[7:51] acceleration you can differentiate it
+[7:54] [Music]

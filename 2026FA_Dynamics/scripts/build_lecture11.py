@@ -1,0 +1,439 @@
+"""Build Lecture 11 from the fixed template and reviewed slides/English captions."""
+from pathlib import Path
+from html import escape
+import re
+
+ROOT=Path(__file__).resolve().parents[1]
+SITE=ROOT/'site'
+records=[]
+videos=[('Overview','rvTrFmn_-Cg'),('Contents 1','8EpMGFdmujw'),('Contents 2','bBfKAAQQCPA'),
+        ('Problem Solving','p9g4KpMNfpg'),('Summary','A2OQ13NEQF4')]
+
+def p(s): return s if s.startswith('<table') else '<p>'+s+'</p>'
+def card(title,*body,kind='card'):
+    return f'<div class="{kind}"><h3>{title}</h3>'+''.join(map(p,body))+'</div>'
+def formula(s): return '<span class="formula">'+s+'</span>'
+def table(head,rows):
+    return '<table class="term-table"><thead><tr>'+''.join('<th scope="col">'+s+'</th>' for s in head)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+s+'</td>' for s in row)+'</tr>' for row in rows)+'</tbody></table>'
+def w(a,b): return f'<sup>{a}</sup>ω<sup>{b}</sup>'
+def alpha(a,b): return f'<sup>{a}</sup>α<sup>{b}</sup>'
+def v(a,b): return f'<sup>{a}</sup>v<sup>{b}</sup>'
+def acc(a,b): return f'<sup>{a}</sup>a<sup>{b}</sup>'
+def d(a,x): return f'D<sub>{a}</sub>({x})'
+def add(n,title,time,*body,eq='',extra='',correction='',role='Concept'):
+    assert n==len(records)+1
+    blocks=card('원본 교정 · 적용 조건',correction,kind='callout') if correction else ''
+    blocks+=card('핵심 해설' if role=='Concept' else '슬라이드 안내',*body,kind='card' if role=='Concept' else 'quiet-card')
+    if eq: blocks+=card('식과 기호',formula(eq))
+    records.append((title,time,blocks+extra,role))
+
+transport=f'{d("A","u")}={d("B","u")}+{w("A","B")}×u'
+two_v='v<sup>P</sup>=v<sup>Q</sup>+ω×r'
+two_a='a<sup>P</sup>=a<sup>Q</sup>+α×r+ω×(ω×r)'
+one_v='v<sup>P</sup>=v<sup>P*</sup>+v<sub>rel</sub>'
+one_a='a<sup>P</sup>=a<sup>P*</sup>+a<sub>rel</sub>+2ω×v<sub>rel</sub>'
+
+summary=''.join([
+    card('1. 회전하는 관찰자에게 고정된 벡터도 지면에서는 방향이 바뀝니다.',
+        'Reference frame(기준계)은 어느 관찰자와 함께 운동을 보는지를 정합니다. Coordinate basis(좌표 기저)는 그 벡터를 숫자로 적는 축입니다. 회전하는 물체에 붙은 축의 성분이 일정해도, 지면에서 보면 그 축 자체가 돌아갑니다. 따라서 성분만 미분한 결과에 축 회전의 기여를 더해야 합니다.',
+        f'본문에서 D<sub>A</sub>(u)는 “A에서 관찰한 벡터 u의 시간미분”입니다. 원본의 왼쪽 위 A가 붙은 d/dt와 같습니다. {w("A","B")}는 A에서 본 B의 angular velocity(각속도)이며, 일반 벡터 u에 대한 vector differentiation formula(벡터 미분 공식)는 다음과 같습니다.',
+        formula(transport),kind='callout'),
+    card('2. 여러 회전의 각속도는 더하고, 각가속도는 같은 기준계에서 미분합니다.',
+        f'A에 고정된 unit axis(단위 회전축) k 주위로 B가 각도 θ만큼 회전하면 {w("A","B")}=θ̇k입니다. 복합 운동은 N→A→B처럼 adjacent frames(서로 이어진 기준계들)로 나눠 {w("N","B")}={w("N","A")}+{w("A","B")}를 씁니다. 축 방향이 다른 항들은 스칼라 회전속력이 아니라 벡터로 더합니다.',
+        f'Angular acceleration(각가속도)은 {alpha("N","B")}={d("N",w("N","B"))}입니다. Constant angular speeds(일정한 각속력들)만으로 이 미분이 0이 되지는 않습니다. 회전축의 방향이 바뀔 수 있기 때문입니다. 상대 각가속도 두 개만 단순히 더하면 일반적으로 축 회전의 항이 빠집니다.'),
+    card('3. 같은 강체에 고정된 두 점은 한 점의 운동으로 연결됩니다.',
+        'Q와 P가 같은 rigid body(강체)에 고정되어 있으면 r=QP는 물체 기준계에서 일정합니다. ω,α는 그 강체의 지상 기준 각속도·각가속도이고, 아래의 v와 a도 모두 같은 지상 기준 값입니다. Fixed on the body(물체에 고정된)는 지면에서 정지했다는 뜻이 아닙니다.',
+        formula(two_v+'<br>'+two_a),
+        'ω×r는 회전에 의한 속도 차이입니다. α×r는 angular acceleration(각가속도)에 의한 항, ω×(ω×r)는 회전축을 향하는 normal acceleration(법선 가속도) 항입니다. r가 축에 수직일 때에만 마지막 항을 −|ω|²r로 곧바로 바꿀 수 있습니다. Q가 지상에서 고정된 점이면 vQ=aQ=0입니다.'),
+    card('4. 물체 위를 움직이는 점에는 상대 운동과 코리올리 항이 추가됩니다.',
+        'Moving point(움직이는 점) P와 지금 같은 위치에 있으면서 물체에 붙어 있는 점 P*를 구분합니다. P*는 그 순간 고른 물질점이며, 다음 순간까지 P와 같이 이동하는 점이 아닙니다. 물체에서 본 relative velocity(상대속도)를 vrel, relative acceleration(상대가속도)를 arel이라 두면 다음 식을 씁니다.',
+        formula(one_v+'<br>'+one_a),
+        '먼저 고정된 Q에서 P*까지 두 점 관계식으로 vP*,aP*를 구합니다. 그런 다음 물체를 따라 미끄러지는 운동을 더합니다. Coriolis acceleration(코리올리 가속도) 2ω×vrel은 회전과 상대 이동이 함께 만드는 항입니다. 두 벡터가 평행하면 회전과 미끄럼이 있어도 이 항은 0입니다.'),
+    card('5. 공식의 선택 기준은 점이 해당 물체에 붙어 있는지입니다.',
+        'Crane boom(크레인 붐)의 끝점은 붐에 고정되어 있으므로 two-point relation(두 점 관계식)을 바로 씁니다. 회전하는 rod(봉)를 따라 미끄러지는 collar(칼라)는 봉에 고정되지 않았으므로 coincident point(순간적으로 일치하는 점) D*를 도입합니다.',
+        '한편 원판·연결봉 문제의 칼라 중심 B는 연결봉 끝점이기도 합니다. 봉의 두 끝점 A,B 사이에는 두 점 관계식을 쓰고, 칼라가 수평 가이드만 따라간다는 velocity constraint(속도 구속조건)를 추가합니다. “칼라가 등장하면 언제나 한 점 공식”이라고 외우지 않고 어느 물체에 대한 고정점인지 판단합니다.'),
+    card('6. 크레인: 두 회전속력이 일정해도 붐의 각가속도는 0이 아닙니다.',
+        '지면 N, 운전실 A, 붐 B를 정합니다. 운전실은 a₂축으로 0.3 rad/s, 붐은 운전실에 대해 a₃축으로 0.5 rad/s 회전합니다. 따라서 ω=0.3a₂+0.5a₃ rad/s입니다. 운전실 A에서 성분은 일정하지만 a₃가 지면에서 돌아가므로 α=(0.3a₂)×(0.5a₃)=0.15a₁ rad/s²입니다.',
+        '붐 길이 l=12 m, elevation angle(상승각) φ=30°에서 OP=12b₁입니다. O가 지면에서 고정되어 있으므로 두 점 관계식을 적용하면 vP≈6b₂−3.118b₃ m/s, aP≈−3.810b₁+0.468b₂+1.800b₃ m/s²입니다. 이 답은 지면에서 관찰한 운동을 붐의 기저로 적은 것입니다.'),
+    card('7. 원판·연결봉: 가이드의 두 속도 성분이 0이라는 조건으로 풉니다.',
+        '원판 반지름 2 in, 회전속력 12 rad/s, 연결봉 길이 7 in, 가이드 높이 3 in입니다. 원판각 θ=0°에서 A=(0,0,2), B=(6,3,0) in이고 vA=−24n₂ in/s입니다. 칼라의 x축 회전을 φ, 칼라에 대한 봉의 y축 회전을 ψ라 두면 ωrod=φ̇c₁+ψ̇c₂입니다.',
+        'vB=vA+ωrod×AB를 C기저로 전개하고 수평축 c₁에 수직인 두 성분을 0으로 둡니다. 기하학에서 cosφ=2/√13, sinφ=3/√13, cosψ=√13/7, sinψ=−6/7입니다. 따라서 φ̇=48/13≈3.6923 rad/s, ψ̇=12/√13≈3.3282 rad/s, vB=−12c₁ in/s입니다. 음수는 guide(가이드)의 +x 반대쪽으로 움직인다는 뜻입니다.'),
+    card('8. 회전 봉 위 칼라: 지상 가속도는 세 가지 기여를 더합니다.',
+        '봉 R은 수직 r₂축 주위로 ω=−20r₂ rad/s, α=−200r₂ rad/s²입니다. 칼라는 수직축과 30°인 봉을 따라 위로 미끄러지며 s=8 in, ṡ=50 in/s, s̈=600 in/s²입니다. Along the rod(봉을 따라)는 수직 방향과 다릅니다. 상대 운동 방향은 e=sin30° r₁+cos30° r₂입니다.',
+        '고정 물질점 D*의 운반 속도는 80r₃ in/s, 상대속도는 25r₁+43.301r₂ in/s이므로 vD≈25r₁+43.301r₂+80r₃ in/s입니다. 가속도는 aD*=−1600r₁+800r₃, arel≈300r₁+519.615r₂, aCoriolis=1000r₃를 더해 aD≈−1300r₁+519.615r₂+1800r₃ in/s²입니다.'),
+    card('9. 풀이를 읽을 때에는 관찰자·기저·단위를 함께 확인합니다.',
+        '같은 지상 속도라도 A기저, B기저, N기저의 숫자가 다를 수 있습니다. 식의 왼쪽 위 기준계는 observed in(~에서 관찰한), 답에 쓰인 축은 expressed in(~의 성분으로 표현한)을 뜻합니다. 다른 기저를 한 식에서 쓸 수는 있지만, 외적이나 성분 비교를 수행할 때에는 축 사이의 관계를 반영해야 합니다.',
+        'Angular velocity(각속도)는 rad/s, angular acceleration(각가속도)은 rad/s²입니다. 각속도에 길이를 외적하면 m/s 또는 in/s가 됩니다. 먼저 회전의 양의 방향과 벡터 QP의 순서를 정하고, 마지막에 성분의 부호·단위와 주어진 운동 구속조건을 확인합니다.'),
+])
+
+add(1,'강체 운동학 III','원본 표지','회전하는 기준계의 미분, 각속도의 합성, 강체에 고정된 점과 그 위를 움직이는 점의 속도·가속도를 다룹니다.',role='Cover')
+add(2,'Lecture 11-1 · 로봇의 관절 운동과 손끝 운동','Overview 00:20–00:43',
+    '로봇의 joint motion(관절 운동)을 알 때 end-effector motion(말단장치 운동)을 어떻게 계산하는지가 Overview의 질문입니다. 여러 부품의 상대 회전을 합성하고 점의 속도·가속도로 연결하는 이번 강의의 응용을 보여 줍니다.',role='Divider')
+add(3,'Overview 보조 영상 링크','원본 링크 페이지',
+    '<a href="https://youtu.be/gaQrJlxJK3M" target="_blank" rel="noreferrer">원본에 수록된 보조 영상 열기</a>. 본강의 다섯 편과 별도의 링크이며 추가 스크립트를 해설 근거로 사용하지 않았습니다.',role='Link')
+add(4,'Lecture 11-2 · 벡터 미분과 각속도','Contents 1','서로 다른 기준계의 미분을 연결한 뒤, 한 축 회전들을 조합해 전체 angular velocity(각속도)를 구성합니다.',role='Divider')
+add(5,'자세를 표현한 다음에는 시간에 따른 운동을 계산합니다.','Contents 1 00:17–00:32',
+    'Lecture 10의 direction cosine matrix(방향코사인행렬)는 두 기저가 어느 방향을 향하는지 알려 줍니다. 이번 강의는 그 축이 시간에 따라 움직일 때의 angular velocity(각속도)와 angular acceleration(각가속도)를 다룹니다.',
+    '그 결과를 강체의 각 점에 연결하여 linear velocity(선속도)와 linear acceleration(선가속도)를 구합니다. 여기서 linear(선형의)는 점의 병진 운동에 관한 양을 구별하는 용어로, 경로가 반드시 직선이라는 뜻은 아닙니다. 회전하는 붐 끝점도 선속도를 가집니다.')
+add(6,'두 관찰자의 벡터 미분은 회전항으로 연결됩니다.','Contents 1 00:36–01:09',
+    '물체에 붙은 축을 함께 따라가는 사람에게는 그 축이 고정되어 있습니다. 지면의 관찰자에게는 같은 축이 회전합니다. 같은 벡터를 미분하더라도 어떤 reference frame(기준계)에서 변화량을 비교하는지에 따라 결과가 달라집니다.',
+    '강의는 이 차이를 연결하는 vector differentiation formula(벡터 미분 공식)를 증명 없이 제공합니다. 다음 장에서 미분 기호의 관찰 기준과 각속도의 상대 방향을 먼저 읽으면, 매번 움직이는 축을 직접 미분하는 계산을 줄일 수 있습니다.')
+add(7,'A에서의 미분 = B에서의 미분 + B의 회전에 따른 변화','Contents 1 01:12–02:16',
+    f'공식의 {w("A","B")}는 “A에 대한 B의 각속도”입니다. 벡터가 B에 고정되어 있으면 {d("B","u")}=0이지만 A에서의 미분은 {w("A","B")}×u가 됩니다. B가 A에 대해 회전하지 않으면 두 미분이 같습니다.',
+    '원본의 v는 임의의 vector(벡터)이며 반드시 velocity(속도)가 아닙니다. 혼동을 줄이기 위해 여기서는 일반 벡터를 u로 씁니다. D<sub>A</sub>는 A에서의 시간미분, D<sub>B</sub>는 B에서의 시간미분입니다. 외적의 순서는 각속도 × 미분할 벡터입니다.',
+    eq=transport,
+    extra=card('시험용 보강 · 축의 미분을 모으면 나오는 식',
+        'u=u₁b₁+u₂b₂+u₃b₃를 A에서 미분하면 성분 미분 Σu̇ᵢbᵢ와 축 미분 ΣuᵢD<sub>A</sub>bᵢ가 나옵니다. B축은 B에 고정되어 있고 D<sub>A</sub>bᵢ=ω×bᵢ이므로 두 번째 합은 ω×u입니다. 첫 번째 합이 D<sub>B</sub>u여서 위 공식이 됩니다.'))
+add(8,'세 축이 변하는 속도로도 각속도를 정의할 수 있습니다.','Contents 1 02:23–03:25',
+    '일반적인 3차원 orientation(자세)은 한 각도만 미분해서 얻을 수 없습니다. 원본의 FYI(참고) 식은 B의 세 unit basis vectors(단위 기저벡터들)가 A에서 어떻게 변하는지를 이용해 각속도 성분을 구합니다.',
+    '예를 들어 b₂의 변화율을 b₃에 투영하면 b₁방향의 각속도 성분이 됩니다. 나머지도 1→2→3→1 순서로 순환합니다. 아래 괄호 안은 스칼라이고, 뒤의 b축이 그 성분의 방향입니다. 강의는 이 식의 긴 유도를 다루지 않고 다음 장의 더 간단한 구성을 사용합니다.',
+    eq='ω₁=(D<sub>A</sub>b₂)·b₃<br>ω₂=(D<sub>A</sub>b₃)·b₁<br>ω₃=(D<sub>A</sub>b₁)·b₂<br>'+w('A','B')+'=ω₁b₁+ω₂b₂+ω₃b₃')
+add(9,'한 기준계에 고정된 축 주위의 회전은 θ̇k입니다.','Contents 1 03:27–05:29',
+    f'B가 A에 고정된 single axis(단일축) k 주위로 회전하면 {w("A","B")}=θ̇k입니다. k는 길이가 1인 축벡터이며 θ̇는 right-hand rule(오른손 규칙)에 따른 부호 있는 각도 변화율입니다. Angular speed(각속력)는 그 크기 |θ̇|입니다.',
+    'Fixed in A(A에 고정된)라는 조건이 중요합니다. A 자체가 지면에서 돌 수 있으므로 k가 지면에서도 고정되어 있다는 뜻은 아닙니다. 이 상대 각속도를 지상 각속도와 연결하는 방법이 다음 장의 합성 정리입니다.',eq=w('A','B')+'=θ̇k; |k|=1')
+add(10,'서로 이어진 기준계의 상대 각속도들을 벡터로 더합니다.','Contents 1 05:31–06:58',
+    f'N→A→B라는 연결을 만들면 {w("N","B")}={w("N","A")}+{w("A","B")}입니다. 앞 항의 대상 A가 다음 항의 관찰 기준 A로 이어집니다. 여러 중간 기준계가 있어도 같은 방식으로 연결합니다.',
+    '이것이 addition theorem of angular velocities(각속도 합성 정리)입니다. Scalar rates(스칼라 회전률)만 더하는 것이 아니라 각 축 방향이 붙은 벡터를 더합니다. 성분으로 계산할 때에는 direction cosine table(방향코사인 표)로 기저를 맞춥니다.',
+    eq=w('N','B')+'='+w('N','A')+'+'+w('A','B'),
+    extra=card('지난 강의와의 연결','Finite rotations(유한 회전들)의 합성은 순서에 의존하는 행렬곱이었습니다. Instantaneous angular velocity(순간 각속도)는 벡터이므로 이 정리를 적용할 수 있습니다. 자세각 세 개를 단순히 더하는 것과 구별합니다.'))
+add(11,'각가속도에는 움직이는 회전축의 변화도 포함됩니다.','Contents 1 07:02–07:51',
+    f'Angular acceleration(각가속도)은 각속도벡터를 해당 관찰 기준계에서 미분한 값입니다. {alpha("N","B")}={d("N",w("N","B"))}입니다. 성분이 일정해도 축이 움직이면 벡터는 변할 수 있습니다.',
+    '원본의 “addition theorem does not work(합성 정리가 적용되지 않는다)”는 상대 각가속도만 그대로 더하면 안 된다는 의미입니다. 벡터 미분의 선형성이 사라진다는 뜻은 아닙니다. 같은 기준계에서 각 항을 미분해야 하며, 기준계를 바꿀 때 회전항이 생깁니다.',
+    extra=card('시험용 보강 · 두 단계 회전의 각가속도',
+        formula(alpha('N','B')+'='+alpha('N','A')+'+'+alpha('A','B')+'<br>+'+w('N','A')+'×'+w('A','B')),
+        '각속도 합성식을 N에서 미분하고, 상대 각속도의 미분만 A에서의 미분으로 옮기면 위 외적 항이 추가됩니다. 크레인 예제에서는 앞의 두 상대 각가속도가 0이고 이 외적 항만 남습니다.'))
+add(12,'Lecture 11-3 · 점의 속도와 가속도','Contents 2','이미 구한 angular velocity(각속도)와 angular acceleration(각가속도)를 점의 운동으로 연결합니다.',role='Divider')
+add(13,'두 점 모두 같은 물체에 고정되어 있는지 먼저 확인합니다.','Contents 2 00:17–01:34',
+    'Q와 P가 같은 reference frame(기준계) A에 fixed(고정된) 경우를 다룹니다. 두 점을 연결하는 QP는 A에서 방향과 길이가 일정합니다. 하지만 A가 움직이면 지면에서는 Q와 P 모두 움직일 수 있습니다.',
+    '한 점 Q의 지상 속도·가속도와 A의 각속도·각가속도를 알면 다른 점 P의 운동을 구할 수 있습니다. 두 점 사이의 rigid-body constraint(강체 구속조건)가 추가 정보를 제공하는 것입니다. P가 A 위를 미끄러지면 이 전제를 그대로 적용할 수 없습니다.')
+add(14,'한 점의 병진 운동에 회전이 만드는 차이를 더합니다.','Contents 2 01:38–03:30',
+    'r=QP는 알고 있는 점 Q에서 구할 점 P로 향합니다. ω와 α는 A의 지상 기준 각속도·각가속도이며 아래의 모든 v,a도 같은 관찰 기준입니다. 원본에서는 문맥상 분명한 base frame(기준 관찰계) N을 생략합니다.',
+    '속도는 Q의 속도에 ω×r를 더합니다. 가속도에는 α×r와 ω×(ω×r)가 모두 필요합니다. 바깥 외적부터 임의로 묶지 말고 괄호 안 ω×r를 먼저 계산합니다. 일반적인 3차원 r에 −ω²r를 대입하면 회전축에 평행한 성분까지 잘못 가속시킬 수 있습니다.',
+    eq=two_v+'<br>'+two_a,
+    extra=card('시험용 보강 · 두 번 미분하여 가속도식을 얻습니다.',
+        '위치 관계 OP=OQ+r를 N에서 미분합니다. r는 A에 고정되어 있으므로 D<sub>N</sub>r=ω×r입니다. 한 번 더 미분하면 D<sub>N</sub>(ω×r)=α×r+ω×(D<sub>N</sub>r)=α×r+ω×(ω×r)입니다. 여기서는 P,Q가 물체에 고정되어 상대 이동이 없습니다.'))
+add(15,'P*는 P와 지금 같은 위치에 있는 물체의 고정점입니다.','Contents 2 03:34–04:26',
+    'Moving point(움직이는 점) P가 A 위를 지나갑니다. 그 순간 P와 위치가 일치하지만 A에 붙어 있는 material point(물질점)를 P*라고 부릅니다. P*는 A에서 fixed(고정된) 점이므로 앞 장의 두 점 관계식을 적용할 수 있습니다.',
+    'Coincides with(~와 일치한다)는 이 순간 위치에 관한 조건입니다. 두 점의 속도나 가속도까지 같다는 뜻은 아닙니다. 다음 순간 P는 A 위의 다른 물질점을 지나가므로 P*를 계속 P와 함께 움직이는 점처럼 미분하면 상대 운동이 사라져 버립니다.')
+add(16,'상대가속도 외에 2ω×vrel을 더해야 합니다.','Contents 2 04:31–06:06',
+    f'P*의 지상 운동에 A에서 본 P의 relative motion(상대 운동)을 더합니다. vrel={v("A","P")}는 A에서 본 상대속도, arel={acc("A","P")}는 A에서 본 상대가속도입니다. 아래 식에서는 원본의 왼쪽 위 A 표기를 읽기 편하게 rel 아래첨자로도 적습니다.',
+    '속도에서는 두 항을 더하면 되지만 가속도에는 Coriolis acceleration(코리올리 가속도) 2ω×vrel이 추가됩니다. 이는 회전과 상대 이동의 결합 효과이며, 회전 방향이나 미끄럼 방향을 뒤집으면 부호도 달라집니다.',
+    eq=one_v+'<br>'+one_a,
+    extra=card('시험용 보강 · 계수 2는 두 미분에서 각각 한 번씩 나옵니다.',
+        'A에 고정된 Q에서 P까지 r를 잡으면 vP=vQ+ω×r+vrel이고 D<sub>N</sub>r=ω×r+vrel입니다. ω×r를 미분할 때 ω×vrel이 한 번 나오고, vrel을 N에서 미분할 때 D<sub>N</sub>vrel=arel+ω×vrel이 한 번 더 나옵니다. 합이 2ω×vrel입니다.',
+        'P가 A에 붙어 있으면 vrel=arel=0으로 두 점 관계식이 복원됩니다. ω=0이면 코리올리 항이 사라집니다. vrel이 ω에 평행해도 외적이 0이므로 이 항은 없습니다.'))
+add(17,'각운동 계산의 순서: 단순 회전 → 합성 → 미분','Contents 2 06:10–07:57',
+    '각 adjacent frames(서로 이어진 기준계들) 사이의 회전축과 각도 변화율을 찾아 simple angular velocity(단순 각속도)를 씁니다. 이어지는 상대 각속도들을 합성하면 전체 각속도가 됩니다.',
+    'Angular acceleration(각가속도)이 필요하면 전체 각속도를 요구한 관찰 기준계에서 미분합니다. 현재 식이 편리한 물체축으로 적혀 있다면 vector differentiation formula(벡터 미분 공식)를 써서 그 기준계에서 미분하고 회전항을 더합니다.',
+    eq=transport+'<br>'+w('A','B')+'=θ̇k<br>'+w('N','B')+'='+w('N','A')+'+'+w('A','B'))
+add(18,'점 운동의 두 공식은 고정점 조건으로 선택합니다.','Contents 2 08:05–08:45',
+    'Two points fixed on one frame(한 기준계에 고정된 두 점)이면 QP의 물체 성분이 일정합니다. One point moving on one frame(한 기준계 위를 움직이는 한 점)이면 그 점과 순간적으로 일치하는 고정점 P*의 운동을 먼저 구합니다.',
+    '한 점 관계식은 두 점 관계식을 대체하는 경쟁 공식이 아닙니다. 실전에서는 Q→P*에 두 점 관계식을 적용한 다음 P*→P에 상대속도·상대가속도·코리올리 항을 더하는 두 단계로 연결합니다.',
+    extra=table(['상황','사용할 관계','추가로 필요한 값'],[
+        ['P,Q가 같은 강체에 고정','두 점 관계식','QP, 강체의 ω와 α'],
+        ['P가 강체 위를 움직임','Q→P*, 이어 P*→P','물체 기준 상대속도와 상대가속도']]))
+
+add(19,'Lecture 11-4 · 세 가지 3차원 운동 예제','Problem Solving 00:17–00:34',
+    '크레인, 원판과 연결봉, 회전 봉 위의 칼라에 같은 vector differentiation formula(벡터 미분 공식)와 점 운동 관계식을 적용합니다.',role='Divider')
+add(20,'예제 1 · 운전실의 수평 회전과 붐의 상승이 동시에 일어납니다.','Problem Solving 00:37–01:18',
+    'Cab(운전실)는 수직축 주위로 ω₁=0.3 rad/s의 일정한 속력으로 회전합니다. 동시에 boom(붐)은 운전실에 대해 ω₂=0.5 rad/s로 올라갑니다. 두 각도 변화율은 constant(일정한) 값이며, 붐 길이는 OP=l=12 m입니다.',
+    'Relative to the cab(운전실에 대하여)라는 말 때문에 ω₂만을 지상에서 본 붐의 전체 각속도로 사용할 수 없습니다. 운전실의 회전과 붐의 상대 회전을 합쳐야 합니다. 그림의 순간에서 붐의 상승각은 30°입니다.',
+    correction='문제 그림의 θ=30°는 붐의 상승각입니다. 풀이 24–30장에서는 운전실의 수평 회전각을 θ, 붐의 상승각을 φ로 구분합니다. 영상 06:52–07:02도 이 기호 변경을 설명하므로, 이하 수치 대입은 φ=30°입니다.')
+add(21,'붐 전체의 각운동과 끝점 P의 선운동을 구합니다.','Problem Solving 01:24–01:37',
+    'Determine(구하라)의 대상은 네 가지입니다. 붐의 angular velocity(각속도)와 angular acceleration(각가속도), 그리고 tip P(끝점 P)의 velocity(속도)와 acceleration(가속도)입니다. 모두 지면 기준 N에서 관찰한 값입니다.',
+    '강체 전체는 하나의 각속도·각가속도를 갖지만, 각 점의 선속도·선가속도는 회전축까지의 위치에 따라 달라집니다. 먼저 붐의 각운동을 구하면 OP를 이용해 P의 운동을 계산할 수 있습니다.')
+add(22,'N→A→B로 회전을 나누고, O→P로 점의 운동을 연결합니다.','Problem Solving 01:44–02:38',
+    '지면과 운전실, 운전실과 붐 사이에는 각각 한 축 회전만 남도록 reference frames(기준계들)를 정합니다. 각 물체에 기저를 붙이고 두 방향코사인 표로 필요한 축 변환을 준비합니다.',
+    'Simple angular velocities(단순 각속도들)를 합성한 뒤 지면에서 미분해 붐의 각가속도를 구합니다. 그다음 고정된 지지점 O의 vO=aO=0을 사용해 끝점 P에 two-point relation(두 점 관계식)을 적용합니다.')
+add(23,'N은 지면, A는 운전실, B는 붐입니다.','Problem Solving 02:44–04:02',
+    'N의 n₂와 A의 a₂는 공통 수직 회전축입니다. A의 a₁은 운전실의 수평 방향, a₃는 붐을 들어 올리는 회전축입니다. B의 b₁은 O에서 P로 향하는 붐의 길이 방향이고, b₃=a₃입니다.',
+    'b₂는 b₁과 직교하면서 붐이 올라가는 접선 방향입니다. 각 기저는 right-handed(오른손 방향)로 정하여 b₁×b₂=b₃, b₂×b₃=b₁, b₃×b₁=b₂입니다. 외적의 순서를 뒤집으면 부호가 바뀝니다.')
+add(24,'두 기저 관계를 Y(θ)와 Z(φ)로 읽습니다.','Problem Solving 04:05–05:40',
+    '운전실 A는 N에 대해 y축으로 θ만큼 회전하므로 N에서 본 A의 자세는 Y(θ)입니다. 붐 B는 A에 대해 z축으로 φ만큼 회전하므로 A에서 본 B의 자세는 Z(φ)입니다. 각 표의 열은 오른쪽 물체축을 왼쪽 기저로 표현한 성분입니다.',
+    '따라서 b₁=cosφ a₁+sinφ a₂, b₂=−sinφ a₁+cosφ a₂, b₃=a₃입니다. 반대로 a₂=sinφ b₁+cosφ b₂입니다. 뒤의 속도 외적에서는 이 역방향 표현이 편리합니다.',
+    eq='a₁=cosθ n₁−sinθ n₃; a₂=n₂<br>a₃=sinθ n₁+cosθ n₃<br>b₁=cosφ a₁+sinφ a₂<br>b₂=−sinφ a₁+cosφ a₂; b₃=a₃')
+add(25,'각 상대 회전의 속력에 해당 축벡터를 붙입니다.','Problem Solving 05:43–07:17',
+    f'운전실 A의 회전축은 n₂=a₂이므로 {w("N","A")}=ω₁a₂입니다. 붐 B의 운전실에 대한 회전축은 a₃=b₃이므로 {w("A","B")}=ω₂a₃입니다. 같은 축을 두 이름으로 쓸 수 있지만 관찰 기준계는 그대로입니다.',
+    'ω₁와 ω₂는 주어진 양의 회전 방향에 대한 값입니다. 앞 식은 지면에서 본 운전실의 회전이고 뒤 식은 운전실에서 본 붐의 회전입니다. 이 구분이 다음 합성의 연결 순서를 정합니다.',
+    eq=w('N','A')+'=0.3a₂ rad/s<br>'+w('A','B')+'=0.5a₃ rad/s')
+add(26,'예제 1의 첫 답: 붐의 각속도는 0.3a₂+0.5a₃입니다.','Problem Solving 07:19–07:51',
+    f'N→A→B를 이어 {w("N","B")}={w("N","A")}+{w("A","B")}를 사용합니다. 두 항이 이미 A기저로 쓰였으므로 그대로 벡터합을 취하면 됩니다. 이 답은 N에서 본 운동을 A축으로 표현한 것입니다.',
+    '회전축들이 서로 수직이므로 0.3+0.5=0.8 rad/s라고 더할 수 없습니다. 시험용 보강: 전체 angular speed(각속력)는 √(0.3²+0.5²)≈0.5831 rad/s입니다. 방향까지 알려 주는 답은 아래 벡터식입니다.',
+    eq=w('N','B')+'=ω₁a₂+ω₂a₃=0.3a₂+0.5a₃ rad/s')
+add(27,'세 각속도 식을 한곳에 모아 다음 미분을 준비합니다.','Problem Solving 07:19–08:19 · 각속도 정리',
+    '운전실의 각속도, 운전실에 대한 붐의 각속도, 지면에 대한 붐의 각속도를 구분한 정리 페이지입니다. 이후 각가속도 계산에서 미분할 것은 마지막의 전체 각속도입니다.',
+    'A에서 a₂,a₃는 고정되어 있습니다. 그래서 전체 각속도를 먼저 A에서 미분하면 스칼라 계수 ω₁,ω₂만 미분하면 됩니다. N에서의 미분으로 바꿀 때는 A 자체가 회전한다는 항을 더합니다.',
+    eq=w('N','A')+'=ω₁a₂<br>'+w('A','B')+'=ω₂a₃<br>'+w('N','B')+'=ω₁a₂+ω₂a₃')
+add(28,'예제 1의 둘째 답: 일정한 두 회전률이 α=0.15a₁을 만듭니다.','Problem Solving 07:57–11:06',
+    f'{alpha("N","B")}={d("A",w("N","B"))}+{w("N","A")}×{w("N","B")}입니다. 첫 항은 ω̇₁a₂+ω̇₂a₃이며 두 회전률이 일정하므로 0입니다.',
+    '둘째 항을 전개하면 (ω₁a₂)×(ω₁a₂+ω₂a₃)입니다. 같은 벡터끼리의 외적은 0이고 a₂×a₃=a₁이므로 ω₁ω₂a₁만 남습니다. 숫자를 넣으면 0.3×0.5=0.15입니다.',
+    '이 각가속도는 붐의 상대 회전축 a₃가 운전실의 수평 회전을 따라 방향을 바꾸기 때문에 생깁니다. Constant components in A(A에서 일정한 성분)와 constant vector in N(N에서 일정한 벡터)는 다릅니다.',
+    eq=alpha('N','B')+'=ω₁ω₂a₁=0.15a₁ rad/s²')
+add(29,'예제 1의 셋째 답: 회전축 두 개가 끝점 속도의 두 성분을 만듭니다.','Problem Solving 11:09–12:30',
+    'O와 P는 같은 rigid boom(강체 붐)에 고정되어 있고 OP=lb₁입니다. O는 지면에서도 고정되어 있으므로 vP=(ω₁a₂+ω₂b₃)×lb₁입니다. 두 외적으로 나누면 ω₁l(a₂×b₁)+ω₂l(b₃×b₁)입니다.',
+    'a₂=sinφ b₁+cosφ b₂를 대입하면 a₂×b₁=−cosφ b₃입니다. 또한 b₃×b₁=b₂이므로 vP=ω₂lb₂−ω₁lcosφ b₃입니다. 첫 항은 붐 상승으로 생기고, 둘째는 수평 회전으로 생깁니다.',
+    'l=12 m, φ=30°, ω₁=0.3 rad/s, ω₂=0.5 rad/s를 넣습니다. 0.5×12=6, 0.3×12×cos30°≈3.11769입니다. 원본의 −3.12는 반올림한 값입니다.',
+    eq=v('N','P')+'=ω₂lb₂−ω₁lcosφ b₃<br>≈6.000b₂−3.118b₃ m/s')
+add(30,'예제 1의 넷째 답: 생략된 이중 외적을 세 성분으로 전개합니다.','Problem Solving 12:35–13:40',
+    'O의 가속도도 0이므로 aP=α×lb₁+ω×(ω×lb₁)입니다. s=sinφ, c=cosφ라 두면 ω=ω₁s b₁+ω₁c b₂+ω₂b₃, α=ω₁ω₂(c b₁−s b₂)입니다. 이제 모두 같은 B기저이므로 성분 외적을 사용할 수 있습니다.',
+    '각가속도 항은 α×lb₁=lω₁ω₂s b₃입니다. 안쪽 외적은 앞 장에서 구한 ω×lb₁=lω₂b₂−lω₁c b₃입니다. 이를 다시 ω와 외적한 결과를 아래 표에 정리합니다. 두 항의 b₃성분을 합쳐 2lω₁ω₂sinφ가 됩니다.',
+    extra=table(['항','첫째 성분','둘째 성분','셋째 성분'],[
+        ['α×OP','0','0','lω₁ω₂s'],
+        ['ω×(ω×OP)','−l(ω₂²+ω₁²c²)','lω₁²sc','lω₁ω₂s']])+
+        card('수치 대입과 단위',
+            formula('aP₁=−12(0.5²+0.3²cos²30°)=−3.810<br>aP₂=12×0.3²sin30°cos30°≈0.46765<br>aP₃=2×12×0.3×0.5×sin30°=1.800'),
+            '따라서 지상 가속도를 B기저로 쓰면 aP≈−3.810b₁+0.468b₂+1.800b₃ m/s²입니다. 시험용 보강: A기저에서는 −l(ω₁²+ω₂²)cosφ a₁−lω₂²sinφ a₂+2lω₁ω₂sinφ a₃입니다.')+
+        card('N기저로 바꿔 원본의 두 번째 답과 비교하기',
+            '그림처럼 해당 순간 A축이 N축과 겹치도록 θ=0으로 잡으면 b₁=cosφ n₁+sinφ n₂, b₂=−sinφ n₁+cosφ n₂, b₃=n₃입니다. 이를 대입하면 aP≈−3.533n₁−1.500n₂+1.800n₃ m/s²입니다. 일반적인 θ에서는 24장의 Y(θ) 관계를 추가로 적용합니다.'),
+    correction='원본의 B기저 답과 N기저 답은 축 이름만 바꾼 결과가 아닙니다. 표시된 N성분은 그림에서 A축과 N축이 겹치는 순간을 기준으로 해석합니다. 임의의 수평 회전각에서도 같은 N성분이라고 사용하지 않습니다.')
+add(31,'각속도 성분이 일정하다는 말만으로 각가속도를 지우지 않습니다.','Problem Solving 13:46–14:14',
+    'Cab base(운전실 기부)의 O는 지면에 고정되어 있어 점 운동 식에서 vO,aO를 0으로 둘 수 있었습니다. 그러나 붐은 운전실에 대해 올라가면서 동시에 운전실을 따라 수평으로 회전합니다.',
+    'ω₂a₃의 크기는 일정하지만 그 방향 a₃가 N에서 변합니다. 그래서 α=ω₁ω₂a₁이 남습니다. 시험에서 constant angular speed(일정한 각속력)를 읽으면 먼저 어느 축에 대한 값이고 그 축이 어떤 관찰자에게 고정되어 있는지 확인합니다.')
+add(32,'예제 2 · 원판 회전이 연결봉을 통해 칼라의 수평 이동을 만듭니다.','Problem Solving 14:15–15:03',
+    'Disk(원판)의 반지름은 2 in, 회전속력은 ω₁=12 rad/s입니다. Rod AB(연결봉 AB)는 길이가 7 in이며 A에서는 ball-and-socket joint(볼 소켓 관절), B에서는 clevis(클레비스 관절)로 연결됩니다. 칼라 중심 B는 높이 3 in인 horizontal guide(수평 가이드) CD를 따라 이동합니다.',
+    'A는 원판에 붙어 원운동을 하고, B는 가이드 때문에 수평으로만 이동합니다. 연결봉의 일정한 길이와 두 관절의 허용 회전이 이 운동들을 연결합니다. 문제의 in은 inch(인치)이며 이 예제에서는 길이·속도를 인치 단위로 유지합니다.')
+add(33,'θ=0°에서 칼라의 속도와 봉의 각속도를 구합니다.','Problem Solving 15:07–15:22',
+    'At θ=0°(θ가 0°인 순간)는 원판의 회전 위치를 지정합니다. 그 순간 원판축에 붙인 d기저는 N기저와 같아지고, OA=2n₃입니다. 원판은 멈춘 것이 아니라 그 위치를 ω₁=12 rad/s로 통과하고 있습니다.',
+    '구할 것은 collar velocity(칼라 속도) vB와 rod angular velocity(봉 각속도)입니다. 원판의 각속도를 봉에도 그대로 대입할 수 없습니다. 연결된 두 물체는 서로 다른 회전 운동을 하며, B의 가이드 구속을 사용해 봉의 미지 회전률을 구해야 합니다.')
+add(34,'원판에서 A의 속도를 얻고, 봉을 따라 B로 연결합니다.','Problem Solving 15:29–16:12',
+    '먼저 원판 중심의 속도가 0이라는 사실로 vA를 구합니다. 다음으로 같은 rigid rod(강체 봉)에 속하는 A,B 사이에 vB=vA+ωrod×AB를 적용합니다. B는 수평 방향만 움직이므로 나머지 두 성분은 0입니다.',
+    '봉의 자세를 칼라의 x축 회전과 칼라에 대한 봉의 y축 회전으로 나누면 미지 각속도는 φ̇,ψ̇ 두 개입니다. B의 두 속도 구속식이 이 두 값을 결정합니다. 방향코사인 표는 이 식을 한 기저로 전개할 때 사용합니다.')
+add(35,'N·D·C·R을 지면·원판·칼라·봉에 각각 붙입니다.','Problem Solving 16:15–17:47',
+    'N은 지면, D는 disk(원판), C는 collar(칼라), R은 rod(봉)입니다. n₁=d₁=c₁은 수평 가이드와 원판 회전축의 방향입니다. 원판의 d₂,d₃는 원판과 함께, 칼라의 c₂,c₃는 칼라와 함께 회전합니다.',
+    '봉의 r₃는 B에서 A로 향하도록 그려져 있습니다. 따라서 A에서 B로 향하는 벡터는 AB=−7r₃입니다. Clevis(클레비스 관절)의 축은 c₂=r₂이며, 봉은 칼라에 대해 이 축 주위로 회전합니다.',
+    correction='원본의 마지막 기준계 설명 “Reference frame of rod: C”는 collar(칼라) C입니다. 그림의 C 및 영상 17:18–17:47에서 칼라가 가이드를 따라 이동하면서 회전할 수 있다고 설명합니다.')
+add(36,'서로 이어진 회전 세 개를 X(θ), X(φ), Y(ψ)로 표현합니다.','Problem Solving 17:51–19:42',
+    'N→D는 x축 θ회전, N→C는 x축 φ회전, C→R은 y축 ψ회전입니다. 원판의 D와 봉의 R 사이를 직접 한 축 회전으로 간주하지 않고, 필요한 물체 쌍의 관계를 따로 만듭니다.',
+    '칼라 기저의 관계는 c₁=n₁, c₂=cosφ n₂+sinφ n₃, c₃=−sinφ n₂+cosφ n₃입니다. 봉의 r₃=sinψ c₁+cosψ c₃이므로 AB=−7(sinψ c₁+cosψ c₃)입니다. 이 두 식으로 다음 속도 관계를 모두 C기저로 바꿀 수 있습니다.',
+    eq='n₂=cosφ c₂−sinφ c₃<br>r₃=sinψ c₁+cosψ c₃<br>AB=−7sinψ c₁−7cosψ c₃ in')
+add(37,'원판 회전률은 주어지고 칼라 회전률은 미지수입니다.','Problem Solving 19:46–20:42',
+    f'{w("N","D")}=12n₁=12d₁ rad/s입니다. 칼라 C도 수평 x축 주위로 회전하므로 {w("N","C")}=φ̇c₁입니다. 같은 축 방향을 가진다고 두 회전률이 같아지는 것은 아닙니다.',
+    '칼라가 guide(가이드)를 따라 translation(병진)하는 속도와 가이드 주위로 rotation(회전)하는 속도를 구별합니다. vB는 칼라 중심의 이동이고 φ̇는 칼라의 방향 변화입니다. 두 값 모두 아직 미지입니다.',
+    eq=w('N','D')+'=12n₁ rad/s<br>'+w('N','C')+'=φ̇c₁')
+add(38,'봉의 각속도는 φ̇c₁+ψ̇c₂입니다.','Problem Solving 20:52–21:41',
+    f'봉은 칼라에 대해 c₂축으로 회전하므로 {w("C","R")}=ψ̇c₂입니다. N→C→R의 합성 정리에 의해 {w("N","R")}=φ̇c₁+ψ̇c₂입니다. 원판의 각속도는 이 합에 직접 넣지 않고 점 A의 속도를 통해 연결됩니다.',
+    'φ̇와 ψ̇는 서로 다른 상대 회전의 변화율입니다. 이 두 미지수를 구하기 위해 다음 장에서 vB를 C기저로 전개하고 수평 가이드의 구속조건을 적용합니다.',
+    eq=w('N','R')+'='+w('N','C')+'+'+w('C','R')+'=φ̇c₁+ψ̇c₂')
+add(39,'B의 수평축에 수직인 속도 성분 두 개를 0으로 둡니다.','Problem Solving 21:45–23:21',
+    '원판 중심은 고정되어 있으므로 vA=(12d₁)×(2d₃)=−24d₂ in/s입니다. θ=0°에서 d₂=n₂=cosφ c₂−sinφ c₃이므로 vA=−24cosφ c₂+24sinφ c₃입니다.',
+    '봉의 두 점 관계식에 AB=−7(sinψ c₁+cosψ c₃), ωrod=φ̇c₁+ψ̇c₂를 넣습니다. c₁×c₃=−c₂, c₂×c₁=−c₃, c₂×c₃=c₁을 적용하면 아래 세 성분을 얻습니다. 칼라 중심은 c₁방향으로만 움직이므로 V₂=V₃=0입니다.',
+    eq='vB=V₁c₁+V₂c₂+V₃c₃<br>V₁=−7cosψ ψ̇<br>V₂=−24cosφ+7cosψ φ̇<br>V₃=24sinφ+7sinψ ψ̇',
+    extra=card('미지 각속도를 결정하는 두 식',formula('7cosψ φ̇=24cosφ<br>7sinψ ψ̇=−24sinφ'),
+        '식의 7은 길이 7 in, 24는 속도 24 in/s이므로 φ̇,ψ̇의 단위는 rad/s입니다. 각도 φ,ψ를 먼저 기하학에서 구하면 두 회전률을 각각 계산할 수 있습니다.'),
+    correction='원본에서 세 성분이 줄마다 등호로 이어진 부분은 하나의 벡터를 이루는 성분들의 합으로 읽습니다. 각 줄이 서로 같은 벡터라는 뜻이 아니며, 아래에서 vB=V₁c₁+V₂c₂+V₃c₃로 분명히 적습니다.')
+add(40,'기하학으로 φ와 ψ를 구한 다음 회전률을 계산합니다.','Problem Solving 23:27–24:44',
+    '가이드 위에서 y축과 만나는 보조점 C를 잡습니다. 이 점 이름 C는 칼라 기준계 C와 구분합니다. θ=0°에서 A=(0,0,2), C=(0,3,0) in이므로 AC=√13 in입니다. AB=7 in이고 CB가 x축 방향이므로 CB=√(7²−13)=6 in입니다.',
+    '삼각형 ACB에서 원본처럼 cosine law(코사인 법칙)를 쓰면 13=6²+7²−2×6×7 cos(90°+ψ)입니다. 따라서 cos(90°+ψ)=6/7, 즉 sinψ=−6/7입니다. 그림의 자세에서는 cosψ>0이므로 cosψ=√13/7, ψ≈−1.02970 rad입니다.',
+    'yz평면 투영에서 tan(90°−φ)=2/3이므로 tanφ=3/2입니다. 따라서 cosφ=2/√13, sinφ=3/√13, φ≈0.982794 rad입니다. 이 삼각비를 앞 장의 구속식에 넣으면 반올림을 줄일 수 있습니다.',
+    eq='φ̇=24cosφ/(7cosψ)=48/13≈3.69231 rad/s<br>ψ̇=−24sinφ/(7sinψ)=12/√13≈3.32820 rad/s',
+    correction='원본의 φ̇=3.693과 뒤 장의 vB=−11.993은 중간 각도 반올림의 영향을 포함한 수치입니다. 해설은 정확한 기하학적 삼각비로 계산하여 φ̇≈3.69231, vB=−12를 사용하고 원본 근삿값과 구분합니다.')
+add(41,'예제 2 답: 칼라는 −x방향으로 12 in/s 이동합니다.','Problem Solving 24:50–25:20',
+    '남은 c₁성분 V₁=−7cosψ ψ̇에 cosψ=√13/7, ψ̇=12/√13을 넣으면 V₁=−12 in/s입니다. c₁=n₁이므로 vB=−12n₁ in/s로도 쓸 수 있습니다. 부호는 +x방향의 반대라는 뜻입니다.',
+    f'봉의 각속도는 {w("N","R")}=(48/13)c₁+(12/√13)c₂ rad/s입니다. c₂=(2/√13)n₂+(3/√13)n₃를 넣으면 (48n₁+24n₂+36n₃)/13 rad/s로 바뀝니다. 두 식은 같은 각속도를 서로 다른 기저로 쓴 것입니다.',
+    eq=v('N','B')+'=−12c₁ in/s<br>'+w('N','R')+'≈3.69231c₁+3.32820c₂ rad/s',
+    extra=card('시험용 보강 · 고정 길이로 속도를 직접 검산합니다.',
+        'AB=(6,3,−2) in이고 vB−vA=(u,24,0) in/s입니다. 막대 길이가 일정하므로 AB·(vB−vA)=0, 즉 6u+72=0에서 u=−12입니다. 이 식은 수평 속도를 확인하는 독립적인 방법이며, 봉의 전체 각속도를 결정하려면 관절이 허용하는 회전 정보도 필요합니다.'))
+add(42,'미지 각속도도 운동 구속조건으로 결정할 수 있습니다.','Problem Solving 25:24–25:42',
+    'Simple angular velocity(단순 각속도)의 형태를 쓸 수 있다고 그 회전률이 이미 알려진 것은 아닙니다. 이 예제에서는 φ̇,ψ̇를 미지수로 둔 뒤, 칼라가 수평으로만 움직인다는 constraint(구속조건) 두 개로 풀었습니다.',
+    '기하학은 각도와 축 방향을 제공하고, 속도 관계는 각도 변화율을 제공합니다. Cosine law(코사인 법칙)로 얻은 ψ와 구속식으로 얻은 ψ̇는 서로 다른 종류의 값입니다. 단위 rad와 rad/s를 구분합니다.')
+
+add(43,'예제 3 · 회전하는 굽은 봉을 따라 칼라가 위로 미끄러집니다.','Problem Solving 25:51–27:18',
+    'Bent rod(굽은 봉) OAB는 수직축 주위로 회전합니다. 주어진 순간의 clockwise(시계 방향) angular speed(각속력)는 20 rad/s이고 같은 방향의 angular acceleration(각가속도) 크기는 200 rad/s²입니다. 칼라 D는 수직축과 30°를 이루는 봉 구간을 따라 위로 이동합니다.',
+    '봉을 따라 O에서 D까지의 거리 s는 8 in입니다. Upward along the rod(봉을 따라 위쪽으로)의 상대 운동은 ṡ=50 in/s, s̈=600 in/s²입니다. 이 방향은 수직축과 30°를 이루므로 50 전체를 수직 속도 성분으로 넣지 않습니다.',
+    correction='문제의 vD=50, aD=600은 봉 R에서 본 상대속력과 상대 가속도 성분입니다. 49·51장의 식 및 영상 31:03–31:16, 32:04–32:11이 이를 명시합니다. 이 값들을 이미 지상 기준 전체 속도·가속도로 주어진 것으로 읽으면 문제의 요구와 충돌합니다.')
+add(44,'구할 것은 칼라 D의 지상 속도와 지상 가속도입니다.','Problem Solving 27:21–27:26',
+    '봉이 칼라를 둘레 방향으로 운반하는 운동과 칼라가 봉을 따라 미끄러지는 운동이 동시에 일어납니다. 지면에서 본 velocity(속도)와 acceleration(가속도)는 이 둘을 결합한 값입니다.',
+    '칼라 D는 봉 R에 fixed(고정된) 점이 아니므로 O와 D에 고정 두 점 식만 바로 적용하면 상대 이동이 빠집니다. D와 지금 위치가 같은 봉의 고정점 D*를 도입하여 운반 운동을 먼저 계산합니다.')
+add(45,'O→D*에 두 점 식, D*→D에 상대 운동 식을 적용합니다.','Problem Solving 27:28–28:01',
+    '봉 R과 지면 N의 기준계·축을 정하고, 봉의 각속도와 각가속도의 부호를 결정합니다. 그런 다음 OD*의 위치벡터로 고정 물질점 D*의 지상 운동을 계산합니다.',
+    '마지막으로 봉에서 본 D의 relative velocity(상대속도), relative acceleration(상대가속도), Coriolis acceleration(코리올리 가속도)를 더합니다. 상대 가속도만 더하면 회전과 미끄럼이 함께 만드는 항 하나가 빠집니다.',
+    correction='원본 전략의 마지막 “angular velocity of the collar”는 44장의 요구와 49–51장의 풀이에 맞춰 칼라의 linear acceleration(선가속도)으로 읽습니다. 이 예제에서 구하는 것은 칼라 중심 D의 속도와 가속도입니다.')
+add(46,'봉의 회전축은 r₂, 미끄럼 방향은 r₁과 r₂의 조합입니다.','Problem Solving 28:03–28:16',
+    '지면 N에 n₁,n₂,n₃, 봉 R에 r₁,r₂,r₃를 붙입니다. 수직 회전축 r₂=n₂는 지면에 대해서도 고정되어 있습니다. r₁과 r₃는 봉과 함께 수평면에서 돌아갑니다.',
+    '봉을 따라 위로 향하는 unit tangent(단위 접선)을 e라 두면 e=sin30° r₁+cos30° r₂입니다. 30°가 수직축에서 잰 각도이므로 수직 성분에 cos가 붙습니다. 위치 OD=s e, 상대속도 ṡe, 상대가속도 s̈e에 모두 같은 방향벡터를 씁니다.',
+    eq='e=(1/2)r₁+(√3/2)r₂<br>OD=8e=4r₁+4√3r₂ in')
+add(47,'θ는 수평 회전각이고 봉의 기울기 30°와 다릅니다.','Problem Solving 28:22–28:47',
+    'N에서 본 R의 자세는 y축 회전행렬 Y(θ)입니다. 따라서 r₁=cosθ n₁−sinθ n₃, r₂=n₂, r₃=sinθ n₁+cosθ n₃입니다. θ가 변해도 수직축은 그대로이고 나머지 두 축만 회전합니다.',
+    '봉 구간과 수직축 사이의 30°는 강체 형상에 고정된 각도입니다. θ는 그 봉 전체가 수직축 주위로 도는 각도입니다. 이 둘을 섞어 θ̇=0 또는 θ=30°로 대입하지 않습니다. 뒤의 답은 R기저로 표현하므로 θ의 순간 수치를 지정할 필요가 없습니다.')
+add(48,'시계 방향을 음수로 읽어 ω=−20r₂, α=−200r₂로 둡니다.','Problem Solving 28:50–30:25',
+    '양의 수직축 쪽에서 원점을 바라보는 right-hand convention(오른손 방향 규약)에서 양의 회전은 반시계입니다. 원본의 시계 방향 운동과 풀이의 부호에 맞춰 θ̇=−20 rad/s, θ̈=−200 rad/s²입니다.',
+    f'{w("N","R")}=θ̇r₂를 N에서 미분하면 {alpha("N","R")}=θ̈r₂입니다. 벡터 미분 공식으로 확인해도 {d("R",w("N","R"))}+{w("N","R")}×{w("N","R")}에서 자기 자신과의 외적이 0이 됩니다.',
+    eq=w('N','R')+'=−20r₂ rad/s<br>'+alpha('N','R')+'=−200r₂ rad/s²',
+    extra=card('크레인 예제와 비교','여기서는 하나의 고정 수직축을 사용합니다. 크레인은 지면에서 회전하는 운전실 A의 축으로 붐 B의 각속도를 미분했으므로 별도의 외적 항이 남았습니다. 어떤 기준계에서 미분을 쉽게 만들었는지에 따라 중간식의 모양이 달라집니다.'))
+add(49,'예제 3의 속도: 운반 속도 80r₃에 상대속도를 더합니다.','Problem Solving 30:28–31:24',
+    'O는 지면에서 고정되어 있고 D*는 봉에 고정된 점입니다. OD*=4r₁+4√3r₂ in에 ω=−20r₂를 외적하면 vD*=−80(r₂×r₁)=80r₃ in/s입니다. 회전축에 평행한 위치 성분은 외적에 기여하지 않습니다.',
+    '상대속도는 vrel=50e=25r₁+25√3r₂ in/s입니다. 이 값을 vD*에 더하면 지상 속도가 됩니다. 운반 속도는 r₃방향, 미끄럼 속도는 r₁,r₂ 평면에 있으므로 서로 다른 성분으로 나타납니다.',
+    eq=v('N','D')+'=25r₁+25√3r₂+80r₃<br>≈25.000r₁+43.301r₂+80.000r₃ in/s')
+add(50,'먼저 봉에 고정된 점 D*의 가속도를 계산합니다.','Problem Solving 31:31–31:50',
+    'D*의 가속도는 α×OD*와 ω×(ω×OD*)의 합입니다. 각가속도 항은 (−200r₂)×(4r₁+4√3r₂)=800r₃ in/s²입니다. 앞 장에서 구한 안쪽 외적은 80r₃ in/s이므로 바깥 외적은 (−20r₂)×80r₃=−1600r₁ in/s²입니다.',
+    '−1600r₁은 수직 회전축을 향하는 수평 방향의 normal acceleration(법선 가속도)이고, +800r₃은 angular acceleration(각가속도)에 의한 접선 항입니다. 여기서는 s=8인 봉의 고정 물질점을 계산하므로 미끄럼을 아직 더하지 않습니다.',
+    eq=acc('N','D*')+'=−1600r₁+800r₃ in/s²',
+    correction='원본 이중 외적의 바깥 각속도에 붙은 D는 봉 기준계 R로 통일합니다. 중간 전개에서 빠진 괄호와 축에 평행한 위치 성분도 전체식 α×OD*+ω×(ω×OD*)로 명확히 적습니다. 평행 성분은 외적 결과가 0이라 최종값에 기여하지 않습니다.')
+add(51,'예제 3의 가속도: 코리올리 항이 r₃방향에 1000을 더합니다.','Problem Solving 31:56–32:16',
+    '상대가속도는 arel=600e=300r₁+300√3r₂ in/s²입니다. 코리올리 항은 2ω×vrel=2(−20r₂)×(25r₁+25√3r₂)입니다. r₂×r₂=0, r₂×r₁=−r₃이므로 +1000r₃ in/s²입니다.',
+    'D*의 가속도와 상대가속도, 코리올리 가속도를 같은 성분끼리 더합니다. r₁성분은 −1600+300=−1300, r₂성분은 300√3≈519.615, r₃성분은 800+1000=1800입니다.',
+    eq=acc('N','D')+'=−1300r₁+300√3r₂+1800r₃<br>≈−1300.000r₁+519.615r₂+1800.000r₃ in/s²',
+    correction='원본 최종 줄의 단위 “in”은 가속도 단위 “in/s²”로 교정합니다. 상대가속도와 두 회전 관련 항 모두 가속도 차원을 가집니다.',
+    extra=table(['기여','첫째 성분','둘째 성분','셋째 성분'],[
+        ['운반 가속도 aD*','−1600','0','800'],['상대가속도','300','300√3','0'],['코리올리 가속도','0','0','1000'],['합계 (in/s²)','−1300','300√3','1800']]))
+add(52,'코리올리 항은 회전 기준계에서의 상대 이동을 반영합니다.','Problem Solving 32:18–32:31',
+    '칼라에 별도의 reference frame(기준계)을 붙일 수도 있지만, 이 풀이에서는 봉 R을 기준으로 칼라의 relative motion(상대 운동)을 읽었습니다. 회전하는 봉 위에서 상대 이동이 있기 때문에 2ω×vrel이 나타납니다.',
+    '이 효과는 3차원 문제에서만 가능한 것이 아닙니다. 시험용 보강: 평면의 회전 팔을 따라 미끄러지는 입자에서도 같은 항이 생깁니다. 핵심 조건은 공간 차원 자체가 아니라 회전 기준계와 그 안의 상대 이동이며, 외적이 0인지도 확인해야 합니다.')
+add(53,'참고문헌','원본 References 페이지',
+    '원본 수록 문헌: Beer 외, <i>Vector Mechanics for Engineers: Dynamics</i>, 12판, 15장. 유홍희, <i>동역학</i>, 1판, 문운당, 8장. 교재 본문은 별도 인용 자료로 사용하지 않고 원본 참고문헌 목록을 보존합니다.',role='Reference')
+
+exams=[
+    ('State(서술하라) the vector differentiation formula(벡터 미분 공식).',
+     'For any vector u, D_A u = D_B u + ω(A,B) × u, where ω(A,B) is the angular velocity of B relative to A. The cross-product term accounts for the rotation of the B basis as observed in A.',
+     'Any vector(임의의 벡터)에 적용합니다. Relative to A(A에 대한)는 각속도의 관찰 기준입니다. 원본의 v 기호가 반드시 velocity(속도)인 것은 아닙니다.'),
+    ('When may angular velocity(각속도) be written as θ̇k?',
+     'When B rotates about a single unit axis k fixed in A, its angular velocity relative to A is θ̇k. The sign of θ̇ follows the right-hand rule. The axis need not be fixed in a third frame.',
+     'Single axis(단일축), unit axis(단위축), fixed in A(A에 고정된)라는 조건을 적습니다. Angular speed(각속력)는 |θ̇|입니다.'),
+    ('Explain(설명하라) how to add angular velocities(각속도들을 합성하는 방법).',
+     'For connected frames N, A, and B, ω(N,B) = ω(N,A) + ω(A,B). These are vector sums, so their directions must be retained. Numerical component addition requires a common basis.',
+     'Connected frames(이어진 기준계들)의 순서를 맞춥니다. 회전축이 다른 scalar rates(스칼라 회전률)만 더하면 각속도벡터가 되지 않습니다.'),
+    ('Can constant angular speeds(일정한 각속력들) produce nonzero angular acceleration(0이 아닌 각가속도)?',
+     'Yes. In the crane, ω = 0.3a₂ + 0.5a₃ has constant components in the cab frame, but a₃ rotates relative to the ground. Thus α = (0.3a₂) × (0.5a₃) = 0.15a₁ rad/s².',
+     'Constant components(일정한 성분)와 constant vector(일정한 벡터)를 구분합니다. Direction change(방향 변화)도 각가속도를 만듭니다.'),
+    ('State(서술하라) the two-point velocity relation(두 점 속도 관계식) and its assumption(가정).',
+     'If P and Q are fixed on the same rigid body, vP = vQ + ω × QP. All velocities and ω must be measured relative to the same base frame. The position vector points from Q to P.',
+     'Fixed on the same rigid body(같은 강체에 고정된)가 적용 조건입니다. QP의 방향을 뒤집으면 외적 항의 부호가 바뀝니다.'),
+    ('Write(적어라) the corresponding acceleration relation(대응하는 가속도 관계식).',
+     'The relation is aP = aQ + α × QP + ω × (ω × QP). The second term comes from angular acceleration and the third from rotation. Only the component of QP perpendicular to ω contributes to the double cross product.',
+     'Perpendicular to(~에 수직인)라는 조건을 기억합니다. 전체 QP를 무조건 −|ω|²QP에 넣으면 축에 평행한 성분까지 잘못 포함됩니다.'),
+    ('Define(정의하라) the coincident fixed point(순간적으로 일치하는 고정점) P*.',
+     'P* is a point fixed in the moving body that occupies the same position as P at the instant of interest. P may slide relative to the body, so P and P* generally have different velocities and accelerations.',
+     'At the instant of interest(관심 순간에)가 중요합니다. Fixed(고정된)는 물체 기준이며, 지상 속도가 0이라는 뜻이 아닙니다.'),
+    ('Explain(설명하라) the Coriolis acceleration(코리올리 가속도) term.',
+     'For a point moving relative to a rotating frame, the inertial acceleration includes 2ω × vrel. One contribution comes from differentiating ω × r and the other from differentiating vrel in the base frame. The term vanishes when ω and vrel are parallel.',
+     '시험용 보강을 포함한 답안입니다. Relative velocity(상대속도)를 사용하며, 지상 전체 속도를 vrel 자리에 넣지 않습니다. Parallel(평행한)이면 외적이 0입니다.'),
+    ('Determine(구하라) the crane tip velocity(크레인 끝점 속도) at an elevation(상승각) of 30°.',
+     'Since O is fixed, vP = ω × OP. With OP = 12b₁ and ω = 0.3a₂ + 0.5b₃, and using a₂ = sinφ b₁ + cosφ b₂, we obtain vP = 6b₂ − 3.6cosφ b₃. At φ = 30°, vP ≈ 6b₂ − 3.118b₃ m/s.',
+     '지면에서 관찰한 속도를 boom basis(붐 기저)로 표현했습니다. Observed in(관찰 기준)과 expressed in(표현 기저)을 구별합니다.'),
+    ('Why are two collar velocity components(칼라 속도의 두 성분) zero in the disk-and-rod problem(원판·봉 문제)?',
+     'The collar center is constrained to translate along the horizontal guide c₁. Hence its c₂ and c₃ velocity components vanish. Applying these two constraints to vB = vA + ωrod × AB determines φ̇ and ψ̇.',
+     'Constrained to(~하도록 구속된)는 운동을 제한하는 조건입니다. 칼라 자체의 회전이 금지되었다는 뜻은 아닙니다.'),
+    ('Find(구하라) the collar velocity(칼라 속도) when the disk angle(원판각) is zero.',
+     'At θ = 0, AB = (6,3,−2) in and vA = (0,−24,0) in/s. With vB = (u,0,0), the fixed-length condition AB·(vB−vA) = 0 gives 6u + 72 = 0. Therefore vB = −12n₁ in/s.',
+     '시험용 보강의 독립 검산입니다. Fixed-length condition(고정 길이 조건)을 사용합니다. 이 한 식만으로 봉의 전체 각속도까지 정해지지는 않습니다.'),
+    ('Identify(찾아라) the three contributions(세 기여) to the sliding collar acceleration(미끄러지는 칼라 가속도).',
+     'In the rotating-rod problem, aD* = −1600r₁ + 800r₃, arel = 300r₁ + 300√3r₂, and 2ω × vrel = 1000r₃. Thus aD = −1300r₁ + 300√3r₂ + 1800r₃ in/s². All components are expressed in the rod basis.',
+     'Transport(운반), relative(상대), Coriolis(코리올리) 기여를 같은 기저에서 더합니다. 주어진 600 in/s²는 봉을 따라가는 상대가속도이고 최종 지상 가속도가 아닙니다.'),
+]
+terms=[
+    ('kinematics / kinetics','운동학 / 운동역학','운동의 기하학적 기술 / 힘·토크와 운동의 관계'),
+    ('reference frame / base frame','기준계 / 기준 관찰계','누구와 함께 운동을 보는가 / 식에서 공통으로 기준 삼는 관찰계'),
+    ('Newtonian / inertial frame','뉴턴 / 관성 기준계','이 강의 예제에서는 지면 N으로 둔 기준계'),
+    ('basis / component','기저 / 성분','벡터 표현에 쓰는 축 / 그 축 방향의 계수'),
+    ('observed in / expressed in','~에서 관찰한 / ~의 성분으로 표현한','물리량의 관찰자 / 그 물리량을 적는 기저'),
+    ('vector differentiation','벡터 미분','성분 변화와 기저 방향 변화가 함께 포함되는 미분'),
+    ('with respect to / relative to','~에 대하여 / ~에 대해 상대적으로','관찰 기준 또는 상대 운동의 기준을 지정'),
+    ('angular velocity / angular speed','각속도 / 각속력','축과 방향을 가진 벡터 / 그 벡터의 크기'),
+    ('angular acceleration','각가속도','지정 관찰계에서 각속도벡터를 시간미분한 값'),
+    ('single / fixed / unit axis','단일 / 고정 / 단위축','하나의 축 / 지정 기준계에서 방향이 불변 / 길이 1인 축벡터'),
+    ('right-hand rule / clockwise','오른손 규칙 / 시계 방향','양의 회전 방향 규약 / 보는 방향을 함께 지정해야 하는 회전 방향'),
+    ('adjacent / connected frames','인접한 / 이어진 기준계들','상대 회전의 경로를 단계별로 연결하는 기준계들'),
+    ('addition theorem','합성 정리','이어진 기준계 사이의 상대 각속도를 벡터합으로 연결'),
+    ('constant components / constant vector','일정한 성분 / 일정한 벡터','선택한 기저의 계수 불변 / 관찰계에서 크기·방향 불변'),
+    ('finite rotation / instantaneous','유한 회전 / 순간적인','크기가 유한한 회전 동작 / 특정 순간의 운동 상태'),
+    ('linear velocity / linear acceleration','선속도 / 선가속도','점의 속도 / 점의 가속도; 직선 경로에만 한정되지 않음'),
+    ('rigid body / fixed on','강체 / ~에 고정된','점 사이 거리가 유지되는 물체 / 해당 물체에 대한 상대 이동이 없음'),
+    ('two-point relation','두 점 관계식','같은 강체에 고정된 두 점의 운동을 연결'),
+    ('moving point / material point','움직이는 점 / 물질점','물체에 대해 이동할 수 있는 점 / 물체에 붙여 추적하는 점'),
+    ('coincident / at the instant shown','위치가 일치하는 / 그림에 보인 순간에','지정 순간의 위치 조건 / 순간 운동값을 평가하는 시점'),
+    ('relative velocity / relative acceleration','상대속도 / 상대가속도','회전 물체에서 본 점의 속도 / 같은 기준계에서 본 가속도'),
+    ('transport motion','운반 운동','움직이는 기준계에 고정된 일치점 P*가 지면에서 하는 운동'),
+    ('Coriolis acceleration','코리올리 가속도','회전과 상대 이동의 결합 항 2ω×vrel'),
+    ('tangential / normal / perpendicular','접선 방향의 / 법선 방향의 / 수직인','회전 경로의 접선 / 경로가 굽는 방향 / 두 방향의 내적이 0'),
+    ('cross product / dot product','외적 / 내적','두 방향에 수직인 벡터 연산 / 투영·직교·길이 제약에 쓰는 스칼라 연산'),
+    ('crane / cab / boom / tip','크레인 / 운전실 / 붐 / 끝점','예제 1의 장치 / 수평 회전 물체 A / 상승 부재 B / 점 P'),
+    ('elevation / horizontal / vertical','상승각 / 수평인 / 수직인','수평선에서 잰 붐 각도 / 중력 방향에 수직 / 위아래 방향'),
+    ('disk / rod / collar / guide','원판 / 봉 / 칼라 / 가이드','회전 원판 / 연결 부재 / 부재를 감싸는 이동 요소 / 중심 이동을 제한하는 축'),
+    ('ball-and-socket joint / clevis','볼 소켓 관절 / 클레비스 관절','여러 방향 회전을 허용하는 연결 / 지정 핀축 회전을 허용하는 연결'),
+    ('free to slide / constrained to','미끄러질 수 있는 / ~하도록 구속된','해당 방향 이동이 허용됨 / 다른 운동 성분이 제한됨'),
+    ('law of cosines / projection','코사인 법칙 / 투영','삼각형 변·각 관계 / 지정 평면이나 방향으로 읽은 성분'),
+    ('fixed-length constraint','고정 길이 구속조건','AB·(vB−vA)=0처럼 두 끝점 사이 길이가 유지되는 관계'),
+    ('bent rod / upward along the rod','굽은 봉 / 봉을 따라 위쪽으로','예제 3의 회전 부재 / 수직 성분만이 아닌 봉의 접선 방향'),
+    ('determine / compute / assume','구하라 / 계산하라 / 가정하라','필요한 값을 결정 / 주어진 관계로 산출 / 계산에 사용할 전제 지정'),
+]
+audit=[
+    ('Overview 00:35–00:38','itchy joint / any factors','each joint(각 관절) / end effector(말단장치)','로봇 손·손가락의 위치·속도·가속도와 관절 운동을 연결하는 문맥'),
+    ('Contents 1 01:24–02:16 · 7장','v를 속도로 오해; frame P / plane A','일반 벡터 u; reference frame B/A(기준계 B/A)','영상이 v는 임의 벡터라고 명시; 원본 두 기준계 A,B'),
+    ('Contents 1 05:20–05:29 · 9장','enthalpy','angular speed(각속력), θ̇','단일 고정축 회전식과 각도 변화율 설명'),
+    ('Contents 1 07:13–07:51 · 11장','각가속도에 합성 정리가 적용되지 않음','상대 각가속도 단순합과 공통 기준계에서의 미분을 구분','벡터 미분 공식; 28장 크레인의 외적 항'),
+    ('Contents 2 01:21–01:45 · 13–14장','point Q의 angular velocity / acceleration','점의 linear velocity / acceleration(선속도 / 선가속도)','14장의 두 점 관계식; 각운동은 강체 A의 값'),
+    ('Contents 2 03:24 · 14장','Newtonian difference','Newtonian reference frame(뉴턴 기준계)','원본에서 생략한 기준 관찰계 N'),
+    ('Contents 2 03:59–04:46 · 15장','right next to; fixed point doesn’t move','현재 위치가 일치하고 A에 고정된 P*','15장 coincides; N에서 P*가 정지한다는 뜻이 아님'),
+    ('Contents 2 05:38–05:43; Problem Solving 32:25–32:29','coriolis turn / coil list','Coriolis term / acceleration(코리올리 항 / 가속도)','16·51장의 2ω×vrel'),
+    ('Problem Solving 03:06·04:19·13:33','cap / you turn / attraction cosine','cab(운전실) / Newtonian(뉴턴) / direction cosine(방향코사인)','그림의 N,A,B와 원본 표 제목'),
+    ('20–30장 · Problem Solving 06:52–07:02','그림 θ=30°와 풀이의 θ,φ 혼용','수평 회전각 θ, 상승각 φ=30°','24장 Y(θ), Z(φ) 및 영상의 명시적 기호 변경'),
+    ('30장','생략된 외적 및 B성분→N성분 변환','두 외적을 전개; N수치 답은 그림의 축 정렬 순간에 적용','24장 방향코사인 표; 독립 위치 미분 검산'),
+    ('Problem Solving 14:37–14:40 · 32장','clamp is / color','clevis(클레비스) / collar(칼라)','원본 관절 명칭과 칼라의 허용 회전'),
+    ('35장','Reference frame of rod: C','Reference frame of collar: C(칼라 기준계 C)','그림 및 영상 17:18–17:47'),
+    ('39장','세 성분이 줄별 등호로 연결됨','vB=V₁c₁+V₂c₂+V₃c₃로 합산','같은 장의 c₂,c₃ 성분 구속식'),
+    ('40–41장','φ̇=3.693, vB=−11.993','정확한 삼각비로 48/13 rad/s, −12 in/s','AB=7, AC=√13, CB=6 및 속도 구속식'),
+    ('43장','주어진 vD=50, aD=600의 관찰계 생략','R에서 본 상대속도·상대가속도로 명시','49·51장 및 영상 31:03–31:16, 32:04–32:11'),
+    ('45장 · Problem Solving 27:55–28:01','angular velocity of the collar','칼라 D의 linear acceleration(선가속도)','44장 요구량과 49–51장 실제 풀이'),
+    ('48–51장','clockwise의 부호','θ̇=−20, θ̈=−200','오른손 기저 r₂와 원본 49·50장 수치 결과'),
+    ('50장','바깥 각속도 첨자 D; 전개 괄호 누락','봉 기준계 R; 완전한 이중 외적 제시','48장의 봉 각속도와 두 점 가속도 공식'),
+    ('51장','최종 단위 in','in/s²','전체 식의 가속도 차원'),
+    ('Summary 00:17–01:13','현재 강의 복습과 다음 단원 예고 혼재','00:17–00:56은 개념 요약에 반영, 00:58 이후 별도 안내','영상의 next week 전환'),
+]
+roadmap='''<section class="editorial-section section-divider" id="course-roadmap" aria-labelledby="roadmap-title">
+<p class="section-kicker">Summary video · Course roadmap</p>
+<h2 class="section-title" id="roadmap-title">Summary 영상 후반 · 다음에는 강체의 운동과 힘을 연결합니다.</h2>
+<p class="section-lead">00:17–00:56의 벡터 미분·각속도 합성·점 운동 관계 복습은 위 핵심 개념 요약에 반영했습니다. 00:58–01:13은 다음 강의의 운동역학 안내입니다.</p></section>
+<section class="editorial-section" id="roadmap-detail" aria-labelledby="roadmap-detail-title">
+<p class="section-kicker">What comes next</p><h2 class="section-title" id="roadmap-detail-title">속도와 가속도를 구한 뒤, 그 운동을 만드는 원인을 다룹니다.</h2>
+<div class="card"><h3>Lecture 12 · Kinetics of Rigid Bodies(강체 운동역학)</h3><p>영상은 강체에 대한 Newton’s law of motion(뉴턴의 운동법칙)과 rotational motion(회전 운동)을 기술하는 식으로 이어진다고 안내합니다. 이번 강의는 주어진 회전과 상대 이동으로 속도·가속도를 계산했습니다. 다음 단원은 그 운동을 force(힘)와 moment(모멘트)에 연결하는 단계입니다.</p></div>
+<div class="evidence"><span>Summary 00:58–01:13</span><span>강의 인덱스 · Week 12, 2026-11-18</span></div></section>'''
+
+def fill(part,values):
+    return re.sub(r'\{\{([^{}]+)\}\}',lambda m:values[m[1]],part)
+
+def build():
+    template=(SITE/'templates/lecture-page.template.html').read_text(encoding='utf-8')
+    template=re.sub(r'\s*<!--[\s\S]*?-->','',template)
+    slide=re.search(r'<section class="source-section"[\s\S]*?</section>',template).group()
+    assert len(records)==53
+    sections=[]
+    for n,(title,evidence,blocks,role) in enumerate(records,1):
+        sections.append(fill(slide,dict(NN=f'{n:02d}',SLIDE_ROLE=role,SLIDE_HEADING=title,
+            LECTURE_SLUG='lecture11',DESCRIPTIVE_ALT_TEXT=escape(f'Lecture 11 원본 슬라이드 {n:02d}: {title}'),
+            CURRENT_PAGE=str(n),PAGE_COUNT='53',TRANSCRIPT_TIME_OR_SLIDE_ROLE=evidence,SLIDE_EXPLANATION_BLOCKS=blocks)))
+    template=template.replace(slide,'\n\n'.join(sections))
+    exam=re.search(r'<div class="exam-card">[\s\S]*?</p>\s*</div>',template).group()
+    template=template.replace(exam,'\n'.join(fill(exam,dict(EXAM_QUESTION=q,MODEL_ANSWER=escape(a),KOREAN_ANSWER_EXPLANATION=ko)) for q,a,ko in exams))
+    toc=[('overview','전체 개요'),('concept-map','개념 지도'),('concept-summary','핵심 개념 요약')]+[
+        (f'slide-{n:02d}',f'{n:02d} · {r[0]}') for n,r in enumerate(records,1)]+[
+        ('course-roadmap','Summary · 다음 단원'),('exam-english','시험 영어'),('glossary','용어집'),('asr-log','원본·자막 교정'),('sources','출처')]
+    pdf_url='https://github.com/leejinh0225/MC2103-Dynamics/raw/refs/heads/main/2026FA_Dynamics/lecture_notes/lecture11_note.pdf'
+    source='<ul class="plain-list"><li><a href="'+pdf_url+'">Lecture 11 원본 PDF</a> · MC2103 · 2026-11-11 · 53장</li>'+''.join(
+        f'<li><a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noreferrer">{name} 영상</a> · 영어 자동생성 자막 원문</li>' for name,vid in videos)+'</ul>'
+    source+=p('영어 자동자막 5편(1,018개 시간 구간)을 2026-11-16 확보해 원본 슬라이드와 대조했습니다. 슬라이드 아래 시각은 관련 설명 구간이며 정확한 화면 전환 시각을 뜻하지 않습니다. 3장의 보조 영상은 링크만 보존했고 53장의 교재는 참고문헌 목록으로만 사용했습니다.')
+    source+=p('Summary 영상의 현재 개념 복습을 핵심 개념 요약에 반영했습니다. 미분 공식의 짧은 유도, 각가속도 합성의 추가 항, 코리올리 계수 2의 유도, 예제의 생략된 계산과 독립 검산은 이해와 시험 답안을 위한 보강입니다. 원본 이미지와 영어 자막은 그대로 보존했습니다.')
+    template=fill(template,dict(
+        LECTURE_NUMBER='Lecture 11',LECTURE_TITLE='Kinematics of Rigid Bodies III',
+        ONE_SENTENCE_DESCRIPTION='강체 운동학 III: 회전 기준계의 벡터 미분, 각속도 합성, 강체 점과 이동 칼라의 속도·가속도를 설명하는 한국어 학습 노트',
+        WEEK='Week 11',DATE_OR_날짜_미기재='2026-11-11',PAGE_COUNT='53',
+        LECTURE_PROMISE='회전하는 기준계에서 벡터를 미분하고, 여러 상대 회전의 각속도를 합성합니다. 크레인·원판 연결봉·이동 칼라 예제를 통해 고정점의 운동과 상대 운동을 구분하고 코리올리 가속도까지 계산합니다.',
+        VIDEO_SET='Overview · Contents 1·2 · Problem Solving · Summary',
+        ALL_CONTENTS_AND_PROBLEM_SOLVING_BUTTONS='\n'.join(f'<a class="button button--primary" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noreferrer">{name} 영상 열기</a>' for name,vid in videos[1:4]),
+        ORIGINAL_PDF_URL=pdf_url,LECTURE_NOTE_FILENAME='lecture11_note.pdf',
+        CORE_RELATIONSHIP_HEADLINE='회전하는 물체 위에서 본 운동을 지면에서 본 운동으로 연결합니다.',
+        CORE_RELATIONSHIP_EXPLANATION='크레인의 두 회전속력이 일정해도 붐의 각가속도는 생길 수 있습니다. 회전 봉을 따라 미끄러지는 칼라의 가속도에는 상대가속도 외에 Coriolis acceleration(코리올리 가속도)이 추가됩니다. 관찰 기준계와 점의 고정 여부를 구분하면 이 두 현상을 같은 벡터 미분 공식으로 설명할 수 있습니다.',
+        CONCEPT_MAP_HEADLINE='기준계의 회전 → 벡터 미분 → 점의 속도·가속도',
+        CONCEPT_MAP_BLOCKS='<div class="grid-3">'+card('Differentiate(미분하기)','움직이는 축의 기여를 ω×u로 반영하고, 각속도를 미분해 각가속도를 구합니다.')+card('Compose(합성하기)','이어진 기준계 사이의 단순 회전을 나누어 전체 각속도를 벡터로 더합니다.')+card('Connect points(점 연결하기)','같은 강체에 고정된 두 점을 연결한 뒤, 필요하면 상대 운동과 코리올리 항을 더합니다.')+'</div>',
+        STANDALONE_CONCEPT_SUMMARY=summary,DISTINCT_SUMMARY_VIDEO_SECTION_IF_NEEDED=roadmap,
+        EXAM_SECTION_TITLE='관찰 기준계와 상대 운동을 설명하는 영어 답안',
+        BILINGUAL_GLOSSARY_TABLE=table(['영어(한국어)','의미와 사용'],[(f'{en}({ko})',desc) for en,ko,desc in terms]),
+        AUDIT_SECTION_TITLE='원본 슬라이드·영어 자동자막 교정 기록',
+        ASR_CORRECTION_TABLE=p('원본 이미지와 영어 자동자막 파일은 수정하지 않았습니다. 아래는 해설에 채택한 용어·수식·조건과 그 근거입니다. 자막의 표기가 실제 발화인지 음성 인식 오류인지는 단정하지 않습니다.')+table(['위치','원문 또는 쟁점','본문 처리','근거'],audit),
+        SOURCE_LIST_AND_PROVENANCE_NOTE=source,TABLE_OF_CONTENTS_LINKS=''.join(f'<li><a href="#{key}">{val}</a></li>' for key,val in toc)))
+    template=template.replace('이 부분만 읽어도 렉처의 핵심 정의, 개념 관계, 가정과 풀이 흐름을 이해할 수 있도록 작성합니다.',
+        '관찰 기준계에 따른 미분에서 출발해 공식의 적용 조건과 세 예제의 답까지 연결합니다. 자세한 유도·외적 계산과 원본 그림은 아래 슬라이드별 해설에서 이어집니다.')
+    (SITE/'lecture11.html').write_text(template,encoding='utf-8')
+    print(f'Built Lecture 11: {len(records)} slides, {len(exams)} English answers, {len(terms)} glossary entries.')
+
+if __name__=='__main__':
+    build()

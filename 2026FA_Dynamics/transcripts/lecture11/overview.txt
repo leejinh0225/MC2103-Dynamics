@@ -1,0 +1,19 @@
+YouTube transcript
+Video ID: rvTrFmn_-Cg
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:20] ship will cook a dinner for you
+[0:23] the robot can grasp a glass of wine and
+[0:26] hand it over to you
+[0:28] then how can the robot control the
+[0:30] position velocity and acceleration of
+[0:33] the robot hand and fingers
+[0:35] how can you relate itchy joint movement
+[0:38] with any factors movement
+[0:42] in this lecture
+[0:43] we'll study this
+[0:45] [Music]

@@ -1,0 +1,648 @@
+YouTube transcript
+Video ID: p9g4KpMNfpg
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so far we have studied many
+[0:20] different formulas and with the examples
+[0:23] and practices we'll learn how to use
+[0:26] those formula to solve very complicated
+[0:31] movements of visibility and 3D space
+[0:34] let's do the first problem
+[0:37] let's consider the following crane
+[0:40] the crane rotates horizontally
+[0:42] with the constant angular velocity of
+[0:45] Omega 1. so that means this crane is
+[0:48] rotating about
+[0:49] y-axis in this way
+[0:52] and simultaneously the boom boom is this
+[0:55] one
+[0:56] boom is being raised with a constant
+[0:59] angular velocity of Omega 2 so that
+[1:02] means now this part is also
+[1:07] moving in that direction with the Omega
+[1:10] 2.5 radian per second
+[1:12] and then we also are given the length
+[1:18] of the Boom
+[1:21] then
+[1:24] determine the angular velocity of the
+[1:27] bone
+[1:28] this one itself angular acceleration of
+[1:31] the Boom
+[1:32] and the velocity of the tip the boom
+[1:35] here Point p
+[1:37] and acceleration of the tip of the Boom
+[1:44] how do we find it well let's look at the
+[1:47] strategies
+[1:49] we have to identify appropriate
+[1:51] reference frames
+[1:53] it is useful to have only one degree of
+[1:56] Freedom between each reference frame to
+[1:59] use the simple angular velocity
+[2:03] they are signed appropriate coordinate
+[2:06] systems to each reference frame
+[2:09] then build Direction cosine table or
+[2:12] Direction cosine Matrix
+[2:14] obtain the relative angular velocities
+[2:17] between reference frames
+[2:20] and compute the angular accelerations by
+[2:23] differentiating the angular velocity of
+[2:26] Interest using vector differentiation
+[2:29] formula
+[2:32] and using the two point relationship we
+[2:35] can compute the linear velocity and
+[2:38] acceleration of the tip
+[2:44] let's Define reference frames and the
+[2:46] coordinate systems so we have Newtonian
+[2:49] reference frame
+[2:53] which is fixed to the word so we call
+[2:55] and with the we have the coordinate
+[2:58] system in one two and three
+[3:00] so
+[3:01] n one and two and N3
+[3:06] and reference frame of a cap here
+[3:09] the cap itself is rotating about y-axis
+[3:12] this way so I'll just call it as a
+[3:17] and the attached according system is a12
+[3:22] and 3. so here A1
+[3:26] A2 and A3
+[3:31] and the reference frame for boom is
+[3:33] called B
+[3:34] so this one itself is called B and then
+[3:38] we attached according to system B one
+[3:41] two and three uh as you can see here P1
+[3:45] P2 and B3
+[3:49] so when the Boom is completely uh
+[3:53] lowered to the body to the ground then
+[3:56] B1 B2 and B3 are the same as A1 A2 and
+[4:02] A3
+[4:05] now build the direction cosine table
+[4:08] the cap rotates about with the angle
+[4:11] Theta
+[4:12] about y-axis
+[4:15] here
+[4:16] with respect to the ground ground is
+[4:19] actually you turn in the frame and the
+[4:21] cap is
+[4:24] uh reference frame a then we can relate
+[4:27] these two with the simple
+[4:31] rotation
+[4:32] so
+[4:33] you turn the reference frame n so we
+[4:36] have n one two three and a one two three
+[4:39] so what's the relationship
+[4:42] it's a rotation about Y axis with angle
+[4:45] Theta
+[4:46] so you can build it from the simple
+[4:49] rotation Matrix
+[4:59] in this case y Pi angle
+[5:03] Theta
+[5:05] what about
+[5:07] the relationship between a and b
+[5:10] A and B it's actually rotating about Z
+[5:13] axis
+[5:14] by angle Phi
+[5:16] because this is the z-axis wave
+[5:19] so we have A3 or B3
+[5:22] so then it has to be now we have to look
+[5:25] at the simple
+[5:28] rotation
+[5:33] Matrix in this case z Direction by angle
+[5:36] Phi
+[5:37] so this is the rotation simple rotation
+[5:40] Matrix
+[5:43] now let's find angular velocities
+[5:48] what we know is that the cap rotates
+[5:50] with angle Theta about
+[5:52] y-axis
+[5:54] with respect to the ground that means we
+[5:57] can determine angle of velocity in this
+[5:59] way angular velocity of a with respect
+[6:02] to n is now
+[6:06] we know that the rotation is about
+[6:08] y-axis that's why I introduced N2 and
+[6:12] the value itself angular speed itself is
+[6:15] Omega 1 is given from the problem
+[6:18] so this is expression for angular
+[6:21] velocity of a with respect to n
+[6:25] and we also know that N2 is the same as
+[6:27] A2 by definition
+[6:30] N2 is here and also A2 is the same
+[6:36] let's look at boom boom rotates with the
+[6:39] angle Phi here
+[6:44] um
+[6:46] yeah angle C
+[6:48] and then about the Z axis z-axis is here
+[6:52] well in the in the image it says it's
+[6:54] data but actually uh we can just change
+[6:57] it to three so we have fee and
+[7:02] the angular velocity of reference
+[7:06] between B with respect to reference
+[7:07] frame a is rotation about
+[7:10] z-axis and
+[7:13] angular speed is omega 2.
+[7:16] this is this
+[7:17] so we have this
+[7:19] and since we have angular velocity from
+[7:23] n to a and from A to B then we can
+[7:27] somehow find angular velocity from n to
+[7:30] B with the addition theorem so here
+[7:34] using the addition theorem
+[7:36] we can build
+[7:39] rotation Matrix of sorry the angular
+[7:43] velocity of reference frame B with
+[7:44] respect to n
+[7:46] so we have this and we have this and we
+[7:49] already know this we already know this
+[7:51] one so this is the result
+[7:57] now let's compute angular accelerations
+[8:00] so to to do to find angular
+[8:03] accelerations we simply need to
+[8:05] differentiate angular angular velocity
+[8:09] but remember that since we we have
+[8:13] multiple reference frames it's better to
+[8:15] use vector differentiation formula
+[8:19] for example so to find angular
+[8:22] acceleration we have to differentiate it
+[8:24] with respect to reference frame n
+[8:28] and let's do that
+[8:30] here
+[8:31] but if you recall our angular velocity
+[8:35] of reference frame B with respect to n
+[8:39] it may not be expressed in terms of
+[8:41] reference plane n let's go back and
+[8:44] check
+[8:45] so here as you can see it's actually
+[8:48] expressed in terms of reference frames a
+[8:50] so in that case
+[8:52] it's better to differentiate
+[8:55] uh the angular velocity with respect to
+[8:57] reference plane a rather than n
+[9:00] but since uh the
+[9:04] differentiation with respect reference
+[9:06] frame a is different from the
+[9:08] differentiation with respect reference
+[9:10] frame n we have to consider the
+[9:12] difference in this way
+[9:14] okay now this one by using uh
+[9:18] addition theorem
+[9:20] NB is the same as Omega n a
+[9:25] plus Omega AP
+[9:28] and if you simply plug this one here
+[9:31] then
+[9:32] Omega n a
+[9:34] is already given here so then we can
+[9:36] just drop this out because uh cross
+[9:40] product of the same Vector is always
+[9:42] zero
+[9:44] then finally we have
+[9:47] Omega n a cross Omega a b so we have
+[9:50] this expression
+[9:53] and in the previous page
+[9:57] Omega n
+[9:58] B
+[10:00] was expressed as Omega in
+[10:03] Omega 1 A2
+[10:06] Omega 2
+[10:07] A3
+[10:10] so now if you just simply differentiate
+[10:12] this Vector in reference frame a then
+[10:16] only Omega 1 and Omega 2 are variable
+[10:20] whereas A2 and A3 are fixed
+[10:24] they don't change
+[10:25] so you don't have to apply the product
+[10:27] rule at all
+[10:31] but in the problem
+[10:33] Omega 1 is constant and also Omega 2 is
+[10:36] constant then this whole thing is
+[10:38] actually zero
+[10:40] then the only thing left is
+[10:43] this
+[10:45] so we know our angular velocity of a
+[10:47] with respect to n that's given this like
+[10:51] this and then Omega angular velocity of
+[10:54] reference frame B with respect to a is
+[10:57] given like so and all you have to do is
+[11:01] simple calculation and you finally have
+[11:03] the solution
+[11:06] so that's angular acceleration
+[11:09] now let's compute the velocity of the
+[11:12] tip which is the point p
+[11:15] we already know the velocity of point of
+[11:18] pointers here and what is it
+[11:21] this point is actually a fixed point so
+[11:25] the velocity of 0.0 is zero and also
+[11:29] acceleration of 0.0 is also zero so we
+[11:33] can actually use this information
+[11:36] and we can find the velocity and
+[11:39] acceleration of Point P because
+[11:42] this boom itself is one rigid body and
+[11:46] 0.0 and point P are contained in the
+[11:50] same result
+[11:52] so let's use the two point relationship
+[11:55] so let's do your point P can be computed
+[11:58] from velocity point a 4.0 and then we
+[12:02] just relate it with the angular velocity
+[12:04] and the different uh the relative
+[12:06] position
+[12:09] and we know that this is zero and we
+[12:12] already found angular velocity in the
+[12:15] previous page op is simply what op is
+[12:18] this vector and that Vector is Direction
+[12:20] in the direction of P1 with the length
+[12:23] of L
+[12:25] so we'd have that and just do the simple
+[12:28] calculation all the way up down all the
+[12:30] way down here and so this is what we get
+[12:35] what about the acceleration of the tip
+[12:38] is pretty much the same as before
+[12:42] use the two-point relationship
+[12:46] acceleration Point p
+[12:48] is from acceleration 0.0
+[12:51] with a two point relationship angular
+[12:54] acceleration angular velocity and we can
+[12:57] just simply compute this
+[13:00] and if you do it if you do the
+[13:03] computation by yourself
+[13:07] we have
+[13:10] this wizard
+[13:12] or if you prefer then maybe we can just
+[13:15] replace B1 with N1
+[13:18] um
+[13:19] and well actually you cannot just simply
+[13:22] replace it but by just changing uh
+[13:28] changing the coordinating systems using
+[13:30] appropriate uh relationships from the
+[13:33] attraction cosine Matrix
+[13:36] this expression is all expressed in
+[13:38] terms of P1 between B3 but you can
+[13:40] convert into uh into N1 and 2 and N3
+[13:46] okay so the base of the cab acts as a
+[13:48] fifth point
+[13:49] we already use that idea
+[13:52] even though both components of angular
+[13:55] velocity and angular velocity is a
+[13:57] constant there is an angular
+[13:59] acceleration due to the change of the
+[14:01] direction of the angular velocity
+[14:03] okay
+[14:07] the angular velocity Vector Omega 2
+[14:10] changes due to rotation of the cap Omega
+[14:14] 1.
+[14:15] now let's consider the following problem
+[14:18] we have a disk here we have a rod here
+[14:24] the rod a b here
+[14:28] just brought this seven inch long
+[14:32] Rod a b is attached to the disc by a
+[14:35] ball socket joint here
+[14:37] and also to the collar by a clamp is
+[14:40] here
+[14:42] so this Rod can freely rotate about
+[14:46] um
+[14:47] this direction and also in this
+[14:50] direction
+[14:52] the disc rotates in in y zip plane
+[14:56] at a constant rate of Omega 1 equals 12
+[14:58] radian per second
+[15:00] and the color is free to slide along CD
+[15:03] in this direction
+[15:07] then we want to find the velocity of the
+[15:09] color
+[15:11] I mean
+[15:13] this B when angle Theta
+[15:17] here negative Theta is zero degree
+[15:20] and also we want to find the angular
+[15:22] velocity of the rod at the same point
+[15:29] then how do we solve this problem
+[15:32] and first we have to identify
+[15:34] appropriate reference frames and also
+[15:39] coordinate systems again you may have
+[15:42] noticed that these two are always the
+[15:43] same these two always exist
+[15:46] so this is the starting point of solving
+[15:49] movements in 3D Rigid body in 3D space
+[15:52] and now you have to build the direction
+[15:55] cosine table then compute the relative
+[15:59] angular velocities between different
+[16:01] frames and use two point method
+[16:05] relationship to compute the linear
+[16:07] velocity and uh
+[16:09] of the color and the angular velocity of
+[16:12] the rod
+[16:15] so let's Define reference frame and
+[16:17] coordinate systems so we have Newtonian
+[16:19] reference frame in and also we have uh
+[16:22] corresponding
+[16:25] um accordion systems N1 N2 N3
+[16:30] in this direction
+[16:32] and we also have a disk here so I just
+[16:36] named it as D because D indicates disk
+[16:39] so that's reference frame d uh with the
+[16:44] uh coordinate systems D1 D2 and D3 again
+[16:49] D1 d23 our body attached is body
+[16:53] attached coordinate systems so as the
+[16:56] disc rotates
+[16:57] D2 and D3 also rotate
+[17:01] the reference frame of rods are Rod r is
+[17:04] here
+[17:06] so we have r one two three
+[17:11] so I defined R1 here R2 R2 here and R3
+[17:16] here
+[17:18] we also have
+[17:20] uh the reference frame for uh for the
+[17:24] color
+[17:25] this is color
+[17:27] and so we have C which is here
+[17:31] and then it has C1 C2 and C3 as
+[17:36] accordion system
+[17:42] remember the color can move freely
+[17:44] horizontally and also the color can
+[17:47] rotate
+[17:48] about that direction
+[17:51] now let's build the direction cosine
+[17:53] table
+[17:55] so we have to look at the adjacent
+[17:57] reference frames the first one is
+[18:00] Newtonian and the disk so Newtonian
+[18:03] reference line is here and the next one
+[18:05] is actually the disk so how are they
+[18:09] related so as you can see
+[18:11] there is one axis which is D1 axis so
+[18:15] it's actually rotational about x-axis
+[18:18] and the angle is Theta is shown so this
+[18:22] is simple rotation Matrix X
+[18:26] Theta
+[18:28] what about
+[18:30] [Music]
+[18:32] what about
+[18:34] the slider here and the color we have
+[18:37] Newtonian reference frame also we can
+[18:41] we can also consider that the color
+[18:43] reference frame is or so adjacent to
+[18:46] Newtonian reference frame right from
+[18:48] from this direction right so in that
+[18:51] case we can also build this direction
+[18:53] cosine table
+[18:55] in that case
+[18:56] um
+[18:58] what we see is this this type of
+[19:01] rotation which is about rotation about
+[19:04] C1 which is x-axis so that's why we have
+[19:08] X angle is Phi
+[19:12] and finally we have we may have cons we
+[19:15] may have we have
+[19:18] so we may consider the rotation between
+[19:21] color and the rod
+[19:24] so the color in the rod so we have a
+[19:26] clevis here and so this one can rotate
+[19:29] like
+[19:30] this
+[19:31] and obviously we can see that it's C2 or
+[19:36] y direction
+[19:37] so in that case we have y by angle
+[19:42] C
+[19:46] then now we can find the relative
+[19:48] angular velocities or a simple angle of
+[19:51] velocities so
+[19:53] what is angular velocity of D with
+[19:56] respect to n d is here n is here so
+[20:01] rotation no direction is only this one
+[20:05] which is fixed so we can name it as N1
+[20:09] or or D1 is that they are the same and
+[20:12] angle speed is Omega one so we can just
+[20:15] multiply that in here
+[20:17] so that's it what about the color
+[20:20] rotates with the angle C about x-axis
+[20:25] so
+[20:26] this is x-axis so then we see the move
+[20:30] of the rotation of color in that
+[20:32] direction
+[20:34] so that's actually a C1 Direction so we
+[20:37] have C1 and angular speed is
+[20:42] I can name it as feed Phi Dot
+[20:52] what about the rod
+[20:54] with respect to the color
+[20:59] so Rod is here color is here and so it's
+[21:02] connected by clevis here and so what we
+[21:05] see is only
+[21:06] this type of movement about C2 or R2 so
+[21:10] we have C2
+[21:12] and then the angular speed is C Dot
+[21:17] then by using
+[21:19] um
+[21:21] addition theorem so we can find angular
+[21:24] velocity of the rod which is in the
+[21:27] Middle with respect to the Newtonian
+[21:29] reference frame n
+[21:30] we can simply use the addition theorem
+[21:33] and see
+[21:34] and CR so then now we can find or find
+[21:39] the relationship between n and R which
+[21:41] is given like this
+[21:45] now we can find the velocity of point a
+[21:47] from a disk from the disk
+[21:49] so a is here
+[21:52] we have to find the velocity point a
+[21:55] so we can actually use the information
+[21:57] that this point maybe I can name it as
+[22:00] zero
+[22:01] uh that point it velocity is zero so
+[22:12] and then so this relationship is
+[22:14] actually the two-point relationship
+[22:16] and so we have angular velocity and the
+[22:20] relative equation vector and so we have
+[22:24] this result
+[22:27] what about the velocity of point B point
+[22:29] B is here
+[22:31] and we can still use the two point
+[22:33] relationship because we already know
+[22:35] this velocity then now
+[22:38] um
+[22:39] and we already found this relationship
+[22:41] this velocity from here and we can plug
+[22:44] that in here and angular velocity and
+[22:47] the distance vector
+[22:50] and if you just compute it we have C1
+[22:52] component C2 component and Z3 component
+[22:58] but what we know from this
+[23:00] configuration itself is that the color
+[23:04] can move only in in C1 Direction there
+[23:08] are no other velocity components in C3
+[23:11] C2 and C3 components so that means this
+[23:15] one has to be zero and this one has to
+[23:18] be zero so from here we have
+[23:21] two equations
+[23:27] and also assume that the point C
+[23:31] is at the y-axis
+[23:34] I mean
+[23:36] Point C is here
+[23:40] in that case then consider a triangle a
+[23:43] c b
+[23:45] so a is here
+[23:48] C is here and B is here
+[23:57] like this and by using the low cosine we
+[24:01] can find
+[24:03] the angle
+[24:05] see
+[24:07] between uh so in here so that we can
+[24:11] find that angle
+[24:13] okay and also consider the same triangle
+[24:17] which is projected onto a y z plane y z
+[24:21] plane is here
+[24:27] okay
+[24:28] then we can find the angle
+[24:31] of C
+[24:37] this way and so once we have that
+[24:41] information then
+[24:44] feed out and see that can be computed
+[24:50] so from these two equations and from the
+[24:53] angle Phi and PC
+[24:55] found from a trigonometric relationship
+[24:59] we have Theta and C Dot and read that
+[25:03] information we can find the linear
+[25:05] velocity of the color which is actually
+[25:09] um
+[25:10] the C1 information
+[25:14] and also the angular velocity of the rod
+[25:18] can be computed
+[25:20] as such
+[25:22] so
+[25:24] sometimes obtaining simple angular
+[25:26] velocity a simple angular velocity may
+[25:29] not be straightforward however if the
+[25:31] constraints can be imposed
+[25:34] the problem can easily be solved
+[25:36] trigonometric relationship
+[25:39] here I actually used low cosine
+[25:42] is used in many applications
+[25:51] now let's consider this uh problem we
+[25:55] have a bent Rod as you can see here and
+[25:59] no color here
+[26:04] so bent Rod or a B rotates
+[26:08] in this direction and then at this
+[26:12] instant shown Omega is 20 radian per
+[26:15] second
+[26:16] and Alpha which is angle of last angular
+[26:19] acceleration is 200 radian per second
+[26:21] squared in in clockwise Direction
+[26:28] color D this one moves along the rod
+[26:34] and at the instance shown VD this one is
+[26:40] 50 inch per second and also the
+[26:43] acceleration is
+[26:45] 600 inch per second squared upward
+[26:49] so depending on how fast this bent Rod
+[26:52] is rotating
+[26:54] so this color may move up or down
+[26:58] because the gravity is pulling this
+[27:00] color down but if this color is rotating
+[27:03] fast enough then it will produce
+[27:08] acceleration
+[27:11] centrifugal acceleration and so you can
+[27:13] you can go up
+[27:15] so we will just
+[27:18] investigate investigate that problem
+[27:21] so determine the velocity of the color
+[27:24] here and also the acceleration of the
+[27:26] color
+[27:28] strategies so how do you find those how
+[27:30] do you solve the problem
+[27:32] so identify appropriate reference frames
+[27:35] always
+[27:37] and then attach the coordinate systems
+[27:41] to the reference frame and then build
+[27:43] their cosine table
+[27:47] and obtain relative plus angular
+[27:49] velocities between reference frames or
+[27:51] simple angular velocities and using one
+[27:55] point relationship and find the linear
+[27:57] velocity of the column and the angular
+[28:01] velocity of the color
+[28:03] so we have Newtonian reference frame n
+[28:06] and N1 N2 N3 coordinate systems and also
+[28:12] Rod reference frame R and reference uh
+[28:16] coordinating systems and R1 R2 and R3
+[28:22] build Direction cosine Matrix since we
+[28:25] have two reference frames n n n and R uh
+[28:30] we can have only uh One Direction cosine
+[28:33] Matrix between these two
+[28:36] so
+[28:39] this is actually rotational about y-axis
+[28:41] this is y-axis by angle Theta so
+[28:45] that's why we have this simple rotation
+[28:47] Matrix
+[28:50] now obtain the relative angular velocity
+[28:54] and angular acceleration
+[28:55] the rod this rodent Rod rotates rotates
+[29:00] with angle Theta here about y axis
+[29:05] then the simple angular velocity can be
+[29:09] expressed in this way
+[29:11] y direction which is N2 or R2 they're
+[29:14] the same and
+[29:17] the angular speed is Theta Dot
+[29:20] what about angular acceleration you can
+[29:23] simply differentiate this angular
+[29:25] velocity in terms of reference frame n
+[29:30] but here
+[29:32] we have expressed angle of velocity in
+[29:36] terms of R then we can try our
+[29:39] then also we can introduce angular
+[29:41] velocities
+[29:42] to
+[29:45] to take care of the the different
+[29:47] coordinating systems
+[29:50] and remember that these two are the same
+[29:52] right so the cross product is always
+[29:56] zero
+[29:58] so we have this
+[30:00] now
+[30:02] Omega R is expressed in terms of R2
+[30:06] that means differentiating this with
+[30:09] respect to R
+[30:11] uh has nothing so that means only R
+[30:14] Theta is variable so we have R double
+[30:17] dot Theta double dot R2 so that's our
+[30:22] angular velocity angle accelerations of
+[30:25] reference frame r
+[30:28] now compute the velocity of Point D star
+[30:32] which is at here
+[30:36] using the two point relationship so this
+[30:38] star is fixed on reference frame R and
+[30:42] we have Point O which is also fixed
+[30:44] point it doesn't have any velocity
+[30:47] then by simple uh calculation we have
+[30:51] this value
+[30:54] so now we know the velocity of D star
+[30:57] which is fixed on reference frame R and
+[31:00] now using one point relationship
+[31:03] so in other words we have to use
+[31:05] relative velocity of the color with
+[31:09] respect to the reference frame R so this
+[31:12] is the relative
+[31:16] velocity
+[31:20] and so we add this one
+[31:24] and now we have this expression
+[31:31] now compute the acceleration of the
+[31:33] point D star using two point method
+[31:38] okay In This Very straightforward 0.0 is
+[31:42] fixed so it doesn't have any
+[31:44] acceleration so it's zero and all other
+[31:46] is just straight for calculation so we
+[31:50] have finally this result
+[31:56] once we have Excel acceleration of Point
+[32:00] uh P star here
+[32:03] then now we can use one point
+[32:04] relationship
+[32:06] using the relative acceleration in
+[32:09] relative velocity information
+[32:11] and we already have that information
+[32:16] okay
+[32:18] so the reference frame can be assigned
+[32:20] to a moving color
+[32:22] when the color is moving on a reference
+[32:25] frame R it experiences coil list
+[32:29] acceleration due to the angular velocity
+[32:31] in 3D space
+[32:35] [Music]
