@@ -1,0 +1,690 @@
+YouTube transcript
+Video ID: QnkRdVLMy8o
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so in the previous slide I explained
+[0:20] that we need just three pieces of
+[0:22] information to uniquely Define
+[0:24] orientation of widget party in 3D space
+[0:30] and to be more specific now we have to
+[0:32] Define some way of defining angles or
+[0:35] attractions of rotation somehow and so
+[0:38] we'll do that
+[0:41] so there are multiple ways of describing
+[0:43] orientation in one way I said one way
+[0:47] because there are many others and also
+[0:49] some methods are better than uh the
+[0:52] other methods in some sense
+[0:55] but I'll explain one of the widely
+[0:58] accepted method
+[1:00] so
+[1:02] one way is using three consecutive
+[1:05] rotations here so I as I as I said I
+[1:08] have three
+[1:10] consecutive rotations because we need
+[1:14] three because we need three unique
+[1:17] information right
+[1:19] and these rotations are called
+[1:23] parameterized by Euler angles
+[1:27] now let me just give you an example of
+[1:29] Euler angles so here we have three
+[1:33] consecutive rotations the first one is
+[1:35] rotation in x-axis by the angle Theta
+[1:39] funnel Phi followed by it means the
+[1:42] second rotation or it's a rotation in y
+[1:45] axis by angle Phi
+[1:47] then finally we rotate the the rigid
+[1:52] body
+[1:52] along the z-axis by angle C
+[1:59] so I just told I just gave you an
+[2:01] example of how to do these three
+[2:04] consecutive rotations
+[2:06] um
+[2:08] there are many different combinations of
+[2:11] rotation so for example
+[2:14] so rotation can be either about body
+[2:17] Axis or space axis
+[2:19] we'll get to that point pretty soon but
+[2:22] anyway just remember the party actually
+[2:24] party axis means we attach the axis to
+[2:26] the body so
+[2:28] so this x y z axis is attached to the
+[2:32] body
+[2:34] and this is the body
+[2:36] or we have a spaced axis in this case if
+[2:40] we have body here but then uh the the
+[2:44] axis we are
+[2:45] using is actually attached to some
+[2:48] mirror outside
+[2:51] so if the body rotates in in this case
+[2:55] then this axis x y z also rotates at the
+[2:58] same time but in the space axis if the
+[3:02] body rotates but the axis uh
+[3:07] they remain the same
+[3:09] so for each axis we have 12 different
+[3:14] combinations the first one for is
+[3:16] consider the body axis rotation
+[3:18] as I said we have three consecutive
+[3:21] rotations so here the first one is x y g
+[3:25] so that means you just perform rotation
+[3:27] about x-axis first then the y-axis but
+[3:32] now this y-axis is different from the
+[3:35] original y-axis because after the
+[3:39] rotational about x-axis your y-axis is
+[3:43] already rotated so now this is new
+[3:45] y-axis new
+[3:48] y-axis and after that new y-axis
+[3:52] rotation now you have you perform a
+[3:55] z-axis rotation and again this is
+[3:57] another
+[3:58] new z-axis
+[4:01] so in this way we can perform uh
+[4:05] three consecutive rotations let's look
+[4:07] at the other possible combinations
+[4:10] so x z y is also a possible combination
+[4:14] or y z x is possible y x z is possible
+[4:19] you just repeat this um interesting
+[4:22] thing is z y z is also possible
+[4:27] um
+[4:28] because it sounds like you rotate it
+[4:31] first about g-axis and then your left
+[4:33] your final rotation is also about g-axis
+[4:36] but so it looks like is it isn't it the
+[4:39] same notation but actually it's
+[4:40] different okay
+[4:42] so this also defines a unique rotation
+[4:46] orientation but you have to be careful
+[4:49] about this
+[4:53] this one
+[4:55] shouldn't
+[4:57] this one doesn't work because if you
+[5:00] just rotate it about z-axis first and
+[5:02] then again uh rotating about z-axis then
+[5:06] it is actually the rotation about the
+[5:08] same axis so
+[5:10] rotation about z-axis 30 degrees and
+[5:14] then rotation about
+[5:15] z-axis
+[5:17] 20 degrees and then rotation about
+[5:20] y-axis
+[5:22] 10 degrees so in that case you can
+[5:24] simply put this one as
+[5:27] z-axis
+[5:29] 50 degree rotation and then y-axis 10
+[5:32] degree rotation so in that case
+[5:34] this is even though it looks like we
+[5:37] have three rotations but actually there
+[5:39] it is two rotations so
+[5:43] you cannot put the same axis rotation
+[5:45] together or side by side
+[5:48] that's not uh
+[5:50] that doesn't work okay so
+[5:54] now you guys understand what this means
+[5:57] we can do the same thing for space axis
+[5:59] rotation
+[6:00] so you choose whatever combination of
+[6:04] axis rotation U1 and
+[6:08] they should work
+[6:11] so we have 12 and 12 in total we have 24
+[6:17] possible
+[6:19] rotations for Euler angles
+[6:25] and sometimes so when we say body axis
+[6:28] sometimes we call it a local axis
+[6:31] because the axis itself is local to the
+[6:34] body and also sometimes we call it
+[6:37] relative axis because it's relative to
+[6:41] the previous axis because if we
+[6:46] um
+[6:47] for example we started with this X
+[6:50] Y and G and then you rotate it by X's
+[6:54] x-axis by some angle Theta then your new
+[6:58] axis is now what your new axis is
+[7:04] so X z and y so this is your your new
+[7:09] axis right
+[7:11] so your new axis is always changing so
+[7:14] that's why I said this is this is
+[7:16] relative to the previous one
+[7:20] intrinsic intrinsic also means that it's
+[7:22] attached to the body so makes sense
+[7:25] right what about the space axis space
+[7:28] axis means the coordinate system is
+[7:31] attached to the word reference frame or
+[7:35] um global
+[7:37] access
+[7:38] so it has nothing to do with the
+[7:41] orientation or movement of the the body
+[7:43] itself that's why they call it Global or
+[7:46] sometimes word
+[7:50] and since the axis doesn't change we
+[7:53] call sometimes we call it absolute axis
+[7:55] and the axis is the coordinate system is
+[7:59] attached to the outside of the body so
+[8:01] sometimes they're called extrinsic
+[8:08] now
+[8:09] let's talk about the simple rotation
+[8:12] Matrix
+[8:15] this
+[8:16] part is very intuitive and easy to
+[8:19] understand so if once you understood
+[8:22] this part then then there are many
+[8:24] things you can do about the rotation
+[8:25] okay so or drag cosine Matrix for
+[8:29] rotation
+[8:30] about a simple axis is useful to useful
+[8:33] to know and we call it a rotation Matrix
+[8:37] so let's look at that so one rotation
+[8:39] Matrix about an x-axis by angle Theta so
+[8:44] let's look at
+[8:46] two coordinate systems
+[8:48] uh A1 A1 to 3 and b123 right so since we
+[8:53] have x axis about this point or in other
+[8:58] words
+[8:59] so we have an arrow coming out of this
+[9:02] screen right
+[9:04] so there is A1 axis
+[9:08] and then a2x is in this direction A3
+[9:12] direction is in that direction
+[9:15] also we have P1
+[9:18] axis which is
+[9:20] exactly the same as A1 axis
+[9:23] since P1 is here and P2 is here then now
+[9:28] B3 is here because it's perpendicular
+[9:32] to to both of these unit vectors okay
+[9:35] I told you that this rotation is about
+[9:38] x-axis so X means A1 axis right so you
+[9:44] just simply perform Rotation by Theta
+[9:47] about x-axis then this is what you have
+[9:51] to do
+[9:53] okay
+[9:54] then your original A2
+[9:57] goes to here
+[9:58] and then we just name it as B2 because
+[10:01] now this is new orientation your
+[10:04] original A3 moved to here
+[10:08] and then we just name it as new axis B3
+[10:13] okay
+[10:15] but obviously
+[10:17] A1 and B1 are the same
+[10:22] so in that case we we can simply name it
+[10:24] as
+[10:25] uh the axis axis itself and then the
+[10:28] angle so X Theta means rotational about
+[10:31] x-axis by angles Theta and if you just
+[10:36] simply look at a
+[10:38] the projection itself okay
+[10:41] because the direction cosine Matrix is
+[10:43] purely defined by the projection
+[10:46] then what you have in here is simply A1
+[10:49] head
+[10:51] dot V1 here
+[10:53] this one A1 head dot a B2 hat this one
+[10:58] is a one head that three head
+[11:02] and you can do the same thing for the
+[11:04] rest of the elements and so P1 head and
+[11:07] A1 at dot B1 head since A1 and B1 are
+[11:13] the same this is our just one what about
+[11:17] uh A1 and B2 A1 is here and P2 is here
+[11:22] and they're perpendicular to each other
+[11:25] so this one has to be zero the same
+[11:27] thing happens for
+[11:29] um A1 and P3 which are perpendicular so
+[11:32] it has to be zero
+[11:34] what about let's look at this one
+[11:36] this one is A2 at B2 hat where is A2 A2
+[11:42] is here and B2 is here then now uniting
+[11:46] to do is what you just simply take the
+[11:49] product uh sorry that product that
+[11:51] product is what it's just a cosine right
+[11:53] so you have the magnitude which is 1
+[11:57] times 1 and cosine Theta
+[12:01] that's the projection right so that's
+[12:04] why you have cosine here
+[12:08] this one is a two
+[12:11] at B3 A2 is here and B3 is now here
+[12:17] okay
+[12:18] then if you do the projection of P3 onto
+[12:24] A2 Direction then it's simply
+[12:28] this vector so the direction is the
+[12:31] opposite and so that's why you have
+[12:33] minus
+[12:35] and then the angle is actually 90 minus
+[12:38] Theta so you have sine Theta
+[12:41] so in this way you can simply fill the
+[12:44] blank
+[12:45] and you can easily find this result
+[12:49] so in the following Pages you'll see
+[12:52] that there is a pattern for this
+[12:55] rotation Matrix and you'll see that
+[12:57] quite soon
+[13:01] now let's look at the rotation Matrix
+[13:02] about z-axis by angle C
+[13:06] again we have A1 A2 and A3 and we rotate
+[13:11] these axis by A3 axis and then it
+[13:16] becomes
+[13:18] P1 B2 and B3
+[13:23] obviously there is an arrow coming out
+[13:25] of the screen and we call it
+[13:27] A3
+[13:29] and then we are rotating the whole thing
+[13:32] about this A3 axis
+[13:34] or A3 Arrow then A1 goes to B1 and A2
+[13:40] goes to B2
+[13:43] and obviously P3 is the same as A3
+[13:48] the first element then
+[13:51] simply is A1 Dot B1
+[13:58] and that's actually what you just take
+[14:00] the product dot product of this Vector
+[14:03] in this Vector which is cosine C
+[14:09] and remember I told you that there are
+[14:12] some patterns between this rotation
+[14:15] matrices so for example let me just
+[14:17] write them down
+[14:20] so rotation about x-axis by angle Theta
+[14:24] so we have one zero zero zero zero
+[14:27] cosine Theta minus sine Theta
+[14:31] sine theta equals sine Theta and y axis
+[14:35] rotation
+[14:37] by Phi is cosine
+[14:42] Theta one zero zero zero zero
+[14:49] and then you have minus sign
+[14:52] Theta
+[14:54] sine Theta and cosine Theta
+[14:59] remember we always have two cosines
+[15:02] and one minus sign in one sine that
+[15:06] always happens
+[15:08] okay
+[15:09] and
+[15:11] another uh
+[15:13] pattern that you can easily notice is
+[15:16] there is one zero zero one and zero zero
+[15:22] they always exists for example here we
+[15:25] have
+[15:26] this
+[15:29] what about here
+[15:31] also we have that in here
+[15:34] so one easy way of defining or or
+[15:40] having the rotation Matrix is you simply
+[15:43] just put one
+[15:45] and then just move it around in the
+[15:48] diagonal direction for example if it's
+[15:50] about x-axis rotation a z-axis rotation
+[15:54] then one is at at here
+[15:59] three by three location because Z means
+[16:03] three right
+[16:04] then
+[16:06] from here you just draw a line row and
+[16:09] column then you just fill that with
+[16:12] zeros and then all you have to do is you
+[16:14] just put cosine
+[16:17] and cosine of the diagonals and sine and
+[16:21] minus sign of diagonals
+[16:24] do the same thing for x-axis rotation
+[16:26] just move one
+[16:29] 2 x then you'll see that all other
+[16:32] elements are following
+[16:35] so we have one and just field zero zero
+[16:38] zero zero here and then if you just move
+[16:42] one
+[16:43] handle here uh two here then you will
+[16:46] see that this cosine
+[16:48] um
+[16:50] this cosine goes to that direction
+[16:52] actually
+[16:54] then but I just considering the
+[16:56] continuation of of the structure
+[16:59] what is here is actually here
+[17:03] okay and then this one goes to here then
+[17:08] this one is actually this location
+[17:12] what goes in here is actually this
+[17:14] location in this location
+[17:18] what about the y-axis if you have y-axis
+[17:21] rotation if you just move this one
+[17:24] to here okay because in y-axis rotation
+[17:28] we have to have one in the middle then
+[17:30] uh to the
+[17:34] strikethrough row and column in so just
+[17:37] fill zeros in here
+[17:39] and if you just move this handle to in
+[17:42] the center then this one has to come to
+[17:45] here which is actually
+[17:47] this location so we have cosine and this
+[17:50] one goes to here and so
+[17:52] that goes in here this one goes to here
+[17:56] and so we have that in here and this
+[17:59] cosine goes no this cosine goes to
+[18:03] um bottom right so
+[18:05] so that's the pattern that I told you
+[18:08] so once you understood this one
+[18:11] um rotation Matrix itself is very simple
+[18:14] to understand
+[18:15] but again the original definition of
+[18:18] rotation Matrix is actually coming from
+[18:20] the direction cosine Matrix which is
+[18:23] based on the projection Radian
+[18:26] now let's talk about the composition of
+[18:28] simple rotation matrices because
+[18:31] um
+[18:32] because I said that we need three
+[18:34] consecutive rotations right but each of
+[18:37] these are just one rotation then then we
+[18:39] have to somehow combine these rotations
+[18:41] so that we can have three different
+[18:44] combinations Okay so
+[18:46] we can easily figure out that any
+[18:48] direction cosine Matrix can be composed
+[18:51] of three consecutive simple rotation
+[18:55] matrices
+[18:57] well it doesn't have to be simple you
+[18:59] can have very complicated
+[19:01] complex rotation Matrix as well that's
+[19:04] fine but there's no need to do that
+[19:07] because even with the simpler
+[19:10] or a simple rotation matrices
+[19:13] you will have the same result
+[19:16] Okay so
+[19:19] body axis I told you we have two
+[19:23] different type of rotations one is body
+[19:24] actions rotation and the other one is
+[19:26] SpaceX rotation so the first one is body
+[19:29] axis
+[19:30] so overall rotation with the Euler angle
+[19:32] about the body axis it has to be post
+[19:36] multiplication
+[19:38] well I'm not explaining the details or
+[19:41] the reasons why for this post
+[19:45] multiplication well but understanding
+[19:47] itself is quite simple but uh I'll just
+[19:50] skip that okay if you're interested then
+[19:53] you can just find the reference okay
+[19:58] so post multiplication means uh if you
+[20:01] have the first rotation
+[20:04] let's say that's rotation one and then
+[20:07] if you have the second rotation rotation
+[20:10] two and if you have rotation three then
+[20:14] this one itself is a rotation Matrix so
+[20:17] this is three by three rotation Matrix
+[20:19] and this is also three by three rotation
+[20:21] Matrix
+[20:23] three by three rotation Matrix
+[20:25] the order is one
+[20:27] two and three then uh it has to be post
+[20:31] multiplied so you simply multiply
+[20:35] rotation 1 and then
+[20:37] multiply rotation 2 to the right side of
+[20:41] rotation one
+[20:42] and then the last rotation will be
+[20:44] multiplied to the right
+[20:48] outermost in this in here so so this is
+[20:52] what we have
+[20:54] so the order is to this direction so
+[20:57] that's why this is post
+[21:02] multiplication
+[21:07] so here
+[21:09] I'm just giving you an example so body
+[21:11] axis rotation with x y g over your
+[21:14] angles so XYZ means you just rotate uh
+[21:17] the order rotation is X first and then Y
+[21:20] and then Z so this is the order so in
+[21:22] that case you simply post multiply
+[21:26] this way it's very simple right then uh
+[21:32] x x axis Rotation by Theta is this
+[21:35] and y-axis Rotation by angle 3 is this
+[21:39] and z-axis g-axis rotation by C is this
+[21:43] then all you have to do is simply
+[21:45] multiply these three matrices and then
+[21:48] you will end up with this a little bit
+[21:50] more complicated uh rotation Matrix or
+[21:54] or Direction cosine Matrix
+[21:58] what about rotation about the X space
+[22:01] axis
+[22:03] so space axis is a little bit different
+[22:07] um
+[22:08] let me just give you the the answer it's
+[22:10] actually it has to
+[22:12] uh be pre-multiplied
+[22:15] okay
+[22:17] well the reason is well explaining
+[22:19] itself is not that complicated but um
+[22:23] you have you guys have to understand the
+[22:25] notion of operator but and in the
+[22:28] similar transform
+[22:29] so if you're interested then please
+[22:34] look into some references
+[22:37] so let's look at the example here so
+[22:40] we'll perform X Y and Z rotation in
+[22:44] order so we will perform X first and
+[22:47] then y rotation then Z rotation okay
+[22:51] then for the space axis rotation it has
+[22:55] to be pre-multiplied so that means the
+[22:57] first rotation has to be
+[22:59] there so it is there then the second
+[23:03] rotation is pre-multiplied so
+[23:05] pre-multiplied means left
+[23:08] so you you multiply a rotation Matrix
+[23:11] for y axis to the left of the original
+[23:14] with the first rotation
+[23:16] then your z-axis rotation
+[23:19] follows and it goes to the left here
+[23:22] okay
+[23:24] and if you just multiply all of these
+[23:28] then you end up with this expression
+[23:32] and here are some of the properties of
+[23:34] rotation matrices
+[23:36] so directional cosine Matrix and
+[23:37] rotation Matrix
+[23:39] foreign
+[23:40] they are actually identical but the
+[23:43] meanings are different
+[23:45] so the direction cosine Matrix is to
+[23:47] describe the relative orientation
+[23:49] between the two coordinate systems so
+[23:52] this is the basic
+[23:54] um
+[23:56] notion or the notion orientation or
+[23:59] relative orientation
+[24:00] rotation Matrix itself is originally
+[24:04] introduced to rotate a point about An
+[24:07] Origin to another location in the same
+[24:10] coordinate system
+[24:12] but it turns out that
+[24:15] orientation made a direction cosine
+[24:17] Matrix and rotate Matrix they coincide
+[24:23] so they coincide so both terms are used
+[24:26] interchangeably in this course so
+[24:28] sometimes I call the direction cosine
+[24:30] Matrix and sometimes I call it potential
+[24:32] Matrix
+[24:34] the last one is that rotation Matrix is
+[24:37] orthogonal Matrix
+[24:40] so when a matrix is called orthogonal
+[24:43] it means that
+[24:45] the rotations inverse inverse of
+[24:47] rotation is actually the same as
+[24:50] transpose of rotation
+[24:53] in general computing the inverse of
+[24:55] rotate a matrix itself is very
+[24:57] complicated and computationally
+[24:59] expensive but if the Matrix is known to
+[25:02] be orthogonal then you can simply
+[25:06] get the transpose of the Matrix and that
+[25:10] is your rotation inverse major
+[25:13] Matrix
+[25:15] this is very convenient
+[25:18] and the reason why this happens is just
+[25:21] uh
+[25:22] intuitively understand this one okay so
+[25:25] if you have rotation
+[25:27] [Music]
+[25:28] by x-axis
+[25:31] in x axis by 30 degrees then you have
+[25:33] some result right then the inverse is
+[25:36] what inverse of this rotation is
+[25:39] rotation about
+[25:41] minus rotation about the axis by minus
+[25:44] 30 degrees right
+[25:46] and this one
+[25:49] is simply you just flip the uh
+[25:56] um the the diagonals okay off diagonals
+[25:59] so then that is actually the transpose
+[26:05] okay so this is very useful and
+[26:07] important properties and sometimes we
+[26:10] call it uh as SO3 which means pressure
+[26:13] orthogonal group
+[26:17] now let's talk about
+[26:19] um
+[26:21] some properties of rotation Matrix
+[26:23] especially how to use rotation Matrix to
+[26:26] rotate a point so we have a point
+[26:29] separation Vector p
+[26:32] then a point or position Vector P can be
+[26:35] expressed in terms of two different
+[26:39] coordinate systems
+[26:41] so for example if we have
+[26:45] a point P here
+[26:47] and if we have A1
+[26:50] A2 then this point P can be expressed in
+[26:54] terms of
+[26:55] this coordinate and this coordinate
+[26:59] right but
+[27:01] if we have different coordinate axis for
+[27:03] example we if we have B1
+[27:07] and P2 then
+[27:11] the same point P now can be projected
+[27:14] with different value here
+[27:19] so in that case
+[27:20] the expression itself looks different
+[27:23] even though they are the same points
+[27:26] so the same point position Vector P can
+[27:30] be expressed in terms of A1 A2 and A3
+[27:35] so in that case
+[27:37] the value here or sometimes coefficient
+[27:40] or sometimes we call it coordinate look
+[27:43] different I mean so we have some some
+[27:47] numbers here but if we change the
+[27:49] coordinate systems B1 between B3 then
+[27:52] the coordinate
+[27:54] will look different but still they are
+[27:57] the same point
+[28:08] now what about this one so our point so
+[28:11] still consider the same point P equation
+[28:14] Vector then apply that product above
+[28:16] equations with
+[28:19] um A1 to 3 in a row and we get
+[28:22] the following
+[28:27] I mean here
+[28:29] using so from this Vector you can simply
+[28:34] do that product with A1 or A2 and A3
+[28:40] then you get
+[28:43] this result
+[28:50] was it really so yes let's try that so
+[28:55] A1 Dot so if I do it then we have pa1
+[29:00] and then we have A1
+[29:03] right and A1 hat
+[29:06] and then we have
+[29:08] plus pa2 and A1 A2 hat dot A1 hat but
+[29:14] this one is zero because uh they're
+[29:17] orthogonal to each other
+[29:18] Plus pa3
+[29:22] A3 head dot a one
+[29:25] at so again this is zero
+[29:29] but the interesting thing happens for
+[29:32] the second part so if we look at here we
+[29:35] have B P one and B1 head dot A1 right
+[29:42] plus pp2
+[29:45] P2 at dot A1
+[29:49] at Plus pb3
+[29:52] B3 hat dot A1 head so in that case what
+[29:57] we can see is on the left hand side we
+[30:00] have only this value so
+[30:02] pa1
+[30:04] because all other values are zero
+[30:07] then we can see that we have
+[30:10] A1
+[30:13] A1 head dot P1 head and A1 at dot P2 hat
+[30:19] and A1 head dot H3 hat
+[30:24] and then we have
+[30:26] a quotient here
+[30:29] so P P1 and P B2
+[30:35] and then tb3
+[30:38] so
+[30:40] we can simply look at
+[30:43] this structure and this structure and
+[30:46] then you can just repeat it
+[30:48] uh this process so again
+[30:53] you just stop product this whole thing
+[30:55] with A2 and also A3 then you can just
+[30:59] fill
+[31:01] this now but with A2 P1 A2 B2 A2 B3 and
+[31:10] another one here
+[31:12] so in that case now we have
+[31:15] rotation Matrix here and then we have a
+[31:18] coordinates for uh the point p
+[31:22] uh in terms of P1 B2 B3 and now here on
+[31:26] the right hand left hand side we have
+[31:28] the coordinates in terms of A1 A2 and A3
+[31:32] so in that sense we have this expression
+[31:37] and well just for your information this
+[31:39] expression itself is not an overview of
+[31:42] mutation this is the exact uh expression
+[31:45] and correct expression in mathematics in
+[31:47] mathematical sense
+[31:49] so then in summary we can simply put
+[31:53] what we are what I just have shown in
+[31:56] here in this way so if we have a
+[31:59] rotation Matrix here then the position
+[32:03] Vector P expressed in terms of P1 B2 B3
+[32:08] can be expressed uh as the position
+[32:11] Vector in turn expressed in terms of A1
+[32:15] A2 A3 with this
+[32:18] rotation Matrix
+[32:24] and also you can use
+[32:27] rotation Matrix to actually rotate a
+[32:31] point to to some other location for
+[32:34] example
+[32:35] if you have a point here and then if you
+[32:38] want to rotate let's say this is the
+[32:42] z-axis or
+[32:45] A1
+[32:46] A2 and let's say this is a three axis
+[32:50] then
+[32:53] um we can consider Rotation by
+[32:56] 90 degrees
+[32:58] then this point
+[33:01] will move to this point and this is
+[33:04] actually 90 degrees right
+[33:06] so
+[33:09] if you just simply prepare a rotation
+[33:11] Matrix
+[33:13] z90 and then you just multiply
+[33:16] a vector representing a point
+[33:20] here for example then your end result
+[33:22] will be the rotated position as well so
+[33:26] that's also useful
+[33:29] information about how to use the
+[33:31] rotation Matrix
+[33:33] so simply we can have
+[33:36] this uh
+[33:38] in summary
+[33:40] and also note that the actual action of
+[33:43] rotating a point to another should be
+[33:45] done within one coordinate system or the
+[33:47] same coordinate systems
+[33:50] so
+[33:52] but
+[33:53] in the previous page in here
+[33:56] here and here
+[34:01] if you have same point but expressed in
+[34:04] different
+[34:05] coordinate systems then this point and
+[34:07] this point are actually the same point
+[34:09] but they are actually expressed with
+[34:12] different coordinate systems in that
+[34:13] case
+[34:16] this rotation Matrix relationship should
+[34:18] deal with the two different coordinating
+[34:20] systems
+[34:22] [Music]

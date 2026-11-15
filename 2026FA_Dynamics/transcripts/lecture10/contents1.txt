@@ -1,0 +1,396 @@
+YouTube transcript
+Video ID: XcUjJyywyfU
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] we started reference frames and vectoral
+[0:21] differentiations
+[0:24] we also studied
+[0:25] that orientation is not a vector
+[0:29] so in this week we will examine more on
+[0:33] the orientation of wizard bodies in in
+[0:34] 3D spaces
+[0:37] so let's talk about our orientation
+[0:39] orientation or sometimes called attitude
+[0:43] means how a rigid body is placed in 3D
+[0:48] space
+[0:49] orientation can be quantitatively
+[0:53] defined with respect to reference
+[0:55] orientation
+[0:57] just as the position can be Quantified
+[0:59] with respect to a reference point or
+[1:02] sometimes origin
+[1:08] there are multiple ways of defining
+[1:11] orientation of a rigid body
+[1:15] we'll cover that soon also orientation
+[1:18] is not a vector I mentioned this one in
+[1:21] the previous lecture but let's talk
+[1:24] about it in more detail what does that
+[1:25] mean
+[1:26] so it means that changing the order or
+[1:30] rotations
+[1:31] ends up with different orientation
+[1:35] so look at the figure here so I prepared
+[1:38] two examples one is this one
+[1:42] the second one is this one so we have
+[1:46] two consecutive orientations the first
+[1:49] one is orientation about x-axis so this
+[1:53] is x-axis power we Pi the angle Theta 1
+[1:56] here I gave 90 degrees
+[1:59] so
+[2:01] x-axis
+[2:04] and 90 degrees so this is the first
+[2:07] oriented uh rotation and then
+[2:11] is followed by another rotation in in
+[2:15] y-axis
+[2:19] also the angle is 90 degrees
+[2:22] so if you do it
+[2:24] if you watch it then you just try it by
+[2:26] yourself so 90 degrees so then this will
+[2:30] go up in this direction
+[2:32] and then once it's here then
+[2:36] we rotate it about
+[2:37] y direction by 90 degrees and so it goes
+[2:40] to here
+[2:42] so we finally end up with this
+[2:44] orientation
+[2:45] let's look at the second uh example so
+[2:49] here I started with orientation in
+[2:52] y-axis y-axis so y-axis
+[2:57] angle is 90 degrees
+[3:00] okay one and then the second rotation is
+[3:05] rotation about x-axis
+[3:11] angle is 90.
+[3:14] so
+[3:16] if you just rotate the first one about
+[3:19] y-axis by 90 then it looks exactly the
+[3:22] same right and then you just rotate it
+[3:24] about y-axis x-axis
+[3:27] by 90 degrees and it will go up so you
+[3:30] finally have
+[3:32] this this situation
+[3:35] so if you just compare this orientation
+[3:38] in this orientation they look totally
+[3:41] different right
+[3:43] so
+[3:44] so what's the point here so if you look
+[3:47] at the first rotation
+[3:49] I mean the first consecutive rotations
+[3:52] we have x-axis rotation and Y X
+[3:55] expectation the second one y-axis first
+[3:59] and then x-axis afterwards
+[4:02] looks like very similar to each other
+[4:05] because we just ordered we just switch
+[4:07] it to order of rotation but the end
+[4:09] result is very different so that's what
+[4:12] I meant by that the orientation is not a
+[4:15] vector
+[4:17] then how do we represent an orientation
+[4:20] of rigid body with respect to reference
+[4:23] orientation
+[4:27] so let's consider a rigid body of our
+[4:30] interest and we attach a body
+[4:33] coordinate system
+[4:36] so
+[4:37] here is a body rigid body
+[4:43] or sometimes we call it reference frame
+[4:46] and we can denote a coordinate system
+[4:49] which is attached to this body or
+[4:51] reference frame
+[4:53] A1 A2 A3 representing the unit vectors
+[4:58] for X Y and Z Direction
+[5:01] I call it Triad because we always play
+[5:04] with the uh deal with the three unit
+[5:07] vectors urine factors together so that's
+[5:09] why I call it Triad
+[5:11] and its unifactor is aligned with x y z
+[5:15] axis and then now we can somehow rotate
+[5:18] the rigid body okay I didn't tell you
+[5:21] how to rotate it but just do it by
+[5:23] yourself okay try something so that you
+[5:25] can just rotate this object in in some
+[5:30] orientation
+[5:31] okay
+[5:32] so now I did it here so as you can see
+[5:35] we have different orientation or
+[5:37] different attitude
+[5:39] it's very different right so now what I
+[5:43] did was so I intentionally added another
+[5:46] reference another coordinate system
+[5:49] P1 P2 and B3 well actually it may or may
+[5:54] not make sense to say that P1 b2b3 is
+[5:58] attached to this body because actually
+[6:01] this body
+[6:03] and this body
+[6:05] they are actually the same
+[6:07] right the only difference is we just
+[6:10] perform the rotation on this body
+[6:12] so that means
+[6:14] originally it was A1 A2 A3 coordinate
+[6:18] systems and it actually is the same as
+[6:21] A1 A2 and A3 but we just named it
+[6:24] different right P1 B20 B3
+[6:27] just to give you some brief idea about
+[6:32] how the orientation can be Quantified
+[6:34] so we have B1 B2 and B3 here
+[6:38] but but uh technically it's actually the
+[6:41] same as A1 A2 and A3
+[6:45] now uh
+[6:48] I'll talk about Direction cosine Matrix
+[6:52] the main point of Direction cosine
+[6:54] Matrix is is mapping of the old A1 A2 A3
+[7:00] Axis or Triads to P1 B2 and B3 in this
+[7:05] way we can define a way of quantifying
+[7:09] uh
+[7:11] orientation of our current
+[7:15] post with respect to a reference
+[7:18] orientation
+[7:20] so what is Direction cosine Matrix there
+[7:23] it Maps
+[7:25] A1 A2 A3 to V1 B2 and B3
+[7:31] so what was A1 A2 and A3
+[7:33] if you look at the original
+[7:35] rigid body or reference frame model
+[7:39] so we had A1 A2 and A3 and so I just
+[7:43] called it reference orientation because
+[7:45] I will just compare our new orientation
+[7:48] with respect to this orientation so so
+[7:52] that's what I meant by reference
+[7:54] orientation
+[7:56] and then after some rotation we have
+[7:59] different uh attitude and orientation so
+[8:02] in that case how do we compare this b1b
+[8:05] to B3 with A1 A2 and A3
+[8:10] one way of defining it is you just pick
+[8:13] one unifactor and then describe it with
+[8:17] respect to the other three unit vectors
+[8:20] in the other reference frame or
+[8:22] coordinate systems for example we have
+[8:25] A1 A1 is a unifactor for this reference
+[8:29] orientation
+[8:31] then we can describe A1 with respect to
+[8:35] B1 B2 and B3
+[8:39] to do that we have to do some kind of
+[8:41] projection okay
+[8:46] I'm pretty sure that you understand what
+[8:48] projection means but let me just skip
+[8:49] briefly under explain what uh projection
+[8:52] mean in in 2D space so if we have
+[8:57] a 2d plane so we have X and Y and if we
+[9:02] have a vector
+[9:04] that's pointing in this direction let's
+[9:07] say this is a p Vector then this P
+[9:09] Vector can be projected onto x-axis
+[9:15] like this and then also this Vector can
+[9:18] be projected onto y-axis
+[9:24] then we can see that there are two
+[9:26] vectors
+[9:27] this one and this one
+[9:29] so this Vector is p Vector projected
+[9:33] onto X Direction
+[9:34] and this Vector is p Vector projected
+[9:38] onto
+[9:39] y-axis so in that case P Vector can be
+[9:43] represented as
+[9:44] let's say I can say that this is PX
+[9:49] then PX in in X Direction let me say x
+[9:54] direction is called
+[9:56] by unifactor and Y direction is called
+[9:59] June Vector then we have I and we have
+[10:04] so this is p y then py in J Direction so
+[10:10] as you can see our unifactor can be
+[10:13] expressed uh sorry not unit Vector any
+[10:17] vectors can be expressed in terms of
+[10:22] some unit factors by f after performing
+[10:26] the projections here so these p x and py
+[10:29] are the projection result in other words
+[10:32] that product
+[10:33] so we do the same thing for unit factors
+[10:36] A1 A2 and A3 and we just simply project
+[10:39] it down to uh
+[10:42] P1 and B2 and P3 so we should have this
+[10:47] this in this dot products
+[10:51] so you can do the same thing same thing
+[10:54] for unit Factor A2 and A3 then we
+[10:57] finally have
+[11:00] this is the question
+[11:02] now we can just put this together and we
+[11:05] can put it in a matrix form
+[11:08] so
+[11:09] um here I added this word saying of use
+[11:16] of notation obvious notation means that
+[11:18] mathematically it's not correct I mean
+[11:21] the expression itself is not correct but
+[11:24] to give you a better understanding and
+[11:26] better intuition about how to understand
+[11:29] the
+[11:31] uh concept we intentionally use wrong
+[11:35] expression so here
+[11:38] we have A1 A2 and A3 and P1 and B2 and
+[11:43] P3
+[11:44] and then
+[11:47] um somehow we can perform matrix
+[11:50] multiplication
+[11:52] so remember so we we have B1 B2 and B3
+[11:58] and we have coefficient of
+[12:02] A1 dot B1 a1.p2
+[12:06] A1 Dot P3
+[12:10] here so A1 dot A1 A1 dot P2
+[12:15] a1.p3 so you now see the same order here
+[12:20] right this one
+[12:21] and this one so we have the same order
+[12:24] and same uh structure the same thing
+[12:26] happens for the second and third rows
+[12:30] I said this is official notation because
+[12:33] so this part is
+[12:36] traction cosine Matrix so this part is
+[12:39] called Direction cosine Matrix but
+[12:42] directional cosine Matrix cannot be
+[12:45] simply multiplied
+[12:46] with this expression this expression is
+[12:50] weird because
+[12:51] this itself is not a scalar but this
+[12:55] itself is a vector
+[12:57] so we have vector vector vector so
+[12:59] vector cannot be multiplied or post
+[13:03] multiplied to this Matrix
+[13:06] so that's mathematically wrong but
+[13:08] I'm pretty sure that you guys already
+[13:10] understood how to
+[13:12] use this rotation or how to use this
+[13:15] expression right because the meaning of
+[13:18] this expression is that one A1 is what
+[13:21] simply you just multiply this one and
+[13:23] this one
+[13:29] and then this one this one
+[13:35] and this one and this one
+[13:42] so so it works it works quite well but
+[13:45] again this is mathematically wrong
+[13:49] but that's fine because sometimes it's
+[13:51] better to understand things right so
+[13:54] um so that's why I call it a view of
+[13:56] notation
+[13:59] actually we have better uh expression
+[14:01] here
+[14:02] or
+[14:04] um now this is more intuitive and it
+[14:07] makes more sense because now I didn't
+[14:10] tell you that this is this part is
+[14:12] Direction cosine Matrix itself but I I
+[14:16] just I'm just putting uh these
+[14:19] Expressions into some structure and then
+[14:21] I said this is Direction cosine table
+[14:25] and then the the only thing I need to do
+[14:27] is uh to tell you how to use this table
+[14:31] to get the useful information for
+[14:33] example
+[14:34] to get A1 vector you just simply
+[14:37] multiply
+[14:39] this and
+[14:42] this
+[14:43] I mean together so you have you just
+[14:45] multiply this one and this one plus this
+[14:47] one and this one plus and this one and
+[14:50] this one that way you can get A1 the
+[14:53] same thing happens for A2 and A3
+[14:56] also interestingly you can do a
+[15:00] do this direction as well
+[15:02] if you want to get B1 head then you just
+[15:06] simply multiply
+[15:07] this value with A1 hat Vector Plus
+[15:12] this value times a two head Vector plus
+[15:16] this value times A3 head Vector then you
+[15:21] get
+[15:22] P1 expression the same thing happens for
+[15:25] B2 hat and B3 hat so directional cosine
+[15:29] Matrix is very intuitive and very easy
+[15:31] to understand and in this way once you
+[15:34] have your direction cosine Matrix
+[15:36] defined
+[15:37] then conversion between the vectors is
+[15:41] very convenient and straightforward
+[15:44] so I will use Direction cosine Matrix a
+[15:49] lot
+[15:50] then
+[15:53] think about how many elements we have in
+[15:56] the dragon cosine Matrix so Direction
+[15:58] cosine metric itself is three by three
+[16:00] right so this is I mean this whole thing
+[16:03] we have it has three rows and three
+[16:06] columns so total we have nine elements
+[16:13] so does that mean that we need nine
+[16:15] values or nine uh pieces of information
+[16:19] to Define orientation and the answer is
+[16:22] no we don't need nine information
+[16:26] we just need
+[16:28] only a small portion of it so why is
+[16:31] that
+[16:32] so
+[16:33] um
+[16:34] so not every element is independent for
+[16:37] example each row Vector in Direction
+[16:40] cosine Matrix
+[16:42] is a unifactor so that means
+[16:45] the other way
+[16:47] so that means if you look at row Vector
+[16:49] here
+[16:51] and if you just take the scare
+[16:53] squared and square and add them and the
+[16:56] value has to be one
+[16:58] the same thing happens for this one and
+[17:00] this one
+[17:01] so
+[17:03] this row Vector is a unit vector
+[17:06] this row Vector is also unifactor and
+[17:09] this row Vector is also unit vector
+[17:12] so now we have three constraints
+[17:16] so we have three constraints so in in a
+[17:19] simpler form we have
+[17:21] this notation
+[17:23] also
+[17:25] this Vector is perpendicular
+[17:29] to this Vector that's because this
+[17:32] Vector represents the coordinates of A1
+[17:36] and this Vector represents the
+[17:39] coordinates of A2 we know that A1 and A2
+[17:41] unit vectors are orthogonal to each
+[17:44] other right
+[17:46] and the same thing happens for between
+[17:47] A1 and A3 or A2 and B3 so that's why we
+[17:52] have to uh
+[17:54] make sure that this row Vector is
+[17:57] perpendicular uh to the second row
+[18:00] Vector the first one is also
+[18:02] perpendicular to the third row vector
+[18:04] and the second one is also perpendicular
+[18:06] to the third row vector
+[18:09] so in that way we can have we have
+[18:11] another three constraints
+[18:14] so total we have six constraints
+[18:19] so that means from 9 we have six
+[18:21] constraints so we have only three
+[18:24] degrees of freedom in other words
+[18:27] we need three pieces of information to
+[18:30] uniquely defined orientations
+[18:34] so let me just sum them up here so
+[18:36] Direction cosine has Matrix has nine
+[18:39] elements therefore only and then as I
+[18:41] said we have six elements six
+[18:43] constraints as I said before so
+[18:45] therefore we have only three pieces of
+[18:48] information uh and these are needed to
+[18:51] uniquely determine the orientation of uh
+[18:54] 3D body in in three rigid file in 3D
+[18:57] space
+[18:59] so again this is Direction cosine Matrix
+[19:02] Direction cosine Matrix in the general
+[19:04] uh form or definition because we see the
+[19:08] dot products or project projections and
+[19:11] we just simply put this into some
+[19:14] numbers here
+[19:15] then this is actually what look what it
+[19:19] look likes looks like okay
+[19:22] [Music]

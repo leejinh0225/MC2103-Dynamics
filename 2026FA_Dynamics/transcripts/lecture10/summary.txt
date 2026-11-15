@@ -1,0 +1,32 @@
+YouTube transcript
+Video ID: GeIUzTOQs1c
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied kinematics of rigid
+[0:20] bodies in 3D space especially we studied
+[0:23] orientation of rigid bodies in 3D space
+[0:27] we learned that an orientation of a
+[0:29] rigid body with respect to a base
+[0:31] reference frame can be represented by a
+[0:34] direction cosine Matrix
+[0:37] we also studied that an orientation can
+[0:40] be parameterized by three parameters
+[0:42] which is called eulerous angles
+[0:45] complicated rotations can be composed
+[0:49] with a simple rotation matrices with
+[0:51] Euler and oil angles
+[0:55] next week we'll examine differentiation
+[0:57] of vectors in different reference frames
+[1:01] angular velocity will be defined by a
+[1:04] sum of simple expressions
+[1:07] linear velocities and accelerations will
+[1:10] be determined by one point or two point
+[1:13] relationship which is very useful in
+[1:16] Computing kinematics of rigid bodies in
+[1:18] 3D space
+[1:19] see you next time
+[1:21] [Music]

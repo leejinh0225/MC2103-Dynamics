@@ -1,0 +1,22 @@
+YouTube transcript
+Video ID: 8-cbq84asB4
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] have you ever played dices when you're
+[0:20] young
+[0:22] how can you describe the orientation of
+[0:24] each thighs
+[0:27] what about robotic arms in the
+[0:29] manufacturing Factory
+[0:32] to control multiple robotic manipulators
+[0:35] accurately
+[0:36] orientation of each manipulator needs to
+[0:39] be defined correctly
+[0:41] we'll study orientation of rigid bodies
+[0:44] and how to parameterize the orientation
+[0:46] in this lecture
+[0:48] [Music]
