@@ -1,0 +1,260 @@
+YouTube transcript
+Video ID: 1vt2PrhhhcI
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so far we have studied linear momentum
+[0:20] and angular momentum of rigid bodies in
+[0:23] 3D space
+[0:25] now it's time to link this with the
+[0:28] Newton's law of motion and also others
+[0:31] low out motion so Newton's law of motion
+[0:34] for particles can be extended
+[0:37] for the rigid parties in in 3D space
+[0:40] it's simple it's looks like this one so
+[0:43] if we have all the forces
+[0:45] then it's actually the same as a type uh
+[0:49] the time derivative of the linear
+[0:51] momentum about about the mass Center
+[0:57] oil is low motion is actually used used
+[1:00] for describing the rotation about the
+[1:02] mesh Center of G but it doesn't have to
+[1:05] be my center but uh
+[1:08] we'll first talk about rotation about my
+[1:11] Center
+[1:13] so all those low motion extends Newton's
+[1:16] low motion for particles to the rigid
+[1:18] body motion
+[1:21] for the rotation the following
+[1:23] formulation is used so if we have some
+[1:27] of all the moments about the center then
+[1:30] actually it is the same as the time
+[1:32] derivative
+[1:33] of angular momentum of about the mess
+[1:36] sensor in in reference frame and
+[1:39] Newtonian reference frame
+[1:41] and here
+[1:43] HG which is angular momentum is a vector
+[1:46] is expressed in part reference frame and
+[1:50] also we can use by using some obesity
+[1:54] notation so we can use
+[1:57] inertia Matrix a moment of inertia
+[1:59] Matrix and
+[2:02] angular velocity coordinate vector
+[2:12] since the differentiation should be done
+[2:14] in in Newtonian reference frame at B and
+[2:18] usually
+[2:19] HG is expressed in terms of
+[2:24] in terms of body reference frame P1 B2
+[2:27] and B3
+[2:31] differentiating HG directly in Newtonian
+[2:36] reference frame is not that convenient
+[2:37] so it's better to use the vector
+[2:40] differentiation formula to uh
+[2:44] each that process so for for example we
+[2:47] can just differentiate HG in terms of
+[2:50] neutron in reference frame uh battery
+[2:52] reference frame B then we can just add
+[2:55] this part
+[3:01] so therefore by just having this result
+[3:05] and then since HG
+[3:09] is it can be also expressed in terms of
+[3:14] um
+[3:15] moment of inertia Matrix and then
+[3:17] Omega angular velocity coordinate Vector
+[3:21] here
+[3:22] and then so we can just plug this one in
+[3:25] here
+[3:26] but we have to be careful plugging this
+[3:29] one directly to here doesn't make sense
+[3:30] because mathematically it does is not
+[3:32] true but again by use by introducing the
+[3:36] abusive obvious of notation we can
+[3:40] get the intuition directly so by
+[3:44] plugging this one directly into here and
+[3:48] then in the body reference frame and
+[3:50] differentiating it with respect to the
+[3:53] body reference frame
+[3:56] I is always constant
+[4:00] so this is constant
+[4:05] in
+[4:07] terms of
+[4:09] P1 B2 and P3
+[4:13] so we just need to differentiate only
+[4:15] Omega like so
+[4:18] and Omega is still here so you just have
+[4:21] that in here and HG is replaced by I
+[4:25] Omega
+[4:27] or sometimes we can use this notation
+[4:30] well this is uh Omega head is actually
+[4:34] called excuse measuring Matrix for
+[4:36] angular velocity and it's defined in
+[4:39] this way
+[4:40] then
+[4:43] this expression and this expression are
+[4:46] identical
+[4:53] and note that the external forces that
+[4:56] do not pass through the point of
+[4:58] rotation also contribute to the total
+[5:01] moment
+[5:03] therefore the total moment about the
+[5:06] center of mass G should be revised as
+[5:08] follow
+[5:10] so if we have some moments
+[5:13] and if you have some forces that's not
+[5:15] passing through the center of mass then
+[5:17] we have to consider that as well as a
+[5:20] source of the moment generation
+[5:23] so we have to consider these two parts
+[5:30] and if the rotation is about any
+[5:33] arbitrary Point c not the center of mass
+[5:37] here we can consider Point C
+[5:40] then watch video
+[5:43] so let's do do some derivation for that
+[5:46] so moment about C
+[5:49] is moment about
+[5:51] any moment and then we can just consider
+[5:54] uh the the forces the external forces
+[5:58] and then we have to multiply the moment
+[6:02] on
+[6:03] now we edit this part this is a new part
+[6:06] and this is from the center of mass
+[6:11] and the derivation here
+[6:15] we can distribute like so here
+[6:20] and then so we have this part in this
+[6:22] part
+[6:25] and this part is actually the same as
+[6:29] the definition of mg I mean the moment
+[6:32] about the center rest center and we have
+[6:36] this part
+[6:39] again f is the same as
+[6:43] M times acceleration of the center of
+[6:46] mass
+[6:47] or in other words that's actually the
+[6:49] same as well that so
+[6:52] this moment some of the moment about
+[6:54] this arbitrary Point C is the same as
+[6:57] some of the moment about this mess
+[6:59] Center plus some external extra term
+[7:03] which is rho times
+[7:05] um
+[7:06] the linear momentum
+[7:08] uh
+[7:10] the time derivative of linear momentum
+[7:19] note that the angular momentum about the
+[7:21] mess Center G is computed as follows we
+[7:25] already know this one
+[7:28] then what about the angular momentum
+[7:31] about any arbitrary Point C
+[7:35] the idea the derivation itself is the
+[7:37] same so we simply add this row Vector
+[7:40] which is the diff uh the difference
+[7:42] between C arbitrary Point C and the mass
+[7:45] Center
+[7:47] and if you just do the derivation
+[7:50] carefully and we will end up with this
+[7:53] expression so we have
+[7:57] angular momentum about the math Center
+[7:59] and then we have row times
+[8:02] uh the linear momentum of the center
+[8:08] and this is this formula is also very
+[8:11] useful
+[8:15] remember
+[8:17] HG was i g times Omega this was true
+[8:22] actually this was the definition of
+[8:26] uh
+[8:29] momentum inertia Matrix
+[8:31] but what about
+[8:32] uh
+[8:34] angular momentum about any arbitrary
+[8:37] Point C
+[8:38] in this case in general this one does
+[8:41] not hold so
+[8:43] they're not the same
+[8:45] then what should we do so let's do some
+[8:48] derivation here so I saw that in the
+[8:50] previous page that this one is true
+[8:54] and L is replaced by m v which are VG
+[9:02] and then VG can be just replaced by this
+[9:07] expression using the two point
+[9:09] relationship
+[9:17] foreign
+[9:21] here then finally we have this
+[9:24] expression so the the important thing
+[9:27] here is that HC
+[9:29] can be expressed in terms of i c times
+[9:33] Omega but we now have extra turn rho
+[9:36] times m v
+[9:38] C so the velocity of the point C
+[9:42] but uh if the velocity of Point C this
+[9:45] one is fixed point so that VC equals
+[9:48] zero or sometimes go and we see are
+[9:53] aligned
+[9:55] so in that case this extra term becomes
+[9:58] zero and then we can represent Express
+[10:01] HC as IC times Omega
+[10:06] what about all those low motion
+[10:09] about about any rb3 point C
+[10:15] so if the rotation is about any
+[10:16] arbitrary Point C then now we can just
+[10:20] do some derivation
+[10:21] here
+[10:23] with this so we already have this
+[10:25] expression from the previous page and do
+[10:27] some derivation then finally we have
+[10:30] this expression so we have some of all
+[10:34] the moments about Point C but now we
+[10:37] have some extra terms
+[10:40] so only when the point C is fixed I mean
+[10:44] when the 0.6 picks this velocity it
+[10:47] becomes zero or
+[10:52] or the object is translating without
+[10:54] rotation in that case
+[10:58] in that case
+[11:02] we are so when when object is
+[11:04] translating without rotation then VC and
+[11:09] VG
+[11:10] are aligned in that case this becomes
+[11:12] zero so only in in these two cases we
+[11:16] can express uh the sum of a moment about
+[11:19] arbitrary Point C is the time derivative
+[11:23] of angular momentum about any arbitrary
+[11:25] Point C
+[11:27] says so we have to be careful when we
+[11:30] are applying the same uh always
+[11:34] uh formulation for any arbitrary Point C
+[11:39] so in summary
+[11:40] for the translational motion
+[11:43] so we have the summation of all forces
+[11:46] are the same as l dot which is linear
+[11:49] momentum of the center and for the
+[11:51] rotational motion above Center of mass
+[11:54] we have this so some of all the moments
+[11:57] about the center is the same as time
+[11:59] derivative of angular momentum about our
+[12:02] message center
+[12:04] where HG is IG times Omega
+[12:08] so this is always true
+[12:10] very convenient but if this uh
+[12:14] rotational motion is about
+[12:16] uh not about the best center but about
+[12:19] any arbitrary point there are many
+[12:21] complex complicated expressions and you
+[12:26] have to be careful about applying that
+[12:29] so here we have that
+[12:32] a rotational motion about arbitrary
+[12:35] Point C in that case HC dot is the same
+[12:40] summation of moment C plus some extra
+[12:43] external term
+[12:44] where HC is also defined in the
+[12:47] complicated ways
+[12:49] but if the point C is fixed point then
+[12:52] now we have very simplified version
+[12:55] which is equivalent to
+[12:57] um
+[12:59] the case of uh
+[13:03] rotation about the center of mass
+[13:06] [Music]

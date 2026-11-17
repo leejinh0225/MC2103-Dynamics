@@ -1,0 +1,36 @@
+YouTube transcript
+Video ID: VycsK6lBDKQ
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:19] parties into this space
+[0:21] especially we studied Newton's law of
+[0:24] motion
+[0:26] for translational emotion
+[0:28] time derivative of linear momentum of
+[0:31] Mass center was the same as the
+[0:34] resultant Force
+[0:36] for rotational motion time derivative of
+[0:39] the angular momentum about Mass center
+[0:42] was the same as the resultant moment
+[0:46] it was also possible to drive the
+[0:49] angular momentum equations about
+[0:50] arbitrary points other than mess Center
+[0:55] angular momentum required information of
+[0:58] the momentum moment of inertia of the
+[1:01] rigid body which is constant when
+[1:04] expressed in terms of the body
+[1:05] coordinate system
+[1:08] next week we'll examine kinetics of
+[1:11] rigid bodies in 2D space
+[1:14] 2D rigid body Dynamics is a special case
+[1:17] of 3D Rigid body Dynamics
+[1:20] Newton's law of motion will be studied
+[1:22] for rigid bodies
+[1:24] Euler's expression will be investigated
+[1:26] to describe the rotational motion
+[1:29] see you next time
+[1:31] [Music]

@@ -1,0 +1,575 @@
+YouTube transcript
+Video ID: T32lX7S_jXg
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so we have studied complicated Notions
+[0:21] for angular motion angular momentum
+[0:23] linear momentum and its relationship
+[0:26] with Newton's low motion and others low
+[0:29] motion
+[0:30] so we have many formulas and so how do
+[0:33] we apply that for the to the real
+[0:35] problems
+[0:37] uh so to learn that let's do some
+[0:40] example
+[0:41] yeah so the first one is this so we have
+[0:45] two L shaped arm
+[0:48] one in here and one in here and each
+[0:51] weighing five kilogram are welded at the
+[0:56] third point
+[0:58] so here here and here
+[1:01] so third Point means
+[1:03] this this this are actually equally
+[1:06] distanced uh with uh
+[1:11] with the end and the total distance is
+[1:14] 600 millimeter and so it means we have
+[1:18] 200 200 and 200 here
+[1:23] and knowing that the shaft a b here it
+[1:26] rotates with at a constant rate of Omega
+[1:29] equals 360
+[1:31] RPM and determine the angular momentum
+[1:34] of the body about a here
+[1:39] and the angle it forms with
+[1:42] a b
+[1:44] so to solve this problem we first need
+[1:47] to determine uh Define the reference
+[1:49] frame and also appropriate coordinate
+[1:52] systems as always and then we know that
+[1:55] the parts uh rotates about the axis a b
+[2:01] and determine the angular velocity of
+[2:03] the arm and determine the mass
+[2:07] moment moment of inertia Matrix
+[2:12] then finally you can compute the angular
+[2:14] momentum of the disk
+[2:17] using the moment inertia
+[2:20] so here we Define reference frame and
+[2:23] returning the difference in n and also
+[2:25] uh a which is
+[2:29] um
+[2:30] the arms here
+[2:32] we attached N1 to 3 and A123
+[2:35] is always
+[2:38] we are given the angular speed which is
+[2:41] 360 RPM and we can convert it into
+[2:44] radian per second so we have 12 pi
+[2:49] so so this Omega is actually 12 pi
+[2:54] and so then angular velocity of the arm
+[2:57] is right we can now express it in terms
+[3:01] of ABC or A1 to 3 or B uh and one two
+[3:04] three so in this case
+[3:07] um
+[3:09] the axis of rotation is this one so we
+[3:12] can just use A3 and angular speed is 12
+[3:15] pi and so we have this so this is
+[3:17] angular velocity of reference frame a
+[3:20] with respect to n
+[3:23] now let's determine the moment of
+[3:25] inertia Matrix
+[3:27] maybe this is a little bit complicated
+[3:29] because this is your first time to
+[3:31] compute this one
+[3:33] um
+[3:34] so then how do you find it
+[3:37] remember we have we studied the HG
+[3:42] can be represented as I
+[3:45] times Omega where I is well this is just
+[3:48] angle a moment of inertia Matrix one of
+[3:51] the inertia Matrix look like this one
+[3:53] right so integral of
+[3:57] R2 squared plus r 3 Square D M
+[4:01] minus R1 R2 DM minus R1 R3 DM and so you
+[4:09] just repeat this one and here we have
+[4:13] this expression and actually I put x and
+[4:17] x here and it's because if you look at
+[4:20] this expression the Omega itself is what
+[4:23] the Omega itself is just uh it has only
+[4:26] the Z component in other words if we
+[4:29] express this one in the coordinate
+[4:31] Vector notation then we have 0 0 12 pi
+[4:36] uh a
+[4:39] so we have this expression so that means
+[4:41] whatever that's come uh showing up at
+[4:44] here that doesn't contribute to angular
+[4:47] momentum at all so we can we just don't
+[4:50] need any information here because it
+[4:52] will become zero anyway because of this
+[4:54] these zeros
+[4:55] so we're just interested in finding
+[4:59] the less
+[5:00] column
+[5:02] so
+[5:04] what we can do is you can simply use
+[5:07] this information and
+[5:09] um
+[5:11] and do the integration and so forth this
+[5:13] one and one more thing to do is
+[5:18] the bar or the rod
+[5:21] so if you look at the textbook or also
+[5:25] the Google we can find information about
+[5:30] moment that inertia about the rod
+[5:34] for example if this is this has length L
+[5:37] and mass m
+[5:41] and if this is
+[5:44] um
+[5:44] let's say
+[5:46] G Direction
+[5:48] then moment you will inertia about that
+[5:50] g direction is actually 1 over 12 ml
+[5:55] squared
+[5:58] so we can use this information and also
+[6:01] we can just do this or follow this
+[6:05] definition
+[6:06] then
+[6:08] actually I gave you the calculation
+[6:10] process here so the bottom one is here
+[6:15] uh the first one is actually shown here
+[6:18] and the middle one is showing here
+[6:21] so in this way we can compute uh the
+[6:24] value here
+[6:26] one-third point one five and negative
+[6:29] 0.01 0.05
+[6:32] so from there
+[6:33] here
+[6:35] we can find that angular momentum is
+[6:38] this much
+[6:39] so in other words so this is the
+[6:42] coordinate Vector notation but then now
+[6:45] we can actually convert it into the
+[6:48] actual Vector notation with the basis
+[6:50] vector and so this is what we have
+[6:55] so we just found angular momentum of of
+[6:59] this system
+[7:00] and as you can see angular momentum
+[7:03] itself is a vector
+[7:05] okay then
+[7:08] um there's one more point the problem
+[7:10] asked us to find two uh the angular
+[7:14] momentum about Center uh not the mass
+[7:17] Center but point a
+[7:20] okay but what we did was actually
+[7:22] angular momentum about Mass center
+[7:24] then how do we find angular momentum
+[7:28] about point a so here is the expression
+[7:31] for that so angular momentum over point
+[7:33] a which is in arbitrary point
+[7:36] so in the previous pages I introduced uh
+[7:41] where I actually summarized all the
+[7:43] information
+[7:45] or angular momentum about arbitrary
+[7:47] point or Central Mass so here we have
+[7:49] that we're using that information so we
+[7:52] have angular momentum about the Central
+[7:55] Mass and we just add this part
+[7:59] and good thing is that the center of
+[8:01] mass here which is actually in the
+[8:04] Middle Point its velocity is zero so
+[8:07] this one is two
+[8:09] so as a result
+[8:11] HG is the same as h a
+[8:14] so we can just simply use this
+[8:16] information as
+[8:20] h a
+[8:22] okay now this is a vector then
+[8:25] the last problem is actually finding the
+[8:28] angle between this vector and
+[8:31] a b axis in other words what's angle
+[8:44] angle between
+[8:46] h a vector and A3 vector
+[8:50] it's quite simple you can just take the
+[8:52] dot product
+[8:57] and then divide it by its Norm
+[9:03] what normal a head is one and this one
+[9:06] is actually cosine Theta and so we can
+[9:09] get that angle in this way
+[9:11] and that's showing here
+[9:13] so the angle is
+[9:15] 25.4 degrees
+[9:19] now we have problem number two we have
+[9:23] homogeneous disc D here
+[9:25] this uh with the mess m
+[9:29] and it's mounted on an axle OG here
+[9:34] it has negligible Mass the disk rotates
+[9:37] here
+[9:38] so that means there's no slip
+[9:40] counterclockwise
+[9:44] with the rate of Omega 1 about OG
+[9:48] this point
+[9:50] now we want to find angular velocity of
+[9:53] the disk
+[9:54] and also angular momentum about 0.0
+[9:59] so let's do that
+[10:01] strategies how do you so Define
+[10:04] reference frame and coordinate systems
+[10:08] and note that this rotates about the
+[10:11] vertical axis through o as well as
+[10:13] about OG
+[10:16] that this rolls that means the contact
+[10:18] point with the ground reaction with the
+[10:21] ground has zero velocity so that means
+[10:23] at this point velocity is zero
+[10:29] and combine the rotation components with
+[10:31] the angular velocity of the disk so that
+[10:34] we can Define the velocity angular
+[10:36] velocity of the disk itself
+[10:42] and compute the angular momentum of the
+[10:44] disk using the principle axis of inertia
+[10:47] and noting that the O is a fixed point
+[10:52] so let's define the reference frame we
+[10:54] have n and we have rotating axle so I
+[10:58] just defined as a and we have disk and I
+[11:02] defined as B and we just attached a or n
+[11:05] one two three a one two three and P one
+[11:08] to three as a coordinate systems now
+[11:11] let's determine the angular velocities
+[11:12] we can start with the simple angular
+[11:14] velocity so
+[11:16] let's look at reference frame B it
+[11:19] rotates about
+[11:20] with respect to the X so it rotates
+[11:23] about B1 Axis or A1 axis with the angle
+[11:28] angular speed of Omega one so we can
+[11:30] Define this simple angular velocity so
+[11:34] this is simple angular velocity
+[11:41] if it's not simple then you cannot
+[11:43] Define angular velocity this way
+[11:46] assume that the axle rotates about
+[11:48] angular velocity of
+[11:50] Omega
+[11:51] 2 and 2. okay so that means
+[11:56] this is Omega 2. now I got eight now A2
+[11:59] or N2 so in this direction this one
+[12:01] rotates
+[12:03] so then I can just assign a new variable
+[12:06] Omega 2 because we don't know the
+[12:09] rotational speed of of X so I just
+[12:12] intentionally
+[12:14] uh edit arbitrary number
+[12:19] we variable
+[12:24] we can later we'll find it using the
+[12:27] rolling condition
+[12:29] so then the expression for the angular
+[12:32] velocity of the rigid body or the the
+[12:35] disk d a b can be expressed in this way
+[12:38] we can simply add these two
+[12:40] with the uh
+[12:43] addition theorem of angular velocities
+[12:46] we also know that the contact Point C
+[12:51] at the ground has zero velocity so let's
+[12:54] find the expression for velocity of
+[12:57] Point C we know that velocity of 0.0
+[13:00] here is zero
+[13:03] then what we have to do is we have
+[13:06] angular velocity and
+[13:08] the equation Vector from o to
+[13:13] this one
+[13:15] is expressed in this way
+[13:17] and just simply compute it and just set
+[13:22] this velocity to be zero then all you
+[13:24] have to do is
+[13:26] this part
+[13:28] this value needs to be zero
+[13:32] in other words we now know the
+[13:34] relationship between Omega 2 and Omega
+[13:36] 1. and so Omega 2 is minus r Omega 1
+[13:40] over l
+[13:42] so now we have expression complete
+[13:44] expression for angular velocity of
+[13:47] reference frame B in terms of n
+[13:51] so we have this one
+[13:54] now in a moment inertia Matrix of the
+[13:57] disk moment of inertia of the disk uh
+[14:01] will look like this one let me just give
+[14:03] you an idea about why we have this one
+[14:06] so if we have
+[14:10] one of the winners share of disk uh very
+[14:13] thin disk
+[14:15] and if this is the one axis and if this
+[14:20] is
+[14:22] um
+[14:23] why and if this is X then moment of
+[14:27] inertia about Z axis is one half m r
+[14:31] squared where R is the radius
+[14:35] and
+[14:37] in X direction is one fourth of m r
+[14:40] squared which is also the same as y
+[14:43] direction
+[14:45] how do you find it you can actually
+[14:47] compute it using
+[14:50] um
+[14:52] are
+[14:53] Square DM relationship or you can also
+[14:57] search for the Google and you can easily
+[14:59] find this relationship
+[15:00] and so so in our case extraction is
+[15:05] equivalent to the G Direction so that's
+[15:07] why in X direction we have half of m r
+[15:10] squared which is this one and for Y and
+[15:13] Z direction we have one fourth of m r
+[15:15] squared
+[15:16] and this structure itself is symmetric
+[15:19] right how about this axis so all all
+[15:24] non-diagonal of diagonal elements are
+[15:27] zero
+[15:29] so we have this one
+[15:32] and now uh what is angular momentum
+[15:34] sorry angular velocity we already have
+[15:37] expression for that
+[15:39] okay then
+[15:43] now we need to compute the angular
+[15:44] momentum about the mass Center so
+[15:46] angular momentum of the mass Center
+[15:50] uh what is a vector but we can actually
+[15:53] represent it with the
+[15:55] Matrix notation
+[15:59] in this case
+[16:01] Omega and this one is given here so we
+[16:05] have
+[16:07] now we have this expression and what
+[16:10] about Omega
+[16:11] Omega here we have this so we have omega
+[16:15] 1 and minus r Omega 1 over L and zero
+[16:22] so you just simply compute this one
+[16:25] and then
+[16:28] you will have
+[16:29] value value and then the last value
+[16:33] is I believe it's zero so in that case
+[16:37] this value comes here as B1
+[16:41] and this value
+[16:43] comes here as
+[16:45] picture and that's why I have
+[16:48] why I have this expression
+[16:51] so we're almost there so the angular
+[16:53] momentum of the disk about o can be
+[16:55] computed in in this way so we just found
+[16:59] angular momentum about the center then
+[17:02] now we have to shift it to uh
+[17:06] 2.0 using this expression I already
+[17:11] introduced this one before right
+[17:17] yeah here and that's also summarizing in
+[17:20] the summary page
+[17:25] so using this relationship and
+[17:29] um
+[17:31] we already we also know that velocity of
+[17:33] points C
+[17:39] uh Nazi Point G here this is typo this
+[17:44] one has to be Point G then we know the
+[17:47] velocity of Point G which is this one
+[17:49] then plug this information here then we
+[17:53] finally have angular momentum about uh
+[17:57] the fixed point O
+[17:58] which is expressed in this way
+[18:01] okay
+[18:02] okay so this is the last problem
+[18:06] so we are
+[18:07] given a rod near a b
+[18:12] mess is 20 kilogram it's pinned at a so
+[18:16] you can actually freely rotate but there
+[18:18] is a cable
+[18:20] holding this point B
+[18:25] and this whole arm is actually rotating
+[18:30] about about this axis
+[18:33] with the angular speed of Omega
+[18:35] and it's actually 15 radian per second
+[18:39] so now uh the problem is
+[18:41] the rod position is
+[18:44] maintained by a horizontal wire PC so
+[18:47] this one this is holding the rod
+[18:50] now determine the tension in the wire
+[18:53] and also the reaction at here
+[18:56] so we have to find the tension on the
+[18:59] force and also the direction Force here
+[19:02] so now we have to relate angular
+[19:03] momentum and uh acceleration or a Time
+[19:08] derivative angular momentum and
+[19:09] acceleration uh with the sum of the
+[19:13] forces and the sum of the moments
+[19:15] so now this is the real uh
+[19:19] Dynamics problem
+[19:21] so evaluate the system of effective
+[19:25] forces by reducing them to a vector M A
+[19:30] and also the angular momentum or HG
+[19:34] also Express the system of external
+[19:36] forces
+[19:37] is actually equivalent to the system of
+[19:40] effective forces and the vector so we
+[19:43] can write the vector expression for the
+[19:46] sum of moment and about arbitrary point
+[19:50] a here actually this is the PIN well the
+[19:55] pin is located
+[19:56] and then the summation of the forces
+[19:59] then you can finally source for the wire
+[20:01] tension and the reaction force is that
+[20:04] that pin joint a so let's Define
+[20:07] reference frame so we have n
+[20:09] A and B and return it from frame a is X
+[20:14] so this axle
+[20:16] so when X1 rotates uh now the recording
+[20:20] systems for n one two three and a one
+[20:23] two three will be different but at this
+[20:25] more moment they actually uh coincide
+[20:32] we also have reference frame B for Rod
+[20:36] we I also defined P1 two and three here
+[20:40] V1 2 and
+[20:44] uh
+[20:46] three
+[20:48] which is not actually expressed but in
+[20:51] this fraction
+[20:53] angular velocity of a with respect to n
+[20:56] is this one this is first uh
+[20:59] from the simple angular velocity
+[21:02] expression
+[21:03] so a is
+[21:06] the rotating body about this axle so it
+[21:10] has to be about N2 Direction which is
+[21:12] this and angular speed is Omega so
+[21:16] that's why we have this expression what
+[21:18] about angular velocity of reference
+[21:20] frame B this one uh in terms of
+[21:24] this axle
+[21:26] there is only one point
+[21:28] so about this point uh this body
+[21:32] reference between B is actually rotating
+[21:34] about that direction so we have a three
+[21:38] Direction which is this one and here
+[21:41] beta is actually fixed number but I
+[21:44] actually intentionally use beta dot to
+[21:48] save the variable
+[21:50] but later I will just set this set this
+[21:53] failure that to be zero
+[21:56] so then the angular velocity of B with
+[21:59] respect to the Newtonian frame is you
+[22:02] can just sum these two by using uh
+[22:06] addition theorem of angular velocities
+[22:09] what about the momentum inertia about of
+[22:12] the world about the mass Center
+[22:14] so
+[22:17] I already explained this one in the
+[22:19] problem number one
+[22:20] so if you have a z-axis
+[22:25] let's say
+[22:27] x axis
+[22:33] y-axis then i z
+[22:36] and I Y is
+[22:39] 1 over 12 M L squared if the total
+[22:44] length is l
+[22:45] and I X is zero because
+[22:49] the width is thin
+[22:52] so that's why we have this expression
+[22:55] and also uh the system the risk the
+[22:59] structure itself is symmetric about the
+[23:01] ACT uh the coordinate systems so all of
+[23:05] diagonal values are zero as well
+[23:10] so now we have IG and we also know that
+[23:13] the angular velocity of P
+[23:17] and then now we can just replace
+[23:19] represent this angular velocity in terms
+[23:21] of B1 and B2 because we have to express
+[23:25] it in terms of body coordinate system
+[23:29] because IG is also expressed in terms of
+[23:32] body coordinating system then you can
+[23:34] just use this relationship
+[23:36] then the angular momentum about of
+[23:40] body in terms of math Center is as
+[23:45] simple as this one
+[23:47] now we are interested in all the moments
+[23:50] and the forces reaction forces in
+[23:53] intention
+[23:54] and to do that now we have to perform
+[23:57] differentiation of the angular momentum
+[23:59] in terms of Newtonian reference for you
+[24:01] and let's do that but remember this HG
+[24:04] is expressed with uh in terms of b123 so
+[24:09] it's better to differentiate it with B
+[24:11] then now we have to introduce this part
+[24:15] so this is the vector differentiation
+[24:17] formula
+[24:18] and just compute it and we have this one
+[24:21] so this is H dot angular momentum
+[24:27] Dot
+[24:29] we also need to find
+[24:32] acceleration of the best center which is
+[24:35] this part
+[24:36] so let's find it
+[24:38] we can simply use the two point
+[24:40] relationship
+[24:43] uh what about acceleration of point a
+[24:45] that's zero right so it's quite quite
+[24:48] convenient we already we also know the
+[24:51] accelerate angular acceleration and
+[24:54] angular velocity and angular
+[24:56] acceleration is zero because there is no
+[24:58] other relative motion
+[25:01] so it's zero zero and so all you have to
+[25:03] do is just simply compute this part
+[25:06] and that's why we have this expression
+[25:10] so we are almost done
+[25:13] then just relate
+[25:16] acceleration and the time derivative of
+[25:19] angular
+[25:20] angular momentum with the Four Season
+[25:22] moments let's do that so we have force
+[25:26] and moment
+[25:27] so now draw the Free by diagram
+[25:31] so we have a tension in this direction
+[25:34] we have body weight in this direction we
+[25:36] have reaction at Point a
+[25:40] so some of all the forces we have
+[25:43] reactions so this is reaction force and
+[25:46] we have body weight so this is great and
+[25:50] this is the tension
+[25:54] and I intentionally assigned uh the
+[25:57] coordinate coordinate systems here and
+[26:00] the values here
+[26:02] this is very natural settings and then
+[26:05] just compute them and relate it with the
+[26:09] acceleration times mass we already found
+[26:12] the acceleration in the previous page
+[26:13] here
+[26:15] okay
+[26:16] then what we have is this
+[26:19] so this one and
+[26:22] this one uh they have to be the same so
+[26:26] in that case so in that sense we can
+[26:28] find R1 t r two and R3
+[26:34] since uh if you look at here we don't
+[26:36] have any N2 or N3 components so R3 is
+[26:40] zero and R2 has to be mg
+[26:44] but we don't know this part yet we need
+[26:47] more equation
+[26:48] so let's look at the Euler's lobe
+[26:51] rotation so let's look at a moment
+[26:56] we don't have any explicit moment moment
+[26:59] Source but we have all the forces that's
+[27:03] affecting the moment so this reaction
+[27:06] force is uh
+[27:09] contributing to the moment
+[27:11] so reaction force R and we have to just
+[27:15] cross product the distance Vector from
+[27:18] here to here so we have that and also
+[27:21] tension is contributing to a moment so
+[27:24] we have to cross product this portion
+[27:28] vector
+[27:29] but the weight doesn't contribute to the
+[27:32] moment so we can just drop that and so
+[27:36] simply compute that
+[27:38] then we have
+[27:41] this expression
+[27:43] and from the previous Pages here
+[27:48] we already have H the time derivative of
+[27:52] HG
+[27:54] that's here
+[27:56] so from Euler's formulation sum of
+[27:59] moment has to be the same as this one
+[28:02] so
+[28:03] we can equate this and this
+[28:06] so from here and here
+[28:09] combining these two results we can now
+[28:12] find the tension
+[28:14] which is this direction and also the
+[28:16] reaction force
+[28:18] like in this way
+[28:19] [Music]

@@ -1,0 +1,394 @@
+YouTube transcript
+Video ID: wvbS3WXMjrI
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:18] in the previous lectures we studied
+[0:20] kinematics of rigid bodies in 3D space
+[0:23] we also studied kinetics for particles
+[0:26] in this lecture we study kinetics of
+[0:30] rigid bodies in 3D space
+[0:33] we learned that Newton's law of motion f
+[0:35] equals m a can be applied to each
+[0:38] particle within a system of multiple
+[0:40] particles
+[0:42] we also learned that how to derive
+[0:45] equations of motion for particles by
+[0:47] drawing free by diagrams
+[0:49] however in 3D Space drawing free by
+[0:53] diagram itself is not as simple as it
+[0:56] was in the previous lectures
+[0:58] even though the fundamental principle is
+[1:00] still the same in 3D space equations of
+[1:04] motion for translation will be mostly
+[1:07] derived by linear momentum equations
+[1:12] so
+[1:14] we can still use f equals MMA but
+[1:16] sometimes we intentionally use f equals
+[1:19] the time derivative of linear momentum
+[1:31] linear momentum so consider the
+[1:34] following reference frame B
+[1:37] here
+[1:39] with the angular velocity
+[1:42] Omega p
+[1:43] with respect to reference frame n and
+[1:46] its Center of mass G here
+[1:51] posting tuning reference frame in
+[1:54] and the body reference name B has their
+[1:58] own coordinate systems n123 and b123
+[2:01] respectively
+[2:04] also consider a small Mass element here
+[2:08] DM to examine a rigid body with random
+[2:12] shapes
+[2:13] note that we have the corresponding
+[2:15] position vectors for example equation
+[2:19] Vector for the particle p and the
+[2:22] position Vector for Center or Mass
+[2:27] G and also we have the Velocity
+[2:30] component for p particle here and also
+[2:33] velocity component for
+[2:36] Central Mass
+[2:40] then the linear momentum of
+[2:44] the element DM can be defined in this
+[2:46] way mass times velocity so we have
+[2:49] simply this one
+[2:51] what about the total linear linear
+[2:54] momentum of the whole body rigid body B
+[2:57] in this case you can simply take the
+[2:59] integral over all the whole body
+[3:02] so you can just take the integral of
+[3:04] this small element
+[3:08] then what we can do is
+[3:11] Now using the two point relationship we
+[3:14] have this
+[3:17] and then you can simply just compute the
+[3:20] equations
+[3:22] like so
+[3:30] and angular momentum is actually uh it's
+[3:33] not about the point it's about the whole
+[3:35] body itself so it's actually considered
+[3:38] uh independent of the mass index so it
+[3:43] can actually come out like this
+[3:47] but then by definition of the uh
+[3:51] Center of mass
+[3:53] this part actually becomes zero
+[3:56] so the only thing left is this
+[3:59] and so we can see that
+[4:03] the velocity of uh best center is also
+[4:07] considered to be constant or independent
+[4:09] of
+[4:11] the mess element so you can come out
+[4:14] then we have only this part and
+[4:16] summation of PM is actually the total
+[4:21] mass so that's why we have this
+[4:23] expression
+[4:26] so we can conclude that the linear
+[4:29] momentum of the rigid part itself is
+[4:32] actually the same as the linear momentum
+[4:34] of its Center of mass this is very
+[4:37] convenient and useful statement
+[4:41] now what about the angular momentum
+[4:44] so consider the same System since we are
+[4:48] a rigid body may also rotate angular
+[4:51] momentum should be considered as well
+[4:54] so how do you define angular momentum
+[4:56] about Mass center G
+[4:59] so if we have mass Center G here and if
+[5:03] we have small
+[5:05] Mass DM then
+[5:12] we can also Define r
+[5:16] which is the relative position Vector
+[5:18] from the center to the particle or the
+[5:23] mess element
+[5:25] then we can simply have this one
+[5:27] so we have R cross linear momentum so
+[5:32] that's how we get angular momentum or a
+[5:35] moment of momentum
+[5:38] then what about the total angular
+[5:40] momentum it's simply integration of this
+[5:44] over over a whole body so we we do this
+[5:48] one
+[5:52] so DM is just just a scalar so we can
+[5:55] just switch the order
+[5:58] and then also using the two point
+[6:00] relationship we can relate the velocity
+[6:03] of the point p with the velocity of the
+[6:05] point or Central Mass
+[6:10] and to the distribution of r
+[6:13] over this then we have this one and this
+[6:18] one
+[6:20] again
+[6:23] velocity of the center of mass
+[6:27] is independent of the mass element so it
+[6:30] can come out of the integral
+[6:32] and this again is zero because due to
+[6:37] the definition of the mess Center
+[6:39] then the only thing left is this part
+[6:42] so this is the expression for the total
+[6:46] angular momentum of the body or rigid
+[6:49] body B about my Center G
+[6:53] but not like the linear momentum this
+[6:55] last expression is not that convenient I
+[6:58] mean we still have cross product
+[7:01] notation and so
+[7:04] um it's not that convenient to use it in
+[7:06] the equations so then what what should
+[7:09] we do
+[7:10] to find more practical Solutions let's
+[7:12] introduce coordinates in terms of the
+[7:14] body so body means we are using B1 B2
+[7:20] and B3 coordinate systems so let's
+[7:23] assume that our vector
+[7:26] here is Center
+[7:28] G and if this is R vector and this R
+[7:32] Vector is expressed in terms of r 1 if
+[7:36] you want
+[7:38] R2 V2
+[7:40] are three B3 where these are one two
+[7:44] three are the coordinates
+[7:49] of
+[7:50] this relative position Vector R in
+[7:53] reference frame
+[7:54] B
+[7:56] we do the same thing for the angular
+[7:58] velocity
+[8:00] we also have angular velocity of body B
+[8:02] in terms of n
+[8:04] and we expressed it with B1 B2 and B3
+[8:09] now let's compute it
+[8:12] so we actually started from here and
+[8:15] plug all the expressions for R and Omega
+[8:19] and we get this expression well this is
+[8:23] just simple calculation so uh I
+[8:26] recommend you guys to do it by yourself
+[8:28] okay
+[8:30] then so we have this expression and we
+[8:33] just do it a little bit of a
+[8:35] rearrangement of the integral then we
+[8:39] have integral of this integral of this
+[8:42] one and integral of this one
+[8:44] the main point here is that we have uh
+[8:48] three elements in also one each in each
+[8:51] Direction so we B1 Direction B2
+[8:53] Direction and B3 Direction
+[8:55] in other words so this is actually
+[8:58] angular momentum of let's see
+[9:01] so angular momentum is a vector
+[9:05] with the base six Vector B1 B2 and B3
+[9:09] and we have
+[9:11] some numbers here so these are the
+[9:14] numbers
+[9:16] and for simplification I can just name
+[9:20] this one as H1 and this is H2 and this
+[9:24] is H3
+[9:26] if that's the case then we can clearly
+[9:29] see that the angular momentum
+[9:31] about the center my Center is simply
+[9:34] expressed in this way
+[9:37] after introducing the coordinates this
+[9:40] one this one and then we computed the
+[9:42] total angular momentum of B and uh in
+[9:46] the pre from the previous page we saw
+[9:48] that
+[9:50] um
+[9:51] it was H1 B1 plus H2 B2
+[9:56] plus H3 B3 so so this is the actual
+[10:01] Vector notation of angular momentum
+[10:05] but sometimes it's better to use
+[10:09] um
+[10:10] Matrix
+[10:11] notation or or
+[10:13] coordinate Vector notation
+[10:16] so this one can be expressed in this way
+[10:20] here we assume that we have the
+[10:24] coordinate systems B1 B2 and B3
+[10:27] so if that's the case then we can just
+[10:30] put H1 here H2 here and H3 here and so
+[10:35] these are actually the coordinates for
+[10:38] angular velas angular momentum
+[10:43] and the reason why I'm expressing this
+[10:45] one into this form is to have
+[10:49] this expression
+[10:51] so in the previous page we saw that
+[10:54] we have
+[10:56] this expression and if you look at now
+[10:59] look this expression more carefully we
+[11:01] have
+[11:02] omega 1
+[11:03] Omega 2
+[11:04] omega-3 and also Omega 1 2 3 1 2 3. so
+[11:09] in that case we can somehow pull Omega
+[11:12] one to three outside and then we can
+[11:15] have a matrix form
+[11:18] of this
+[11:19] expression that's actually given in here
+[11:25] so we can actually uh separate this
+[11:29] angular moment our angular velocity term
+[11:31] and also this term but if you look
+[11:35] carefully inside all of these values are
+[11:38] related to r123
+[11:42] r123 are just the shapes of the the
+[11:45] rigid body so this is the geometric
+[11:48] quantity
+[11:54] so in other words if the shape of the
+[11:56] rigid body is already fixed then this
+[12:01] geometric quantity is fixed
+[12:04] in other words this Matrix is a constant
+[12:08] Matrix whereas
+[12:11] this angular velocity is
+[12:14] just time varying angular velocity
+[12:17] vector
+[12:19] okay and here I just want to mention
+[12:22] that I used a visual notation here
+[12:24] because uh
+[12:27] if you look at here
+[12:30] H Vector so this is Vector notation with
+[12:33] the basis vectors here but then I also
+[12:36] then move to this uh
+[12:39] coordinate expression
+[12:41] usually we cannot just combine this
+[12:44] expression with this one but we we know
+[12:48] the uh the the intention of of this
+[12:51] notation
+[12:52] because it's a lot easier to to
+[12:54] understand
+[12:57] so I intentionally introduced the
+[12:59] original notation here so from here we
+[13:01] directly jump to this coordinate
+[13:03] expression and from this coordinate
+[13:05] expression I actually introduced The
+[13:07] Matrix equation
+[13:11] and so since this is Matrix 3x3 Matrix
+[13:15] and I I uh use the notation of this so
+[13:19] this is three by three Matrix and then
+[13:22] this is three by one vector
+[13:25] but even simpler I can just put this one
+[13:29] as
+[13:30] IG and this one is
+[13:33] omega
+[13:34] again
+[13:36] sometimes maybe this notation is not
+[13:39] that rigorous but for the convenience we
+[13:43] can still use this one because it's more
+[13:45] intuitive more easy easier to express
+[13:48] this complicated Dynamics
+[13:52] um
+[13:53] and then it's more uh
+[13:57] intuitive okay
+[13:59] then now let's look at what's in uh in
+[14:02] in the middle so
+[14:05] as I said this is geometric related
+[14:08] quantity and then here I named it as
+[14:11] moment of inertia Matrix
+[14:15] so if you look at the moment inertia
+[14:18] Matrix again we all we see is just r123
+[14:23] right so it's all related with the shape
+[14:26] of the rigid body
+[14:29] and all you have to do is you simply
+[14:31] perform the integration of a whole
+[14:36] body and you can somehow get the the
+[14:39] values here
+[14:44] then what is moment of inertia uh so
+[14:47] what's the meaning of it so moment of
+[14:49] inertia is the resistance of the body to
+[14:51] rotate it's similar to f equals MMA or
+[14:55] the inner the mess so if if you have f
+[14:59] equals m a this mess is actually the
+[15:01] resistance against the movement
+[15:04] and for the rotation the same thing the
+[15:08] same idea uh arises so for the rotation
+[15:11] uh there is exists of resistance so
+[15:15] that's actually the moment in motion
+[15:19] the moment inertia Matrix depends on the
+[15:23] geometric configuration of the rigid
+[15:25] body and also it depends on the choice
+[15:27] of the coordinate systems
+[15:31] so if we choose if the chosen coding
+[15:35] system is fixed to the body then the
+[15:38] moment of inertia Matrix is also fixed
+[15:40] but if the coordinate system is not
+[15:44] fixed to the body then the momentum
+[15:47] inertia Matrix will change
+[15:49] so it's better to use fixed
+[15:53] momentum inertia Matrix
+[15:56] in that case if you have the shape one
+[15:58] shape of a rigid body then the momentum
+[16:02] inertia is always the same
+[16:04] and another important thing is that the
+[16:07] moment of inertia Matrix is always
+[16:09] symmetric and positive
+[16:15] and sometimes
+[16:17] choosing appropriate coordinate system
+[16:19] is very important in defining a moment
+[16:22] of inertia Matrix so appropriate
+[16:25] coordinate system
+[16:26] can drop the off diagonal terms so if
+[16:30] you look at the momentumulation Matrix
+[16:33] there is the diagonal element and also
+[16:37] off diagonal elements
+[16:41] if possible making off diagonal uh
+[16:46] terms to be zero is
+[16:49] very beneficial it may all make the
+[16:52] problem simpler much simpler
+[16:54] and if you choose your coordinate
+[16:57] systems so that the geometry of of the
+[17:01] rigid body is symmetric about the
+[17:03] coordinating system then usually
+[17:06] um
+[17:08] the off diagonal terms becomes you
+[17:17] so symmetric
+[17:39] when I say symmetric coordinate systems
+[17:42] coordinate system itself is not
+[17:43] symmetric but due to the coordinate
+[17:45] system the geometry of
+[17:49] uh geometry of the rigid body can become
+[17:52] symmetric in that case the octagonal
+[17:55] token are pin
+[17:57] can become zero
+[18:03] if R is expressed in in with a different
+[18:08] coordinate systems then Omega should be
+[18:11] should also be expressed in the same
+[18:13] coordinate systems that's also important
+[18:15] so when I drive the
+[18:18] um
+[18:18] angular momentum
+[18:21] so
+[18:23] I actually assume that
+[18:27] R Vector is in terms of B one two three
+[18:30] and also Omega is B1 about the b123 so
+[18:34] this one is very important they have to
+[18:37] have the same coordinate systems
+[18:41] if our angular momentum is computed
+[18:43] about any arbitrary
+[18:45] Point other than the Central Mass G
+[18:50] then the moment we inertia should also
+[18:52] Define it should be also defined
+[18:53] accordingly so in the previous one I
+[18:56] defined
+[18:57] of angular momentum about the center of
+[19:00] mass G but we can also Define it with
+[19:03] respect to some any arbitrary point
+[19:07] so for example we have messenger G here
+[19:10] but we can choose some point C
+[19:14] any random Point C and we can
+[19:18] assign row Vector that's actually
+[19:21] the different relative position from G
+[19:25] to C
+[19:27] so in that case
+[19:32] is a matrix this one
+[19:35] can be expressed
+[19:37] uh in this way so we have
+[19:42] momentum inertia about the Miss Center
+[19:45] and then we can add some additional term
+[19:48] here
+[19:49] this is actually expressed in this way
+[19:54] so if we just add this one with this
+[19:57] offset value then the momentum moment
+[20:01] the minority Matrix can be modified such
+[20:04] that it's actually about that arbitrary
+[20:06] Point C
+[20:07] foreign
+[20:10] [Music]

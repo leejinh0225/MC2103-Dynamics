@@ -17,6 +17,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 - `lecture09.html`: Week 09 · Lecture 9 강체 운동학 I 학습 노트 (44장, 영어 영상 5개 대조)
 - `lecture10.html`: Week 10 · Lecture 10 강체 운동학 II 학습 노트 (58장, 영어 영상 5개 대조)
 - `lecture11.html`: Week 11 · Lecture 11 강체 운동학 III 학습 노트 (53장, 영어 영상 5개 대조)
+- `lecture12.html`: Week 12 · Lecture 12 강체 운동역학 학습 노트 (61장, 영어 영상 5개 대조)
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
 
 ## 공통 자산
