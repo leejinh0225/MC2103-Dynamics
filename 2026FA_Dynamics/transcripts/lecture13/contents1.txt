@@ -1,0 +1,462 @@
+YouTube transcript
+Video ID: GEn0WjgNc4g
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:18] s applied to the robotic arm control the
+[0:21] resulting
+[0:23] kinematics as you can see here
+[0:27] and therefore the end position and
+[0:29] forces of the actuators at the end of
+[0:32] the robotic arm
+[0:38] forces shape and mess up the body and
+[0:42] the motion will be the topic of today's
+[0:45] lecture
+[0:47] we will be concerned with the kinetics
+[0:49] of rigid bodies which is the
+[0:52] relationship between the forces
+[0:55] which is acting on the rigid body and
+[0:58] the shape
+[0:59] of and the mass of the body and also the
+[1:02] motion which is produced by the forces
+[1:07] last week we studied kinetics of rigid
+[1:10] bodies in 3D space
+[1:13] we also tried several examples
+[1:17] this week
+[1:18] will restrict our focus on 2D plane
+[1:21] motion
+[1:23] the main reason is that in many
+[1:25] engineering applications Dynamic
+[1:28] analysis only in 2D space can provide
+[1:31] enough information
+[1:33] in addition equations of motion in plane
+[1:36] motion is much simpler than equations of
+[1:40] motion in 3D space
+[1:43] examples include rigid bodies consisting
+[1:46] of plane slabs or bodies which is
+[1:50] symmetrical with respect to the
+[1:52] reference plane
+[1:55] here is the summary of the plane
+[1:57] kinetics
+[1:59] consider rigid bodies
+[2:02] is made of large numbers of particles
+[2:07] then use the results of week 8.
+[2:11] for the Motions of systems of particles
+[2:15] specifically
+[2:17] we have f equals m a and
+[2:22] m equals H dot here
+[2:25] F and a are vectors
+[2:29] also
+[2:31] m in H
+[2:34] are vectors but its vectors in One
+[2:37] Direction therefore
+[2:39] this m
+[2:41] and H
+[2:43] can also be treated as scalars
+[2:53] now let's derive equations of motion for
+[2:57] a rigid body with plane motion
+[3:01] consider a rigid body acted upon by
+[3:04] several external forces
+[3:08] as you can see here
+[3:11] also assume that the body is made of a
+[3:15] large number of particles
+[3:19] since we have already studied the
+[3:21] equations of motion of a rigid body in
+[3:23] general in the previous week we'll use
+[3:27] them since 2D Dynamics is a special case
+[3:31] of 3D Dynamics
+[3:36] so let R here
+[3:38] be a position Vector to each Mass
+[3:41] element
+[3:42] and
+[3:45] Omega
+[3:46] to be an angular velocity Vector over
+[3:49] rigid body p
+[3:51] so in this case I can draw a widget body
+[3:57] I can assign it as a reference frame B
+[4:01] and then
+[4:03] we may consider a center of mass
+[4:06] G
+[4:08] and we can also
+[4:10] consider a small mess element then
+[4:14] this is our vector and overall the rigid
+[4:19] body is rotating with angular velocity
+[4:26] in this way
+[4:28] so then the angular momentum about the
+[4:31] center Mass can be computed as follows
+[4:38] here please note that we have a clear
+[4:40] structure
+[4:42] the first part
+[4:46] is the Matrix and the second is
+[4:50] a vector
+[4:52] this Matrix is called moment of inertia
+[4:57] foreign
+[5:16] in 2D space let's assume that we have
+[5:19] only X and Y coordinates
+[5:26] z-coordinate is assumed to be zero or
+[5:30] constant so there is no movement in this
+[5:32] direction
+[5:34] so in this case in our vector
+[5:37] R3 becomes zero as shown in here
+[5:41] also
+[5:43] the Omega Vector angular velocity
+[5:47] we have X component and Y component to
+[5:50] be zero but we have only the Z component
+[5:53] which is non-zero
+[6:00] then angular momentum becomes this
+[6:07] so we can plug our Vector here R3 0 so
+[6:11] we don't see any R's in here right and
+[6:14] also we have only omega-3 in here and
+[6:17] put Omega 1 and 2 become zero then if
+[6:21] you just compute this
+[6:23] matrix multiplication you will end up
+[6:26] with
+[6:27] this expression
+[6:28] then
+[6:31] it is more convenient to express the
+[6:34] angular momentum as a scalar
+[6:36] because all other components in X and Y
+[6:41] they become zero so we just have
+[6:44] non-zero Z component and so it's more
+[6:47] convenient to experience Express the
+[6:50] angular momentum as a scalar value
+[6:54] where the value itself is the same as
+[6:56] the Z component of the angular momentum
+[6:59] vector
+[7:00] so both I and G
+[7:05] where R is this one
+[7:08] in
+[7:10] Omega sorry Omega here
+[7:12] are considered to be scalar
+[7:19] parallel axis theorem can also be
+[7:21] simplified into this space
+[7:24] in other words
+[7:26] I see
+[7:28] which is the moment of inertia about any
+[7:31] arbitrary Point C
+[7:33] here
+[7:34] is sum of IG
+[7:37] which is the moment of inertia about the
+[7:39] center of mass
+[7:45] and we can add it with some extra term
+[7:48] but in 2D space
+[7:51] we finally have
+[7:53] this expression where the second term
+[7:56] here
+[7:57] is mass times the distance squared
+[8:05] note that in 2D space every entities
+[8:07] including matrices and vectors are
+[8:09] scalar
+[8:15] now let's apply Newton's Law
+[8:18] for translational Motion in 3D space we
+[8:21] had
+[8:23] f equals m a or
+[8:26] ldat
+[8:30] and so this is also same as m a
+[8:36] this is the same or true in into this
+[8:39] space so we have
+[8:42] this expression
+[8:46] for rotational motion about Math Center
+[8:48] we have
+[8:50] sum of moment
+[8:56] here and that is the same as H Dot
+[9:00] since we need to differentiate h
+[9:04] this h
+[9:06] in terms of Newtonian reference frame
+[9:08] over other
+[9:11] than the body reference frame we need to
+[9:14] apply the vector differentiation formula
+[9:16] as you can see in here
+[9:19] however in 2D space
+[9:22] both the angular velocity
+[9:25] here
+[9:29] and angular momentum are in the same
+[9:31] direction
+[9:32] therefore the cross product
+[9:36] this part will become zero
+[9:40] as a result into this space we have
+[9:46] H Dot
+[9:48] which is the same as I times
+[9:52] Omega Dot
+[9:54] or
+[9:56] I times Alpha
+[9:59] also note that Alpha is the same as
+[10:02] Theta double that into this space so
+[10:04] into this space so Alpha is
+[10:07] Omega dot is
+[10:09] Theta Double Dash this is true only in
+[10:13] 2D space but not true in 3D space
+[10:18] if the rotational motion is about any
+[10:20] arbitrary Point C
+[10:25] then we have this equation
+[10:29] we start this we studied this one in the
+[10:32] last week
+[10:34] if the point C is a fixed point
+[10:37] in other words this velocity becomes
+[10:40] zero
+[10:41] then we have H Dot
+[10:47] sum of moment here
+[10:49] about
+[10:51] D arbitrary Point C
+[10:55] which is also the same as I see
+[10:59] times Omega here
+[11:02] in 2D space
+[11:04] we have sum of m c
+[11:10] here
+[11:12] which is the same as IC
+[11:15] times
+[11:17] Omega Dot
+[11:19] that's also the same as IC times Alpha
+[11:23] again this is the summary
+[11:25] described in the picture so if we have
+[11:28] all the forces and maybe the moment due
+[11:32] to the forces then we actually have
+[11:38] l dot or ma part for translational
+[11:41] motion and also for the rotational
+[11:43] motion we have H Dot
+[11:53] when we apply equations of motion into
+[11:56] this space we assume that the bodies are
+[11:59] symmetrical with respect to the
+[12:00] reference plane
+[12:02] otherwise we need to apply the general
+[12:05] equations of motion into reading space
+[12:07] that we studied last time
+[12:10] if we consider the equations of motion
+[12:12] in scalar form
+[12:15] we have the following equations
+[12:17] so this is the X component this is y
+[12:21] component and this is the rotational
+[12:24] part and again we we may say that this
+[12:27] is in Z Direction but since we have only
+[12:30] one direction here so this part can be
+[12:34] expressed as a scalar not vector
+[12:37] please note that the general plane
+[12:40] motion can be replaced by sum of
+[12:43] translation and centroidal rotation
+[12:52] the equations of motion can be
+[12:54] formulated
+[12:56] by drawing the Free by diagram as we did
+[12:59] in the previous example previous weeks
+[13:06] once we have a free body diagrams for
+[13:08] all bodies then the equations of motion
+[13:11] can be simultaneously solved
+[13:19] here are some examples for drawing the
+[13:23] free body diagrams
+[13:25] so the freeway diagram is the same as
+[13:28] you have done in the Statics or the one
+[13:31] that we didn't that we did in week four
+[13:34] so we will add the kinetic kinetic
+[13:38] diagram in our in our Dynamic analysis
+[13:41] so the first so here are some steps
+[13:44] for doing that
+[13:46] the first one is we isolate the body of
+[13:48] Interest
+[13:50] in other words the free body
+[13:52] and then we draw our axis system in
+[13:56] other words the coordinate systems it
+[13:58] can be either Cartesian polar or path
+[14:01] coordinate systems
+[14:03] then we add all the applied forces and
+[14:07] add it to the free body
+[14:11] replace all the supports with the forces
+[14:13] for example the tensions or the no more
+[14:16] forces
+[14:20] finally draw appropriate dimensions for
+[14:22] example the angles
+[14:32] so let's do it
+[14:34] so as you can see in the previous
+[14:35] example we have
+[14:38] the system so we have a ball or disk and
+[14:42] the ball is wrapped with the cable here
+[14:46] so this end is fixed and obviously if
+[14:50] someone is holding this
+[14:51] part then we'll have attention
+[14:56] at the cable
+[14:57] then since the ball itself has weight
+[15:02] it will
+[15:03] fall down right but since also the cable
+[15:06] is holding the whole ball
+[15:09] this ball itself may experience some
+[15:11] rotations
+[15:13] so let's Analyze This motion
+[15:16] by drawing the three by diagram
+[15:19] so as you can see here we have a disc or
+[15:21] ball here so this is our free body or
+[15:24] the body of Interest
+[15:28] and apply all the forces for example we
+[15:31] have tension
+[15:33] from the cable and then we have the body
+[15:35] weight
+[15:36] so these two are the force components
+[15:41] and also we can assign a coordinate
+[15:44] system here so in general if there is no
+[15:46] specific uh situation then
+[15:50] X and Y Direction with the Cartesian
+[15:53] coordinate is okay
+[15:56] and so that's all we have maybe one more
+[15:59] thing that we we can consider is the
+[16:02] dimension
+[16:03] okay other than that
+[16:06] we have we just draw uh through the Free
+[16:09] by diagram and one last thing is you can
+[16:12] just add the kinetic diagram which is m
+[16:15] a part and also the angular momentum
+[16:18] part
+[16:20] then what you have to do is
+[16:22] you just set up an equations of motion
+[16:25] so this part is for translational motion
+[16:37] second one is for rotation
+[16:46] so we can solve for these equations by
+[16:50] looking at this free by diagram
+[17:01] so as I said before you can draw in the
+[17:04] the math times acceleration of the
+[17:07] widget bodies in this case
+[17:10] but if we don't know the direction then
+[17:12] the positive direction is based on our
+[17:16] uh coordinate systems
+[17:19] and also since we are dealing with the
+[17:21] rigid parties then we have to include
+[17:23] the rotational term here that is I times
+[17:26] R5
+[17:32] here's another example for the given
+[17:35] system here
+[17:39] a known Force p
+[17:41] is applied
+[17:43] at the bottom of the bar
+[17:45] to the left
+[17:50] then draw a free body diagram with the
+[17:53] following steps the final result
+[17:56] is shown in here
+[17:58] so you just follow these steps then this
+[18:03] is the result
+[18:09] here's another example
+[18:13] we have a disk here
+[18:15] the radius
+[18:17] is
+[18:19] 200 millimeters
+[18:21] and we also have a drum inside
+[18:25] it has radius of 100 millimeters
+[18:30] the combined Drummond disc has a weight
+[18:33] of a mass of five kilogram a cord is
+[18:37] attached is shown like this
+[18:42] and the force is the force of magnitude
+[18:46] of 25 Newton
+[18:52] the coefficient of static and kinetic
+[18:54] friction between
+[18:56] disk and the surface old ground is 0.25
+[19:01] and 0.2
+[19:07] then let's isolate the body
+[19:10] which is our disk
+[19:12] and let's assign the axis
+[19:16] if we don't have any specific situations
+[19:19] then we can just simply assign courtesy
+[19:21] and coordinates with X and Y directions
+[19:25] then we apply all the forces so what
+[19:28] forces do we have in here so one is the
+[19:31] cable tension
+[19:33] the other is
+[19:35] is the weight of the the disk which is w
+[19:39] and since
+[19:40] the disk is in contact with the ground
+[19:42] we also have normal force n
+[19:47] and again since we may expect some
+[19:50] rotation of the rigid body
+[19:54] it may experience some rotation in this
+[19:57] direction or the other direction then so
+[20:01] that also means that we should have
+[20:02] friction Force
+[20:04] here
+[20:09] dimensions for example in this case we
+[20:12] have
+[20:12] we can assign 200 millimeters for this
+[20:16] height
+[20:18] then finally we can have the kinetic
+[20:20] diagram which includes m a parts and
+[20:23] also the angular momentum parts so we
+[20:27] have I uh
+[20:29] Omega dot which is I Alpha
+[20:37] this is another example
+[20:40] we have a letter
+[20:41] here
+[20:44] so the letter A B slides down the wall
+[20:48] as shown so it will move from this
+[20:51] direction and also in this direction
+[20:55] the wall and flow are both rough so that
+[20:58] means there must be some frictions here
+[21:02] friction
+[21:04] and also
+[21:06] friction
+[21:11] follow these steps so isolate the body
+[21:14] which means
+[21:15] the letter Define axis
+[21:19] usually
+[21:20] we can choose X and Y with the Cartesian
+[21:23] coordinates
+[21:24] and apply all the forces for example we
+[21:27] have the weight of the the ladder we
+[21:30] also have the normal force
+[21:32] at the contact and also we have the
+[21:35] friction Force
+[21:41] we can assign dimensions for example
+[21:43] here so we can put the left length of
+[21:46] the bar and
+[21:48] like this
+[21:50] then finally we can assign a kinetic
+[21:53] diagram here ma part and I Alpha
+[21:58] so here's a concept question
+[22:00] as you can see here so we have a thin
+[22:03] pipe
+[22:05] p and then we have a uniform still in
+[22:08] their C
+[22:10] and both have the same outer radius the
+[22:14] radius R itself is the same
+[22:16] and mass are also the same and they are
+[22:21] both released from rest so initially
+[22:22] their speed was zero and
+[22:27] so for this problem
+[22:31] so if you consider the force component
+[22:34] the first components applied to both
+[22:36] systems are the same
+[22:38] because the weight are the same the size
+[22:40] are the same
+[22:43] so that's true when you are drawing the
+[22:45] free body diagram
+[22:47] that is true so for example
+[22:51] we have
+[22:53] weight we have normal force and we have
+[22:58] the friction Force
+[23:01] so this is the same for
+[23:03] Pi p and the cylinder the only
+[23:06] difference is
+[23:08] the kinetic diagram where we have
+[23:12] ma part and then I Alpha part
+[23:17] so if you consider the rotational motion
+[23:22] I Alpha
+[23:24] matters so it's actually the same so I
+[23:27] can say constant
+[23:30] for both case so I can say that the
+[23:33] first one is i p and Alpha p and the
+[23:37] second one is IC and Alpha C
+[23:41] since I P is greater than I C that's
+[23:47] because for the thin pipe most of the
+[23:51] weight is concentrated outside whereas
+[23:54] for the cylinder the the weight the mess
+[23:59] is distributed uniformly across all the
+[24:02] uh
+[24:03] volume so
+[24:05] IC is definitely smaller than IP so if
+[24:09] this is greater
+[24:11] then
+[24:14] Alpha P has to be smaller
+[24:16] so Alpha P has to be smaller than Alpha
+[24:21] C
+[24:23] so in other words
+[24:25] the cylinder c will have a greater
+[24:27] acceleration
+[24:29] so the answer is B
+[24:33] so we can check that in this page
+[24:37] foreign
+[24:38] [Music]

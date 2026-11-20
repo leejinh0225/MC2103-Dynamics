@@ -1,0 +1,334 @@
+YouTube transcript
+Video ID: Q509zKDUG1Y
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] there are many engineering applications
+[0:19] where motions of rigid bodies are
+[0:21] constrained in some ways
+[0:24] we'll study the constrained plane motion
+[0:26] here
+[0:29] most engineering applications involve
+[0:33] rigid bodies which are moving under
+[0:35] given constraints
+[0:37] examples include
+[0:39] cranks
+[0:41] connecting rods or non-slipping Wheels
+[0:50] constrained motions have definite
+[0:53] relationships between the components of
+[0:56] accelerations of the mass Center and the
+[0:59] angular accelerations of the body
+[1:06] for example
+[1:08] given Theta
+[1:11] Omega and Alpha
+[1:13] find
+[1:15] the force P normal forces
+[1:19] at Point a and point B
+[1:22] so we'll do a more in in the simple
+[1:25] problems
+[1:31] another constraint motion may include
+[1:34] non-centroidal mutation
+[1:39] non-centerial rotation is defined as a
+[1:42] motion of a body which is constrained to
+[1:46] rotate about a fixed axis
+[1:50] that does not pass through its mess
+[1:52] Center
+[1:56] so in this case
+[2:00] so this is the fixed Point fixed x axis
+[2:03] rotation and this is mess Center
+[2:07] in this case the tangential acceleration
+[2:09] is
+[2:13] distraction and that is the same as R
+[2:16] times Alpha and the normal acceleration
+[2:20] is this direction and that's R times
+[2:25] Omega squared
+[2:31] rolling motion is another example of
+[2:34] constrained plane motion
+[2:36] rolling is a motion where there is no
+[2:40] relative velocity between contact
+[2:42] surfaces
+[2:44] therefore
+[2:46] let the contact point
+[2:48] the velocity B
+[2:53] becomes zero
+[2:56] also the friction Force should be
+[2:59] less than the maximum static friction
+[3:02] which is Mu
+[3:04] s times normal force n
+[3:09] when rolling with the sliding impending
+[3:11] the friction force is the same as the
+[3:15] maximum static friction frictions so
+[3:19] when I when I say sliding impending it
+[3:23] means that
+[3:25] the system is rolling but it's about to
+[3:30] slide
+[3:33] also
+[3:36] when the sliding happens the friction
+[3:38] force is the same as
+[3:41] Mu K times n which is the static
+[3:44] friction sorry the kinetic friction
+[3:47] Force
+[3:48] and
+[3:49] in this case Alpha which is angle uh
+[3:52] this which is the acceleration
+[3:57] and all of R times Alpha which is the
+[4:00] tangential acceleration now they are not
+[4:03] the same so we don't have any uh
+[4:06] dependent relationship in that case
+[4:14] also when rolling geometric Center is
+[4:19] making a straight line so for example we
+[4:22] have a wheel or circular motion and
+[4:26] this G is geometric Center
+[4:30] so then since this is circle the
+[4:33] geometric Center is always making
+[4:37] a straight line the same thing happens
+[4:39] for this unbalanced disk so in that case
+[4:46] the geometric Center is always following
+[4:49] a straight line
+[4:52] then what is the acceleration of the
+[4:56] message center
+[4:57] in this case so here we can clearly see
+[5:00] that when when this disk is still
+[5:03] rolling then the acceleration
+[5:06] of the geometric geometric Center is
+[5:10] expressed as R times Alpha
+[5:14] then the acceleration of the math Center
+[5:16] which is G can be expressed in this way
+[5:19] and that's because if we describe the
+[5:23] position vector
+[5:24] are
+[5:25] R of G
+[5:28] and we can express this one as R of a r
+[5:33] of o
+[5:35] plus the relative position which is
+[5:39] um
+[5:39] G given o and so this is always true
+[5:43] then we can differentiate twice
+[5:49] then we have acceleration
+[5:59] so this equation is always true and then
+[6:03] finally we have this part which is can
+[6:06] be replaced by this expression where we
+[6:09] have tangential component and the normal
+[6:11] component
+[6:14] we have a concept question here
+[6:17] so what would be true if the flow was
+[6:19] smooth and the friction was Zero
+[6:23] so if you look at this bar and you may
+[6:26] try drawing a free body diagram for this
+[6:28] one
+[6:29] obviously there should be normal force
+[6:33] and also the weight
+[6:35] here W but we don't have any friction
+[6:39] Force which is a horizontal Force
+[6:41] component so we have nothing in that
+[6:43] direction
+[6:44] so then
+[6:45] by just equating this one with
+[6:48] with the kinetic diagram where we have
+[6:53] M A Part
+[6:55] and
+[6:56] high alpha part
+[6:59] since we don't have any horizontal
+[7:01] component
+[7:03] so m a x part will become zero but we
+[7:06] only have m a y component
+[7:09] so so that means there is no horizontal
+[7:12] motion at all at the center
+[7:14] so that means the bar center of gravity
+[7:17] would just go straight downwards so
+[7:20] that's the owns the only answer
+[7:26] and we can check the solution here
+[7:29] now we'll you will study a useful trick
+[7:33] assume that this
+[7:35] or slab here
+[7:38] is rotating and translating at the same
+[7:41] time
+[7:43] we can consider this motion as rotation
+[7:45] about some virtual Point C
+[7:52] at this specific moment
+[7:55] such that the linear velocity of point a
+[7:59] here is
+[8:01] this distance
+[8:05] I would say
+[8:07] um
+[8:08] CA vector
+[8:10] so then CA Vector cross
+[8:14] angular velocity Omega
+[8:17] so I can express VA in this way
+[8:22] then obviously this point C
+[8:24] the velocity
+[8:26] or Point C
+[8:29] is zero
+[8:44] then we can Define the point C here
+[8:48] as instantaneous Center of rotation
+[9:10] foreign
+[9:15] a
+[9:17] and B we can draw lines passing through
+[9:22] point A and B and also that's
+[9:24] perpendicular to both a velocity
+[9:28] V of velocity our VA and velocity VP so
+[9:33] then we can draw two lines
+[9:36] perpendicular to this one and this line
+[9:39] which is perpendicular to this one and
+[9:42] you can we can clearly see that there is
+[9:43] one intersecting point
+[9:47] so
+[9:48] just recall the relationships so if we
+[9:52] have Point C
+[9:55] then velocity of a is velocity of C
+[10:02] Plus
+[10:03] c a
+[10:05] question Vector cross Omega we studied
+[10:09] this relationship in the previous
+[10:10] lectures
+[10:12] we also have velocity is four point B
+[10:16] that can also be related with velocity
+[10:19] of Point C
+[10:21] V plus Omega
+[10:25] if we assume that
+[10:28] if velocity or points Point C equals
+[10:32] zero then from here we have velocity of
+[10:35] a which is CA
+[10:39] cross Omega
+[10:43] and velocity of Point p is
+[10:46] same as CP
+[10:48] cross Omega
+[10:52] then what does that mean
+[10:54] c a
+[10:57] or in other words velocity a
+[11:00] is perpendicular to ca
+[11:03] vector and also Omega vector the same
+[11:06] idea also applies for velocity B which
+[11:09] is
+[11:10] perpendicular to CB
+[11:13] and also
+[11:15] Omega
+[11:18] so what we can do is we can draw a line
+[11:20] here
+[11:23] and these lines
+[11:27] all right it has to be perpendicular to
+[11:30] Velocity a and angular velocity in that
+[11:34] case the point C
+[11:37] the virtual points D has to be on these
+[11:40] two lines and so at the intersecting
+[11:43] point
+[11:46] the point C exists
+[11:49] and since we assume that the point C has
+[11:51] velocity of zero that means that point
+[11:54] is
+[11:56] where the velocity becomes zero and also
+[11:58] you can say that that's actually the
+[12:01] instantaneous Center of rotation
+[12:06] and there are there may be some cases
+[12:08] where the velocity vectors are parallel
+[12:12] so in that case instantaneous Center of
+[12:15] rotation is infinity and the angular
+[12:18] velocity is zero
+[12:22] also
+[12:27] when both velocities are the same
+[12:34] then the instantaneous Center of
+[12:36] rotation is at infinity and the angular
+[12:39] velocity is zero
+[12:46] in this example the instantaneous Center
+[12:49] of rotation is at C because if we look
+[12:54] at
+[12:55] how this system is constrained point B
+[12:58] is constrained to move downward and so
+[13:01] velocity is always downward with
+[13:04] velocity of point a is always to the
+[13:06] right and then we can draw two lines
+[13:10] or each passing through A and B and
+[13:13] perpendicular to both A and B velocity A
+[13:16] and B so we have this line and this line
+[13:18] so then point C is the intersecting
+[13:21] point
+[13:22] then as we just showed in the previous
+[13:26] Pages we have we know that point C is
+[13:29] instantaneous Center of rotation
+[13:31] and there the velocity of Point C is
+[13:35] zero
+[13:38] since Point C is instantaneous Central
+[13:40] rotation
+[13:43] what we can do is we can relate velocity
+[13:47] a with respect to
+[13:50] angular velocity and and the position or
+[13:53] the length
+[13:55] of this position vector
+[14:00] so VA
+[14:03] is the same as
+[14:06] this length which is AC times Omega
+[14:09] the same idea applies for velocity of P
+[14:12] here velocity B is Omega and
+[14:17] this position Vector which is BC
+[14:20] and if you are just combining these two
+[14:22] results then we'll end up with this
+[14:25] expression so velocity of p is the same
+[14:28] as velocity root a times tangent Theta
+[14:31] which is the angle between this line and
+[14:35] this line
+[14:38] so we know that this point says
+[14:40] instantaneous Center of rotation and
+[14:43] this applies to all other points as well
+[14:46] so if we have Point some points here or
+[14:50] here and here for this point
+[14:56] C is still considered as instantaneous
+[14:59] Center of rotation
+[15:03] and
+[15:05] another important effect is this one the
+[15:08] acceleration of the particle or the
+[15:10] acceleration uh
+[15:13] is not zero at the the center in other
+[15:16] words
+[15:17] the instantaneous Center of rotation is
+[15:19] only for the the velocity but it's not
+[15:23] for the acceleration
+[15:31] also please note that
+[15:33] the trace here the trace of the locus of
+[15:37] the center of rotation
+[15:40] so again this Central rotation is not a
+[15:43] fixed point it will change over time for
+[15:45] example if this one goes down
+[15:48] then this one will go to the right then
+[15:51] now instantaneous Central rotation is
+[15:54] now here
+[15:55] so as you can see the point C moves
+[15:58] along this point somehow so the trace of
+[16:02] the locus of the center of rotation of
+[16:05] the body is Body Central so this now we
+[16:09] Define a new term which is called sense
+[16:11] Road
+[16:13] and
+[16:16] and in space is the space Central
+[16:25] and here's a simple here's a simple
+[16:27] question so at the instance shown what
+[16:31] is the approximate direction of the
+[16:33] velocity of Point G which is the center
+[16:36] of bar a b yeah so the center of the
+[16:40] part here is maybe here right so in that
+[16:43] case
+[16:44] what we know is we have angular velocity
+[16:49] positive in this direction then
+[16:52] if you look at the velocity point B and
+[16:57] if you're just Connecting Point B with c
+[17:00] then we can we can clearly see that
+[17:02] there is a relationship right hand rule
+[17:05] so if you just use your right hand and
+[17:08] curve it
+[17:10] with uh this position vector and Omega
+[17:14] then then you'll get this Vector in the
+[17:18] same way you can do this uh do you can
+[17:20] do this one so you just connect your
+[17:22] mesh Center with points instantaneous
+[17:26] Center of rotation C then we can clearly
+[17:28] see that this point has to move
+[17:32] in that direction it has to be
+[17:34] perpendicular
+[17:35] so then the direction of the velocity of
+[17:39] the center
+[17:40] has to be in this direction so Point C
+[17:44] is the C is the answer
+[17:49] I can check that here
+[17:51] [Music]

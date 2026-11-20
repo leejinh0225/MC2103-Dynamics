@@ -1,0 +1,32 @@
+YouTube transcript
+Video ID: Q0Qn_pXVbjA
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied kinetics of rigid
+[0:20] parties in 2D space
+[0:22] 2D rigid body Dynamics is a special case
+[0:25] of 3D Rigid body Dynamics
+[0:28] equations of motion in 2D rigid body
+[0:30] Dynamics are almost the same as the
+[0:33] equations of motion in 3D Rigid body
+[0:35] Dynamics
+[0:37] the main difference is that whether it's
+[0:40] movement equations are scalar equations
+[0:42] rather than Vector equations
+[0:44] similarly
+[0:46] Moon of inertia of rigid body is scalar
+[0:49] rather than a matrix
+[0:52] next week we'll study work and energy
+[0:55] principle in plane motion
+[0:58] work and energy principle is an energy
+[1:00] method to describe motion of rigid
+[1:03] bodies
+[1:05] potential energy and kinetic energy of
+[1:08] rigid bodies into 2D space will also be
+[1:11] covered
+[1:12] see you next time
+[1:14] [Music]

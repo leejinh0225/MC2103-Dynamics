@@ -1,0 +1,627 @@
+YouTube transcript
+Video ID: YIU6x1269f4
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] okay let's do some practice with simple
+[0:20] problems
+[0:21] the first problem here
+[0:23] as you can see we have a truck that
+[0:26] breaks and then the wheel stops spinning
+[0:30] and so we have a car
+[0:32] and we have two wheels obviously since
+[0:35] we have two wheels then there must be
+[0:38] two locations where the interaction
+[0:40] forces apply here and here and the
+[0:43] friction forces so it's better much
+[0:47] better to design this system uh with the
+[0:50] rigid body model inside of the particle
+[0:53] model
+[0:54] so we need to determine the magnitude of
+[0:56] the normal reaction forces
+[0:59] here and here at point B and a and the
+[1:02] friction Force at each wheel as a truck
+[1:05] skis to stop
+[1:10] so from the problem statement it says
+[1:14] that the wheel stopped spinning in other
+[1:16] words the car is still moving forward
+[1:21] when the brakes was applied and
+[1:25] the wheel is not spinning so that means
+[1:27] now the car is sliding
+[1:31] that's why it says that the truck the
+[1:34] truck is kitted to a stop
+[1:39] so here are the strategies calculate the
+[1:42] accelerations during the scaling stop by
+[1:45] assuming a uniform acceleration
+[1:47] so this is key so we have to assume that
+[1:51] the acceleration is uniform and we draw
+[1:54] the Free by diagram
+[1:56] and you know find X are the equivalence
+[1:58] of the external forces and effective
+[2:01] forces
+[2:02] apply apply the three corresponding
+[2:05] scalar equations to find or to solve for
+[2:08] the unknown normal real forces and also
+[2:12] the coefficient of frictions
+[2:18] so let's first calculate the
+[2:20] acceleration uh during the scaling stop
+[2:26] so as I said we assume that the uniform
+[2:29] we assume the uniform acceleration
+[2:35] we want to find acceleration which is
+[2:37] not known yet but what we know is
+[2:40] initial velocity
+[2:41] and the terminal velocity
+[2:45] so the initial velocity
+[2:48] uh was some value and this one has to be
+[2:52] minus this is typo
+[2:55] and
+[2:56] we know this value and also we know this
+[2:59] value the final velocity will become
+[3:01] zero right because it will make a
+[3:03] complete stability error afterwards
+[3:04] initially it was 10 meters per second
+[3:07] and if you just plug that in that values
+[3:10] in here
+[3:12] and also the scaling distance is seven
+[3:18] so that's entered here then we can
+[3:21] clearly compute the acceleration which
+[3:24] is 7.14
+[3:27] so with the 7.14 deceleration the car
+[3:30] will stop
+[3:33] now to draw a free by diagram
+[3:38] so as you can see we have a car here and
+[3:41] assign all the forces the first one is
+[3:44] gravity uh the weight due to the gravity
+[3:48] and normal force at a and normal fluores
+[3:51] at B and also we have the frictions here
+[3:58] and as a result we will have a kinetic
+[4:01] diagram where uh ma part exists we don't
+[4:05] have any rotation in this involved in
+[4:08] this example because there is no rolling
+[4:11] motion at all so we can just compute the
+[4:15] f equals MMA equations only
+[4:19] so in y direction there is no vertical
+[4:23] acceleration so the acceleration part is
+[4:25] zero then what about uh the first
+[4:28] component since we have normal force n a
+[4:31] and known Force n b here and also we
+[4:34] have to wait this one
+[4:36] holds in other words
+[4:40] um
+[4:40] n a plus ND equals the body weight
+[4:45] in in X Direction
+[4:48] here we have two friction forces which
+[4:52] is minus fa and minus FP and we also
+[4:55] have the acceleration
+[4:58] which is minus m
+[5:00] a bar and we already found a bar from
+[5:03] the previous page so you can simply plot
+[5:06] that uh in in here that number here and
+[5:10] what we can try is
+[5:13] the expression for
+[5:16] the friction
+[5:20] so we if we're using Coulomb's friction
+[5:22] then F A is Mu K times n a and FB equals
+[5:29] mu K times NB so we can just simply plug
+[5:34] this in here then we have this
+[5:36] expression
+[5:38] and again n a plus n b are
+[5:41] is the same as body weight w from from
+[5:45] this equation and so that's why we have
+[5:47] this
+[5:48] and so if we solve for Mu k then it
+[5:53] turns out to be 0.728
+[5:58] now we have to consider uh rotational
+[6:01] motion but we can clearly understand
+[6:04] that there is no rotation at all in this
+[6:06] in this example so then why should we
+[6:10] apply the rotation uh find the equations
+[6:13] for rotation that's because
+[6:16] we can now find the relationship between
+[6:20] this normal force a and normal force B
+[6:24] and to do that
+[6:25] we have to apply Euler's equation of
+[6:29] rotation so we have so we have to
+[6:32] considered some of all the moments then
+[6:34] usually when we apply the moment
+[6:36] equation we applied about the math
+[6:39] Center G
+[6:43] so in that case mess enter G
+[6:46] mg equals I Alpha and we know that Alpha
+[6:51] is zero in this case so it's zero so
+[6:54] basically you can apply this equation
+[6:56] and for mg you can construct it from n a
+[7:01] f a and nbfp
+[7:04] weight is zero because weight we pass
+[7:07] this through the mess Center so that's
+[7:09] one way of finding the equation but in
+[7:12] this page actually I applied I I tried
+[7:16] different method
+[7:17] still the idea is the same but we apply
+[7:20] we apply the rotation or or the moment
+[7:24] about some other point rather than the
+[7:26] mess Center I applied it about
+[7:28] point a
+[7:31] so that means we're just Computing the
+[7:34] moment equation about point a
+[7:38] and the reason why uh doing that is
+[7:41] because it's a little bit more
+[7:43] convenient
+[7:44] because if you look at all the force
+[7:46] components here so if we look at Point a
+[7:50] so n b pass through a f a uh n a pass to
+[7:56] a and NFA pass also through a
+[7:59] FB has 3.8
+[8:02] as well then the only force that doesn't
+[8:05] that do not force uh pass through point
+[8:08] a is or NB and the body weight
+[8:13] so we can we just need to consider only
+[8:15] these two first components in the moment
+[8:19] equation so it's computationally it's a
+[8:22] little bit more convenient and efficient
+[8:24] so that's why uh I choose point a but
+[8:28] again it is not a unique way you can
+[8:30] also Define uh choose another point for
+[8:33] example point B
+[8:35] or or the best way is actually choosing
+[8:38] a math Center but in this case I
+[8:41] intentionally chose point a uh as a axis
+[8:45] of rotation so in that case our equation
+[8:48] will look like this one uh the moment
+[8:51] above point a can be expressed in this
+[8:54] way due to weight and normal force
+[8:57] then what about uh the right hand side
+[9:01] which is equivalent to the angular
+[9:03] momentum Dot
+[9:05] that's actually equivalent to this one
+[9:07] which is moment on times
+[9:11] the uh
+[9:14] inertial Force which is m a so
+[9:17] this is actually equivalent to H dot
+[9:21] part and so if we can if we solve for
+[9:24] this one then we have this expression
+[9:30] and finally by combining all the
+[9:32] equations that we have written in the
+[9:36] previous Pages we have now the normal
+[9:38] forces
+[9:40] in the real part which is this one
+[9:45] right this way so the the normal force
+[9:48] in the world or wheel is actually
+[9:52] 1.17 of the total body weight
+[9:55] and also the friction force is this much
+[9:59] then where is the rest of the body
+[10:01] weight supported
+[10:02] which is about 83 percent of the body
+[10:06] rate where is it that's actually
+[10:08] supported by the first the front wheel
+[10:11] and as I said
+[10:13] most of the weight is supported by the
+[10:15] front Hill here and if you compute the
+[10:18] the normal force at the front here we
+[10:20] have this much
+[10:22] um maybe I made some simple mistake here
+[10:25] because as I said uh 80 83 percent of
+[10:30] the body weight was supported in in the
+[10:32] front wheel but actually that's not true
+[10:34] because uh since we have two wheels in
+[10:39] the front and two wheels in the rear
+[10:41] part uh we actually have to divide it by
+[10:44] two so that means
+[10:47] the real real here will have a
+[10:53] twice of the total rate in the price of
+[10:55] the contribution and also this part will
+[10:58] also have the price of the contribution
+[11:00] so that's why
+[11:01] if we add this one and this one it has
+[11:05] to uh
+[11:07] contribute to the 50 of the body weight
+[11:10] so so that's why we have these numbers
+[11:13] and also the front uh the friction is
+[11:16] this much
+[11:17] these are just a simple calculation
+[11:21] okay so we are just done with the number
+[11:25] one and note that even though the
+[11:27] angular acceleration of the van is zero
+[11:30] the sum of the moment above 0.0 is not
+[11:32] equal to zero this may be confusing but
+[11:36] um
+[11:37] but again if we are if we apply the
+[11:41] moment equation about Math Center then
+[11:44] the angular momentum part becomes zero
+[11:46] but if we apply the multiplication about
+[11:49] some other point then must Center then
+[11:52] may not become zero okay
+[11:56] and also from the kinetic diagram I
+[11:59] actually used ma part to produce the
+[12:04] moment at a
+[12:08] and rather than taking the moments about
+[12:10] point a you can also have chosen the
+[12:13] moment about the math Center as I said
+[12:15] that's a very important point so you
+[12:19] actually have freedom to choose what
+[12:21] point of rotation uh for your uh
+[12:25] moment equation
+[12:27] so in that case some of the moments it
+[12:30] has have been equal to zero okay as I
+[12:34] said
+[12:36] also you only get three independent
+[12:39] equations for which body in plane motion
+[12:41] that's forced in X Direction force in y
+[12:44] direction and also a moment in One
+[12:46] Direction which is usually the Z
+[12:48] Direction
+[12:50] okay let's do problem number two
+[12:53] so we have a thin plate here
+[12:57] obviously there is a gravity
+[13:01] or the mess of the thin plate is 8
+[13:04] kilogram
+[13:05] held in place as shown
+[13:07] so we have a cable and we have
+[13:11] two rods here two widget rods
+[13:14] so neglecting the mess of the link here
+[13:16] determine immediately after the wire has
+[13:19] been cut so you just cut it and expect
+[13:22] what happens okay
+[13:26] and since we have two rigid bodies in
+[13:29] here uh the whole body will actually
+[13:32] move down making the parallel or
+[13:36] horizontal
+[13:37] Behavior so this one is still uh in
+[13:42] parallel okay
+[13:44] because this part is
+[13:47] um making parallelogram in geometry
+[13:53] so we have to determine the acceleration
+[13:55] of the plate and also the plate that the
+[13:57] force at each link
+[14:01] so you may expect that even though this
+[14:04] whole system is translating but no
+[14:07] rotation but maybe the force
+[14:10] distribution in each link will be
+[14:12] different
+[14:14] so strategies note that after the wire
+[14:18] is cut all particles of the plate moving
+[14:21] along move along a parallel circular
+[14:24] path of the radius 150 millimeter and so
+[14:28] display this in in curvy linear
+[14:30] translation we don't have any rotation
+[14:32] involved in here
+[14:35] so you draw a freeway diagram and
+[14:37] express the equivalence now f equals a
+[14:40] and the Newton in eulers
+[14:43] moment equations okay
+[14:47] and then you can just resolve into the
+[14:50] scalar components of equation and uh
+[14:54] just solve for it so for the unknown uh
+[14:57] accelerations and Link forces that's all
+[14:59] you have to do
+[15:01] so note that after the wire is cut all
+[15:04] particles of the plate uh Move Along
+[15:08] parallel circular path in other words
+[15:11] this one is actually moving
+[15:14] this
+[15:15] Direction
+[15:17] so that's obvious because of this
+[15:20] parallelogram here
+[15:24] and so the plate is in in a curvy linear
+[15:27] uh translation
+[15:29] so it's important to uh understand that
+[15:32] this plate is moving under a translation
+[15:36] especially curvy linear translation but
+[15:40] no rotation involved
+[15:42] no multiplication
+[15:47] at all
+[15:49] so to draw the freeway diagram and here
+[15:53] is the Free by diagram
+[15:55] so we have body weight here and then we
+[15:59] have if we neglect the weight of the
+[16:01] link here then the force is aligned in
+[16:05] this direction
+[16:08] and once we have the free by diagram
+[16:11] defined then all we have to do is you
+[16:14] just draw the kinetic diagram uh in
+[16:17] other words just identify all the ma
+[16:19] Parts acceleration part and also
+[16:23] um
+[16:23] rotation part
+[16:26] or angular momentum part
+[16:29] so
+[16:31] here we can Define the axis of Axis or
+[16:36] system recording system in
+[16:39] many ways but one possibility is we can
+[16:42] just Define
+[16:44] tangential Direction and the normal
+[16:46] Direction
+[16:47] that's because this system is actually
+[16:50] moving along this tangential Direction
+[16:53] only okay so if we Define X's like in
+[16:59] this way
+[17:00] um
+[17:02] tangential Direction in normal Direction
+[17:05] then now we can apply f equals m a in
+[17:09] tangential Direction so we have ft sum
+[17:12] of Ft is m a t
+[17:18] and sum of Ft can be just computed in
+[17:21] this way
+[17:22] as you can see there is no ft direct or
+[17:25] ft components for this one and this one
+[17:27] you'll need uh ft component you can see
+[17:30] is from the body weight and so that's
+[17:33] why we have this one and we have M A
+[17:36] here
+[17:38] so we can compute acceleration of
+[17:42] Math Center in tangential Direction
+[17:47] what about what about rotation
+[17:51] so
+[17:53] we can apply the moment equation
+[17:56] let's apply it about the math Center
+[17:58] here
+[17:59] so moment about Miss Center is the same
+[18:02] as I times Alpha
+[18:05] um
+[18:08] then now you just compute all the
+[18:10] moments about my Center which can be
+[18:13] expressed in this way
+[18:16] so that means you just simply
+[18:19] multiply this Force and it's momentum
+[18:23] and multiply this force and multiply
+[18:27] this moment on
+[18:29] there's no body weight affecting the
+[18:31] moment equation so we will have only
+[18:34] these two components
+[18:36] and since there is no rotation involved
+[18:39] at all Alpha is always zero so we have
+[18:43] this relationship
+[18:45] now let's look at the force component in
+[18:48] in normal Direction
+[18:52] so if we look at the Free by diagram so
+[18:54] we have three components one is this one
+[18:57] the other is this one and also we have
+[18:59] some fractions from from the body rate
+[19:01] and so that's actually here what about
+[19:04] ma part so finding the acceleration in
+[19:07] normal direction is important right so
+[19:10] this one uh if you recall the previous
+[19:13] lectures we know that this is our
+[19:17] V squared over r
+[19:20] okay R is non-zero obviously because
+[19:24] it's actually making some circular
+[19:26] motion so we have the radius curvature
+[19:29] the problem is
+[19:30] velocity so in the beginning when when
+[19:34] the wire was cut at that instant
+[19:37] velocity was zero right so so in that
+[19:41] case our X acceleration in normal uh
+[19:44] direction is zero at that moment but
+[19:47] after some time uh right after the Y the
+[19:52] wire is cut now the the velocity
+[19:54] increases right then we'll have some
+[19:57] non-zero value non-zero acceleration
+[20:00] but anyway at that instant we don't have
+[20:03] any acceleration in normal Direction so
+[20:05] that's why we have this equation and
+[20:07] putting everything together we now can
+[20:09] compute the force in in here upper link
+[20:14] and force in lower link
+[20:17] and if you just look at those numbers in
+[20:20] here uh the number uh the force in the
+[20:24] upper link is this much this is huge
+[20:27] uh and t means is actually in tension
+[20:31] so actually the first
+[20:35] here it's actually pulling the the
+[20:38] movement is actually pulling
+[20:40] the the link
+[20:42] and what about it what about the second
+[20:44] one the lower one is actually compressed
+[20:46] in this direction
+[20:48] with this much
+[20:49] so looking at these numbers uh is quite
+[20:53] interesting
+[20:54] okay even though they are actually
+[20:57] moving uh translating without rotation
+[21:00] but most of the forces applied at here
+[21:02] uh
+[21:04] but small compression forces applied it
+[21:07] here so if you are a designer of this
+[21:11] mechanical part then you have to make
+[21:14] sure that this upper link is much
+[21:17] stronger than the lower one
+[21:20] so if AE and DF have been cabled rather
+[21:25] than the link that the answer you just
+[21:27] determined indicate that the F would
+[21:30] have gone uh slack so that means
+[21:34] um
+[21:34] the compression is not possible
+[21:37] okay
+[21:38] so then you'll have different solution
+[21:44] and therefore the plate would not be
+[21:46] undergoing curvy linear translation then
+[21:49] since due to the slack uh we'll
+[21:52] experience the rotation
+[21:55] and also it's important to note that
+[21:58] there is always more than one way to
+[22:01] solve the problems like this since we
+[22:03] can choose to take the moments about any
+[22:06] point that we want
+[22:08] so generally we choose the moment best
+[22:11] center but it doesn't have to be
+[22:13] depending on the problem maybe choosing
+[22:16] uh
+[22:17] some specific point will make the
+[22:20] problem easier
+[22:22] so in this case we took them as about
+[22:25] Point G my center but you could also
+[22:28] have chosen to take them about a or D so
+[22:32] that's completely up to you and here's
+[22:35] the last problem
+[22:37] so we have a disk and the drum
+[22:42] there is a chord which is wrapping
+[22:44] around drum here or Hub inside the wheel
+[22:49] the cord is wrapped around the inner Hub
+[22:52] here inside here of the wheel and it's
+[22:55] pulled horizontally with a force of 200
+[22:57] Newton in this direction
+[23:01] and the wheel has mass of 50 kilogram
+[23:04] and the radius of the gyration is 770
+[23:08] millimeter
+[23:10] radio saturation means usually we just
+[23:13] you know this one as k then the moment
+[23:16] of inertia about G can be expressed as
+[23:20] mass times K squared
+[23:23] that's the point of using a moment of a
+[23:26] rate of deterioration because it's more
+[23:29] convenient to compute uh moment of
+[23:33] inertia
+[23:34] and also we know that the friction
+[23:36] static friction coefficient is 0.2 and
+[23:38] the kinetic friction coefficient is 0.15
+[23:43] and then determine the acceleration of G
+[23:47] Miss Center and angular acceleration of
+[23:50] the wheel
+[23:52] so by just looking at this system itself
+[23:55] and then also the force that we were
+[23:57] pulling the cord uh which three which
+[24:00] direction do you think the will remove
+[24:03] is it moving this direction or that
+[24:06] direction
+[24:08] it all depends okay
+[24:11] but we have possibilities so let's solve
+[24:14] for this problem for instance I'll
+[24:16] comment on that later
+[24:18] so strategies draw the Free by diagram
+[24:21] for the wheel expressing the old
+[24:22] equivalence of the external and
+[24:24] effective forces assume that we have a
+[24:28] rolling without sleeping
+[24:31] and relate linear angular accelerations
+[24:34] so for the scalar equations and find the
+[24:37] normal and tangential reaction forces
+[24:40] compare the required tangential reaction
+[24:43] to the maximum possible friction force
+[24:46] and if the sleeping occurs then you can
+[24:49] also calculate the kinetic friction
+[24:51] Force
+[24:52] so let's draw the freeway diagram
+[24:55] assume rolling without snipping so so
+[24:59] that means the friction Force has to be
+[25:01] less than this uh maximum static
+[25:05] friction which is Mu s times normal
+[25:08] force
+[25:10] so
+[25:11] now let's put all the force components
+[25:13] weight
+[25:15] normal force friction and the pulling
+[25:18] Force
+[25:19] so that's free by diagram
+[25:22] and we have all the equivalent
+[25:25] expressions that's actually uh kinetic
+[25:28] diagram so we have mass ma part and we
+[25:31] have I Alpha part
+[25:33] what is I I is M times
+[25:36] K squared which is the radius gyration
+[25:39] and so we have this expression
+[25:42] and
+[25:44] since we are assuming rolling without
+[25:46] sleeping the acceleration
+[25:49] of the mess Center should be related to
+[25:53] Alpha in this way acceleration is all
+[25:56] times Alpha
+[25:58] so we have this relationship
+[26:01] now since this point C if since we
+[26:05] assume that there is no slipping then
+[26:08] this point C is velocity of 0.6 zero
+[26:12] then now we can apply
+[26:14] sum of
+[26:16] moment about C equals i c times Alpha
+[26:19] this equation holds because Point C is
+[26:22] fixed point at that instant
+[26:26] so in that case what is
+[26:31] IC
+[26:33] you can use a parallel axis theorem and
+[26:36] from here we have this relationship
+[26:43] so just by plugging all the available
+[26:45] numbers uh we can get
+[26:50] Alpha to be this much
+[26:53] so obviously there is a angular
+[26:55] acceleration applied to this system
+[26:58] which is positive yes
+[27:04] so that means this whole system is
+[27:06] actually rotating in this direction
+[27:09] what about the acceleration of this
+[27:11] point
+[27:13] the acceleration is now R times
+[27:18] oh sorry or the direction the direction
+[27:21] of rotation is defined to be positive in
+[27:23] this direction sorry so in that case
+[27:25] since Alpha is positive 10.74 then the
+[27:30] whole system is rotating in this
+[27:31] direction
+[27:33] and Alpha plug Alpha in here then we
+[27:37] have acceleration linear acceleration of
+[27:39] Point uh mess Center
+[27:43] then
+[27:44] that acceleration is this much 1.074
+[27:49] and once we have that linear
+[27:52] acceleration in X Direction then we can
+[27:54] use every course MMA in X direction as
+[27:56] well so collect all the forces in
+[27:59] horizontal Direction so we have this
+[28:02] then now we can find the friction Force
+[28:06] this much
+[28:08] what about the force in y direction and
+[28:11] f equals m a there's no movement in y
+[28:14] direction so a acceleration is zero what
+[28:17] about the forces we have uh friction at
+[28:20] normal force and the weight and so
+[28:22] normal force is mg
+[28:25] and so we have now this equation
+[28:30] now
+[28:31] we need to just double check uh that
+[28:34] what we have done so far is correct or
+[28:38] not
+[28:38] that means since we assume that the
+[28:41] system is rolling without friction and
+[28:44] rolling without sleeping
+[28:46] the friction Force has to be less than
+[28:49] mu s times n so that's rolling condition
+[28:53] so we have to check that so
+[28:56] maximum friction Force which is Mu s
+[28:58] times normal force is this much
+[29:03] so
+[29:06] this one is
+[29:08] 98.1 Newton but what about the friction
+[29:11] force that we computed
+[29:15] it was actually one almost about 150.
+[29:19] so
+[29:20] the friction force is actually uh one
+[29:24] time 1.5 times higher than the maximum
+[29:27] possible static friction so that means
+[29:31] rolling without slipping is not possible
+[29:35] so our assumption is wrong
+[29:37] then we need to calculate the friction
+[29:39] Force based on uh sleeping condition in
+[29:42] that case we have to assume that
+[29:44] friction is Mu kinetic friction times
+[29:48] normal force
+[29:49] uh the kinetic equation times normal
+[29:52] force
+[29:53] so we just apply that in here directly
+[29:56] and so for the X directional Force
+[29:59] components f equals m a and so we
+[30:02] finally have acceleration
+[30:05] acceleration in this much
+[30:08] so this is much higher than than before
+[30:11] right
+[30:13] since we we calculated acceleration in
+[30:16] the previous page due to violation of
+[30:19] our assumption so we also need to
+[30:22] compute X Alpha gain because now we
+[30:25] don't have any
+[30:27] relationships or constraints like this
+[30:30] one so let's compute our Alpha again
+[30:34] so by just Computing the moment equation
+[30:36] we have this expression and Alpha can be
+[30:40] found in this way
+[30:42] [Music]
