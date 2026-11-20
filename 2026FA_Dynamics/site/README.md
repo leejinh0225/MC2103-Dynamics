@@ -20,6 +20,7 @@ GitHub Pages에 그대로 배포할 수 있는 무의존성 정적 사이트입�
 - `lecture12.html`: Week 12 · Lecture 12 강체 운동역학 학습 노트 (61장, 영어 영상 5개 대조)
 - `lecture16.html`: Week 12 추가 강의 · 날짜 미기재 · Lecture 16 자이로스코프 운동 학습 노트 (45장, 영어 영상 5개 대조)
 - `lecture13.html`: Week 13 · Lecture 13 강체의 평면운동과 힘·가속도 학습 노트 (135장, 예제 7개, 영어 영상 5개 대조)
+- `lecture14.html`: Week 14 · Lecture 14 평면운동의 일과 에너지 학습 노트 (93장, 예제 5개와 그룹 문제, 영어 영상 5개 대조)
 - `templates/lecture-page.template.html`: 이후 렉처용 구조 템플릿
 
 ## 공통 자산

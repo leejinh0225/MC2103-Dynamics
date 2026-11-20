@@ -27,6 +27,7 @@
 - Lecture 12: [`Kinetics of Rigid Bodies` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture12.html) — 12주차, 원본 61장·영어 자막 5편 대조
 - Lecture 16: [`Gyroscopic Motions` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture16.html) — 12주차 추가 강의 · 날짜 미기재, 원본 45장·영어 자막 5편 대조
 - Lecture 13: [`Planar Motion of Rigid Bodies` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture13.html) — 13주차, 원본 135장·영어 자막 5편 대조
+- Lecture 14: [`Work and Energy Principle in Planar Motion` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture14.html) — 14주차, 원본 93장·영어 자막 5편 대조
 
 ## 공개 사이트
 

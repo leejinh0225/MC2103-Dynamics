@@ -1,0 +1,38 @@
+YouTube transcript
+Video ID: HDMwsgNuYWo
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied work and energy
+[0:19] principle for rigid bodies in 2D space
+[0:24] work and energy principle is an energy
+[0:27] method that can describe motion of rigid
+[0:30] bodies to get velocity and position
+[0:32] information
+[0:34] work and energy principle states that
+[0:36] work done to the system changes the
+[0:39] kinetic energy of the system
+[0:42] a few special forces called conservative
+[0:46] forces can Define work by potential
+[0:49] energy which depends only on the
+[0:51] position
+[0:53] when all forces are conservative
+[0:55] mechanical energy is always conserved
+[0:58] however work and energy principle cannot
+[1:01] compute it cannot compute forces which
+[1:04] requires to combine Newton's law of
+[1:06] motion together
+[1:08] next week we'll examine in-person
+[1:11] momentum principle for Wizard bodies
+[1:13] into this space
+[1:15] with in-person momentum principle we can
+[1:18] understand how two rigid bodies behave
+[1:21] after Collision
+[1:24] we'll also study conservation of
+[1:26] momentum which is very useful to analyze
+[1:28] the Collision of rigid bodies
+[1:31] see you next time
+[1:33] [Music]

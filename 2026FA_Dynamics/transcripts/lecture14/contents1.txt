@@ -1,0 +1,350 @@
+YouTube transcript
+Video ID: DAAh-kmraMk
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:21] so this is called Char P impact test
+[0:23] this is used to determine the amount of
+[0:26] energy observed by material during
+[0:29] impact so here you have this heavy
+[0:33] head here and you just let it go then it
+[0:37] will swing down
+[0:39] and then if you add some material here
+[0:43] then this heavy part will break this one
+[0:47] and and
+[0:50] due to that uh
+[0:52] breakings uh so the energy energy of
+[0:56] this potential energy is actually
+[0:58] absorbed in here
+[0:59] then right after the Collision this part
+[1:04] will go up but with the reduced height
+[1:09] and so by just Computing the height
+[1:11] difference we can actually
+[1:14] estimate the energy observed by this
+[1:18] material
+[1:19] so to determine the amount of energy
+[1:21] observed the final gravitational
+[1:23] potential energy of the arm is
+[1:25] subtracted from its original or inertial
+[1:28] gravitational potential energy
+[1:33] so here so we actually have two other
+[1:38] different
+[1:39] expressions of equations of motion other
+[1:42] than f equals m a the first one is
+[1:44] energy work and energy principle the
+[1:46] second one is in-person momentum
+[1:48] principle so in this week we will study
+[1:52] the energy method
+[1:57] the principle of work and energy the
+[2:00] principle of work and energy is well
+[2:01] situated to the solution of problems
+[2:04] involving displacement and the velocity
+[2:09] if it's about the time and velocity then
+[2:11] Imports the momentum principle is better
+[2:14] so the principle says that if you have
+[2:17] initial
+[2:19] um
+[2:21] kinetic energy and if you add
+[2:24] work to the system
+[2:26] then it changes the kinetic energy
+[2:34] well here is some some preview of what
+[2:38] in-person momentum principle is we
+[2:39] actually will set this this one uh next
+[2:43] week
+[2:45] so the principle of in-person momentum
+[2:47] principle is appropriate for problems
+[2:50] involving velocity and time and the
+[2:53] expression is this one is you have
+[2:55] initial moment momentum and if impulse
+[3:00] is applied to the system then the
+[3:02] momentum changes
+[3:04] the same thing happens for the angular
+[3:06] momentum as well
+[3:12] also uh
+[3:15] we may have the problems may have some
+[3:17] problems involving eccentric impact
+[3:21] and that are solved by supplementing the
+[3:23] principal in-person movement impulse and
+[3:25] momentum with the application of the
+[3:28] coefficient of restitution we'll study
+[3:30] this in more detail next week
+[3:33] okay in approaches to the region by the
+[3:36] kinetics problem
+[3:37] f equals m a and also m equals H dot we
+[3:41] studied this one last week
+[3:43] the most important and the most basic
+[3:46] one
+[3:47] and working energy is this one which is
+[3:50] the topic for this week and
+[3:53] impressive momentum principle is will be
+[3:57] studied next week
+[3:59] now assume that the rigid body is made
+[4:01] of large number of particles
+[4:05] okay
+[4:07] and we have an equation here T equals t
+[4:10] plus u equals T2 so T1 is initial uh
+[4:16] total kinetic energy
+[4:18] T2 is final total kinetic energy
+[4:25] u12 is actually the work
+[4:30] that changes this state from one to two
+[4:34] is actually the total work of internal
+[4:37] and external forces acting on the
+[4:40] particles of the bodies
+[4:48] what can energy work and kinetic energy
+[4:51] are the scalar quantities is not a
+[4:54] vector
+[4:55] so dealing with the scalar is very
+[4:58] convenient in some sense
+[5:01] and actually you will see that when
+[5:03] you're solving exercise problems
+[5:07] okay assume that the rigid body is made
+[5:09] up of large number of particles the
+[5:11] internal forces between the particles A
+[5:13] and B are equal and opposite
+[5:15] so
+[5:17] they cancel but um
+[5:21] so therefore the network of internal
+[5:25] forces is zero if the system is rigid
+[5:29] body
+[5:31] so this is true only
+[5:34] when
+[5:35] the rigid body when the system is the
+[5:39] system
+[5:43] is
+[5:45] reset value
+[5:47] if the system is not rigid so you can
+[5:49] change this form
+[5:51] or deform then this
+[5:55] is not true
+[5:57] okay
+[5:59] because even though you may have the
+[6:02] same uh and opposite forces but the the
+[6:07] displacement itself may be different
+[6:10] cool that the work is first time
+[6:13] displacement along its path then we can
+[6:16] compute the work from one to two can be
+[6:20] computed in this way force times
+[6:22] displacement but this one is actually
+[6:25] that product so that means the force and
+[6:30] uh even though you have you may have
+[6:33] some forces we just consider the force
+[6:36] that is actually working
+[6:38] contributing to the work
+[6:41] okay
+[6:43] and that product can be replaced by
+[6:46] cosine
+[6:48] you can also see this here we have F
+[6:51] minus F and F so that means the same
+[6:54] Force but the opposite direction so
+[6:57] equal and opposite forces in May form a
+[7:00] couple and the couple is actually
+[7:03] equivalent to the moment so it induces
+[7:06] rotational emotion
+[7:09] so consider the network of two forces F
+[7:12] and minus f it formed a couple of moment
+[7:15] M during a displacement of their point
+[7:18] of the application
+[7:20] so
+[7:22] um so if you have forces in minus F here
+[7:25] then
+[7:27] so one displacement is dr1 another
+[7:30] displacement is actually dur1 Plus dr2
+[7:36] so we can consider this kind of motion
+[7:39] right so if we have only translational
+[7:42] motion then dr2 is zero but if it has
+[7:47] both translational and rotational one
+[7:49] then we'll have non-zero dr2
+[7:53] and if you saw for this one then we have
+[7:55] we can cancel this and finally we have
+[8:00] this expression which is
+[8:02] if we Define m to be f r then we finally
+[8:07] have this expression
+[8:10] okay so do the pin forces at
+[8:14] point a point a here so we have the pin
+[8:18] here
+[8:19] to work the answer is no because even
+[8:22] though we may have uh inter the reaction
+[8:25] forces here but since this pin doesn't
+[8:29] move
+[8:31] that doesn't contribute to work at all
+[8:33] so we have new things
+[8:35] what about the force p
+[8:38] Force p is applied here and as a result
+[8:41] this part may move to distraction for
+[8:45] example
+[8:46] it will
+[8:48] change its angle so in that case yes
+[8:51] since we have force and also
+[8:53] displacement then we have work
+[9:00] what about this one so we have a real
+[9:03] well disk and we have a drum or a hub
+[9:07] and does the normal force end do work on
+[9:11] the disk normal force is applied in this
+[9:14] direction here
+[9:16] does it do work on the disk and the
+[9:18] answer is no because
+[9:20] there's no motion at this point
+[9:23] okay what about the weight weight is
+[9:26] applied in here
+[9:28] and if you consider a motion of the
+[9:30] center of mass the center of mass is
+[9:32] always moving to the horizontal
+[9:34] Direction
+[9:35] so
+[9:36] this weight and the movement itself is
+[9:40] actually forming perpendicular or 90
+[9:43] degrees so there is no what in other
+[9:46] words w
+[9:48] uh that product
+[9:51] Dr
+[9:53] is always true
+[9:59] if the disk rolls without sleep
+[10:01] so there's no slip and then velocity
+[10:05] here is zero and does the friction Force
+[10:07] do work
+[10:09] and then the answer is no the friction
+[10:11] actually doesn't do any work
+[10:15] so you make you may be tempted to say
+[10:18] yes because friction seems like it's
+[10:21] always bad but uh if there's no sleeping
+[10:26] but rolling only then the friction
+[10:29] doesn't do any work
+[10:34] because when the rolling happens there
+[10:37] is no relative motion at this contact
+[10:39] point
+[10:41] now what is the kinetic energy of the
+[10:43] rigid body in plane motion consider a
+[10:45] rigid body of mass m so this is this has
+[10:48] mass m in plane motion consisting of
+[10:52] individual particles I
+[10:56] so we have multiple particles here and
+[10:58] here and here but they are actually
+[11:00] constrained to not move
+[11:04] in terms of the relative locations so
+[11:08] then you can consider the whole thing as
+[11:10] a rigid body and so the kinetic energy
+[11:12] of the whole body can then be expressed
+[11:15] as this
+[11:16] so we have uh half MV squared where V is
+[11:20] the velocity
+[11:24] or speed of
+[11:26] Mass center com
+[11:29] also we have some uh the movement of
+[11:33] each particle so we can just sum them up
+[11:37] okay and
+[11:40] if you just simply elaborate on this one
+[11:43] then we have this expression and this is
+[11:46] also possible because we have rigid body
+[11:48] assumption
+[11:57] so then we can just simply Define this
+[11:59] one as this
+[12:02] here this is actually a moment of
+[12:04] inertia part
+[12:06] and that moment of inertia is exactly
+[12:08] the same as the one that we started in
+[12:10] 3D Dynamics
+[12:15] so finally the kinetic energy of the
+[12:19] rigid body can be added in this way
+[12:22] expressed in this way this is
+[12:25] translational motion and this is
+[12:27] rotational motion
+[12:31] what about
+[12:32] uh the case where there is a fixed point
+[12:36] but that fixed point is not about the
+[12:38] mass Center but somewhere else
+[12:41] so consider reasonably rotating about a
+[12:43] fixed Point axis through 0.0 here so
+[12:47] this is the fixed point so the velocity
+[12:50] of 0.0 is here
+[12:52] then what we can do is express
+[12:54] everything in terms of
+[12:57] this point
+[12:59] okay here
+[13:04] now R is relative position uh
+[13:08] from this fixed point to that specific
+[13:11] particle not about not from the Smith
+[13:14] Center G
+[13:17] so we have that expression and
+[13:21] um we also have this part
+[13:27] and if you just simplify this expression
+[13:30] then we have this one and finally we can
+[13:34] get
+[13:35] this simplified version where
+[13:37] i o
+[13:40] is defined as this one
+[13:43] and this i o is actually by just using
+[13:48] parallel exit theorem
+[13:51] if we have difference row then this is M
+[13:56] row squared
+[13:58] so this is always true as well
+[14:02] then we can see that IO is always
+[14:05] greater
+[14:07] than IG
+[14:09] or IG is the smallest possible
+[14:13] moment of inertia
+[14:15] so
+[14:16] the kinetic energy of rotating and
+[14:19] translating
+[14:21] system is always this this is always
+[14:23] true
+[14:24] and if we have a fixed Point axis that's
+[14:28] actually other than
+[14:30] any other fixed point then we can also
+[14:33] have this expression as well
+[14:36] now here's a concept quiz we have two
+[14:41] rolling body one is solid cylinder
+[14:44] uniform distribution the second one is
+[14:47] pipe uh it's actually Hollow pipe with
+[14:50] the concentrated mess of site
+[14:53] if they both are released from the rest
+[14:56] uh at the top of the hill here here then
+[15:01] which will reach the bottom the fastest
+[15:06] again
+[15:08] since we are considering
+[15:13] the motion of
+[15:16] cylinder or pipe
+[15:18] and the height itself is fixed let's say
+[15:21] that's height message in then
+[15:25] by using working energy principle
+[15:29] initial velocity is zero so initial T1
+[15:32] is zero for both case and then the work
+[15:35] is actually the gravitation no uh
+[15:41] work and so so basically potential
+[15:44] energy which is
+[15:48] MGH since both have the same weight same
+[15:51] mass this is the same
+[15:54] so then T1 Plus
+[15:57] u12 equals T2
+[16:01] so that means
+[16:03] T2 has to be the same this is zero and
+[16:07] same
+[16:08] that means T2 has to be the same then Y
+[16:11] is T2 T2
+[16:14] um
+[16:15] have
+[16:17] f i Omega squared if we are assuming
+[16:20] that there is a fixed Point here I mean
+[16:24] instantaneously fixed point
+[16:28] then a has smaller moment of inertia
+[16:31] than than b
+[16:33] so B actually have has larger moment of
+[16:37] inertia
+[16:39] so have I
+[16:42] a
+[16:44] Omega
+[16:46] and also this is the same as IB
+[16:49] Omega P Square and I
+[16:54] a is smaller than i p
+[16:57] therefore
+[16:59] Omega a has to be greater than Omega
+[17:02] B
+[17:03] so a will reach the bottom first so a is
+[17:07] angular velocity is faster than this
+[17:13] what about the kinetic energy
+[17:16] the kinetic energy itself is the same as
+[17:19] I said here so this is exactly the same
+[17:22] right so the kinetic energy is the same
+[17:27] [Music]

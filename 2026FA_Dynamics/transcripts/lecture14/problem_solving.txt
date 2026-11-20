@@ -1,0 +1,379 @@
+YouTube transcript
+Video ID: ueXnVFAv_DQ
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:18] okay let's practice
+[0:20] here is simple problem number one
+[0:27] so we have a
+[0:29] ply wheel and drum and we have a mess
+[0:33] here
+[0:34] the total moment of inertia is 16
+[0:36] kilogram meters squared and there is a
+[0:40] friction
+[0:42] here bearing friction which is
+[0:44] equivalent to the couple of 90 Newton
+[0:47] meter
+[0:48] so at the instant shown the block is
+[0:50] moving downward so this one is moving
+[0:53] downward with this velocity at that
+[0:57] instant actually we don't know if that
+[0:59] velocity is constant or increasing
+[1:04] so determine the velocity of the plug
+[1:07] after it has moved one point 25 meters
+[1:10] downward so maybe we may have some
+[1:14] acceleration there
+[1:15] so how do we solve this problem strategy
+[1:19] so consider the system of flywheel and
+[1:21] block and work done by the internal
+[1:24] forces exalted by the cable it cancels
+[1:28] because the cable itself is in
+[1:30] inextensible
+[1:33] also note that the velocity of the block
+[1:35] and the angular velocity of the drum and
+[1:38] the plug wheel is related by this
+[1:41] which is very obvious
+[1:44] if we have radius R
+[1:47] Omega then you can get velocity by just
+[1:50] multiplying Omega in r
+[1:53] and apply the principle of working what
+[1:55] can energy to develop uh to develop the
+[1:58] expression for the final velocity
+[2:00] so consider the system of value here and
+[2:03] the in the block and so we have the
+[2:05] fiber here and the block here
+[2:08] the work done by the external forces are
+[2:11] zero because we're assuming that
+[2:13] everything is
+[2:15] widget or the K the cable is
+[2:19] inextensible
+[2:21] also note that the velocity of the block
+[2:23] and the angular velocity is related by
+[2:26] this expression
+[2:28] okay
+[2:30] so initially the velocity was 2 meters
+[2:33] per second then we can get angular
+[2:35] velocity of five and
+[2:39] actually we don't know the second the
+[2:42] velocity at the second location so we
+[2:44] can just make leave this V2 as a
+[2:46] variable
+[2:50] then what is the kinetic energy at one
+[2:55] so that can be
+[2:57] translational and rotational we can just
+[3:00] simply compute that
+[3:02] and we have 440 Joe
+[3:06] what about the kinetic energy at the
+[3:08] second
+[3:09] configuration the second position so
+[3:13] uh we don't know the velocity yet but we
+[3:16] know the relationship between V and
+[3:19] Omega and so let's put it there and so
+[3:21] we have
+[3:22] this expression
+[3:25] then all we have to do is
+[3:28] apply the working engine principle to
+[3:30] relate T2 and T1 somehow
+[3:35] so again T1 is this much and T2 is this
+[3:39] much
+[3:40] now consider a system of flywheel and
+[3:43] block so let's note that the block
+[3:45] displacement and the pulley rotation are
+[3:48] related by this much because okay in the
+[3:51] chord is inextensible
+[3:55] so if you have changes in in
+[3:57] displacement and if you just divide it
+[4:00] by the radius R then you get the angle
+[4:03] changes to the angle
+[4:05] so then what is the work done by the
+[4:08] system
+[4:10] um the work done by the system is
+[4:14] Force
+[4:16] multiplied by the displacement and also
+[4:20] the moment multiplied by angular
+[4:23] displacement
+[4:25] that we can have we simply have this
+[4:28] value
+[4:34] then apply the working energy principle
+[4:40] and so we can easily compute the
+[4:42] velocity at the second position and so
+[4:45] we have this
+[4:49] okay so the speed of the block increases
+[4:51] as it defaults which is intuitive but
+[4:55] much more slowly than when it was in a
+[5:00] free fall that's obvious because we
+[5:02] actually have a
+[5:04] higher inertia
+[5:09] and rather than calculating the work
+[5:11] done by the gravity you could also uh
+[5:15] treat it the effect of the weight using
+[5:18] gravitational potential energy
+[5:20] that's also possible
+[5:27] now let's try the second problem
+[5:31] we have a sphere and also cylinder and
+[5:35] hoop
+[5:36] which may also look like this shape
+[5:40] the difference is that the inertia value
+[5:43] will change
+[5:45] so they have the same mass radius and
+[5:48] released from the Redstone on an incline
+[5:52] determine the velocity of each body
+[5:54] after it has rolled through a distance
+[5:56] corresponding to changes of elevation
+[5:58] age
+[6:01] so elevation h
+[6:04] and then we can compute uh the potential
+[6:07] energy and we can somehow relate this
+[6:10] one to the kinetic energy
+[6:13] so
+[6:14] how do you solve it
+[6:16] work done by the weight of the body is
+[6:18] the same because the same mass and the
+[6:21] height right
+[6:23] so the potential energy itself is the
+[6:25] same and from the principle of working
+[6:27] energy it follows that each body will
+[6:30] have the same kinetic energy after the
+[6:33] change of elevation which is also true
+[6:37] because each bodies have different
+[6:39] centroidal moment of inertia the
+[6:43] distribution of the total kinetic energy
+[6:45] between the linear and rotational
+[6:47] component will be different
+[6:49] so we are actually using this
+[6:52] part to solve the problem
+[6:55] so from the principle of working energy
+[6:56] it follows that each body will have the
+[6:59] same kinetic energy after the change
+[7:01] evaluation
+[7:02] which is true and also we have
+[7:05] uh the relationship between velocity and
+[7:08] angular velocity
+[7:10] then kinetic energy is
+[7:14] F MV squared plus half I Omega squared
+[7:19] translational and rotational energy and
+[7:22] so now we have expression for kinetic
+[7:25] energy at second position
+[7:31] what about the first one initially the
+[7:33] velocity was zero so it's
+[7:36] the kinetic energy is zero initially
+[7:40] potential energy is what it's just a MGH
+[7:43] or the High Times rate
+[7:47] so height times weight so that's uh
+[7:51] potential energy or work
+[7:57] so then we can just relate these two and
+[7:59] so we can find
+[8:01] velocity
+[8:03] this way
+[8:08] now
+[8:10] since we have different moment of
+[8:11] inertia so for example first pair we
+[8:14] have uh two over five Mr squared four
+[8:17] cylinder we have half Mr Square for a
+[8:20] hoop we have M we have m r we have m r
+[8:23] Square
+[8:25] then
+[8:29] this is the highest
+[8:31] value like this
+[8:33] then velocity from from this expression
+[8:36] is that if I is higher higher than
+[8:40] velocity is smaller so that's why we see
+[8:42] this Behavior
+[8:49] and so for frictionless Block
+[8:53] yeah
+[8:55] we don't have angular velocity that's
+[8:57] because if we don't have any friction
+[9:00] between
+[9:01] this surface between these two systems
+[9:05] ground and and
+[9:08] the sphere then since there is no
+[9:11] horizontal Force applied
+[9:14] we cannot induce rotation of of this
+[9:17] system
+[9:18] so since there's no rotation
+[9:22] um
+[9:24] this part will become zero okay so all
+[9:27] we have is only the translational
+[9:29] kinetic energy
+[9:31] in that case we will have the same
+[9:35] velocity
+[9:37] regardless okay
+[9:42] so let's compare the result with the
+[9:44] velocity obtained by frictionless block
+[9:47] sliding through the same distance the
+[9:50] solution is identical to the previous
+[9:52] solution except that uh Omega is zero so
+[9:55] we find that velocity is square root of
+[9:58] 2 GH
+[10:00] then comparing the result we note that
+[10:03] the velocity of the body is independent
+[10:06] or both its mass and radius
+[10:10] however the velocity does depend upon
+[10:13] the quotient of this one
+[10:18] which is uh K squared over r squared
+[10:22] which is
+[10:24] radius of gyration squared divided by I
+[10:28] squared
+[10:29] so this actually gives us the ratio of
+[10:32] the rotational kinetic energy
+[10:35] to the translational kinetic energy
+[10:38] thus the hoop which has the largest k
+[10:42] for the given radius R retains the
+[10:45] smallest velocity which makes sense
+[10:47] right
+[10:49] okay let's look at sample problem number
+[10:52] three so we have 15 kilogram slender Rod
+[10:55] here
+[10:57] uh people which is pivoted at about 0.0
+[11:04] and the other end here is actually
+[11:07] pressed against the spring
+[11:09] with the spring constant until the
+[11:12] spring is compressed 25 millimeters and
+[11:15] is and the rod is horizontal position so
+[11:18] it's perfectly horizontal
+[11:21] determine
+[11:23] so when uh the rod is released from its
+[11:25] position if we just simply release this
+[11:28] one
+[11:29] and determine its angular velocity and
+[11:32] reaction at the pivot here
+[11:34] as the rod passes through a vertical
+[11:37] position so if you just release it it
+[11:40] will just move up
+[11:43] what is angular velocity when it passes
+[11:46] this point
+[11:51] then what is the reaction force at here
+[11:54] and here's a strategy
+[11:57] the weight and spring forces are
+[11:59] conservative so all forces we have in
+[12:02] here is our here are conservative Force
+[12:05] forces so we can use uh working energy
+[12:09] principle but uh also you can actually
+[12:12] use energy conservation law
+[12:17] to evaluate the initial and final
+[12:19] potential energy
+[12:21] and express the kinetic energy or in
+[12:24] terms of the final angular velocity of
+[12:26] the rod and based on the Free by diagram
+[12:30] equation we can solve for the reactions
+[12:32] at the pivot so basically to find the
+[12:36] reaction forces at the pivot we cannot
+[12:39] solve the problem only using the working
+[12:42] energy principle we need to combine the
+[12:45] working endless principle
+[12:47] with f equals Ma
+[12:50] to solve for the reactions
+[12:53] so for this problem since the all energy
+[12:57] is conserved we have this one equals
+[13:00] this one
+[13:01] so initially
+[13:03] let's say the potential energy is zero
+[13:06] because we can decide consider this line
+[13:10] as a data more Baseline then potential
+[13:14] energy we may have is from the spring
+[13:16] okay and you just let go of this system
+[13:21] then it will actually move up like this
+[13:25] and now we will have
+[13:28] kinetic energy and potential energy
+[13:32] so potential energy initially is purely
+[13:35] from the spring so we have this number
+[13:38] and the potential energy at position two
+[13:42] is
+[13:44] purely from gravitational force which is
+[13:47] uh MGH so we have this one then now as
+[13:51] you can see we have clear difference
+[13:53] between these two and that difference
+[13:55] contribute to the kinetic energy
+[13:58] uh so the kinetic energy will be this
+[14:02] and
+[14:07] and so this much and that one has to be
+[14:10] the difference between these two
+[14:13] okay
+[14:15] so we can now solve for Omega 2 which is
+[14:18] this
+[14:19] all right then now we have to solve for
+[14:23] um
+[14:24] the reaction forces
+[14:27] okay at this point at the Pivot Point
+[14:31] so draw the freeway diagram
+[14:34] so at this point
+[14:37] all the first components are weight and
+[14:41] reaction forces in X and Y and we can
+[14:44] now equate this one with the ma and also
+[14:48] I Alpha
+[14:50] normal acceleration is R times Omega
+[14:53] Square
+[14:56] okay so we we already know R and Omega
+[15:00] so we can compute the normal components
+[15:02] here
+[15:04] and then tangential component is R times
+[15:09] Alpha here
+[15:13] and we already know Alpha
+[15:20] yeah we don't know Alpha yet so
+[15:23] um so let's move on sorry
+[15:27] so we but we have expression for
+[15:29] tangential uh acceleration which is R
+[15:32] times Alpha
+[15:35] and now let's solve for the equations of
+[15:37] motion for the rotational one we have
+[15:40] this and for the linear one we have this
+[15:42] one so I Alpha plus uh this one so so
+[15:47] basically we are Computing uh the moment
+[15:50] equation about the fixed point so that's
+[15:52] why we have this additional term
+[15:57] so we have that uh from the translation
+[16:02] one in the next direction we have
+[16:04] reaction equals m times acceleration
+[16:08] which is R times Alpha
+[16:12] this one reaction in y direction and
+[16:14] also the weight equals m times
+[16:18] acceleration in normal Direction
+[16:21] so we have
+[16:22] reaction here
+[16:27] and also we from this equation we can
+[16:30] easily compute that Alpha is zero and
+[16:33] also Direction in X direction is also
+[16:36] zero
+[16:37] okay so this problem illustrates how you
+[16:40] might need to supplement the
+[16:42] conservative conservation of the energy
+[16:45] within the second law especially when
+[16:48] you want to
+[16:50] compute the forces
+[16:56] what if the spring constant have become
+[16:59] have been smaller
+[17:00] like this
+[17:03] then would
+[17:04] you'd have found this
+[17:08] uh velocity
+[17:10] to uh sorry net velocity the potential
+[17:13] energy of nine point
+[17:15] three uh 75 joule
+[17:19] then the the angular velocity is minus
+[17:23] 19.42 43. what does that mean
+[17:29] so if you have this result
+[17:32] with the reduced Springs constant that
+[17:35] means
+[17:36] Omega
+[17:37] Omega Square cannot be negative so in
+[17:39] other words this one can never become uh
+[17:43] true or can never happen so in other
+[17:45] words since it's clearly impossible and
+[17:48] means that the road would not make it up
+[17:51] to the point operation to as assumed
+[17:56] and the only step in which you need to
+[17:58] use the forces is when calculating the
+[18:01] gravitational potential energy in each
+[18:03] position
+[18:05] however it's good engineering practice
+[18:07] to show that a complete free body
+[18:10] diagram in each case
+[18:12] to identify which force which uh if any
+[18:15] forces do work
+[18:17] so you could have also used vector
+[18:20] algebra or in relay related velocities
+[18:23] of various objects okay
+[18:26] [Music]
