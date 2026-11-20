@@ -1,0 +1,312 @@
+YouTube transcript
+Video ID: 2U882l3jfs8
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:20] problem
+[0:22] and the first problem we have is
+[0:26] flight simulator so we have
+[0:28] Cube here and we have some flywheel or
+[0:33] Condola where the flight the pilots can
+[0:39] get inside and they can experience some
+[0:42] external forces or gravitational forces
+[0:45] in
+[0:48] some accelerations okay so the motion
+[0:52] based flight simulator simulators can
+[0:55] help train Pilots to recognize the
+[0:58] situations in which they may become
+[1:00] disoriented
+[1:02] so uh this simulator has four degrees of
+[1:06] freedom the first one is about the
+[1:08] planetary axis the second one is about
+[1:11] this axis which is your movement
+[1:15] and the third one is raw movement and
+[1:19] the last one is pitch which is
+[1:21] rotation of the inner rotor
+[1:25] and the principal axis are aligned with
+[1:28] x y g in other words this direction
+[1:31] is principal axis so that means if you
+[1:37] look at
+[1:40] the moment of inertia Matrix you have
+[1:43] some non-zero value
+[1:47] in the diagonal term and what we will
+[1:50] have zero value in off diagonal term
+[1:54] so that's happening when you are using
+[1:57] principal access okay
+[2:01] um so that's given and now the problem
+[2:04] asks us to find
+[2:08] Dynamic loads at the role gimbals in
+[2:12] other words
+[2:13] Force at here
+[2:16] okay so we want to find that and we are
+[2:19] given some situation the gondola is
+[2:21] rotating at constant
+[2:23] 30 RPM about row axis so that means
+[2:28] about this direction
+[2:31] it has constant angular velocity and
+[2:34] about
+[2:35] uh
+[2:36] pitch axis here this direction we have
+[2:40] angular velocity of 20 RPM
+[2:44] but actually it's increasing with with
+[2:47] constant increasing rate of 90 degrees
+[2:49] per second squared in Pitch Direction so
+[2:53] that means we have constant acceleration
+[2:57] and all other values are zero for
+[3:00] example there is no rotation here and
+[3:02] there's no rotation about about your
+[3:04] axis
+[3:06] that simplifies the problem so let's do
+[3:09] this one so identify reference frames
+[3:12] add coordinate systems Define
+[3:15] generalized coordinates and find the
+[3:19] direction direction cosine Matrix in
+[3:21] tables compute the angular velocities
+[3:24] angular momentum and find finally
+[3:26] angular equations of motion again
+[3:30] between different frame n a
+[3:34] b c and d now we have four reference
+[3:37] frames
+[3:39] because we have this planetary axis
+[3:42] rotation introduced
+[3:45] now we can add according systems in one
+[3:48] two three here a one two three for this
+[3:52] P one two three four uh
+[3:55] for your access your movement here
+[3:59] c123 for roll movement about about
+[4:04] distraction and
+[4:07] d1234 pitch which means
+[4:10] distraction
+[4:13] what is the angle generalized
+[4:15] coordinates so between
+[4:18] n and a we have q1 that's actually a
+[4:22] rotation about z-axis and Q2 is what QT
+[4:27] is for this one and so it's also
+[4:29] rotation about Z axis Q3 is
+[4:34] the rolling movement which is about
+[4:37] y-axis
+[4:39] and the last one is pitch
+[4:43] pitch rotation and that's actually about
+[4:46] x-axis because this is x-axis right
+[4:50] so that's how we can Define the
+[4:52] generalized coordinate
+[4:54] and once we have them defined then
+[4:58] constructing the direction cosine Matrix
+[5:00] is very simple
+[5:02] okay so let's compute angular velocities
+[5:06] using simple angular velocities for
+[5:09] example
+[5:11] and uh
+[5:13] Omega
+[5:14] a based uh based on N is this
+[5:20] Omega p
+[5:21] with respect to a is Q2 dot in in A3
+[5:26] Direction A3 is because
+[5:30] of this one
+[5:31] for Omega C with with respect to B is
+[5:36] Q3 here and this is about Y axis that
+[5:40] means so we have that
+[5:42] uh angle of velocity of t with respect
+[5:44] to C is
+[5:46] Q4 in X Direction so we have that
+[5:51] and putting this all together we have
+[5:56] this expression for
+[5:58] angular velocity of the Condola
+[6:14] but again as you can see
+[6:16] the X's are expressed in terms of
+[6:20] various uh coordinate systems later we
+[6:23] have to unify it with respect to some
+[6:26] one reference frame or one coordinate
+[6:28] system
+[6:30] so Express think of velocity or Condola
+[6:33] in simpler form
+[6:38] so we have this and then uh
+[6:42] we can somehow Express this one in terms
+[6:44] of D1 D2 D3 or C1 C2 and C3 that's up to
+[6:49] that that can be done as we did before
+[6:58] looks like this expression is much
+[7:00] simpler than than this one right so
+[7:03] maybe we were tempted to use this
+[7:05] expression
+[7:06] rather than this one but if you look at
+[7:10] the next page
+[7:11] the moment of inertia
+[7:14] was given in this way if it's expressed
+[7:17] in terms of
+[7:18] local or body reference frame
+[7:23] or body
+[7:28] Ness system
+[7:30] this is true however
+[7:33] if you want to express woman of inertia
+[7:36] in terms of c123
+[7:39] we don't have this one
+[7:41] so this is not true
+[7:43] that's because
+[7:45] this value and this value are not the
+[7:48] same
+[7:50] so
+[7:51] um
+[7:53] as soon as D or D2 and D3 rotates in
+[7:57] this direction but C2 and C3 are fixed
+[8:01] in that case we will have different
+[8:04] values for
+[8:06] PSI Y and I Z so
+[8:09] in this case they're not the same
+[8:12] then
+[8:14] what we have to do is we have to use a
+[8:17] local reference frame only so that's the
+[8:19] only way
+[8:21] or you have to uh
+[8:24] compensate this expression by assigning
+[8:27] rotation
+[8:29] before and after here so it's better to
+[8:32] use local reference frame
+[8:35] or local coordinate system so let's do
+[8:37] that
+[8:39] so we have this one and now this is the
+[8:42] expression for angular velocity in terms
+[8:44] of D1 D2 and D2 which is local and you
+[8:48] just simply multiply this this and this
+[8:52] one then you get this expression
+[8:55] then what we have to do is you just plug
+[8:57] in all the simplify all the assumptions
+[9:00] for example
+[9:03] um
+[9:04] what assumption do I have the Assumption
+[9:07] we have here is this one
+[9:11] this
+[9:12] so constant
+[9:16] rolling a rotation and constant and
+[9:20] constant
+[9:21] pitch acceleration
+[9:24] so that's we what we have and all other
+[9:26] informations are actually zero
+[9:28] conditions
+[9:31] so we can just plug those numbers in
+[9:34] there
+[9:37] um
+[9:38] so we're going to do that and now let's
+[9:40] assume that com is intersected at here
+[9:45] so that means rule axis which is this
+[9:48] one and Pitch is this one so this is
+[9:51] where the center of mass is and now
+[9:54] let's draw the Free by diagram
+[9:57] so we have free by diagram so we have
+[10:00] all the forces here
+[10:02] here
+[10:03] and we also have
+[10:06] some water water electrical motor
+[10:10] so that you can actually roll this
+[10:13] system so then we can add this part okay
+[10:17] and it actually is the same as Ma and
+[10:21] also H Dot
+[10:24] then what else do we need so let's plug
+[10:26] all the information given from the
+[10:28] problem so we know that Q3 dot is 30 RPM
+[10:33] constant and the 30 RPM is same as pi
+[10:36] radian per second
+[10:38] then Q3 double that is cons 0. Q4 that
+[10:42] is 20 RPM that's equivalent to 2 pi over
+[10:45] 3 but this is not constant
+[10:50] okay but Q4 double that is pi over 2
+[10:55] which is constant
+[10:59] so plug this information into the
+[11:04] original
+[11:04] equation and remember that all other
+[11:07] variables are assumed to be zero then we
+[11:10] will end up with this expression
+[11:13] so the moment about mess Center has to
+[11:17] be this much
+[11:20] then what is the moment expression if we
+[11:23] go back
+[11:24] so we have these forces this forces
+[11:27] maybe we also have uh weight body weight
+[11:31] as well
+[11:34] and since we have moment equation we
+[11:38] have to express the moment in terms of
+[11:40] all the
+[11:41] forces and the moment here and if you do
+[11:45] it by using force uh
+[11:49] rotate a position vector
+[11:53] I mean position Vector cross
+[11:57] here you actually get the moment right
+[11:59] so if you just simply apply this
+[12:02] expression
+[12:03] then we have R cross Force R cross Force
+[12:09] and also the moment
+[12:12] then this actually actually is the sum
+[12:14] of all the moments about
+[12:16] Center then we have this expression
+[12:19] okay
+[12:21] and this expression is equal to this
+[12:24] expression
+[12:26] then
+[12:27] this part is the same as
+[12:30] 1430
+[12:31] 14
+[12:33] 13.72 and this is the same as minus
+[12:37] 6250.75
+[12:40] and interestingly m y is zero because we
+[12:44] don't have any component in the two
+[12:47] direction okay
+[12:50] what about the forces
+[12:52] so we use f equals m a and we know that
+[12:56] a is this is zero so
+[12:59] everything is here then by just equating
+[13:03] uh putting all the force components here
+[13:06] we can get this expression
+[13:12] then putting all of these equations
+[13:14] together since we have five equations
+[13:18] and five unknowns right one two three
+[13:20] four and five then we finally have
+[13:24] these values so we have forces
+[13:28] and moment values
+[13:31] Okay so
+[13:33] we just solved the problem so the
+[13:35] dynamic load on bearings have to be
+[13:37] considered when designing equipment with
+[13:40] multiple axis of rotation
+[13:42] and the product of inertia might
+[13:46] introduce additional load
+[13:48] product of inertia means
+[13:50] of
+[13:56] diagonal
+[13:59] comes in
+[14:02] momentum inertia Matrix
+[14:04] so i x i y i z but all other
+[14:11] octagonal terms are called
+[14:14] Product of the energy
+[14:22] so it might introduce some additional
+[14:24] loads and that could even require
+[14:26] additional torque to be input to the
+[14:29] motor and to obtain the desired brush um
+[14:32] motion profile
+[14:35] and also if we add rotation about
+[14:38] additional access for example planetary
+[14:41] axis then the linear acceleration of the
+[14:44] center of mass will no longer be zero
+[14:46] here
+[14:49] I mean this is not zero in the in that
+[14:51] case so
+[14:55] um and angular velocity and also angular
+[14:58] acceleration will need to be calculated
+[14:59] and included in the force equations when
+[15:03] designing this system placing the center
+[15:06] of mass at the center of rotation and
+[15:07] minimizing the product
+[15:09] of the inertia actually reduces the
+[15:12] reaction forces which is very important
+[15:14] right
+[15:17] so this is also part of the motion
+[15:19] balancing process
+[15:20] that you typically do in
+[15:23] rotating machinery for example you just
+[15:26] go to the tire shop and your to the
+[15:30] balancing of your tire or Wheels
+[15:32] [Music]
+[15:38] foreign
+[15:40] foreign
+[15:42] [Music]

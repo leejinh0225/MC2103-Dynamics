@@ -1,0 +1,557 @@
+YouTube transcript
+Video ID: fdOdeRuE_2w
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] so far we have studied kinematics and
+[0:20] kinetics of rigid parties in in 3D space
+[0:24] therefore we can just describe
+[0:26] complicated motion of rigid bodies in 3D
+[0:30] space
+[0:31] in this lecture
+[0:32] we will examine the motion of gyroscope
+[0:37] as you can see in these figures so this
+[0:41] is a good example of how the gyroscopic
+[0:44] effect is used so so you can see the
+[0:46] spinning top
+[0:53] the spinning top itself is actually
+[0:55] making balance in uh in place it doesn't
+[0:58] oh it doesn't fall down
+[1:01] and and we will study why that's
+[1:04] happening and also here you'll see how
+[1:07] the gyroscope is used to indicate the
+[1:10] direction in aircraft and this is the
+[1:14] structure of the gyroscope and it
+[1:17] explains how it uh
+[1:20] how the gyroscope is actually used for
+[1:24] directional indications
+[1:27] as you can see
+[1:29] um so I have given you an a figure of a
+[1:33] simplified
+[1:34] gyroscopic gyroscope model
+[1:38] so we actually have
+[1:43] gimbals here
+[1:45] outer gimbal
+[1:47] inner Gimbal and then we have a router
+[1:50] that may spin
+[1:53] so uh to analyze this system
+[1:58] will follow these steps
+[2:01] first we will Define reference frames
+[2:04] and then we will assign coordinate
+[2:07] system to each reference frame
+[2:10] then we'll assign generalized
+[2:12] coordinates
+[2:16] then between reference frames we will
+[2:19] decide uh the orientational relationship
+[2:23] and so uh Direction cosine Matrix table
+[2:26] will be built
+[2:29] angular velocity of the rotor inside
+[2:32] here will be determined based on some
+[2:35] simpler expressions
+[2:40] once we have the angular velocities
+[2:42] computed
+[2:43] then angular momentum can be computed
+[2:46] and we studied how to do that in the
+[2:50] previous lectures
+[2:51] and finally we will derive the equations
+[2:54] of motion into this space
+[2:57] so the first step is to Define
+[3:00] reference frames
+[3:02] so the first one Newtonian reference
+[3:05] ring so defining the terminal reference
+[3:07] frame is one of the most important step
+[3:09] actually the starting point so we will
+[3:13] just decide Newtonian reference frame
+[3:16] which is actually uh you can consider
+[3:18] deterior frame is a word or Earth if you
+[3:22] are living on Earth okay but depending
+[3:25] depending on the problem if you are
+[3:27] trying to solve
+[3:29] uh the system that uh
+[3:32] uh for example the fructose pendulum and
+[3:37] if you want to see how the pendulum is
+[3:40] rotating
+[3:41] in place then uh horse cannot be the
+[3:46] Newtonian reference in that case
+[3:50] Sun can be uh
+[3:52] used as a neutronian reference frame but
+[3:55] in this case we can set Earth as a
+[3:59] Newtonian reference frame
+[4:02] and once we have Newtonian reference
+[4:04] frame defined then the next step is what
+[4:08] you just identify what's the moving
+[4:10] reference frames in this case we can see
+[4:13] this green gimbal here the green gimbal
+[4:16] is rotating about
+[4:19] this axis so and
+[4:23] this is the first rotating uh reference
+[4:26] frame based on the Newtonian reference
+[4:29] frame so I'll just assign this one as a
+[4:32] which is the outermost reference frame
+[4:35] and if we just one step inside we have
+[4:39] this red
+[4:40] gimbal
+[4:42] so I'll just name it as B
+[4:45] okay
+[4:47] and let's go one more step inside then
+[4:51] we have the rotor inside here and I'll
+[4:54] just call it C
+[4:57] okay so for the coordinate systems for
+[5:00] the reference frame we'll assign
+[5:01] coordinate system
+[5:03] so for example for Newtonian reference
+[5:05] frame will assign N1 and 2 and 3. so for
+[5:09] example so we have N2 and N3 defined
+[5:13] then N1 is automatically determined by
+[5:16] using a right hand row so for example
+[5:19] maybe this is in One Direction
+[5:24] for reference frame a uh I have
+[5:28] A1 A2 and A3
+[5:31] as you can see we have A2 determined and
+[5:35] where are A1 and A3
+[5:39] they are not shown and I have some
+[5:42] reason for that that's because I'm
+[5:45] considering simple rotation
+[5:48] simple rotation
+[5:51] so that means a rotation about one axis
+[5:55] I mean that rotate rotation about one
+[5:59] axis sounds very obvious but
+[6:01] um
+[6:04] you can choose either X Y or G in this
+[6:08] case and N1 or N2 or N3 so I'm just
+[6:13] assuming that the first rotation is
+[6:15] happening about N3 so in that case
+[6:20] A3 and N3
+[6:24] will be the same
+[6:25] because
+[6:27] N3 doesn't change
+[6:29] so it is actually the same as A3 then
+[6:34] A2 which used to be N2 now moves from
+[6:39] here to here and that's why I put A2 in
+[6:42] here well
+[6:43] once we have A2 and A3 defined then A1
+[6:48] is automatically determined
+[6:50] what about uh reference frame B so
+[6:54] reference frame B is here
+[6:57] the red one
+[6:59] so again I'm just considering a simple
+[7:02] rotation that means we have only one
+[7:05] angle change so that means uh
+[7:08] just consider one axis rotation so in
+[7:11] that case I can consider y-axis or A2
+[7:14] axis
+[7:18] so then
+[7:22] since this is y-axis
+[7:25] and this movement is what I uh meant by
+[7:30] the simple rotation so in that case
+[7:33] A2 and B2 are the same
+[7:38] and
+[7:40] A3 here now moves
+[7:43] to here and so it becomes B3
+[7:49] okay
+[7:51] and once B3 is determined and a B2 is
+[7:55] determined then now we can automatically
+[7:57] determine P1
+[8:00] and finally
+[8:02] we did find C1 C2 and C3 for reference
+[8:06] frame C which is actually the rotor
+[8:09] inside
+[8:10] so you start from B1 B2 and B3 and you
+[8:15] just rotate along One Direction which in
+[8:18] this case is z direction or B3 so then
+[8:22] C3 and B3 are the same
+[8:25] then
+[8:30] P2
+[8:31] now rotates along z-axis which is here
+[8:35] and so this one goes to
+[8:39] this direction so that's why we have C2
+[8:44] there
+[8:45] so it used to be B2 but now it is C2
+[8:49] okay
+[8:50] so that's how I decide the coordinate
+[8:54] systems
+[8:55] what about the generalized coordinate
+[8:58] um so two two parameterize the degree of
+[9:02] movement we have to assign coordinates
+[9:05] so here I say that this is generalized
+[9:09] coordinate because usually when we say
+[9:12] coordinates it's uh it may mean X
+[9:16] y or Z coordinates but here
+[9:20] um
+[9:22] no it's generalized coordinates can also
+[9:24] include angles not the position
+[9:27] so so to include angles in the
+[9:31] coordinates I added generalized and so
+[9:34] the first angle is q1 so it actually uh
+[9:38] describes the relative motion of
+[9:40] reference frame a with respect to the
+[9:43] reference frame and so
+[9:45] n is here a is here and so you can
+[9:48] clearly see that this green one
+[9:51] rotates about the z-axis
+[9:54] from here to here
+[9:57] so that's why we have q1 angle
+[10:01] for
+[10:03] a reference from from reference frame P
+[10:06] A to B
+[10:07] so a is here and B is the
+[10:13] red one and so you can see that
+[10:16] so if this green one moves to
+[10:20] rotate to this direction to the green
+[10:23] one to the red one then now we can see
+[10:26] Q2 here and that's actually rotation
+[10:29] about y-axis
+[10:32] the last one is
+[10:34] uh
+[10:36] rotation
+[10:39] for
+[10:40] between B1 as a reference frame B and
+[10:43] reference frame C and reference frame C
+[10:46] is the rotor inside
+[10:48] and that's actually the rotation about
+[10:50] the z-axis here and we can Define that
+[10:54] angle to be Q3
+[10:56] which is shown here
+[11:00] okay
+[11:02] so it looks like looks quite complicated
+[11:04] but take your time and try to understand
+[11:08] this definition okay
+[11:11] and so once we have all this direction
+[11:13] called uh
+[11:16] reference frames coding systems and and
+[11:19] generalized coordinates are defined then
+[11:21] now the next step is with
+[11:27] Express the orientation
+[11:30] between the adjacent reference frames
+[11:33] or the coordinate systems so to do that
+[11:36] we'll build or generate Direction cosine
+[11:39] tables
+[11:43] the first one the first rotation is
+[11:45] about z-axis which is this one
+[11:49] the first rotation about g-axis the
+[11:51] angle is q1
+[11:54] here
+[11:55] then it's actually rotational about
+[11:58] z-axis so
+[12:00] it will be expressed in this way and we
+[12:02] study this one several lectures back so
+[12:07] we understand why this is happening
+[12:11] and the second rotation is this one uh
+[12:16] it is actually a rotation about
+[12:19] y-axis I think this is a typo so this is
+[12:24] rotation about Y axis which is
+[12:27] this one
+[12:29] okay
+[12:30] and as you can see the structure itself
+[12:32] is actually rotation about y axis and
+[12:34] the angle is Q2 which is this
+[12:39] the last one is rotation about Z axis
+[12:42] again here this is g-axis and the rotor
+[12:46] inside is rotating about
+[12:49] us
+[12:50] this axis so the angle is now Q3 here
+[12:57] so now we defined three Direction cosine
+[13:01] tables
+[13:05] once we have that then the next step is
+[13:08] we have to compute angular velocity of
+[13:12] the router
+[13:14] angular velocity in three-dimensional
+[13:16] space is not that simple but if we
+[13:20] can Define simple angular velocities
+[13:23] between adjacent coordinate systems or
+[13:27] reference frames then we can just add
+[13:29] them
+[13:30] to construct the final
+[13:34] angular velocity of the water this is
+[13:37] very useful and very very powerful
+[13:39] theorem
+[13:40] so let's look at
+[13:42] the angular velocity or reference frame
+[13:45] a with respect to n
+[13:48] so we know that this is there is only
+[13:50] one rotation about z-axis so z-axis is
+[13:53] N3
+[13:54] and that angle is q1 so we have q1 Dot
+[13:58] this is always true
+[14:00] and so we have one degree one notation
+[14:10] and also sometimes I just say that this
+[14:13] is a simple rotation
+[14:15] the second one is the
+[14:19] angular velocity of reference frame B
+[14:21] with respect to a
+[14:24] again this is
+[14:26] um relative angle relative rotation and
+[14:29] axis is about y-axis which is this one
+[14:33] and angle is Q2 so we have Q2 dot in A2
+[14:38] Direction
+[14:39] the third one is
+[14:41] uh rotate our angular velocity of
+[14:45] reference frame C with respect to B and
+[14:49] we know that that's about z-axis and the
+[14:52] angle rotation angle is Q3 and so we
+[14:54] have Q3 dot in B3 Direction
+[14:57] and so by applying angular velocity
+[15:01] addition theorem
+[15:03] angular velocity of reference frame C
+[15:05] with respect to n is
+[15:08] uh computed in this way so n a
+[15:11] A to B B to C
+[15:15] this is important then you can simply
+[15:17] add
+[15:18] them
+[15:20] here
+[15:25] now once we have angular velocity of the
+[15:29] rotor determined then now we have to
+[15:31] compute the moment of inertia
+[15:35] for the rotor
+[15:38] so if you look at inside here the rotor
+[15:42] for the rotor this is the Z direction
+[15:44] right
+[15:46] and depending on what coordinate system
+[15:49] you are using this can be X or this can
+[15:52] be X Direction and this can be Y and
+[15:54] this can be y directions
+[15:56] but luckily
+[15:58] since the rotary side itself is
+[16:00] symmetrical
+[16:02] it's perfectly circular right so that
+[16:06] means even though this is X direction
+[16:08] for reference frame b or this is our X
+[16:12] Direction in reference frame C
+[16:17] value is the same
+[16:21] that's very powerful uh one so if we
+[16:25] just look at the body of use the body
+[16:27] reference frame then we have to use C1
+[16:30] and C2 to determine moment of inertia
+[16:33] and so for X we have 1 over 4 m r
+[16:37] squared for y we have one over four Mi
+[16:39] Square for Z we have half Mr squared
+[16:44] and two compute angular momentum so we
+[16:48] have to express angular velocity
+[16:51] uh in terms of the same coordinate
+[16:53] systems in other words if you look at
+[16:55] the original angular velocity expression
+[16:58] we used to have N3 A2 and B3 but we have
+[17:03] to make it unified in other words uh
+[17:07] since we are interested in using body
+[17:10] reference frame we have to use C1 C2 and
+[17:12] C3 that means all of these should be
+[17:16] expressed in terms of C1
+[17:18] at C2 head and C3 head
+[17:22] and how do we do that use
+[17:27] Direction cosine tables for example B3
+[17:30] is here
+[17:32] and B3 is the same as C3 so you can
+[17:36] simply convert it to C3 what about A2
+[17:41] A2 here is actually the same as B2 so
+[17:45] you can just convert this one to B2 like
+[17:48] this what is N3 N3 is the same as
+[17:53] A3 so we have this and now what A3 has
+[17:58] to be converted to B somehow so A3 is
+[18:02] here
+[18:03] so in that case uh you can simply
+[18:07] multiply this one and this one also this
+[18:10] one and this one and sum them up then
+[18:13] you'll get A3 that's why you have this
+[18:15] expression
+[18:17] the same thing happens for
+[18:20] um A2
+[18:22] and or uh
+[18:25] so then you just sequentially do this
+[18:28] one one by one and finally you end up
+[18:31] with uh
+[18:34] this expression
+[18:38] so you have this expression but actually
+[18:41] so this one has to be C1 and we also
+[18:44] need to have some other components for
+[18:47] example we have
+[18:49] Plus
+[18:51] C2 and also Plus
+[18:54] C3
+[18:57] looks quite complicated but if you just
+[19:00] do it step by step and if you're just
+[19:02] taking your time then you can get
+[19:04] similar expressions for here
+[19:07] and then four here and I have listed the
+[19:12] uh the actual solution in the following
+[19:15] page
+[19:15] so this one
+[19:17] is the angular velocity in C1 Direction
+[19:21] the and this is the angular velocity in
+[19:25] C2 and this is angular velocity in
+[19:28] C3
+[19:29] okay so once we defined angular velocity
+[19:34] and once we expressed angular velocity
+[19:36] of C in terms of C1 C2 and C3 like so
+[19:40] then what we can do is you just
+[19:45] put the Matrix expression for the moment
+[19:49] of inertia like this and then also the
+[19:52] angular velocity expressed in terms of
+[19:54] the coordinate Vector okay
+[19:59] so then this is by definition called
+[20:03] moment of inertia sorry angular momentum
+[20:07] okay angular momentum about uh the
+[20:10] center
+[20:11] of C
+[20:16] okay so then just compute this one
+[20:19] just multiply this and this this and
+[20:22] this this and this then you will end up
+[20:25] with
+[20:26] this expression
+[20:28] just simple matrix multiplication but uh
+[20:33] now I have to just do some warning or uh
+[20:37] give you some quotient here I used the
+[20:40] term of use of notation that's because
+[20:43] if you look at here you will actually
+[20:47] end up with another
+[20:50] coordinate Vector for example here we
+[20:53] have one fourth Mr squared times
+[20:58] Omega 1 here and then 1 4 Mr squared and
+[21:04] Omega 2.
+[21:05] and half m r squared Omega 3 where Omega
+[21:11] 1 is this
+[21:13] Omega 2 is this and omega-3 is this one
+[21:17] how is this one the same as this
+[21:20] expression
+[21:21] it's not the same right because
+[21:25] here this is just a vector or Matrix
+[21:28] format whereas this one is purely a
+[21:31] vector format where I introduced unit
+[21:34] vectors
+[21:35] so mathematically they are not the same
+[21:38] expression but intuitively they are the
+[21:41] same
+[21:42] okay so that's why I said that this is
+[21:45] of usual notation but the meaning itself
+[21:48] is true
+[21:49] okay
+[21:50] now once we have the angular momentum
+[21:54] determined what you have to do is you
+[21:56] just compute uh
+[21:58] moment equation
+[22:00] here
+[22:03] this is the moment equation
+[22:06] and since this H angle a moment moment
+[22:10] uh
+[22:12] angular sorry angular momentum is
+[22:14] expressed in terms of C here right so
+[22:17] it's expressed in terms of C then it's
+[22:19] better to differentiate this angular
+[22:22] momentum in terms of C not n remember
+[22:26] all the equations of motion Newton's
+[22:29] equation or motion uh you need
+[22:32] differentiation rate l dot or H dot but
+[22:35] it has to be done in ref Newtonian
+[22:37] reference frame I mentioned that right
+[22:40] so has to be done in N but since H is
+[22:45] expressed in terms of C it's better to
+[22:48] differentiate H in terms of C then you
+[22:52] just add this part
+[22:55] so this is a simple application of
+[22:58] vector differentiation like vector
+[23:01] different
+[23:03] iation
+[23:05] formula
+[23:08] okay and once you just apply it and you
+[23:12] just simply do it step by step with
+[23:14] taking your time then you will end up
+[23:17] with this expression it's quite long
+[23:20] it looks quite complicated but this is
+[23:23] the actual
+[23:24] moment that the gyroscope is
+[23:28] experiencing
+[23:30] then we can say that this first part
+[23:35] is
+[23:36] M1 here
+[23:38] the second one here is
+[23:41] called M2 and the third one is called M3
+[23:48] okay so that's the equations of equation
+[23:51] of motion actually we have three
+[23:53] equations of motion in here okay
+[23:55] now
+[23:57] before getting into a
+[24:00] Next Step
+[24:02] I just want to spend more time already
+[24:04] because
+[24:06] we have some coincidence that makes the
+[24:09] problem simpler so for example as I said
+[24:11] rotary itself is symmetric
+[24:13] and it's actually perfectly circular so
+[24:16] that means
+[24:18] full reference frame B this is X
+[24:21] direction for reference frame C this is
+[24:23] X Direction their extractions are
+[24:25] different and also they're y directions
+[24:26] are different but since this is perfect
+[24:29] circular motion a circular structure or
+[24:34] geometry
+[24:37] i x in reference frame V is also the
+[24:43] same as I X in reference frame C that's
+[24:46] a coincidence
+[24:48] so that's why I I put a note that this
+[24:51] is not always true
+[24:52] but if for but for this case when the
+[24:56] system is perfectly circular and
+[24:58] symmetric in all directions then
+[25:00] this holds
+[25:02] so in that case we have momentum mono
+[25:06] inertia expressed in this way in terms
+[25:09] of reference frame B
+[25:11] the reason why we are looking at this
+[25:13] reference frame B rather than reference
+[25:15] frame C
+[25:17] is
+[25:19] remember reference frame B is not a body
+[25:22] reference frame it's something else okay
+[25:25] but let's look at what happens in the
+[25:27] following page
+[25:28] so if you just simply compute angular
+[25:31] moment angular velocity
+[25:33] the same way we did before
+[25:36] now PC B3 we used to convert this one to
+[25:40] C3 but we don't have to now because this
+[25:43] is already in B and this one is actually
+[25:45] the same as
+[25:46] P2 automatically
+[25:48] and three here is the same as
+[25:52] A3 and we can see we just need to Simply
+[25:56] convert A3 in terms of B1 and B3 here
+[26:00] so
+[26:01] this is all we have
+[26:03] in other words the angular velocity
+[26:07] is expressed
+[26:09] this simple in reference frame B whereas
+[26:14] your angular velocity in reference frame
+[26:17] C is
+[26:19] this much complicated
+[26:22] I'm sorry uh here this much complicated
+[26:25] so putting these together
+[26:28] angular momentum is now expressed this
+[26:31] way
+[26:32] this is much simpler right
+[26:36] then we have angular momentum in in
+[26:39] Vector form again this is a visual
+[26:41] notation but the meaning itself is true
+[26:44] the same
+[26:46] okay then what is momentum
+[26:48] let's apply the moment equation
+[26:51] so again this expression is still the
+[26:54] same we have to differentiate angular
+[26:57] momentum in terms of Newtonian reference
+[27:00] frame n but since this is in P1 B2 B3
+[27:08] I mean the expression itself is B1 in B1
+[27:10] between B3 then we have to differentiate
+[27:13] this one in terms of reference frame B
+[27:16] then we just add this part
+[27:19] okay
+[27:22] this computation itself is much simpler
+[27:24] so we end up with this one
+[27:29] so this part is moment M1
+[27:34] and
+[27:36] this is moment M2 and this is the moment
+[27:40] M3
+[27:42] all right
+[27:44] [Music]

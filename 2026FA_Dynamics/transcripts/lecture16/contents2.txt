@@ -1,0 +1,275 @@
+YouTube transcript
+Video ID: ZPez6kr049w
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:18] just derived equations of motion for
+[0:22] um
+[0:23] for gyroscope actually we applied only
+[0:26] the moment equation what about the force
+[0:29] uh forces in in for the translate
+[0:33] translational motion
+[0:35] luckily for this system there is no
+[0:38] translation no
+[0:40] translational
+[0:45] motion
+[0:47] so in this case we don't have to
+[0:49] consider uh f equals Ma
+[0:51] so
+[0:53] f equals m a this is always true but
+[0:58] we may not have some meaningful
+[1:02] information from from this by solving
+[1:05] this equation because this acceleration
+[1:07] is always zero right because the center
+[1:09] point is in place this is always zero
+[1:12] and maybe we're not interested in
+[1:15] finding uh forces this in this case
+[1:22] well one possibility is if we consider
+[1:25] gravity
+[1:27] gravitational force then there should be
+[1:30] some forces acting in here and here
+[1:32] that's purely due to gravitational force
+[1:35] and so you may con consider Computing
+[1:39] this equation that's okay but if we
+[1:43] don't consider gravitational force or
+[1:46] you can just consider or consider this
+[1:49] one as a gyroscope in space then there
+[1:52] is no gravity
+[1:54] then then actually we don't need this
+[1:57] equation at all
+[1:59] so we just have
+[2:01] a moment equation
+[2:06] so then what what do we need to do
+[2:09] um okay and if the equation itself looks
+[2:11] looks quite complicated here even though
+[2:14] even though this is simpler expression
+[2:16] then the one expressed in reference
+[2:19] frame C
+[2:21] but looks still complicated right
+[2:24] so then what do we have to do
+[2:26] and
+[2:28] let's assume that
+[2:31] there are there is a steady
+[2:35] precession
+[2:37] steady means uh
+[2:40] there are some conditions for example q1
+[2:42] dot is constant so q1 that means this
+[2:46] angle is constant I mean this angular
+[2:48] velocity is so that means
+[2:51] this whole gimbal is rotating
+[2:55] to this direction
+[2:57] with constant speed
+[3:00] okay
+[3:01] what about Q2 dot Q2 dot is this one
+[3:04] so Q2 do that is zero that means this
+[3:07] angle is maintained
+[3:10] and what is q3.q3 dot is this one
+[3:15] so this rotor is also spinning with the
+[3:18] constant velocity
+[3:22] if we assume this
+[3:25] condition
+[3:27] then what else do we have to do just uh
+[3:32] plug this information and also
+[3:35] the subsequent equation I mean the
+[3:38] equivalent equation into the moment
+[3:41] equation okay for example q1 since q1
+[3:45] dot is always constant then q1 double
+[3:48] that is zero Q2 dot is zero then just
+[3:52] leave it as as it is also Q2 double that
+[3:55] is zero Q3 dot is constant always that
+[4:00] means Q3 double that is always zero
+[4:04] these are the induced information
+[4:09] okay
+[4:11] and plug this information back into the
+[4:14] moment equation
+[4:15] and these are the moment equation
+[4:20] then we can simply plug this information
+[4:23] to this moment equation okay because for
+[4:26] example as I said q1 double that is zero
+[4:29] then this part will become zero
+[4:32] and Q2 dot is zero and Q2 that is zero
+[4:36] that means this is also zero
+[4:39] you can just repeat this process
+[4:41] zero and zero
+[4:46] zero things like that zero right so you
+[4:49] if you just simply do that then we have
+[4:51] the following
+[4:52] result
+[4:54] so all P1 component is gone
+[4:57] and also on P3 component is gone the
+[5:02] only thing the only component we have
+[5:03] left is
+[5:05] B2
+[5:06] so also in B2 we have only
+[5:10] this part and also since cute
+[5:14] yeah so this is all information we have
+[5:17] so it's quite interesting so if we look
+[5:19] at the previous the next page
+[5:22] this one should be the same as
+[5:26] this moment equation
+[5:28] M1 M2 and M3 so in other words
+[5:32] this one has to be zero and this one has
+[5:35] to be zero and I put it in here and what
+[5:38] about M2 M2 has to be the same as this
+[5:42] component so M2 is this
+[5:46] all right so we just sold for the
+[5:50] equations for the steady state uh
+[5:53] precession condition
+[5:54] what does that mean so consider this
+[5:58] or you can also consider a spinning top
+[6:04] like
+[6:08] like this and this system is spinning
+[6:10] like in this direction
+[6:12] in contact with the ground then if
+[6:16] when the rotor is spinning like in this
+[6:18] way then
+[6:19] if you just see this in in 3D uh in 3D
+[6:25] space then this system is actually
+[6:29] uh maintaining this angle this is
+[6:33] actually Q2 and it's just rotating like
+[6:37] in this space making a circular motion
+[6:41] like that
+[6:42] and to have that motion happening we
+[6:46] have to have this condition
+[6:50] so M1 movement in uh in B1 Direction and
+[6:54] moment in B3 Direction has to be zero
+[6:56] and moment in P2 Direction the Y
+[7:00] Direction has to be this
+[7:02] okay
+[7:06] so again let me just recap so if we want
+[7:10] a specific precession rate q1 Dot then
+[7:15] with the given spin rate Q3 Dot and the
+[7:18] new mutation angle which is this angle
+[7:22] then we have to specify this the Y
+[7:26] directional moment that should be uh
+[7:30] this okay
+[7:36] then how can we apply M2 while uh M1 and
+[7:41] M3 a woman in X Direction in y direction
+[7:43] to be zero
+[7:45] it's quite simple
+[7:47] um
+[7:50] this is y direction right so we have to
+[7:53] apply some forces in that direction so
+[7:55] that means we have to somehow apply uh
+[8:00] hey wait
+[8:02] it's down in in this direction and put
+[8:04] it on on here
+[8:06] and if you can do it then
+[8:12] then actually we are satisfying this
+[8:14] condition so we have some numbers in in
+[8:18] uh
+[8:19] for this one but we actually make M1 and
+[8:24] M3 to be zero
+[8:26] okay now let's add one more condition so
+[8:30] if the precession axis and the spin axis
+[8:33] are perpendicular so the spin axis is
+[8:36] this axis
+[8:38] the axis for the rotor spinning and then
+[8:41] the precession axis is this one
+[8:44] because about this axis uh the the
+[8:47] gyroscope is actually rotating about
+[8:50] right
+[8:51] so if these two axes are perpendicular
+[8:54] in other words
+[8:55] the rotor
+[8:59] will look like this
+[9:02] okay
+[9:04] so in that case what we can do is since
+[9:06] Q2 is 90 90 degrees so we can make this
+[9:10] one to be one and
+[9:14] um oh no so this one to be one and this
+[9:16] one becomes zero if Q2 is 0 and 90. then
+[9:20] we eventually have this result
+[9:25] in other words if uh so when Q2 is 90
+[9:29] degrees then this expression is the same
+[9:31] as this expression
+[9:33] then the couple mg here is relatively
+[9:37] large
+[9:38] to change the orientation of the axles
+[9:45] so that's when when that so that's
+[9:46] happening when the Q2 angle is 90. so
+[9:50] this this is the maximum value you can
+[9:52] get from this cross product
+[9:55] so whenever Q2 is 90 degrees then it's
+[10:00] hard to change or the orientation of
+[10:03] these axis
+[10:07] because this
+[10:08] moment becomes the maximum when QT is
+[10:12] 90.
+[10:15] therefore
+[10:18] um now we can consider how we can use
+[10:21] this phenomena for some applications
+[10:25] for example gyroscope can be used as a
+[10:28] stabilizer
+[10:29] so therefore the gyroscopes are used as
+[10:33] a stabilizer in in Torpedoes or ships so
+[10:36] if you have ship then
+[10:38] um
+[10:40] let's say this is a big ship
+[10:43] then you can actually install
+[10:47] a big
+[10:50] fly Hill
+[10:51] and
+[10:58] this fly here is actually
+[11:03] rotating speeding spinning some
+[11:07] direction then even though the water
+[11:09] hits the the ship
+[11:12] due to this gyroscopic motion the uh the
+[11:16] whole ships uh orientation is maintained
+[11:21] due to this gyroscopic force or
+[11:24] gyroscopic moment here
+[11:26] the same happened the same thing applies
+[11:28] to torpedoes or the spinning bullets or
+[11:32] shells can also have
+[11:36] is actually utilizing this gyroscopic
+[11:40] forces in effect bicycle you may
+[11:44] consider bicycle as uh as an example of
+[11:46] that but actually that doesn't happen
+[11:49] that much because usually the wheel of
+[11:51] the bicycle is it has very small inertia
+[11:55] and so it's not affecting a lot
+[11:58] so most of the civilization of the
+[12:00] bicycle
+[12:01] maybe someone says that this is actually
+[12:04] coming from the gyroscopic effect of the
+[12:06] wheel but actually that's very minimal
+[12:07] but most of the stabilization is coming
+[12:11] from steering
+[12:13] of the wheel of the
+[12:16] the bar
+[12:17] also gyroscope can be used as indicating
+[12:20] indicator for the direction so aircraft
+[12:24] uses magnetic compass to know the
+[12:26] heading angle but due to the inherent
+[12:29] characteristics of magnetic field
+[12:32] of the earth and the heading angle
+[12:35] Direction The Heading Direction may not
+[12:38] be accurate
+[12:40] and because gyroscope is not affected by
+[12:43] the magnetic field and so it maintains
+[12:46] its orientation in space so it's very
+[12:49] useful to have the gyroscope running
+[12:53] in in space in space shuttle or in
+[12:57] aircraft then this gyroscope is trying
+[13:00] to maintain its orientation
+[13:03] and so by just looking at the relative
+[13:06] angles for the gyro gyroscope we can
+[13:09] understand the relative angles or
+[13:12] heading angles of the aircraft or the
+[13:15] space shuttle
+[13:20] well obviously
+[13:21] this is mechanical system then we should
+[13:25] see some mechanical friction effect and
+[13:28] so it may precess or the drift there is
+[13:32] drift effect
+[13:34] so we have to realign it every five or
+[13:38] ten minutes or 15 minutes mechanically
+[13:41] you can you need to adjust the
+[13:43] orientation
+[13:44] but if that is done then
+[13:49] gyroscope is very useful tool for uh
+[13:54] Direction indicator
+[13:56] [Music]

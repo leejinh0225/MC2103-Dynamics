@@ -403,7 +403,7 @@ def build():
         sources += f'<li><a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noreferrer">{label} 영상</a> · 영어 자동생성 자막 원문</li>'
     sources += '</ul><p>2026-11-18에 확보한 영상 5편의 영어 자동생성 자막 1,260구간과 원본 PDF를 대조했습니다. 그림과 식은 원본 순서대로 실었고, 캡션 시각은 각 설명에 대응하는 구간입니다. 3장의 보조 영상은 원본 링크를 수록했습니다. 61장의 교재 두 권은 원본 슬라이드의 참고문헌입니다.</p>'
     sources += '<p>좌표 적분의 중간 단계, 이동 기준점의 보정항 소거 조건, 세 예제의 검산은 강의 내용을 따라 계산할 수 있도록 보충했습니다.</p>'
-    sources += '<p>같은 주차의 추가 강의는 별도로 등록된 Lecture 16 · Gyroscopic Motions(자이로스코프 운동)이며 날짜는 미기재입니다. <a href="https://github.com/leejinh0225/MC2103-Dynamics/blob/main/2026FA_Dynamics/강의_인덱스.md#week-12--2026-11-18">12주차 추가 강의 원본 PDF와 영상 목록</a></p>'
+    sources += '<p>12주차 추가 강의인 Lecture 16 · Gyroscopic Motions(자이로스코프 운동)는 별도 날짜가 미기재입니다. <a href="lecture16.html">렉쳐 16 한국어 학습 노트</a> · <a href="lecture16.html#sources">원본 PDF와 영상 목록</a></p>'
     template = fill(template, dict(
         LECTURE_NUMBER='Lecture 12', LECTURE_TITLE='Kinetics of Rigid Bodies',
         ONE_SENTENCE_DESCRIPTION='강체의 선운동량·각운동량, 관성행렬과 뉴턴–오일러 방정식을 세 가지 공간 운동 예제로 배우는 한국어 노트',

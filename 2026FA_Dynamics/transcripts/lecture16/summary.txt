@@ -1,0 +1,28 @@
+YouTube transcript
+Video ID: y2VTGr96P6Y
+Language: en
+Captions: auto-generated
+
+[0:00] [Music]
+[0:04] foreign
+[0:12] [Music]
+[0:17] this week we studied our gyroscopic
+[0:20] motion
+[0:21] we drive the complete kinematics and
+[0:24] kinetics of a gyroscope
+[0:28] we also studied a precession motion
+[0:30] which may not be intuitive
+[0:32] precession is a good example of
+[0:35] gyroscopic effect
+[0:38] gyroscope can be used as a special
+[0:40] stabilizer of ship or Direction
+[0:43] indicator of aircraft
+[0:47] this is the end of the mooc Dynamics
+[0:49] course kinematics and kinetics are
+[0:52] particles and rigid bodies will be used
+[0:55] in many engineering applications
+[0:58] I hope that this course becomes a strong
+[1:00] foundation for each student's
+[1:02] engineering career good luck
+[1:05] foreign
+[1:07] [Music]

@@ -25,6 +25,7 @@
 - Lecture 10: [`Kinematics of Rigid Bodies II` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture10.html) — 10주차, 원본 58장·영어 자막 5편 대조
 - Lecture 11: [`Kinematics of Rigid Bodies III` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture11.html) — 11주차, 원본 53장·영어 자막 5편 대조
 - Lecture 12: [`Kinetics of Rigid Bodies` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture12.html) — 12주차, 원본 61장·영어 자막 5편 대조
+- Lecture 16: [`Gyroscopic Motions` 한국어 학습 노트](https://leejinh0225.github.io/MC2103-Dynamics/lecture16.html) — 12주차 추가 강의 · 날짜 미기재, 원본 45장·영어 자막 5편 대조
 
 ## 공개 사이트
 
